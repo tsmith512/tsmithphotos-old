@@ -7,5 +7,9 @@
     "url": "ssh://git@kaa.tsmithcreative.com/project/tsmithphotos.git"
   },
   "author": "Taylor Smith <tsmith@tsmithcreative.com>",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2"
+  }
 }
