@@ -10,6 +10,7 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.0.1",
     "gulp-rename": "^1.2.2"
   }
 }

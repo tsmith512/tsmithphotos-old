@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 
+var imagemin = require('gulp-imagemin');
 var rename = require("gulp-rename");
 
 gulp.task('images-fullsize', function() {
@@ -10,6 +11,7 @@ gulp.task('images-fullsize', function() {
       // cameras both don't cycle until 9999 so only if 10,000 were taken in a day.
       path.dirname = path.dirname.split('/')[0];
     }))
+    .pipe(imagemin())
     .pipe(gulp.dest('_site/photo/original/'));
 });
 
