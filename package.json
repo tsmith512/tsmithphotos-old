@@ -1,0 +1,11 @@
+{
+  "name": "tsmithphotos",
+  "version": "1.0.0",
+  "description": "The source repository for tsmithphotos.com, the photography hobby site of Taylor Smith.",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@kaa.tsmithcreative.com/project/tsmithphotos.git"
+  },
+  "author": "Taylor Smith <tsmith@tsmithcreative.com>",
+  "license": "UNLICENSED"
+}
