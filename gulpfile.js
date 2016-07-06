@@ -1,8 +1,46 @@
 var gulp = require('gulp');
 
+var fs = require('fs');
 var imagemin = require('gulp-imagemin');
 var resize = require('gulp-image-resize');
 var rename = require("gulp-rename");
+
+// Containers for image data processing which is kicked off by gulp
+// but aren't actually gulp tasks. Adapted from http://stackoverflow.com/a/18934385
+// We don't need a recursive function since we know the structure.
+// Create object: {
+//   'album name' : {
+//     'title': (directory name without the date)
+//     'date': (directory name without the name)
+//     'contents': [
+//       'image name': {
+//         (@TODO: PhotoSwipe will need the width and height. I'd like to show the EXIF data and add titles)
+//       }
+//     ]
+// }
+var walkPhotos = function(path, index) {
+  var directory = fs.readdirSync(path);
+
+  // Directory is going to be an array of album directories
+  for (var i=0; i < directory.length; i++) {
+    // This is the directory name from Lightroom ("2015-12-31 New Years Eve" style)
+    var album = directory[i];
+
+    // This is the directory shortname Gulp is using for image output.
+    var dirname = album.replace(/[a-z]/g, '').replace(/ /, '-').replace(/\s/g, '');
+
+    index[dirname] = {
+      title: album.replace(/.+? /, ''),
+      date: album.split(/ /, 1)[0],
+    };
+  }
+}
+
+gulp.task('index', function() {
+  var index = {};
+  walkPhotos('source/Photography', index);
+  console.log(index);
+});
 
 gulp.task('photos', function() {
   return gulp.src('source/Photography/**/*.jpg')
