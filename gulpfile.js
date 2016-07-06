@@ -2,6 +2,8 @@ var gulp = require('gulp');
 
 var fs = require('fs');
 var imagemin = require('gulp-imagemin');
+var imgsize = require('image-size');
+var recursiveReadSync = require('recursive-readdir-sync');
 var resize = require('gulp-image-resize');
 var rename = require("gulp-rename");
 
@@ -29,16 +31,29 @@ var walkPhotos = function(path, index) {
     // This is the directory shortname Gulp is using for image output.
     var dirname = album.replace(/[a-z]/g, '').replace(/ /, '-').replace(/\s/g, '');
 
-    // This will be the image contents
-    var photos = fs.readdirSync(path + '/' + album);
+    // This will be the image contents and any subdirectories
+    var photos = recursiveReadSync(path + '/' + album);
     var contains = {};
 
     for (var j=0; j < photos.length; j++) {
+      // recursiveReadSync returns the path relative to the CWD, not just the name
+      // like fs.readdirSync so this will be /source/Photography/.../whatever.img
       var photo = photos[j];
-      contains[photo] = {
-        filename: photo,
-        width: 0,
-        height: 0,
+
+      // So split on / and take the last component for the filename.
+      var file = photo.split('/').pop();
+
+      // Original images are sometimes in subdirectories by day or activity, which
+      // is why we recused the whole thing. Don't try to get stats on a directory,
+      // just skip it.
+      if (fs.statSync(photo).isDirectory()) { continue; }
+
+      console.log(photo);
+      var dimensions = imgsize(photo);
+      contains[file] = {
+        filename: file,
+        width: dimensions.width || null,
+        height: dimensions.height || null,
       };
     }
 
