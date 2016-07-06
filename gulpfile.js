@@ -6,6 +6,7 @@ var imgsize = require('image-size');
 var recursiveReadSync = require('recursive-readdir-sync');
 var resize = require('gulp-image-resize');
 var rename = require("gulp-rename");
+var yaml = require('js-yaml');
 
 // Containers for image data processing which is kicked off by gulp
 // but aren't actually gulp tasks. Adapted from http://stackoverflow.com/a/18934385
@@ -48,10 +49,8 @@ var walkPhotos = function(path, index) {
       // just skip it.
       if (fs.statSync(photo).isDirectory()) { continue; }
 
-      console.log(photo);
       var dimensions = imgsize(photo);
       contains[file] = {
-        filename: file,
         width: dimensions.width || null,
         height: dimensions.height || null,
       };
@@ -60,7 +59,7 @@ var walkPhotos = function(path, index) {
     index[dirname] = {
       title: album.replace(/.+? /, ''),
       date: album.split(/ /, 1)[0],
-      contents: contains,
+      contents: contains
     };
   }
 }
@@ -68,7 +67,8 @@ var walkPhotos = function(path, index) {
 gulp.task('index', function() {
   var index = {};
   walkPhotos('source/Photography', index);
-  console.log(index);
+  fs.writeFileSync('source/index.yml', yaml.safeDump(index));
+  console.log(yaml.safeDump(index));
 });
 
 gulp.task('photos', function() {
