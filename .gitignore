@@ -1,0 +1,5 @@
+# Modules and Dependencies
+node_modules
+
+# Build Directory
+_site
