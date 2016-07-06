@@ -2,4 +2,7 @@
 node_modules
 
 # Build Directory
-_site
+ _site
+
+# Temp Directories
+.sass-cache
