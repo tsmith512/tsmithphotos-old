@@ -29,9 +29,23 @@ var walkPhotos = function(path, index) {
     // This is the directory shortname Gulp is using for image output.
     var dirname = album.replace(/[a-z]/g, '').replace(/ /, '-').replace(/\s/g, '');
 
+    // This will be the image contents
+    var photos = fs.readdirSync(path + '/' + album);
+    var contains = {};
+
+    for (var j=0; j < photos.length; j++) {
+      var photo = photos[j];
+      contains[photo] = {
+        filename: photo,
+        width: 0,
+        height: 0,
+      };
+    }
+
     index[dirname] = {
       title: album.replace(/.+? /, ''),
       date: album.split(/ /, 1)[0],
+      contents: contains,
     };
   }
 }
