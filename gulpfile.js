@@ -11,6 +11,11 @@ gulp.task('photos', function() {
       // @TODO: Technically this could lead to collisions, but it is unlikely because the
       // cameras both don't cycle until 9999 so only if 10,000 were taken in a day.
       path.dirname = path.dirname.split('/')[0];
+
+      // Now, for shorter and more URL friendly paths, drop spaces and lowercase letters
+      // so "2016-03-21 Tulsa Weekend for Roadtrip Video with Fuji XE1" becomes
+      // "2016-03-21-TWRVFXE1". Keeping capital letters and numbers helps with collisions.
+      path.dirname = path.dirname.replace(/[a-z]/g, '').replace(/ /, '-').replace(/\s/g, '');
     }))
     .pipe(imagemin({progressive: true}))
     .pipe(gulp.dest('_site/photo/original/'))
