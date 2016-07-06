@@ -26,4 +26,12 @@ gulp.task('photos', function() {
     // @TODO: Can we do that thing Rupl used to do with blurry 10px images for a pre-load?
 });
 
+gulp.task('jekyll', function (cb){
+ var spawn = require('child_process').spawn;
+ var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit'});
+ jekyll.on('exit', function(code) {
+   cb(code === 0 ? null : 'ERROR: Jekyll process exited with code: '+code);
+ });
+});
+
 gulp.task('default', function() {});
