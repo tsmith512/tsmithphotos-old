@@ -9,6 +9,7 @@
   "author": "Taylor Smith <tsmith@tsmithcreative.com>",
   "license": "UNLICENSED",
   "devDependencies": {
+    "deepmerge": "^0.2.10",
     "gulp": "^3.9.1",
     "gulp-image-resize": "^0.9.0",
     "gulp-imagemin": "^3.0.1",
