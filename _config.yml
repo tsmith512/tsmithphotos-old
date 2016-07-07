@@ -15,3 +15,10 @@ exclude:
 
 keep_files:
   - photo # Don't clobber the photo exports directory
+
+defaults:
+  -
+    scope:
+      type: posts
+    values:
+      layout: post

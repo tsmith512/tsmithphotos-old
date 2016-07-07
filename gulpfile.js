@@ -84,6 +84,35 @@ gulp.task('index', function() {
   fs.writeFileSync('source/index.yml', yaml.safeDump(mergedIndex));
 });
 
+gulp.task('prime-posts', function() {
+  var index = {};
+  try {
+    index = fs.readFileSync('source/index.yml', {encoding: 'utf8'});
+    index = yaml.safeLoad(index);
+  } catch (e) {
+    throw e;
+  }
+
+  for (var album in index) {
+    if (!index.hasOwnProperty(album)) continue;
+
+    var postFile = '_posts/' + album + '.markdown';
+    var postContent = ['---', ('title: ' + index[album].title), '---', ''].join("\n");
+    try {
+      fs.writeFileSync(postFile, postContent, { flag: 'wx' });
+    } catch (e) {
+      if (e.code !== 'EEXIST') {
+        throw err;
+      } else {
+        continue;
+      }
+    }
+
+    // We created a post (if it already existed, the `continue` would have fired)
+    gutil.log("Created new Jekyll post file for " + album);
+  }
+});
+
 gulp.task('photos', function() {
   return gulp.src('source/Photography/**/*.jpg')
     .pipe(rename(function (path) {
