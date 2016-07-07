@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var gutil = require('gulp-util');
 
 var merge = require('deepmerge');
 var fs = require('fs');
@@ -73,7 +74,7 @@ gulp.task('index', function() {
     index = yaml.safeLoad(index);
   } catch (e) {
     if (e.code === 'ENOENT') {
-      console.log('No original index found; will create one.');
+      gutil.log('No original index found; will create one.');
     } else {
       throw e;
     }
@@ -81,7 +82,6 @@ gulp.task('index', function() {
   walkPhotos('source/Photography', generatedIndex);
   var mergedIndex = merge(generatedIndex, index);
   fs.writeFileSync('source/index.yml', yaml.safeDump(mergedIndex));
-  console.log(yaml.safeDump(mergedIndex));
 });
 
 gulp.task('photos', function() {
