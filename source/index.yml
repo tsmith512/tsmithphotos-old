@@ -117,6 +117,7 @@
       width: 1200
       height: 795
     DSC_8029.jpg:
+      hero: 1
       width: 1200
       height: 800
     DSC_8035.jpg:
@@ -163,6 +164,7 @@
       width: 1200
       height: 800
     DSC_8292.jpg:
+      hero: 1
       width: 1200
       height: 795
     DSC_8340.jpg:
@@ -191,6 +193,7 @@
       width: 1200
       height: 795
     DSC_8472.jpg:
+      hero: 1
       width: 1200
       height: 795
     DSC_8596.jpg:
@@ -249,6 +252,7 @@
       width: 1200
       height: 800
     DSC_8994.jpg:
+      hero: 1
       width: 1200
       height: 800
     DSC_9001.jpg:
@@ -268,6 +272,7 @@
       width: 1200
       height: 795
     DSC_9139.jpg:
+      hero: 1
       width: 1200
       height: 795
     DSC_9162.jpg:
@@ -296,6 +301,7 @@
       width: 1200
       height: 795
     DSC_9390.jpg:
+      hero: 1
       width: 1200
       height: 800
     DSC_9396.jpg:
@@ -327,6 +333,7 @@
       width: 1200
       height: 795
     DSC_9691 - with ear from 9689.jpg:
+      hero: 1
       width: 1200
       height: 795
     DSC_9723.jpg:
@@ -370,6 +377,7 @@
       width: 1200
       height: 795
     DSC_0531.jpg:
+      hero: 1
       width: 1200
       height: 795
     DSC_0585.jpg:
@@ -401,6 +409,7 @@
       width: 1200
       height: 795
     DSC_1166.jpg:
+      hero: 1
       width: 1200
       height: 795
     DSC_1432.jpg:
@@ -429,6 +438,7 @@
       width: 1200
       height: 795
     DSC_1767.jpg:
+      hero: 1
       width: 1200
       height: 795
     DSC_1830.jpg:
@@ -466,6 +476,7 @@
       width: 1200
       height: 795
     DSC_2266.jpg:
+      hero: 1
       width: 1200
       height: 795
 2016-03-13-PAARSFOC:
@@ -476,6 +487,7 @@
       width: 1200
       height: 795
     DSC_2283.jpg:
+      hero: 1
       width: 1200
       height: 795
     DSC_2292.jpg:
@@ -510,6 +522,7 @@
       width: 800
       height: 1200
     DSCF5029.jpg:
+      hero: 1
       width: 1200
       height: 800
     DSCF5034.jpg:
@@ -520,6 +533,7 @@
   date: '2016-03-21'
   contents:
     DSCF5170.jpg:
+      hero: 1
       width: 800
       height: 1200
     DSCF5224.jpg:
@@ -557,6 +571,7 @@
       width: 1200
       height: 800
     DSCF4087.jpg:
+      hero: 1
       width: 1200
       height: 800
     DSCF4093.jpg:
@@ -642,6 +657,7 @@
       width: 1200
       height: 800
     DSC_3477.jpg:
+      hero: 1
       width: 1200
       height: 795
     DSC_3517.jpg:
@@ -826,6 +842,7 @@
       width: 1200
       height: 800
     DSC_4410.jpg:
+      hero: 1
       width: 1200
       height: 800
 2016-05-13-DCNO:
@@ -842,6 +859,7 @@
       width: 1200
       height: 800
     DSCF4725.jpg:
+      hero: 1
       width: 1200
       height: 800
     DSCF4779.jpg:
@@ -879,6 +897,7 @@
       width: 1200
       height: 800
     DSCF5012.jpg:
+      hero: 1
       width: 1200
       height: 800
     DSC_4539.jpg:
@@ -895,5 +914,6 @@
   date: '2016-06-19'
   contents:
     DSC_6277.jpg:
+      hero: 1
       width: 1200
       height: 800
