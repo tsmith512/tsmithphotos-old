@@ -117,9 +117,9 @@
       width: 1200
       height: 795
     DSC_8029.jpg:
-      hero: 1
       width: 1200
       height: 800
+      hero: 1
     DSC_8035.jpg:
       width: 1200
       height: 795
@@ -164,9 +164,9 @@
       width: 1200
       height: 800
     DSC_8292.jpg:
-      hero: 1
       width: 1200
       height: 795
+      hero: 1
     DSC_8340.jpg:
       width: 1200
       height: 795
@@ -193,9 +193,9 @@
       width: 1200
       height: 795
     DSC_8472.jpg:
-      hero: 1
       width: 1200
       height: 795
+      hero: 1
     DSC_8596.jpg:
       width: 1200
       height: 800
@@ -252,9 +252,9 @@
       width: 1200
       height: 800
     DSC_8994.jpg:
-      hero: 1
       width: 1200
       height: 800
+      hero: 1
     DSC_9001.jpg:
       width: 1200
       height: 800
@@ -272,9 +272,9 @@
       width: 1200
       height: 795
     DSC_9139.jpg:
-      hero: 1
       width: 1200
       height: 795
+      hero: 1
     DSC_9162.jpg:
       width: 1200
       height: 795
@@ -301,9 +301,9 @@
       width: 1200
       height: 795
     DSC_9390.jpg:
-      hero: 1
       width: 1200
       height: 800
+      hero: 1
     DSC_9396.jpg:
       width: 1200
       height: 800
@@ -333,9 +333,9 @@
       width: 1200
       height: 795
     DSC_9691 - with ear from 9689.jpg:
-      hero: 1
       width: 1200
       height: 795
+      hero: 1
     DSC_9723.jpg:
       width: 1200
       height: 795
@@ -377,9 +377,9 @@
       width: 1200
       height: 795
     DSC_0531.jpg:
-      hero: 1
       width: 1200
       height: 795
+      hero: 1
     DSC_0585.jpg:
       width: 1200
       height: 800
@@ -409,9 +409,9 @@
       width: 1200
       height: 795
     DSC_1166.jpg:
-      hero: 1
       width: 1200
       height: 795
+      hero: 1
     DSC_1432.jpg:
       width: 1200
       height: 795
@@ -438,9 +438,9 @@
       width: 1200
       height: 795
     DSC_1767.jpg:
-      hero: 1
       width: 1200
       height: 795
+      hero: 1
     DSC_1830.jpg:
       width: 1200
       height: 795
@@ -476,9 +476,9 @@
       width: 1200
       height: 795
     DSC_2266.jpg:
-      hero: 1
       width: 1200
       height: 795
+      hero: 1
 2016-03-13-PAARSFOC:
   title: Palo Alto for AR and SFO w Charlie
   date: '2016-03-13'
@@ -487,9 +487,9 @@
       width: 1200
       height: 795
     DSC_2283.jpg:
-      hero: 1
       width: 1200
       height: 795
+      hero: 1
     DSC_2292.jpg:
       width: 1200
       height: 800
@@ -522,9 +522,9 @@
       width: 800
       height: 1200
     DSCF5029.jpg:
-      hero: 1
       width: 1200
       height: 800
+      hero: 1
     DSCF5034.jpg:
       width: 1200
       height: 800
@@ -533,9 +533,9 @@
   date: '2016-03-21'
   contents:
     DSCF5170.jpg:
-      hero: 1
       width: 800
       height: 1200
+      hero: 1
     DSCF5224.jpg:
       width: 1200
       height: 800
@@ -571,9 +571,9 @@
       width: 1200
       height: 800
     DSCF4087.jpg:
-      hero: 1
       width: 1200
       height: 800
+      hero: 1
     DSCF4093.jpg:
       width: 1200
       height: 800
@@ -620,6 +620,12 @@
     DSC_2606.jpg:
       width: 1200
       height: 800
+    DSC_2612.jpg:
+      width: 1200
+      height: 795
+    DSC_2619.jpg:
+      width: 1200
+      height: 795
     DSC_2635.jpg:
       width: 1200
       height: 795
@@ -657,9 +663,9 @@
       width: 1200
       height: 800
     DSC_3477.jpg:
-      hero: 1
       width: 1200
       height: 795
+      hero: 1
     DSC_3517.jpg:
       width: 1200
       height: 800
@@ -832,6 +838,9 @@
   title: Softball and Croquet
   date: '2016-05-01'
   contents:
+    DSC_4254.jpg:
+      width: 1200
+      height: 795
     DSC_4303.jpg:
       width: 1200
       height: 800
@@ -842,9 +851,9 @@
       width: 1200
       height: 800
     DSC_4410.jpg:
-      hero: 1
       width: 1200
       height: 800
+      hero: 1
 2016-05-13-DCNO:
   title: DrupalCon New Orleans
   date: '2016-05-13'
@@ -859,9 +868,9 @@
       width: 1200
       height: 800
     DSCF4725.jpg:
-      hero: 1
       width: 1200
       height: 800
+      hero: 1
     DSCF4779.jpg:
       width: 1200
       height: 800
@@ -897,9 +906,9 @@
       width: 1200
       height: 800
     DSCF5012.jpg:
-      hero: 1
       width: 1200
       height: 800
+      hero: 1
     DSC_4539.jpg:
       width: 1200
       height: 795
@@ -913,7 +922,19 @@
   title: River City Pops British Invasion
   date: '2016-06-19'
   contents:
-    DSC_6277.jpg:
-      hero: 1
+    DSC_5078.jpg:
       width: 1200
       height: 800
+    DSC_5150.jpg:
+      width: 1200
+      height: 795
+    DSC_5302.jpg:
+      width: 1200
+      height: 800
+    DSC_6277.jpg:
+      width: 1200
+      height: 800
+      hero: 1
+    DSC_6372.jpg:
+      width: 1200
+      height: 795
