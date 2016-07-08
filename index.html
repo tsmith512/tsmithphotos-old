@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <div class="index">
+    {% for post in site.posts %}
+      <article>
+        <div class="meta">
+          <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        </div>
+
+        <section class="gallery">
+          {% assign gallery = post.path | split: '/' | last | split: '.' | first %}
+          {% for photo in site.data.index[gallery].contents limit:9 %}
+            {% if forloop.index == 2 %} <div class="preview">{% endif %}
+            <div class="photo{% if forloop.first == true %} hero{% endif %}">
+            <img src="/photo/thumb/{{ gallery }}/{{ photo[0] }}" />
+            </div>
+            {% if forloop.last == true and forloop.index > 2 %}</div>{% endif %}
+          {% endfor %}
+        </section>
+      </article>
+    {% endfor %}
+  </div>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

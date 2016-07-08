@@ -8,6 +8,7 @@ var imgsize = require('image-size');
 var recursiveReadSync = require('recursive-readdir-sync');
 var resize = require('gulp-image-resize');
 var rename = require("gulp-rename");
+var sass = require('gulp-sass');
 var yaml = require('js-yaml');
 
 // Containers for image data processing which is kicked off by gulp
@@ -133,6 +134,16 @@ gulp.task('photos', function() {
     .pipe(resize({width: 200, height: 200, crop: true, upscale: false}))
     .pipe(gulp.dest('_site/photo/thumb/'))
     // @TODO: Can we do that thing Rupl used to do with blurry 10px images for a pre-load?
+});
+
+gulp.task('sass', function () {
+  return gulp.src('./_sass/**/*.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('./_site/css'));
+});
+
+gulp.task('watch', function () {
+  gulp.watch('./_sass/**/*.scss', ['sass']);
 });
 
 gulp.task('jekyll', function (cb){

@@ -1,0 +1,63 @@
+/**
+ * @file _index.scss
+ * The overview of all albums on the home page
+ */
+.index {
+  article {
+    overflow: hidden; // @TODO: Real clearfix
+    margin-bottom: 1rem;
+  }
+
+  .meta, .gallery {
+    width: calc(50% - 0.5rem);
+  }
+
+  .meta {
+    float: right;
+  }
+
+  .date {
+    font-size: 0.875em;
+    color: #999;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #FFF;
+  }
+
+  .gallery {
+    float: left;
+    overflow: hidden; // @TODO: Get a real clearfix in here
+
+    .hero {
+      float: right;
+      width: 200px;
+      height: 200px;
+    }
+
+    .preview {
+      float: right;
+      margin: 0;
+      list-style: none;
+      height: 200px;
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap-reverse;
+      justify-content: flex-start;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+
+    .preview .photo {
+      width: 100px;
+      height: 100px;
+    }
+
+    .photo {
+      border: 1px solid transparent;
+    }
+
+    img {
+      display: block;
+    }
+  }
+}

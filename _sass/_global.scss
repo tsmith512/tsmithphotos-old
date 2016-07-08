@@ -1,0 +1,29 @@
+/**
+ * @file _global.scss
+ * Global styles and defaults. Applied immediately after the normalize.
+ */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #EEE;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a { 
+  text-decoration: none;
+}
+
+a, a:link {
+  color: #3347af;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

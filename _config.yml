@@ -1,11 +1,8 @@
 # Site settings
 title: TSmithPhotos
-email: your-email@domain.com
 description: 
 baseurl: ""
 url: "http://www.tsmithphotos.com" # the base hostname & protocol for your site
-twitter_username: tsmith512
-github_username:  tsmith512
 
 # Build settings
 markdown: kramdown
@@ -15,6 +12,7 @@ exclude:
 
 keep_files:
   - photo # Don't clobber the photo exports directory
+  - css   # Don't clobber site CSS, this way I don't have to store compiled CSS
 
 defaults:
   -
