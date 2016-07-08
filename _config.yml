@@ -9,6 +9,7 @@ markdown: kramdown
 
 exclude:
   - source # Don't include the original photos directory
+  - node_modules # Apparently this is magic sauce to make Jekyll less super slow
 
 keep_files:
   - photo # Don't clobber the photo exports directory
