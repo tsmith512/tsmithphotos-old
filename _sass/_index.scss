@@ -22,14 +22,21 @@
     margin-left: -100%;
   }
 
-  .date {
+  .date, .location {
     font-family: "Gotham SSm A", "Gotham SSm B";
     font-size: 0.75rem;
     font-weight: 600;
-    color: #999;
     text-transform: uppercase;
     text-shadow: 1px 1px 0 #FFF;
     letter-spacing: 1px;
+  }
+
+  .date {
+    color: #CCC;
+  }
+
+  .location {
+    color: #666;
   }
 
   h2 {

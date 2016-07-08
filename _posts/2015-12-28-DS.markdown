@@ -1,3 +1,4 @@
 ---
 title: Dogs in Snow
+location: Tulsa, Oklahoma
 ---

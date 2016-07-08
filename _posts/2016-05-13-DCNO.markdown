@@ -1,3 +1,4 @@
 ---
 title: "DrupalCon 2016: New Orleans"
+location: New Orleans, Louisiana
 ---

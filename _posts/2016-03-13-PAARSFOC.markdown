@@ -1,3 +1,4 @@
 ---
-title: Palo Alto and San Francisco
+title: California Rain
+location: San Francisco, California
 ---

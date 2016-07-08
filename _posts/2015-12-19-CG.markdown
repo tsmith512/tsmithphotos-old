@@ -1,3 +1,4 @@
 ---
 title: Charlie's Graduation
+location: Fort Collins, Colorado
 ---

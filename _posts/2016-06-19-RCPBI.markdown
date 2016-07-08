@@ -1,3 +1,4 @@
 ---
 title: "River City Pops 2016: British Invasion"
+location: Austin, Texas
 ---

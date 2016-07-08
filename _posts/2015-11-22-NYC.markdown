@@ -1,3 +1,4 @@
 ---
 title: NYC
+location: New York City, NY
 ---

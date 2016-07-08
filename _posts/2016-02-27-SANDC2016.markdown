@@ -1,3 +1,4 @@
 ---
 title: SANDCamp 2016
+location: San Diego, California
 ---

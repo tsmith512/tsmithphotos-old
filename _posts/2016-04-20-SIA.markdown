@@ -1,3 +1,4 @@
 ---
-title: Adventures in Scotland and Ireland
+title: In search of Scotch and the Loch Ness Monster
+location: Scotland / Dublin, Ireland
 ---

@@ -1,3 +1,4 @@
 ---
 title: NAAGA Softball Tournament and Croquet Sunday
+location: Austin, Texas
 ---

@@ -24,7 +24,7 @@
       margin: 0 0 1rem 0;
    }
 
-    .date {
+    .date, .location {
       font-family: "Gotham SSm A", "Gotham SSm B";
       font-size: 0.75rem;
       font-weight: 600;
@@ -32,6 +32,14 @@
       text-transform: uppercase;
       text-shadow: 1px 1px 0 #FFF;
       letter-spacing: 1px;
+    }
+
+    .date {
+      float: left;
+    }
+    .location {
+      float: right;
+      text-align: right;
     }
   }
 

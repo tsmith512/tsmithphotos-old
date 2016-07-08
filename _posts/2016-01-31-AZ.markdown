@@ -1,3 +1,4 @@
 ---
 title: Austin Zoo
+location: Austin, Texas
 ---

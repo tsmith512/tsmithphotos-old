@@ -1,3 +1,4 @@
 ---
 title: Christmastime at the Ranch
+location: Moshiem, Texas
 ---

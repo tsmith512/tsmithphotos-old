@@ -11,6 +11,7 @@ layout: default
       <article>
         <div class="meta">
           <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          {% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}
           <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         </div>
 
