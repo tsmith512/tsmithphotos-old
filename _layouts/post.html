@@ -3,13 +3,13 @@ layout: default
 ---
 <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
   <article class="post-content">
     <section class="copy">
+      <header class="post-header">
+        <h1>{{ page.title }}</h1>
+        <div class="date">{{ page.date | date: "%b %-d, %Y" }}</div>
+      </header>
+
       {{ content }}
     </section>
     <section class="album">
@@ -23,6 +23,14 @@ layout: default
         </li>
       {% endfor %}
       </ul>
+    </section>
+    <section class="nav">
+      {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+      {% endif %}
+      {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+      {% endif %}
     </section>
   </article>
 

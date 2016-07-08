@@ -3,28 +3,43 @@
  * The overview of all albums on the home page
  */
 .index {
+  .page-heading {
+    text-align: center;
+  }
+
   article {
     overflow: hidden; // @TODO: Real clearfix
-    margin-bottom: 1rem;
+    margin: 1rem auto;
+    width: calc(800px + 1rem);
   }
 
   .meta, .gallery {
-    width: calc(50% - 0.5rem);
+    width: 400px;
   }
 
   .meta {
     float: right;
+    margin-left: -100%;
   }
 
   .date {
-    font-size: 0.875em;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-size: 0.75rem;
+    font-weight: 600;
     color: #999;
     text-transform: uppercase;
     text-shadow: 1px 1px 0 #FFF;
+    letter-spacing: 1px;
+  }
+
+  h2 {
+    font-family: "Tungsten Narrow A", "Tungsten Narrow B";
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
   }
 
   .gallery {
-    float: left;
     overflow: hidden; // @TODO: Get a real clearfix in here
 
     .hero {

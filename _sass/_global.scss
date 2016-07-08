@@ -11,8 +11,7 @@ html {
 }
 
 body {
-  background-color: #EEE;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Archer SSm A", "Archer SSm B";
 }
 
 a { 
@@ -26,4 +25,9 @@ a, a:link {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.page-content {
+  max-width: calc(800px + 1rem);
+  margin: 0 auto;
 }

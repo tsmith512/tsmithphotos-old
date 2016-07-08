@@ -144,6 +144,7 @@ gulp.task('sass', function () {
 
 gulp.task('watch', function () {
   gulp.watch('./_sass/**/*.scss', ['sass']);
+  gulp.watch(['./**/*.html','./**/*.yml', './**/*.markdown', '!./_site/**'], ['jekyll']);
 });
 
 gulp.task('jekyll', function (cb){

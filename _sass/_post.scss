@@ -1,0 +1,78 @@
+
+/**
+ * @file _post.scss
+ * Individual page styles for a single post/album page
+ */
+.post {
+  margin: 1rem;
+
+  .copy {
+    margin-left: -100%;
+    width: calc(50% - 0.5rem);
+    float: right;
+  }
+
+  header {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1rem;
+
+    h1 {
+      font-family: "Tungsten Narrow A", "Tungsten Narrow B";
+      font-weight: 400; 
+      font-size: 2.5rem;
+      margin: 0 0 1rem 0;
+   }
+
+    .date {
+      font-family: "Gotham SSm A", "Gotham SSm B";
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #999;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 0 #FFF;
+      letter-spacing: 1px;
+    }
+  }
+
+  .album {
+    width: calc(50% - 0.5rem);
+    float: left;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      padding: 1px;
+      float: left;
+      width: 33.3%;
+    }
+
+    img {
+      display: block;
+    }
+  }
+
+  .nav {
+    margin: 1rem 0 0 -100%;
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+    width: calc(50% - 0.5rem);
+    float: right;
+    clear: right;
+
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-size: 0.75rem;
+
+    a {
+      display: block;
+      width: calc(50% - 1rem);
+    }
+
+    .prev { float: left; }
+    .next { float: right; text-align: right; }
+  }
+}
