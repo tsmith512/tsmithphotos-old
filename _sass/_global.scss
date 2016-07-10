@@ -12,6 +12,12 @@ html {
 
 body {
   font-family: "Archer SSm A", "Archer SSm B";
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.15;
 }
 
 a { 
@@ -31,7 +37,7 @@ img {
   height: auto;
 }
 
-.page-content {
-  max-width: calc(800px + 1rem);
-  margin: 0 auto;
+.wrapper {
+  max-width: 960px;
+  margin: 1rem auto;
 }

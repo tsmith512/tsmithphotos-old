@@ -2,36 +2,52 @@
 layout: default
 ---
 <div class="post">
+  {% assign gallery = page.path | split: '/' | last | split: '.' | first %}
 
   <article class="post-content">
-    <section class="copy">
-      <header class="post-header">
-        <h1>{{ page.title }}</h1>
-        <div class="date">{{ page.date | date: "%b %-d, %Y" }}</div>
-      </header>
-
-      {{ content }}
-    </section>
-    <section class="album">
-      {% assign gallery = page.path | split: '/' | last | split: '.' | first %}
-      <ul>
+    <div class="masthead">
+      <h1>{{ page.title }}</h1>
+      {% comment %}
+        @TODO: So apparently the "where" filter doesn't work on custom data
+        arrays, though I could write a plugin to do it. Instead, we loop over
+        the whole post photo array and pull out the hero when we find it. Sadface.
+      {% endcomment %}
       {% for photo in site.data.index[gallery].contents %}
-        <li>
-          <a href="/photo/original/{{ gallery }}/{{ photo[0] }}">
-            <img src="/photo/thumb/{{ gallery }}/{{ photo[0] }}" />
-          </a>
-        </li>
+        {% if photo[1].hero %}
+          <img src="/photo/original/{{ gallery }}/{{ photo[0] }}" />
+        {% endif %}
       {% endfor %}
-      </ul>
-    </section>
-    <section class="nav">
-      {% if page.previous.url %}
-        <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-      {% endif %}
-      {% if page.next.url %}
-        <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-      {% endif %}
-    </section>
+    </div>
+
+    <div class="wrapper">
+      <section class="copy">
+        <header class="post-header">
+          <div class="date">{{ page.date | date: "%b %-d, %Y" }}</div>
+          <div class="location">{{ page.location }}</div>
+        </header>
+
+        {{ content }}
+      </section>
+      <section class="album">
+        <ul>
+          {% for photo in site.data.index[gallery].contents %}
+            <li>
+              <a href="/photo/original/{{ gallery }}/{{ photo[0] }}">
+                <img src="/photo/thumb/{{ gallery }}/{{ photo[0] }}" />
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+      <section class="nav">
+        {% if page.previous.url %}
+          <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+        {% endif %}
+        {% if page.next.url %}
+          <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+        {% endif %}
+      </section>
+    </div>
   </article>
 
 </div>
