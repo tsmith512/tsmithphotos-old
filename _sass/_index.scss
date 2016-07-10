@@ -3,23 +3,29 @@
  * The overview of all albums on the home page
  */
 .index {
-  .page-heading {
-    text-align: center;
-  }
-
   article {
+    position: relative;
     overflow: hidden; // @TODO: Real clearfix
-    margin: 1rem auto;
-    width: calc(800px + 1rem);
-  }
+    margin: 0 auto;
 
-  .meta, .gallery {
-    width: 400px;
+    &:hover {
+      background-color: #f8f8f8;
+      .gallery:after { border-right-color: #f8f8f8; }
+    }
   }
 
   .meta {
-    float: right;
-    margin-left: -100%;
+    width: calc(560px - 1rem); // 560px is 960px (page width) - 400px (gallery width)
+    padding-right: 1rem; // So the background looks correct, since there's a margin-left of 1rem
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
+    // @TODO: these would be for narrower screens:
+    // float: right;
+    // margin-left: -100%;
+    text-align: center;
   }
 
   .date, .location {
@@ -33,6 +39,11 @@
 
   .date {
     color: #CCC;
+
+    &:after {
+      content: " / ";
+      color: #EEE;
+    }
   }
 
   .location {
@@ -41,18 +52,53 @@
 
   h2 {
     font-family: "Tungsten Narrow A", "Tungsten Narrow B";
-    font-weight: 400;
+    font-weight: 400; 
     font-size: 2.5rem;
     margin: 0 0 1rem 0;
   }
 
   .gallery {
+    width: 400px;
     overflow: hidden; // @TODO: Get a real clearfix in here
+    position: relative;
+
+    &:before, &:after {
+      content: " ";
+      position: absolute;
+      right: 1px;
+      border: 20px solid transparent;
+    }
+
+    &:before {
+      z-index: 1;
+      top: calc(50%);
+      transform: translateY(-51%);
+      border-width: 22px;
+      border-right-color: #999;
+    }
+
+    &:after {
+      z-index: 2;
+      top: 50%;
+      transform: translateY(-51%);
+      border-right-color: white;
+    }
 
     .hero {
+      position: relative;
       float: right;
       width: 200px;
       height: 200px;
+
+      &:after {
+        content: " ";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        border-right: 1px solid #999;
+      }
+
     }
 
     .preview {

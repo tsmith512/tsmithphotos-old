@@ -3,48 +3,6 @@
  * Individual page styles for a single post/album page
  */
 .post {
-  .masthead {
-    position: relative;
-    overflow: hidden; // So the blur doesn't bleed
-    width: 100%;
-    padding-bottom: 50%;
-    margin-bottom: 2rem;
-
-    h1 {
-      position: absolute;
-      z-index: 10;
-      bottom: 2rem;
-      left: 50%;
-      transform: translateX(-50%);
-      width: auto;
-      max-width: 960px;
-      margin: 0 auto;
-      text-align: center;
-      font-family: "Gotham SSm A", "Gotham SSm B";
-      font-weight: 600;
-      font-size: 2rem;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      position: absolute;
-      padding-bottom: 1rem;
-      border-bottom: 2px solid #FFF;
-      color: #FFF;
-      text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
-    }
-
-    img {
-      position: absolute;
-      z-index: 1;
-      display: block;
-      top: 50%;
-      // @TODO: Autoprefixer please.
-      -webkit-filter: blur(5px);
-      filter: blur(5px);
-      transform: scale(1.1) translateY(-50%); // So the image extends beyond the bounds so it doesn't blur with white background
-      width: 100%;
-    }
-  }
-
   .copy {
     margin-left: -100%;
     width: calc(50% - 0.5rem);
