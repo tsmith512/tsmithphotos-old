@@ -8,8 +8,14 @@
     overflow: hidden; // @TODO: Real clearfix
     margin: 0 auto;
 
+    background-size: 200%;
+    background-position: 0 0;
+    background-image: linear-gradient(to right, white 50%, #f8f8f8 50%);
+    transition: background 0.2s ease-out;
+
     &:hover {
-      background-color: #f8f8f8;
+      background-color: #f8f8f8; // If background-image is unsupported
+      background-position: -100% 0;
       .gallery:after { border-right-color: #f8f8f8; }
     }
   }
@@ -82,6 +88,7 @@
       top: 50%;
       transform: translateY(-51%);
       border-right-color: white;
+      transition: border 0.2s ease-out;
     }
 
     .hero {
