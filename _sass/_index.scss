@@ -4,8 +4,8 @@
  */
 .index {
   article {
+    @extend %clearfix;
     position: relative;
-    overflow: hidden; // @TODO: Real clearfix
     margin: 0 auto;
 
     background-size: 200%;
@@ -65,8 +65,8 @@
 
   .gallery {
     width: 400px;
-    overflow: hidden; // @TODO: Get a real clearfix in here
     position: relative;
+    overflow: hidden; // Since the clearfix relies on messing with :after, which we're using for border tricks
 
     &:before, &:after {
       content: " ";

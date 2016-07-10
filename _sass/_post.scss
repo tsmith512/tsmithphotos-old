@@ -10,7 +10,7 @@
   }
 
   header {
-    overflow: hidden;
+    @extend %clearfix;
     padding-bottom: 1rem;
     border-bottom: 1px solid #eee;
     margin-bottom: 1rem;
