@@ -2,7 +2,7 @@
  * @file _post.scss
  * Individual page styles for a single post/album page
  */
-.post {
+.post-content {
   .wrapper {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -21,11 +21,13 @@
   .copy {
     margin-bottom: 2rem;
 
-    @include breakpoint($post-two-column) {
-      margin-left: -100%;
-      margin-bottom: 0;
-      width: calc(50% - 1rem);
-      float: right;
+    .post-with-copy & {
+      @include breakpoint($post-two-column) {
+          margin-left: -100%;
+          margin-bottom: 0;
+          width: calc(50% - 1rem);
+          float: right;
+      }
     }
   }
 
@@ -45,23 +47,44 @@
       letter-spacing: 1px;
     }
 
-    @include breakpoint($post-meta-two-column) {
-      .date {
-        float: left;
-      }
-      .location {
-        float: right;
-        text-align: right;
+    .post-with-copy & {
+      @include breakpoint($post-meta-two-column) {
+        .date {
+          float: left;
+        }
+        .location {
+          float: right;
+          text-align: right;
+        }
       }
     }
+
+    .post-empty & {
+      @include breakpoint($post-two-column) {
+        .date {
+          float: left;
+        }
+        .location {
+          float: right;
+          text-align: right;
+        }
+      }
+    }
+
   }
 
   .album {
     @extend %clearfix;
 
-    @include breakpoint($post-two-column) {
-      width: calc(50% - 1rem);
-      float: left;
+    .post-with-copy & {
+      @include breakpoint($post-two-column) {
+        width: calc(50% - 1rem);
+        float: left;
+      }
+    }
+
+    .post-empty & {
+      margin-bottom: 2rem;
     }
 
     ul {
@@ -73,7 +96,18 @@
     li {
       padding: 1px;
       float: left;
-      width: 33.3%;
+      .post-with-copy & {
+        width: 33.3%;
+      }
+
+      .post-empty & {
+        width: 50%;
+        @include breakpoint(290px) { width: 33.3%; }
+        @include breakpoint(520px) { width: 25%; }
+        @include breakpoint(680px) { width: 20%; } 
+        @include breakpoint(880px) { width: 16.6%; }
+
+      }
     }
 
     img {
@@ -90,26 +124,38 @@
     font-family: "Gotham SSm A", "Gotham SSm B";
     font-size: 0.75rem;
 
-    @include breakpoint($post-two-column) {
-      margin: 1rem 0 0 -100%;
-      width: calc(50% - 0.5rem);
-      float: right;
-      clear: right;
+    .post-with-copy & {
+      @include breakpoint($post-two-column) {
+        margin: 1rem 0 0 -100%;
+        width: calc(50% - 1rem);
+        float: right;
+        clear: right;
+      }
     }
 
     a {
       display: block; 
       text-align: center;
       margin-bottom: 1rem;
-
-      @include breakpoint($post-meta-two-column) {
-        width: calc(50% - 1rem);
+      .post-with-copy & {
+        @include breakpoint($post-meta-two-column) {
+          width: calc(50% - 1rem);
+        }
       }
     }
 
-    @include breakpoint($post-meta-two-column) {
-      .prev { float: left; text-align: left; }
-      .next { float: right; text-align: right; }
+    .post-with-copy & {
+      @include breakpoint($post-meta-two-column) {
+        .prev { float: left; text-align: left; }
+        .next { float: right; text-align: right; }
+      }
+    }
+
+    .post-empty & {
+      @include breakpoint($post-two-column) {
+        .prev { float: left; text-align: left; }
+        .next { float: right; text-align: right; }
+      }
     }
   }
 }

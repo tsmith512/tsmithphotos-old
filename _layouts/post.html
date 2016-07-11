@@ -2,7 +2,12 @@
 layout: default
 photoswipe: true
 ---
-<div class="post">
+
+{% comment %} Newlines on the end of files will make the parser think empty posts aren't {% endcomment %}
+{% assign test_content = page.content | strip %}
+{% assign post_empty = 0 %}{% if test_content == "" %}{% assign post_empty = 1 %}{% endif %}
+
+<div class="post {% if post_empty == 1 %}post-empty{% else %}post-with-copy{% endif %}">
   {% assign gallery = page.path | split: '/' | last | split: '.' | first %}
 
   <article class="post-content">
