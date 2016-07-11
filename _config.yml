@@ -14,6 +14,7 @@ exclude:
 keep_files:
   - photo # Don't clobber the photo exports directory
   - css   # Don't clobber site CSS, this way I don't have to store compiled CSS
+  - js    # Don't clobber site JS, which is built with Gulp and includes Photoswipe
 
 defaults:
   -

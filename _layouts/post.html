@@ -1,5 +1,6 @@
 ---
 layout: default
+photoswipe: true
 ---
 <div class="post">
   {% assign gallery = page.path | split: '/' | last | split: '.' | first %}
@@ -32,7 +33,7 @@ layout: default
         <ul>
           {% for photo in site.data.index[gallery].contents %}
             <li>
-              <a href="/photo/original/{{ gallery }}/{{ photo[0] }}">
+              <a href="/photo/original/{{ gallery }}/{{ photo[0] }}" data-size="{{ photo[1].width}}x{{ photo[1].height }}">
                 <img src="/photo/thumb/{{ gallery }}/{{ photo[0] }}" />
               </a>
             </li>

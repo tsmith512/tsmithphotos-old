@@ -142,9 +142,22 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./_site/css'));
 });
 
+gulp.task('js-photoswipe', function() {
+  return gulp.src(['./node_modules/photoswipe/dist/*.js', '_js/photoswipe.tsp.js'])
+    .pipe(gulp.dest('./_site/js'));
+});
+
+gulp.task('js-photoswipe-assets', function() {
+  return gulp.src(['./node_modules/photoswipe/dist/default-skin/*.png', './node_modules/photoswipe/dist/default-skin/*.svg', './node_modules/photoswipe/dist/default-skin/*.gif'])
+    .pipe(gulp.dest('./_site/css'));
+});
+
+gulp.task('js', ['js-photoswipe', 'js-photoswipe-assets']);
+
 gulp.task('watch', function () {
   gulp.watch('./_sass/**/*.scss', ['sass']);
   gulp.watch(['./**/*.html','./**/*.yml', './**/*.markdown', '!./_site/**'], ['jekyll']);
+  gulp.watch(['./**/*.js', '!./_site/**', '!./node_modules/**'], ['js']);
 });
 
 gulp.task('jekyll', function (cb){
