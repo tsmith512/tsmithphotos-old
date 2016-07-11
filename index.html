@@ -38,6 +38,11 @@ masthead: /photo/original/2016-04-20-SIA/DSC_3618.jpg
                   <img src="/photo/thumb/{{ gallery }}/{{ photo[0] }}" data-count="{{ count }}" />
                 </a>
               </div>
+              {% comment %}
+                We use a manual counter here so that we know we'll end
+                up with a total of 4 images in .preview but skip the
+                hero so that doesn't show up twice.
+              {% endcomment %}
               {% assign count = count | plus:1 %}
               {% if count > 4 %}
                 {% break %}

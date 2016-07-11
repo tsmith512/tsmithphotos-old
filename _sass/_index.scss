@@ -28,6 +28,11 @@
 
   .meta {
     text-align: center;
+    margin: 0 1rem;
+
+    @include breakpoint($masthead-box) {
+      margin: 0 2rem;
+    }
 
     @include breakpoint($index-two-column) {
       left: calc(400px + 1rem); // 400px (gallery width)
@@ -66,21 +71,30 @@
     font-weight: 400; 
     font-size: 2.5rem;
     margin: 0 0 1rem 0;
+
+    @include breakpoint($index-two-column) {
+      margin-bottom: 0;
+    }
+
   }
 
   .gallery {
     width: 400px;
+    max-width: 100%;
     position: relative;
     overflow: hidden; // Since the clearfix relies on messing with :after, which we're using for border tricks
 
     @include breakpoint(max-width ($index-two-column - 1px)) {
       margin: 0 auto;
+
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #EEE;
     }
 
     @include breakpoint($index-two-column) {
     }
 
-    &:before, &:after {
+    &:after {
       content: " ";
       position: absolute;
       border: 20px solid transparent;
@@ -91,21 +105,6 @@
 
       @include breakpoint($index-two-column) {
         right: 1px;
-      }
-    }
-
-    &:before {
-      z-index: 1;
-      border-width: 22px;
-
-      @include breakpoint(max-width ($index-two-column - 1px)) {
-        display: none;
-      }
-
-      @include breakpoint($index-two-column) {
-        top: calc(50%);
-        transform: translateY(-51%);
-        border-right-color: #999;
       }
     }
 
@@ -130,40 +129,41 @@
 
     .hero {
       position: relative;
-      float: right;
-      width: 200px;
-      height: 200px;
 
-      @include breakpoint($index-two-column) {
-        &:after {
-            content: " ";
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            border-right: 1px solid #999;
-        }
+      @include breakpoint(200px) {
+        float: right;
+        width: 50%;
       }
-
     }
 
     .preview {
-      float: right;
-      margin: 0;
-      list-style: none;
-      height: 200px;
+      display: none;
 
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap-reverse;
-      justify-content: flex-start;
-      align-items: flex-start;
-      align-content: flex-start;
+      @include breakpoint(200px) {
+        float: right;
+        margin: 0;
+        list-style: none;
+        width: 50%;
+        max-height: 200px;
+
+        @include breakpoint(max-width 290px) {
+          // Okay this MQ is almost bonkers, but make an exception
+          // for screens this size to reset the max-height so that
+          // Flexbox doesn't try to squeeze a third row in preview
+          max-height: 150px;
+        }
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+      }
     }
 
     .preview .photo {
-      width: 100px;
-      height: 100px;
+      width: 50%;
     }
 
     .photo {
