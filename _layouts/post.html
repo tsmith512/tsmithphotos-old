@@ -6,7 +6,6 @@ layout: default
 
   <article class="post-content">
     <div class="masthead">
-      <h1>{{ page.title }}</h1>
       {% comment %}
         @TODO: So apparently the "where" filter doesn't work on custom data
         arrays, though I could write a plugin to do it. Instead, we loop over
@@ -17,6 +16,7 @@ layout: default
           <img src="/photo/original/{{ gallery }}/{{ photo[0] }}" />
         {% endif %}
       {% endfor %}
+      <h1>{{ page.title }}</h1>
     </div>
 
     <div class="wrapper">

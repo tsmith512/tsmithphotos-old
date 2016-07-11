@@ -4,10 +4,10 @@ layout: default
 <div class="page">
   <article class="page-content">
     <div class="masthead">
-      <h1>{{ page.title }}</h1>
       {% if page.masthead %}
         <img src="{{ page.masthead }}" />
       {% endif %}
+      <h1>{{ page.title }}</h1>
     </div>
     <div class="wrapper">
       {{ content }}

@@ -8,30 +8,35 @@
     position: relative;
     margin: 0 auto;
 
-    background-size: 200%;
-    background-position: 0 0;
-    background-image: linear-gradient(to right, white 50%, #f8f8f8 50%);
-    transition: background 0.2s ease-out;
+    @include breakpoint(max-width ($index-two-column - 1px)) {
+      margin-bottom: 2rem;
+    }
 
-    &:hover {
-      background-color: #f8f8f8; // If background-image is unsupported
-      background-position: -100% 0;
-      .gallery:after { border-right-color: #f8f8f8; }
+    @include breakpoint($index-two-column) {
+      background-size: 200%;
+      background-position: 0 0;
+      background-image: linear-gradient(to right, white 50%, #f8f8f8 50%);
+      transition: background 0.2s ease-out;
+
+      &:hover {
+          background-color: #f8f8f8; // If background-image is unsupported
+          background-position: -100% 0;
+          .gallery:after { border-right-color: #f8f8f8; }
+      }
     }
   }
 
   .meta {
-    width: calc(560px - 1rem); // 560px is 960px (page width) - 400px (gallery width)
-    padding-right: 1rem; // So the background looks correct, since there's a margin-left of 1rem
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-
-    // @TODO: these would be for narrower screens:
-    // float: right;
-    // margin-left: -100%;
     text-align: center;
+
+    @include breakpoint($index-two-column) {
+      left: calc(400px + 1rem); // 400px (gallery width)
+      padding-right: 1rem; // So the background looks correct, since there's a margin-left of 1rem
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+    }
   }
 
   .date, .location {
@@ -68,27 +73,59 @@
     position: relative;
     overflow: hidden; // Since the clearfix relies on messing with :after, which we're using for border tricks
 
+    @include breakpoint(max-width ($index-two-column - 1px)) {
+      margin: 0 auto;
+    }
+
+    @include breakpoint($index-two-column) {
+    }
+
     &:before, &:after {
       content: " ";
       position: absolute;
-      right: 1px;
       border: 20px solid transparent;
+
+      @include breakpoint(max-width ($index-two-column - 1px)) {
+        top: 1px;
+      }
+
+      @include breakpoint($index-two-column) {
+        right: 1px;
+      }
     }
 
     &:before {
       z-index: 1;
-      top: calc(50%);
-      transform: translateY(-51%);
       border-width: 22px;
-      border-right-color: #999;
+
+      @include breakpoint(max-width ($index-two-column - 1px)) {
+        display: none;
+      }
+
+      @include breakpoint($index-two-column) {
+        top: calc(50%);
+        transform: translateY(-51%);
+        border-right-color: #999;
+      }
     }
 
     &:after {
       z-index: 2;
       top: 50%;
-      transform: translateY(-51%);
-      border-right-color: white;
-      transition: border 0.2s ease-out;
+
+      @include breakpoint(max-width ($index-two-column - 1px)) {
+        top: 1px;
+        left: 50%;
+        transform: translate(-50%);
+        border-top-color: white;
+      }
+
+      @include breakpoint($index-two-column) {
+        top: calc(50%);
+        transform: translateY(-51%);
+        border-right-color: white;
+        transition: border 0.2s ease-out;
+      }
     }
 
     .hero {
@@ -97,13 +134,15 @@
       width: 200px;
       height: 200px;
 
-      &:after {
-        content: " ";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        border-right: 1px solid #999;
+      @include breakpoint($index-two-column) {
+        &:after {
+            content: " ";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            border-right: 1px solid #999;
+        }
       }
 
     }

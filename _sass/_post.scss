@@ -3,10 +3,30 @@
  * Individual page styles for a single post/album page
  */
 .post {
+  .wrapper {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    @include breakpoint($masthead-box) {
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+
+    @include breakpoint($masthead-banner-full) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
   .copy {
-    margin-left: -100%;
-    width: calc(50% - 0.5rem);
-    float: right;
+    margin-bottom: 2rem;
+
+    @include breakpoint($post-two-column) {
+      margin-left: -100%;
+      margin-bottom: 0;
+      width: calc(50% - 0.5rem);
+      float: right;
+    }
   }
 
   header {
@@ -25,18 +45,24 @@
       letter-spacing: 1px;
     }
 
-    .date {
-      float: left;
-    }
-    .location {
-      float: right;
-      text-align: right;
+    @include breakpoint($post-meta-two-column) {
+      .date {
+        float: left;
+      }
+      .location {
+        float: right;
+        text-align: right;
+      }
     }
   }
 
   .album {
-    width: calc(50% - 0.5rem);
-    float: left;
+    @extend %clearfix;
+
+    @include breakpoint($post-two-column) {
+      width: calc(50% - 0.5rem);
+      float: left;
+    }
 
     ul {
       list-style: none;
@@ -56,22 +82,34 @@
   }
 
   .nav {
-    margin: 1rem 0 0 -100%;
+    @extend %clearfix;
+    margin-top: 1rem;
     border-top: 1px solid #eee;
     padding-top: 1rem;
-    width: calc(50% - 0.5rem);
-    float: right;
-    clear: right;
 
     font-family: "Gotham SSm A", "Gotham SSm B";
     font-size: 0.75rem;
 
-    a {
-      display: block;
-      width: calc(50% - 1rem);
+    @include breakpoint($post-two-column) {
+      margin: 1rem 0 0 -100%;
+      width: calc(50% - 0.5rem);
+      float: right;
+      clear: right;
     }
 
-    .prev { float: left; }
-    .next { float: right; text-align: right; }
+    a {
+      display: block; 
+      text-align: center;
+      margin-bottom: 1rem;
+
+      @include breakpoint($post-meta-two-column) {
+        width: calc(50% - 1rem);
+      }
+    }
+
+    @include breakpoint($post-meta-two-column) {
+      .prev { float: left; text-align: left; }
+      .next { float: right; text-align: right; }
+    }
   }
 }

@@ -37,15 +37,16 @@ img {
   height: auto;
 }
 
-.wrapper {
-  max-width: 960px;
-  margin: 1rem auto;
-}
-
 %clearfix {
   &:after {
     content: "";
     display: table;
     clear: both;
   }
+}
+
+.wrapper {
+  @extend %clearfix;
+  max-width: 960px;
+  margin: 1rem auto;
 }
