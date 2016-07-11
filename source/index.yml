@@ -475,6 +475,9 @@
     DSC_2225.jpg:
       width: 1200
       height: 795
+    DSC_2238.jpg:
+      width: 1200
+      height: 795
     DSC_2266.jpg:
       width: 1200
       height: 795
@@ -521,6 +524,9 @@
     DSCF5021.jpg:
       width: 800
       height: 1200
+    DSCF5028.jpg:
+      width: 1200
+      height: 800
     DSCF5029.jpg:
       width: 1200
       height: 800
@@ -536,6 +542,15 @@
       width: 800
       height: 1200
       hero: 1
+    DSCF5174.jpg:
+      width: 800
+      height: 1200
+    DSCF5175.jpg:
+      width: 1200
+      height: 800
+    DSCF5179.jpg:
+      width: 1200
+      height: 800
     DSCF5224.jpg:
       width: 1200
       height: 800
@@ -935,6 +950,9 @@
       width: 1200
       height: 800
       hero: 1
+    DSC_6307.jpg:
+      width: 1200
+      height: 795
     DSC_6372.jpg:
       width: 1200
       height: 795
