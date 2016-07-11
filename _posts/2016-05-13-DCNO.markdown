@@ -2,3 +2,8 @@
 title: "DrupalCon 2016: New Orleans"
 location: New Orleans, Louisiana
 ---
+
+The Drupal Community laid Drupal 6 to rest this week. Drupal 8 has been
+released, which means that Drupal 6 (two major releases ago) is now retired and
+no longer supported. In New Orleans fashion, this involved the finest in food,
+drink, and a Jazz funeral procession at the end of the convention.

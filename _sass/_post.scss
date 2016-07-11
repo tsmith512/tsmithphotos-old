@@ -24,7 +24,7 @@
     @include breakpoint($post-two-column) {
       margin-left: -100%;
       margin-bottom: 0;
-      width: calc(50% - 0.5rem);
+      width: calc(50% - 1rem);
       float: right;
     }
   }
@@ -60,7 +60,7 @@
     @extend %clearfix;
 
     @include breakpoint($post-two-column) {
-      width: calc(50% - 0.5rem);
+      width: calc(50% - 1rem);
       float: left;
     }
 
