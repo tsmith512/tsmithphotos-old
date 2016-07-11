@@ -79,8 +79,11 @@
     @include breakpoint($masthead-box) {
       position: absolute;
       z-index: 1; 
-      top: 50%;
-      transform: translateY(-50%);
+
+      &.hero-attach-center {
+        top: 50%;
+        transform: translateY(-50%);
+      }
     }
   }
 
