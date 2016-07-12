@@ -26,6 +26,9 @@
         w: parseInt(size[0], 10),
         h: parseInt(size[1], 10),
         msrc: photo.getAttribute('href').replace('original', 'medium'),
+        camera: photo.getAttribute('data-camera'),
+        exposure: photo.getAttribute('data-exposure'),
+        title: ' ', // @TODO: Implement title. But remember that PhotoSwipe will not show the caption element without title being non-empty.
       };
 
       items.push(item);
@@ -50,7 +53,11 @@
 
     // define options (if needed)
     var options = {
-      index: index // start at first slide
+      index: index,
+      addCaptionHTMLFn: function(item, captionEl, isFake) {
+        captionEl.children[0].innerHTML = ['<span class="camera">', item.camera, '</span><span class="exposure">', item.exposure, '</span>'].join(' ');
+        return true;
+      },
     };
 
     // Initializes and opens PhotoSwipe

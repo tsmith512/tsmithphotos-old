@@ -1,10 +1,11 @@
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 
-var merge = require('deepmerge');
+var exif = require('exif-parser');
 var fs = require('fs');
 var imagemin = require('gulp-imagemin');
 var imgsize = require('image-size');
+var merge = require('deepmerge');
 var recursiveReadSync = require('recursive-readdir-sync');
 var resize = require('gulp-image-resize');
 var rename = require("gulp-rename");
@@ -53,9 +54,24 @@ var walkPhotos = function(path, index) {
       if (fs.statSync(photo).isDirectory()) { continue; }
 
       var dimensions = imgsize(photo);
+
+      var photoBuffer = fs.readFileSync(photo);
+      var exifParser = exif.create(photoBuffer);
+      var exifResult = exifParser.parse();
+
       contains[file] = {
         width: dimensions.width || null,
         height: dimensions.height || null,
+        // The D7000 writes "NIKON CORPORATION / NIKON D7000" across these fields.
+        // The X-E1 writes "FUJIFILM / XE-1". So we do this stupid thing to normalize
+        // as "Make Model" which is what they should be in the first place...
+        camera: [(exifResult.tags.Make.split(' ')[0] || null), (exifResult.tags.Model.split(' ').pop()) || null].join(' '),
+        lens: exifResult.tags.LensModel || null,
+        focal: exifResult.tags.FocalLength || null,
+        aperture: exifResult.tags.FNumber || null,
+        shutter: exifResult.tags.ExposureTime || null,
+        iso: exifResult.tags.ISO || null,
+        date: exifResult.tags.DateTimeOriginal || null,
       };
     }
 

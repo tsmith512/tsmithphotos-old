@@ -38,7 +38,11 @@ photoswipe: true
         <ul>
           {% for photo in site.data.index[gallery].contents %}
             <li>
-              <a href="/photo/original/{{ gallery }}/{{ photo[0] }}" data-size="{{ photo[1].width}}x{{ photo[1].height }}">
+              <a href="/photo/original/{{ gallery }}/{{ photo[0] }}"
+                 data-size="{{ photo[1].width}}x{{ photo[1].height }}"
+                 data-camera="{{ photo[1].camera }} with {{ photo[1].lens }}"
+                 data-exposure="ISO{{ photo[1].iso }} {{ photo[1].shutter }} @ f/{{ photo[1].aperture }} {{ photo[1].focal }}mm"
+                 >
                 <img src="/photo/thumb/{{ gallery }}/{{ photo[0] }}" />
               </a>
             </li>
