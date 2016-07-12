@@ -9,6 +9,7 @@ var merge = require('deepmerge');
 var recursiveReadSync = require('recursive-readdir-sync');
 var resize = require('gulp-image-resize');
 var rename = require("gulp-rename");
+var runSequence = require('run-sequence');
 var sass = require('gulp-sass');
 var yaml = require('js-yaml');
 
@@ -183,5 +184,13 @@ gulp.task('jekyll', function (cb){
    cb(code === 0 ? null : 'ERROR: Jekyll process exited with code: '+code);
  });
 });
+
+gulp.task('update', function(cb) {
+  runSequence(['index', 'photos'], 'prime-posts', 'jekyll', cb);
+});
+
+gulp.task('build'), function(cb) {
+  runSequence(['sass', 'js'], 'jekyll', cb);
+}
 
 gulp.task('default', function() {});
