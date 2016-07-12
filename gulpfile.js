@@ -189,8 +189,8 @@ gulp.task('update', function(cb) {
   runSequence(['index', 'photos'], 'prime-posts', 'jekyll', cb);
 });
 
-gulp.task('build'), function(cb) {
+gulp.task('build', function(cb) {
   runSequence(['sass', 'js'], 'jekyll', cb);
-}
+});
 
 gulp.task('default', function() {});
