@@ -81,7 +81,7 @@ gulp.task('index', function() {
     }
   }
   walkPhotos('source/Photography', generatedIndex);
-  var mergedIndex = merge(generatedIndex, index);
+  var mergedIndex = merge(index, generatedIndex);
   fs.writeFileSync('source/index.yml', yaml.safeDump(mergedIndex));
 });
 
