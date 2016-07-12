@@ -1,0 +1,11 @@
+{% assign gallery = page.path | split: '/' | last | split: '.' | first %}
+{% assign photo = site.data.index[gallery].contents[include.src] %}
+
+<figure class="photo-block">
+  <img src="/photo/medium/{{ gallery }}/{{ include.src }}" />
+  <figcaption>
+    <span class="title">Title Placeholder</span>
+    <span class="camera">{{ photo.camera }} with {{ photo.lens }}</span>
+    <span class="exposure">ISO{{ photo.iso }} {{ photo.shutter }} @ f/{{ photo.aperture }} {{ photo.focal }}mm</span>
+  </figcaption>
+</figure>
