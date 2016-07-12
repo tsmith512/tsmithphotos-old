@@ -1,0 +1,63 @@
+---
+layout: default
+photoswipe: true
+---
+
+{% comment %} Newlines on the end of files will make the parser think empty posts aren't {% endcomment %}
+{% assign test_content = page.content | strip %}
+{% assign post_empty = 0 %}{% if test_content == "" %}{% assign post_empty = 1 %}{% endif %}
+
+<div class="post {% if post_empty == 1 %}post-empty{% else %}post-with-copy{% endif %}">
+  {% assign gallery = page.path | split: '/' | last | split: '.' | first %}
+
+  <article class="post-content">
+    <div class="masthead">
+      {% comment %}
+        @TODO: So apparently the "where" filter doesn't work on custom data
+        arrays, though I could write a plugin to do it. Instead, we loop over
+        the whole post photo array and pull out the hero when we find it. Sadface.
+      {% endcomment %}
+      {% for photo in site.data.index[gallery].contents %}
+        {% if photo[1].hero %}
+          <img src="/photo/original/{{ gallery }}/{{ photo[0] }}" class="hero-attach-{% if photo[1].hero_attachment %}{{ photo[1].hero_attachment }}{% else %}center{% endif %}" />
+        {% endif %}
+      {% endfor %}
+      <h1>{{ page.title }}</h1>
+    </div>
+
+    <div class="wrapper">
+      <section class="copy">
+        <header class="post-header">
+          <div class="date">{{ page.date | date: "%b %-d, %Y" }}</div>
+          <div class="location">{{ page.location }}</div>
+        </header>
+
+        {{ content }}
+      </section>
+      <section class="album">
+        <ul>
+          {% for photo in site.data.index[gallery].contents %}
+            <li>
+              <a href="/photo/original/{{ gallery }}/{{ photo[0] }}"
+                 data-size="{{ photo[1].width}}x{{ photo[1].height }}"
+                 data-camera="{{ photo[1].camera }} with {{ photo[1].lens }}"
+                 data-exposure="ISO{{ photo[1].iso }} {{ photo[1].shutter }} @ f/{{ photo[1].aperture }} {{ photo[1].focal }}mm"
+                 >
+                <img src="/photo/thumb/{{ gallery }}/{{ photo[0] }}" />
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+      <section class="nav">
+        {% if page.previous.url %}
+          <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+        {% endif %}
+        {% if page.next.url %}
+          <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+        {% endif %}
+      </section>
+    </div>
+  </article>
+
+</div>

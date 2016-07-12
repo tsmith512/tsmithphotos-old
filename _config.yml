@@ -1,0 +1,24 @@
+# Site settings
+title: TSmithPhotos
+description: 
+baseurl: ""
+url: "http://www.tsmithphotos.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - source # Don't include the original photos directory
+  - node_modules # Apparently this is magic sauce to make Jekyll less super slow
+
+keep_files:
+  - photo # Don't clobber the photo exports directory
+  - css   # Don't clobber site CSS, this way I don't have to store compiled CSS
+  - js    # Don't clobber site JS, which is built with Gulp and includes Photoswipe
+
+defaults:
+  -
+    scope:
+      type: posts
+    values:
+      layout: post

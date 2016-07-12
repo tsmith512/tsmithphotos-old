@@ -1,0 +1,8 @@
+# Modules and Dependencies
+node_modules
+
+# Build Directory
+ _site
+
+# Temp Directories
+.sass-cache

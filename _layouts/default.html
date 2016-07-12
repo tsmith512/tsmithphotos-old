@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    {% if page.photoswipe %}
+      <script src="/js/photoswipe.js"></script>
+      <script src="/js/photoswipe-ui-default.js"></script>
+      <script src="/js/photoswipe.tsp.js"></script>
+      {% include photoswipe-container.html %}
+    {% endif %}
+  </body>
+
+</html>
