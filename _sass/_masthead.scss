@@ -84,6 +84,10 @@
         top: 50%;
         transform: translateY(-50%);
       }
+
+      &.hero-attach-bottom {
+        bottom: 0;
+      }
     }
   }
 
