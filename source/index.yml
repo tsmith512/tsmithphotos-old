@@ -5,157 +5,514 @@
     DSC_7085.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 13
+      shutter: 0.0015625
+      date: 1442314000
+      iso: 400
     DSC_7092.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 11
+      shutter: 0.002
+      date: 1442314908
+      iso: 200
     DSC_7118.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 4.5
+      shutter: 0.0125
+      date: 1442491880
+      iso: 200
     DSC_7134.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 14
+      shutter: 0.125
+      date: 1442493288
+      iso: 100
     DSC_7154.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 3.5
+      shutter: 0.01
+      date: 1442493635
+      iso: 200
     DSC_7165.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 3.5
+      shutter: 0.025
+      date: 1442494620
+      iso: 200
     DSC_7191.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 55
+      aperture: 4.5
+      shutter: 0.03333333333333333
+      date: 1442498277
+      iso: 1000
     DSC_7199.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 4.5
+      shutter: 0.03333333333333333
+      date: 1442498964
+      iso: 1000
     DSC_7221.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 4.5
+      shutter: 3
+      date: 1442510947
+      iso: 800
     DSC_7239.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 9
+      shutter: 0.003125
+      date: 1442548223
+      iso: 200
     DSC_7242.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 70
+      aperture: 5
+      shutter: 0.0025
+      date: 1442548577
+      iso: 200
     DSC_7252.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 70
+      aperture: 4.5
+      shutter: 0.02
+      date: 1442549228
+      iso: 200
     DSC_7256.jpg:
       width: 795
       height: 1200
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 52
+      aperture: 4.5
+      shutter: 0.02
+      date: 1442550008
+      iso: 200
     DSC_7277.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 6.3
+      shutter: 0.00625
+      date: 1442553811
+      iso: 200
     DSC_7344.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 4.5
+      shutter: 0.025
+      date: 1442555526
+      iso: 400
     DSC_7394.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.016666666666666666
+      date: 1442556257
+      iso: 400
     DSC_7422.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.016666666666666666
+      date: 1442556695
+      iso: 200
     DSC_7433.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 7.1
+      shutter: 0.005
+      date: 1442557399
+      iso: 200
     DSC_7472.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 5.6
+      shutter: 0.008
+      date: 1442558379
+      iso: 200
     DSC_7489.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 8
+      shutter: 0.004
+      date: 1442560889
+      iso: 200
     DSC_7516.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 8
+      shutter: 0.004
+      date: 1442657162
+      iso: 400
     DSC_7548.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 70
+      aperture: 4.5
+      shutter: 0.00625
+      date: 1442657986
+      iso: 400
     DSC_7559.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 10
+      shutter: 0.0025
+      date: 1442658677
+      iso: 400
     DSC_7575.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 46
+      aperture: 5
+      shutter: 0.01
+      date: 1442658971
+      iso: 400
     DSC_7610.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 10
+      shutter: 0.0025
+      date: 1442661458
+      iso: 400
     DSC_7619.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 35
+      aperture: 11
+      shutter: 0.002
+      date: 1442661821
+      iso: 400
     DSC_7633.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 9
+      shutter: 0.003125
+      date: 1442662259
+      iso: 200
     DSC_7652.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 6.3
+      shutter: 0.00625
+      date: 1442663443
+      iso: 200
     DSC_7677.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 70
+      aperture: 4.5
+      shutter: 0.01
+      date: 1442665355
+      iso: 320
     DSC_7694.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 2.8
+      shutter: 0.0125
+      date: 1442706944
+      iso: 1250
     DSC_7713.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 3.5
+      shutter: 0.016666666666666666
+      date: 1442709017
+      iso: 800
     DSC_7729.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 9
+      shutter: 0.003125
+      date: 1442913419
+      iso: 200
     DSC_7742.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 22
+      shutter: 0.016666666666666666
+      date: 1442913855
+      iso: 200
     DSC_7750.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 9
+      shutter: 0.003125
+      date: 1442914099
+      iso: 200
     DSC_7765.jpg:
       width: 795
       height: 1200
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 70
+      aperture: 4.5
+      shutter: 0.0125
+      date: 1442914662
+      iso: 200
     DSC_7869.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 25
+      aperture: 6.3
+      shutter: 0.00625
+      date: 1442922802
+      iso: 200
     DSC_7988.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 5
+      shutter: 0.0125
+      date: 1443166205
+      iso: 200
     DSC_7996.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 60
+      aperture: 5
+      shutter: 0.025
+      date: 1443166269
+      iso: 200
     DSC_8029.jpg:
       width: 1200
       height: 800
       hero: 1
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 4.5
+      shutter: 0.016666666666666666
+      date: 1443166554
+      iso: 320
     DSC_8035.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 4.5
+      shutter: 0.016666666666666666
+      date: 1443166692
+      iso: 320
     DSC_8038.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 4.5
+      shutter: 0.016666666666666666
+      date: 1443166705
+      iso: 320
     DSC_8045.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 4.5
+      shutter: 0.005
+      date: 1443166837
+      iso: 320
     DSC_8089.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 34
+      aperture: 5.6
+      shutter: 0.016666666666666666
+      date: 1443167815
+      iso: 800
     DSC_8104.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 3.5
+      shutter: 0.016666666666666666
+      date: 1443168165
+      iso: 400
     DSC_8130.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 34
+      aperture: 7.1
+      shutter: 0.005
+      date: 1443173049
+      iso: 200
     DSC_8136.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 70
+      aperture: 8
+      shutter: 0.001
+      date: 1443173982
+      iso: 200
     DSC_8158.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 70
+      aperture: 7.1
+      shutter: 0.00125
+      date: 1443174284
+      iso: 200
     DSC_8172.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 46
+      aperture: 4.5
+      shutter: 0.003125
+      date: 1443175354
+      iso: 200
     DSC_8188.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 55
+      aperture: 5.6
+      shutter: 0.004
+      date: 1443175753
+      iso: 200
     DSC_8250.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 6.3
+      shutter: 0.001
+      date: 1443265626
+      iso: 200
     DSC_8274.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 10
+      shutter: 0.0025
+      date: 1443265920
+      iso: 200
 2015-10-03-PSP:
   title: Pedernales State Park
   date: '2015-10-03'
@@ -163,22 +520,64 @@
     DSC_8280.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 10
+      shutter: 0.0025
+      date: 1443884029
+      iso: 100
     DSC_8292.jpg:
       width: 1200
       height: 795
       hero: 1
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 6.3
+      shutter: 0.003125
+      date: 1443884323
+      iso: 100
     DSC_8340.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 22
+      shutter: 0.03333333333333333
+      date: 1443888035
+      iso: 100
     DSC_8356.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 10
+      shutter: 0.0025
+      date: 1443888159
+      iso: 100
     DSC_8384.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 300
+      aperture: 5.6
+      shutter: 0.0015625
+      date: 1443888583
+      iso: 100
     DSC_8392.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 300
+      aperture: 5.6
+      shutter: 0.00125
+      date: 1443888710
+      iso: 100
 2015-10-31-HT:
   title: Halloween in Tulsa
   date: '2015-10-31'
@@ -186,22 +585,64 @@
     DSC_8403.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 102
+      aperture: 4.8
+      shutter: 0.008
+      date: 1446308613
+      iso: 200
     DSC_8429.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 130
+      aperture: 6.3
+      shutter: 0.025
+      date: 1446314225
+      iso: 200
     DSC_8468.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.03333333333333333
+      date: 1446322287
+      iso: 1600
     DSC_8472.jpg:
       width: 1200
       height: 795
       hero: 1
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.03333333333333333
+      date: 1446322384
+      iso: 1600
     DSC_8596.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 195
+      aperture: 5.6
+      shutter: 0.005
+      date: 1446400262
+      iso: 1250
     DSC_8630.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 220
+      aperture: 5.6
+      shutter: 0.005
+      date: 1446400572
+      iso: 1250
 2015-11-22-NYC:
   title: NYC
   date: '2015-11-22'
@@ -209,55 +650,174 @@
     DSC_8698.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 70
+      aperture: 4.5
+      shutter: 0.004
+      date: 1448106771
+      iso: 200
     DSC_8736.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 165
+      aperture: 5
+      shutter: 0.000625
+      date: 1448108084
+      iso: 200
     DSC_8752.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 4.5
+      shutter: 0.001
+      date: 1448121786
+      iso: 200
     DSC_8825.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 35
+      aperture: 8
+      shutter: 0.004
+      date: 1448124189
+      iso: 200
     DSC_8832.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 3.5
+      shutter: 0.02
+      date: 1448124340
+      iso: 800
     DSC_8846.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.008
+      date: 1448125582
+      iso: 1250
     DSC_8862.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.016666666666666666
+      date: 1448125756
+      iso: 1250
     DSC_8875.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.000625
+      date: 1448193144
+      iso: 200
     DSC_8900.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 40
+      aperture: 4.2
+      shutter: 0.0025
+      date: 1448193599
+      iso: 200
     DSC_8905.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 195
+      aperture: 5
+      shutter: 0.008
+      date: 1448193749
+      iso: 200
     DSC_8922.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 240
+      aperture: 5.3
+      shutter: 0.01
+      date: 1448193850
+      iso: 200
     DSC_8935.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 10
+      shutter: 0.0025
+      date: 1448194472
+      iso: 200
     DSC_8955.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 10
+      shutter: 0.0025
+      date: 1448195764
+      iso: 400
     DSC_8959.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 200
+      aperture: 5
+      shutter: 0.00625
+      date: 1448195819
+      iso: 400
     DSC_8981.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 280
+      aperture: 5.6
+      shutter: 0.00125
+      date: 1448195927
+      iso: 400
     DSC_8994.jpg:
       width: 1200
       height: 800
       hero: 1
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 300
+      aperture: 5.6
+      shutter: 0.0025
+      date: 1448195935
+      iso: 400
     DSC_9001.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.0015625
+      date: 1448196080
+      iso: 200
 2015-11-30-TR:
   title: Thanksgiving and Ranch
   date: '2015-11-30'
@@ -265,19 +825,54 @@
     DSC_9044.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 35
+      aperture: 4.2
+      shutter: 0.0015625
+      date: 1448631548
+      iso: 640
     DSC_9077.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 35
+      aperture: 25
+      shutter: 0.3333333333333333
+      date: 1448639277
+      iso: 200
     DSC_9128.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 4.5
+      shutter: 0.008
+      date: 1448641159
+      iso: 100
     DSC_9139.jpg:
       width: 1200
       height: 795
       hero: 1
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 2.5
+      shutter: 0.01
+      date: 1448656151
+      iso: 1600
     DSC_9162.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 40.0 mm f/2.8
+      focal: 40
+      aperture: 2.8
+      shutter: 0.025
+      date: 1448661227
+      iso: 800
 2015-12-19-CG:
   title: Charlies Graduation
   date: '2015-12-19'
@@ -285,37 +880,114 @@
     DSC_9201.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 8
+      shutter: 0.004
+      date: 1450523861
+      iso: 200
     DSC_9210.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 50
+      aperture: 6.3
+      shutter: 0.00625
+      date: 1450523920
+      iso: 200
     DSC_9230.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 6.3
+      shutter: 0.00625
+      date: 1450524075
+      iso: 100
     DSC_9236.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 4
+      shutter: 0.016666666666666666
+      date: 1450524157
+      iso: 100
     DSC_9317.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.001
+      date: 1450542181
+      iso: 200
     DSC_9384.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 11
+      shutter: 0.002
+      date: 1450549151
+      iso: 400
     DSC_9390.jpg:
       width: 1200
       height: 800
       hero: 1
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 8
+      shutter: 0.004
+      date: 1450549231
+      iso: 400
     DSC_9396.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 10
+      shutter: 0.0025
+      date: 1450549278
+      iso: 400
     DSC_9401.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 10
+      shutter: 0.0025
+      date: 1450549298
+      iso: 400
     DSC_9408.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 10
+      shutter: 0.0025
+      date: 1450549379
+      iso: 400
     DSC_9421.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.008
+      date: 1450551697
+      iso: 400
 2015-12-28-DS:
   title: Dogs in Snow
   date: '2015-12-28'
@@ -323,23 +995,65 @@
     DSC_9456.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 185
+      aperture: 5
+      shutter: 0.004
+      date: 1451321670
+      iso: 200
     DSC_9583.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 195
+      aperture: 6.3
+      shutter: 0.004
+      date: 1451322077
+      iso: 640
     DSC_9600.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 165
+      aperture: 6.3
+      shutter: 0.004
+      date: 1451322108
+      iso: 640
     DSC_9675.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 125
+      aperture: 7.1
+      shutter: 0.004
+      date: 1451322184
+      iso: 640
     DSC_9691 - with ear from 9689.jpg:
       width: 1200
       height: 795
       hero: 1
       hero_attachment: top
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 125
+      aperture: 8
+      shutter: 0.004
+      date: 1451322204
+      iso: 640
     DSC_9723.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 185
+      aperture: 8
+      shutter: 0.003125
+      date: 1451322276
+      iso: 640
 2016-01-03-CR:
   title: Christmas Ranch
   date: '2016-01-03'
@@ -347,55 +1061,174 @@
     DSC_0010.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.016666666666666666
+      date: 1451686972
+      iso: 1000
     DSC_0126.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 0.005
+      date: 1451742737
+      iso: 200
     DSC_0175.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 300
+      aperture: 5.6
+      shutter: 0.00625
+      date: 1451743259
+      iso: 200
     DSC_0192.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 300
+      aperture: 5.6
+      shutter: 0.003125
+      date: 1451743617
+      iso: 200
     DSC_0201.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 300
+      aperture: 5.6
+      shutter: 0.005
+      date: 1451743780
+      iso: 200
     DSC_0252.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 220
+      aperture: 5.6
+      shutter: 0.00625
+      date: 1451744455
+      iso: 200
     DSC_0272.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 155
+      aperture: 5.6
+      shutter: 0.005
+      date: 1451745154
+      iso: 200
     DSC_0330.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 70
+      aperture: 4.5
+      shutter: 0.00625
+      date: 1451750186
+      iso: 200
     DSC_0389.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 48
+      aperture: 4.5
+      shutter: 0.0025
+      date: 1451750590
+      iso: 640
     DSC_0473.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.001
+      date: 1451752214
+      iso: 400
     DSC_0516.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 2
+      shutter: 0.005
+      date: 1451754631
+      iso: 100
     DSC_0531.jpg:
       width: 1200
       height: 795
       hero: 1
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.004
+      date: 1451757644
+      iso: 320
     DSC_0585.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 150
+      aperture: 4.8
+      shutter: 0.00125
+      date: 1451818123
+      iso: 200
     DSC_0630.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 300
+      aperture: 5.6
+      shutter: 0.000625
+      date: 1451819627
+      iso: 200
     DSC_0941.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 68
+      aperture: 5.6
+      shutter: 0.002
+      date: 1451831886
+      iso: 200
     DSC_9746.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 2.8
+      shutter: 0.0025
+      date: 1451396096
+      iso: 200
     DSC_9832.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 2.8
+      shutter: 0.02
+      date: 1451685641
+      iso: 800
 2016-01-31-AZ:
   title: Austin Zoo
   date: '2016-01-31'
@@ -403,25 +1236,74 @@
     DSC_1037.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 100
+      aperture: 4.8
+      shutter: 0.002
+      date: 1454175348
+      iso: 400
     DSC_1090.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 300
+      aperture: 5.6
+      shutter: 0.00625
+      date: 1454176933
+      iso: 800
     DSC_1137.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.0125
+      date: 1454192125
+      iso: 800
     DSC_1166.jpg:
       width: 1200
       height: 795
       hero: 1
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 210
+      aperture: 5.3
+      shutter: 0.00625
+      date: 1454251075
+      iso: 200
     DSC_1432.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 240
+      aperture: 5.6
+      shutter: 0.005
+      date: 1454256452
+      iso: 400
     DSC_1579.jpg:
       width: 795
       height: 1200
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.002
+      date: 1454258527
+      iso: 200
     DSC_1589.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 300
+      aperture: 5.6
+      shutter: 0.004
+      date: 1454258624
+      iso: 200
 2016-02-27-SANDC2016:
   title: SANDCamp 2016
   date: '2016-02-27'
@@ -429,43 +1311,134 @@
     DSC_1632.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.00125
+      date: 1456495728
+      iso: 100
     DSC_1637.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.002
+      date: 1456495814
+      iso: 100
     DSC_1642.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.000625
+      date: 1456495848
+      iso: 100
     DSC_1663.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.00125
+      date: 1456504599
+      iso: 100
     DSC_1767.jpg:
       width: 1200
       height: 795
       hero: 1
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 14
+      shutter: 0.00125
+      date: 1456605676
+      iso: 200
     DSC_1830.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 11
+      shutter: 0.002
+      date: 1456670658
+      iso: 100
     DSC_1868.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 10
+      shutter: 0.0025
+      date: 1456671445
+      iso: 100
     DSC_1891.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 78
+      aperture: 8
+      shutter: 0.001
+      date: 1456671664
+      iso: 100
     DSC_1951.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 11
+      shutter: 0.002
+      date: 1456673098
+      iso: 100
     DSC_2046.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 120
+      aperture: 7.1
+      shutter: 0.00125
+      date: 1456675276
+      iso: 100
     DSC_2063.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 300
+      aperture: 5.6
+      shutter: 0.0008
+      date: 1456675307
+      iso: 100
     DSC_2122.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 105
+      aperture: 10
+      shutter: 0.000625
+      date: 1456676523
+      iso: 100
     DSC_2197.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 1.8
+      shutter: 0.03333333333333333
+      date: 1456687973
+      iso: 400
 2016-03-05-MKF:
   title: McKinney Falls
   date: '2016-03-05'
@@ -473,16 +1446,44 @@
     DSC_2218.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 35.0 mm f/1.8
+      focal: 35
+      aperture: 1.8
+      shutter: 0.0003125
+      date: 1457191523
+      iso: 100
     DSC_2225.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 40.0 mm f/2.8
+      focal: 40
+      aperture: 3
+      shutter: 0.000625
+      date: 1457191723
+      iso: 100
     DSC_2238.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 9
+      shutter: 0.004
+      date: 1457192316
+      iso: 100
     DSC_2266.jpg:
       width: 1200
       height: 795
       hero: 1
+      camera: NIKON D7000
+      lens: 40.0 mm f/2.8
+      focal: 40
+      aperture: 3
+      shutter: 0.0005
+      date: 1457195225
+      iso: 100
 2016-03-13-PAARSFOC:
   title: Palo Alto for AR and SFO w Charlie
   date: '2016-03-13'
@@ -490,31 +1491,94 @@
     DSC_2278.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 40.0 mm f/2.8
+      focal: 40
+      aperture: 3.2
+      shutter: 0.008
+      date: 1457695144
+      iso: 640
     DSC_2283.jpg:
       width: 1200
       height: 795
       hero: 1
+      camera: NIKON D7000
+      lens: 40.0 mm f/2.8
+      focal: 40
+      aperture: 3.2
+      shutter: 0.0025
+      date: 1457695169
+      iso: 640
     DSC_2292.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 40.0 mm f/2.8
+      focal: 40
+      aperture: 3.2
+      shutter: 0.01
+      date: 1457695221
+      iso: 640
     DSC_2328.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 50.0 mm f/1.8
+      focal: 50
+      aperture: 2.8
+      shutter: 0.0015625
+      date: 1457790260
+      iso: 100
     DSC_2339.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 40.0 mm f/2.8
+      focal: 40
+      aperture: 3
+      shutter: 0.003125
+      date: 1457790610
+      iso: 100
     DSC_2346.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 40.0 mm f/2.8
+      focal: 40
+      aperture: 3.2
+      shutter: 0.00125
+      date: 1457790681
+      iso: 100
     DSC_2365.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 180
+      aperture: 5
+      shutter: 0.004
+      date: 1457791287
+      iso: 200
     DSC_2412.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 260
+      aperture: 5.6
+      shutter: 0.003125
+      date: 1457791503
+      iso: 200
     DSC_2431.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 40.0 mm f/2.8
+      focal: 40
+      aperture: 3
+      shutter: 0.002
+      date: 1457792359
+      iso: 200
 2016-03-14-FX-E1J:
   title: Fuji X-E1 and Juno
   date: '2016-03-14'
@@ -522,19 +1586,54 @@
     DSCF5020.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 5
+      shutter: 0.008
+      date: 1457981744
+      iso: 400
     DSCF5021.jpg:
       width: 800
       height: 1200
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 5.6
+      shutter: 0.007142857142857143
+      date: 1457982126
+      iso: 400
     DSCF5028.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 48.4
+      aperture: 4.5
+      shutter: 0.006666666666666667
+      date: 1457982170
+      iso: 400
     DSCF5029.jpg:
       width: 1200
       height: 800
       hero: 1
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 39
+      aperture: 3.6
+      shutter: 0.008333333333333333
+      date: 1457982670
+      iso: 400
     DSCF5034.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 28.9
+      aperture: 3.2
+      shutter: 0.008
+      date: 1457982687
+      iso: 400
 2016-03-21-TWRVFXE1:
   title: Tulsa Weekend for Roadtrip Video with Fuji XE1
   date: '2016-03-21'
@@ -543,21 +1642,63 @@
       width: 800
       height: 1200
       hero: 1
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 2.8
+      shutter: 0.2
+      date: 1458324674
+      iso: 1600
     DSCF5174.jpg:
       width: 800
       height: 1200
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 2.8
+      shutter: 0.1111111111111111
+      date: 1458324787
+      iso: 1600
     DSCF5175.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 2.8
+      shutter: 0.14285714285714285
+      date: 1458327817
+      iso: 1600
     DSCF5179.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 2.8
+      shutter: 0.009523809523809525
+      date: 1458337012
+      iso: 200
     DSCF5224.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 40.7
+      aperture: 4
+      shutter: 0.0011111111111111111
+      date: 1458401661
+      iso: 200
     DSCF5227.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 28.9
+      aperture: 3.6
+      shutter: 0.08333333333333333
+      date: 1458402183
+      iso: 1600
 2016-04-09-OCN-EPGA:
   title: Oklahoma City and Norman - also Easter and Patricks Going Away
   date: '2016-04-09'
@@ -565,55 +1706,174 @@
     DSCF4027.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 30.2
+      aperture: 4.5
+      shutter: 0.0011111111111111111
+      date: 1460202848
+      iso: 200
     DSCF4035.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 35.8
+      aperture: 4.5
+      shutter: 0.0018181818181818182
+      date: 1460202972
+      iso: 200
     DSCF4042.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4.5
+      shutter: 0.004166666666666667
+      date: 1460203071
+      iso: 200
     DSCF4045.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 21.4
+      aperture: 4.5
+      shutter: 0.004
+      date: 1460203130
+      iso: 200
     DSCF4057.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 4
+      shutter: 0.0006666666666666666
+      date: 1460205167
+      iso: 200
     DSCF4070.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 2.8
+      shutter: 0.00025
+      date: 1460205649
+      iso: 200
     DSCF4074.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 2.8
+      shutter: 0.0006666666666666666
+      date: 1460206613
+      iso: 200
     DSCF4075.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 2.8
+      shutter: 0.0005
+      date: 1460207893
+      iso: 200
     DSCF4087.jpg:
       width: 1200
       height: 800
       hero: 1
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 5.6
+      shutter: 0.005
+      date: 1460208797
+      iso: 200
     DSCF4093.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 5.6
+      shutter: 0.005555555555555556
+      date: 1460209032
+      iso: 200
     DSCF4126.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4
+      shutter: 0.0005555555555555556
+      date: 1460210438
+      iso: 400
     DSCF4131.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 4
+      shutter: 0.000625
+      date: 1460211210
+      iso: 400
     DSCF4134.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 26.5
+      aperture: 4
+      shutter: 0.0013333333333333333
+      date: 1460211293
+      iso: 400
     DSCF4150.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 4
+      shutter: 0.0006666666666666666
+      date: 1460211743
+      iso: 200
     DSCF4159.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 4
+      shutter: 0.00025
+      date: 1460214423
+      iso: 200
     DSCF4168.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4
+      shutter: 0.0010526315789473684
+      date: 1460214577
+      iso: 200
     DSCF4170.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 4
+      shutter: 0.0003333333333333333
+      date: 1460214589
+      iso: 200
 2016-04-20-SIA:
   title: Scotland and Ireland with Alex
   date: '2016-04-20'
@@ -621,235 +1881,774 @@
     DSCF4194.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 7.1
+      shutter: 0.03333333333333333
+      date: 1460827461
+      iso: 640
     DSCF4202.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 7.1
+      shutter: 0.001
+      date: 1460866936
+      iso: 400
     DSCF4229.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18.8
+      aperture: 7.1
+      shutter: 0.002857142857142857
+      date: 1460975743
+      iso: 200
     DSCF4274.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 7.1
+      shutter: 0.002857142857142857
+      date: 1461086470
+      iso: 200
     DSC_2510.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 44
+      aperture: 4.2
+      shutter: 0.025
+      date: 1460927716
+      iso: 1250
     DSC_2606.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 62
+      aperture: 7.1
+      shutter: 0.00125
+      date: 1460984386
+      iso: 200
     DSC_2612.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 24
+      aperture: 11
+      shutter: 0.002
+      date: 1460997441
+      iso: 200
     DSC_2619.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 56
+      aperture: 4.5
+      shutter: 0.005
+      date: 1460997962
+      iso: 200
     DSC_2635.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 98
+      aperture: 22
+      shutter: 0.03333333333333333
+      date: 1461006137
+      iso: 400
     DSC_2669.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 4
+      shutter: 0.016666666666666666
+      date: 1461012856
+      iso: 400
     DSC_2687.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 40
+      aperture: 9
+      shutter: 0.003125
+      date: 1461054700
+      iso: 400
     DSC_2767.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 22
+      shutter: 0.0025
+      date: 1461064744
+      iso: 800
     DSC_2798.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 22
+      shutter: 0.005
+      date: 1461065188
+      iso: 800
     DSC_2952.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 240
+      aperture: 5.3
+      shutter: 0.001
+      date: 1461073155
+      iso: 400
     DSC_2971.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 210
+      aperture: 5.3
+      shutter: 0.00125
+      date: 1461073186
+      iso: 400
     DSC_3039.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 78
+      aperture: 10
+      shutter: 0.000625
+      date: 1461075147
+      iso: 400
     DSC_3048.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 300
+      aperture: 5.6
+      shutter: 0.001
+      date: 1461075155
+      iso: 400
     DSC_3243.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 195
+      aperture: 5
+      shutter: 0.0008
+      date: 1461077512
+      iso: 400
     DSC_3345.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 220
+      aperture: 5.3
+      shutter: 0.002
+      date: 1461078476
+      iso: 400
     DSC_3453.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 120
+      aperture: 8
+      shutter: 0.001
+      date: 1461089075
+      iso: 800
     DSC_3477.jpg:
       width: 1200
       height: 795
       hero: 1
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 56
+      aperture: 8
+      shutter: 0.00125
+      date: 1461095230
+      iso: 800
     DSC_3517.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 18
+      shutter: 0.0008
+      date: 1461148494
+      iso: 800
     DSC_3556.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 10
+      shutter: 0.0025
+      date: 1461156740
+      iso: 200
     DSC_3608.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 24
+      aperture: 10
+      shutter: 0.003125
+      date: 1461159174
+      iso: 200
     DSC_3618.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 34
+      aperture: 9
+      shutter: 0.003125
+      date: 1461159616
+      iso: 200
     DSC_3621.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 34
+      aperture: 10
+      shutter: 0.0025
+      date: 1461159732
+      iso: 200
     DSC_3630.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 44
+      aperture: 29
+      shutter: 0.03333333333333333
+      date: 1461159887
+      iso: 200
     DSC_3638.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 9
+      shutter: 0.003125
+      date: 1461160361
+      iso: 200
     DSC_3648.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 11
+      shutter: 0.002
+      date: 1461160673
+      iso: 200
     DSC_3662.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 130
+      aperture: 5.6
+      shutter: 0.002
+      date: 1461161285
+      iso: 200
     DSC_3677.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 31
+      aperture: 10
+      shutter: 0.0025
+      date: 1461161584
+      iso: 200
     DSC_3681.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 70
+      aperture: 7.1
+      shutter: 0.00125
+      date: 1461167997
+      iso: 200
     DSC_3710.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 8
+      shutter: 0.004
+      date: 1461170668
+      iso: 200
     DSC_3715.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 10
+      shutter: 0.0025
+      date: 1461170773
+      iso: 200
     DSC_3717.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 9
+      shutter: 0.003125
+      date: 1461170869
+      iso: 200
     DSC_3732.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 9
+      shutter: 0.003125
+      date: 1461171526
+      iso: 200
     DSC_3738.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 9
+      shutter: 0.003125
+      date: 1461171724
+      iso: 200
     DSC_3760.jpg:
       width: 800
       height: 1200
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 3.5
+      shutter: 0.003125
+      date: 1461175732
+      iso: 200
     DSC_3764.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 44
+      aperture: 4.2
+      shutter: 0.004
+      date: 1461175774
+      iso: 200
     DSC_3793.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 29
+      aperture: 5.6
+      shutter: 0.008
+      date: 1461179344
+      iso: 200
     DSC_3833.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 27
+      aperture: 5.6
+      shutter: 0.008
+      date: 1461182426
+      iso: 200
     DSC_3840.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 8
+      shutter: 1
+      date: 1461186199
+      iso: 200
     DSCF4299.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 37.4
+      aperture: 8
+      shutter: 0.002380952380952381
+      date: 1461256295
+      iso: 200
     DSCF4305.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 9
+      shutter: 0.0025
+      date: 1461416868
+      iso: 200
     DSCF4321.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 21.4
+      aperture: 9
+      shutter: 0.0025
+      date: 1461418801
+      iso: 200
     DSCF4328.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4.5
+      shutter: 0.008
+      date: 1461418909
+      iso: 200
     DSCF4385.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18.8
+      aperture: 2.8
+      shutter: 0.008
+      date: 1461422741
+      iso: 1000
     DSCF4391.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 30.2
+      aperture: 3.6
+      shutter: 0.025
+      date: 1461422868
+      iso: 1000
     DSCF4404.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 2.8
+      shutter: 0.008
+      date: 1461423198
+      iso: 1000
     DSCF4405.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 2.8
+      shutter: 0.008333333333333333
+      date: 1461423280
+      iso: 1000
     DSCF4409.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 37.4
+      aperture: 3.6
+      shutter: 0.01818181818181818
+      date: 1461423416
+      iso: 1000
     DSCF4430.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4
+      shutter: 0.0035714285714285713
+      date: 1461425408
+      iso: 200
     DSCF4438.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 4
+      shutter: 0.0003333333333333333
+      date: 1461426076
+      iso: 200
     DSCF4445.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 2.8
+      shutter: 0.025
+      date: 1461426844
+      iso: 800
     DSCF4486.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 2.8
+      shutter: 0.0014705882352941176
+      date: 1461503731
+      iso: 200
     DSCF4489.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 2.8
+      shutter: 0.0022222222222222222
+      date: 1461504090
+      iso: 200
     DSCF4491.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 2.8
+      shutter: 0.0005
+      date: 1461509552
+      iso: 200
     DSCF4496.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 25.4
+      aperture: 5.6
+      shutter: 0.006666666666666667
+      date: 1461510005
+      iso: 200
     DSCF4503.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 5
+      shutter: 0.008
+      date: 1461510455
+      iso: 200
     DSCF4508.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4
+      shutter: 0.0033333333333333335
+      date: 1461510656
+      iso: 200
     DSCF4515.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 30.2
+      aperture: 4
+      shutter: 0.003125
+      date: 1461510774
+      iso: 200
     DSCF4521.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4
+      shutter: 0.0022222222222222222
+      date: 1461510877
+      iso: 200
     DSCF4524.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4
+      shutter: 0.0010526315789473684
+      date: 1461511031
+      iso: 200
     DSCF4536.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4
+      shutter: 0.005555555555555556
+      date: 1461512490
+      iso: 200
     DSCF4547.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 4
+      shutter: 3.1
+      date: 1461537259
+      iso: 200
     DSCF4550.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 4
+      shutter: 2.5
+      date: 1461537292
+      iso: 200
     DSC_3879.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 31
+      aperture: 11
+      shutter: 0.002
+      date: 1461244571
+      iso: 400
     DSC_3885.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 13
+      shutter: 0.0015625
+      date: 1461244811
+      iso: 400
     DSC_3986.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 125
+      aperture: 9
+      shutter: 0.0008
+      date: 1461253233
+      iso: 200
     DSC_4012.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 7.1
+      shutter: 0.005
+      date: 1461325985
+      iso: 100
     DSC_4031.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 56
+      aperture: 4.5
+      shutter: 0.005
+      date: 1461326736
+      iso: 100
     DSC_4045.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 3.5
+      shutter: 0.000625
+      date: 1461327264
+      iso: 100
     DSC_4090.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 22
+      shutter: 0.1
+      date: 1461327766
+      iso: 100
     DSC_4116.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 62
+      aperture: 4.5
+      shutter: 0.008
+      date: 1461328653
+      iso: 100
     DSC_4129.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 16
+      shutter: 0.16666666666666666
+      date: 1461328889
+      iso: 100
     DSC_4150.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 9
+      shutter: 0.003125
+      date: 1461329910
+      iso: 100
     DSC_4188.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 300
+      aperture: 5.6
+      shutter: 0.01
+      date: 1461342119
+      iso: 100
 2016-05-01-SC:
   title: Softball and Croquet
   date: '2016-05-01'
@@ -857,19 +2656,54 @@
     DSC_4254.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 195
+      aperture: 5
+      shutter: 0.0025
+      date: 1462116074
+      iso: 400
     DSC_4303.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 180
+      aperture: 5
+      shutter: 0.001
+      date: 1462100356
+      iso: 400
     DSC_4322.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 92
+      aperture: 4.5
+      shutter: 0.000625
+      date: 1462101521
+      iso: 400
     DSC_4393.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 200
+      aperture: 5
+      shutter: 0.0005
+      date: 1462109301
+      iso: 400
     DSC_4410.jpg:
       width: 1200
       height: 800
       hero: 1
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 92
+      aperture: 4.5
+      shutter: 0.0003125
+      date: 1462110196
+      iso: 400
 2016-05-13-DCNO:
   title: DrupalCon New Orleans
   date: '2016-05-13'
@@ -877,22 +2711,64 @@
     DSCF4569.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 42.5
+      aperture: 4
+      shutter: 0.03333333333333333
+      date: 1462872703
+      iso: 1600
     DSCF4640.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 30.2
+      aperture: 4
+      shutter: 0.016666666666666666
+      date: 1463072867
+      iso: 640
     DSCF4679.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 39
+      aperture: 4
+      shutter: 0.025
+      date: 1463073964
+      iso: 400
     DSCF4725.jpg:
       width: 1200
       height: 800
       hero: 1
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 28.9
+      aperture: 4
+      shutter: 0.001176470588235294
+      date: 1463074605
+      iso: 200
     DSCF4779.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4
+      shutter: 0.0058823529411764705
+      date: 1463075241
+      iso: 200
     DSC_4424.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 10
+      shutter: 0.1
+      date: 1462650189
+      iso: 400
 2016-05-29-LPTSCF:
   title: Lake Placid Trip in Seguin with Charlie and Friends
   date: '2016-05-29'
@@ -900,40 +2776,124 @@
     DSCF4839.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 2.8
+      shutter: 0.0016666666666666668
+      date: 1464445006
+      iso: 200
     DSCF4846.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4
+      shutter: 0.0013333333333333333
+      date: 1464445692
+      iso: 200
     DSCF4858.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 22
+      shutter: 0.5
+      date: 1464448065
+      iso: 200
     DSCF4868.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 46.3
+      aperture: 4
+      shutter: 0.002
+      date: 1464451716
+      iso: 200
     DSCF4884.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4.5
+      shutter: 0.0029411764705882353
+      date: 1464453119
+      iso: 200
     DSCF4941.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 3.6
+      shutter: 0.01
+      date: 1464460779
+      iso: 200
     DSCF4966.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 19.6
+      aperture: 3.6
+      shutter: 0.004
+      date: 1464461980
+      iso: 320
     DSCF5011.jpg:
       width: 1200
       height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 20
+      shutter: 0.5
+      date: 1464466127
+      iso: 200
     DSCF5012.jpg:
       width: 1200
       height: 800
       hero: 1
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 2.8
+      shutter: 0.025
+      date: 1464467310
+      iso: 200
     DSC_4539.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 70
+      aperture: 4.5
+      shutter: 0.003125
+      date: 1464542697
+      iso: 200
     DSC_4608.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 62
+      aperture: 4.5
+      shutter: 0.0025
+      date: 1464543471
+      iso: 200
     DSC_4968.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 29
+      aperture: 3.8
+      shutter: 0.00125
+      date: 1464549518
+      iso: 400
 2016-06-19-RCPBI:
   title: River City Pops British Invasion
   date: '2016-06-19'
@@ -941,19 +2901,61 @@
     DSC_5078.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 22
+      aperture: 3.5
+      shutter: 0.025
+      date: 1466342419
+      iso: 1600
     DSC_5150.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 62
+      aperture: 4.5
+      shutter: 0.00625
+      date: 1466345129
+      iso: 2000
     DSC_5302.jpg:
       width: 1200
       height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 50
+      aperture: 4.5
+      shutter: 0.01
+      date: 1466345775
+      iso: 2000
     DSC_6277.jpg:
       width: 1200
       height: 800
       hero: 1
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 3.5
+      shutter: 0.00625
+      date: 1466350350
+      iso: 1250
     DSC_6307.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 3.5
+      shutter: 0.00625
+      date: 1466350639
+      iso: 1250
     DSC_6372.jpg:
       width: 1200
       height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 70
+      aperture: 4.5
+      shutter: 0.00625
+      date: 1466350721
+      iso: 1250
