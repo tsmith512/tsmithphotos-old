@@ -2,3 +2,18 @@
 title: The Fuji XE1's First Trip
 location: Tulsa, Oklahoma
 ---
+
+I said I wanted this camera
+[because it would be more portable]({% post_url 2016-03-14-FX-E1J %}), and this
+weekend it proved itself so. It fit right into the laptop bag for the flight
+and I carried it around during workdays downtown. I even took it to the
+[Saturn Room](http://www.saturnroom.com/), the new establishment at 209 North
+Boulder Avenue, former home to Club 209 where I worked and partied for many years.
+
+It's fairly zippy, and I love the image quality. Its auto-metering tends to be
+cooler but brighter than the Nikon, and I like that distinction. The one gotcha
+that I'm still working through is AF. On SLRs, if the shutter button remains
+half-depressed between shots, the AF and AE locks remain. On the Fuji, that's a
+separate button. And even when I do remember to also hold the AE/AF lock,
+multiple exposures are still slower unless you specifically select a 3fps or
+6fps "Drive Mode." I'll keep playing with it, but so far, I'm pretty pleased.

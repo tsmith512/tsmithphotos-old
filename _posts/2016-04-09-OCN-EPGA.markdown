@@ -22,3 +22,7 @@ fixtures that I've used in shows before. Unfortunately, while the bridge is
 cool, we learned that it goes
 [from nowhere to nowhere else](https://www.google.com/maps/place/Skydance+Pedestrian+Bridge,+Oklahoma+City,+OK+73109/@35.4564231,-97.5196303,17z)
 over Interstate 40. Maybe there will be parks or buildings at each end one day.
+
+This was the second trip in as many weeks for the
+[new Fuji]({% post_url 2016-03-14-FX-E1J %}). I think we've developed quite a
+lovely partnership.
