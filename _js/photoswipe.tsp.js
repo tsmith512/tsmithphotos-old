@@ -54,6 +54,10 @@
     // define options (if needed)
     var options = {
       index: index,
+      shareButtons: [
+        // No social sharing from this site, but the download button is a decent idea
+        {id:'download', label:'Download image', url:'{{raw_image_url}}', download:true}
+      ],
       addCaptionHTMLFn: function(item, captionEl, isFake) {
         captionEl.children[0].innerHTML = ['<span class="camera">', item.camera, '</span><span class="exposure">', item.exposure, '</span>'].join(' ');
         return true;
