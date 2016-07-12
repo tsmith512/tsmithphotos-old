@@ -69,7 +69,7 @@ var walkPhotos = function(path, index) {
         lens: exifResult.tags.LensModel || null,
         focal: exifResult.tags.FocalLength || null,
         aperture: exifResult.tags.FNumber || null,
-        shutter: exifResult.tags.ExposureTime || null,
+        shutter: (exifResult.tags.ExposureTime > 1 ? (exifResult.tags.ExposureTime + "s") : ("1/" + (1/exifResult.tags.ExposureTime))) || null,
         iso: exifResult.tags.ISO || null,
         date: exifResult.tags.DateTimeOriginal || null,
       };
