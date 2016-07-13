@@ -1,0 +1,31 @@
+/**
+ * @file _site-footer.scss
+ * Global site footer
+ */
+.site-footer {
+  margin: 2rem 1rem 1rem 1rem;
+  padding: 1rem 0;
+  border-top: 2px solid black;
+
+  @include breakpoint($masthead-box) {
+    margin: 2rem;
+    max-width: 960px;
+    border-top: 2px solid #ddd;
+  }
+
+  @include breakpoint($masthead-banner-full) {
+    width: 960px;
+    margin: 2rem auto 1rem auto;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+
+    max-width: 70px;
+
+    @include breakpoint($masthead-banner-full) {
+      max-width: 90px;
+    }
+  }
+}
