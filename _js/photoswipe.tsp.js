@@ -3,7 +3,7 @@
  * Include this site's setup and init for Photoswipe. We get the
  * library's primary and skin JS/CSS through the node module package.
  */
-(function(){
+(function () {
   'use strict';
 
   // A container for all gallery items on this page
@@ -15,7 +15,7 @@
 
     for (var i = 0; i < total; i++) {
       var photo = photos[i]; // This element is the link tag, not the thumbnail image.
-      
+
       // Include only elements
       if (photo.nodeType !== 1) { continue; }
 
@@ -28,14 +28,14 @@
         msrc: photo.getAttribute('href').replace('original', 'medium'),
         camera: photo.getAttribute('data-camera'),
         exposure: photo.getAttribute('data-exposure'),
-        title: ' ', // @TODO: Implement title. But remember that PhotoSwipe will not show the caption element without title being non-empty.
+        title: ' ' // @TODO: Implement title. But remember that PhotoSwipe will not show the caption element without title being non-empty.
       };
 
       items.push(item);
     }
   }
 
-  document.addEventListener("DOMContentLoaded", galleryItems);
+  document.addEventListener('DOMContentLoaded', galleryItems);
 
   function launchLightbox(e) {
     e.preventDefault();
@@ -56,32 +56,30 @@
       index: index,
       shareButtons: [
         // No social sharing from this site, but the download button is a decent idea
-        {id:'download', label:'Download image', url:'{{raw_image_url}}', download:true}
+        {id: 'download', label: 'Download image', url: '{{raw_image_url}}', download: true}
       ],
-      addCaptionHTMLFn: function(item, captionEl, isFake) {
+      addCaptionHTMLFn: function (item, captionEl, isFake) {
         captionEl.children[0].innerHTML = ['<span class="camera">', item.camera, '</span><span class="exposure">', item.exposure, '</span>'].join(' ');
         return true;
-      },
+      }
     };
 
     // Initializes and opens PhotoSwipe
-    var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+    var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
     gallery.init();
-  };
+  }
 
   // Loop through photos in the album and attach the above initializer
-  var photos = document.querySelectorAll(".album a");
+  var photos = document.querySelectorAll('.album a');
   for (var i = 0; i < photos.length; i++) {
-    var current = photos[i];
-    current.addEventListener('click', launchLightbox, false);
+    photos[i].addEventListener('click', launchLightbox, false);
   }
 
   // Now look for any photos called out in the copy. If someone clicks
   // on one, launch the lightbox of the gallery at that index. (Shortcut: just fire a click on that thumbnail.)
-  var figures = document.querySelectorAll(".photo-block img");
+  var figures = document.querySelectorAll('.photo-block img');
   for (var i = 0; i < figures.length; i++) {
-    var current = figures[i];
-    current.addEventListener('click', function(){
+    figures[i].addEventListener('click', function () {
       var thumb = document.querySelectorAll('[src="' + this.getAttribute('src').replace('medium', 'thumb') + '"]');
       if (thumb.length) {
         thumb[0].parentNode.click();
