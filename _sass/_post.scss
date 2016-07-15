@@ -113,6 +113,11 @@
     img {
       display: block;
     }
+
+    a:hover img {
+      -webkit-filter: brightness(150%) grayscale(25%);
+      filter: brightness(150%) grayscale(25%);
+    }
   }
 
   .nav {
