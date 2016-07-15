@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 
+var autoprefixer = require('gulp-autoprefixer');
 var exif = require('exif-parser');
 var fs = require('fs');
 var imagemin = require('gulp-imagemin');
@@ -156,6 +157,10 @@ gulp.task('photos', function() {
 gulp.task('sass', function () {
   return gulp.src('./_sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
+    .pipe(autoprefixer({
+      browsers: ['last 2 versions'],
+      cascade: false
+    }))
     .pipe(gulp.dest('./_site/css'));
 });
 
