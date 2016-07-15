@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 
 var autoprefixer = require('gulp-autoprefixer');
+var eslint = require('gulp-eslint');
 var exif = require('exif-parser');
 var fs = require('fs');
 var imagemin = require('gulp-imagemin');
@@ -172,6 +173,13 @@ gulp.task('js-photoswipe', function() {
 gulp.task('js-photoswipe-assets', function() {
   return gulp.src(['./node_modules/photoswipe/dist/default-skin/*.png', './node_modules/photoswipe/dist/default-skin/*.svg', './node_modules/photoswipe/dist/default-skin/*.gif'])
     .pipe(gulp.dest('./_site/css'));
+});
+
+gulp.task('lint', function() {
+  return gulp.src(['_js/**/*.js','!node_modules/**'])
+    .pipe(eslint())
+    .pipe(eslint.format())
+    .pipe(eslint.failAfterError());
 });
 
 gulp.task('js', ['js-photoswipe', 'js-photoswipe-assets']);
