@@ -3,48 +3,34 @@ title: In search of Scotch and the Loch Ness Monster
 location: Scotland / Dublin, Ireland
 ---
 
-Alex and I grew up next door to each other and will simplify introductions by
-calling each other siblings. And in truth, I was part-time adopted by her
-family, which led to developing an interest in programming and technology. They
-had high-speed internet!
-
-Itching to get out of town and go on an epic adventure this spring, we opened up
-Google Maps and started pointing at options. We settled on a tour of Scotland,
-but after researching flights, we discovered for slightly _less_ money, we could
-also pull off a weekend in Dublin by flying there to/from the US and catching
-European economy carriers between Dublin and Edinburgh.
+Itching to get out of town and go on an epic adventure this spring, Alex and I
+decided on a grand tour of Scotland. After researching flights, we discovered
+for slightly _less_ money, we could also pull off a weekend in Dublin by flying
+there to/from the US and catching economy carriers to/from Edinburgh.
 
 ## So, about the dinosaurs
 
 A friend of mind found a post online, ["Travel photos are instantly better with
-Dinosaur toys"](http://imgur.com/gallery/6Faib). Alex thought it was a
-tremendous idea, so we went out and gathered some companions for the journey.
-Her photos of the dinosaurs are better than mine, though. I suppose the
-surrealism in the shared post could also be achieved with some aggressive
-Photoshop work, which I did not do.
+Dinosaur toys"](http://imgur.com/gallery/6Faib). So we gave it a shot. Her
+photos of the dinosaurs are better than mine, though. I suppose the surrealism
+in the shared post could also be achieved with some aggressive Photoshop work.
 
-We did learn that camera phones are surprisingly competent at this task. The
+We learned that camera phones are surprisingly competent at this task. The
 dinosaur photos work best when the toy and the background are both in-focus
 because it makes them look like they're on the same scale. With such small
 sensors, the camera phone apertures are smaller, yielding a deeper depth of
-field. My usual macro / narrow-depth-of-field style for objects and animals with
-my SLR separates them from the background.
-
-So after what seemed like hours of trying to get the composition and field
-correctly set to get what I want, I landed on using my Nexus 5X's built-in
-camera or the fisheye lens on the Nikon for the better shots. It was a fun
-travel challenge.
+field. So after hours of trying to get the composition I wanted, I landed on
+using my Nexus 5X's built-in camera or the fisheye lens on the Nikon for the
+better shots. It was a fun travel challenge.
 
 ### Scotland
 
 #### AUS --> IAD --> DUB --> EDI
 
-We flew overnight from Austin and made it to Edinburgh by the next afternoon.
-After a paperwork debacle at the rental car station, we ended up with a free
-upgrade to a [Peugeot 2008](http://www.topgear.com/car-reviews/peugeot/2008) and
-made our way into downtown to the
-[Kick Ass Hostel](https://kickasshostels.co.uk/) and explored the city that
-evening.
+{% include photo.html src="DSC_2510.jpg" %}
+
+We flew overnight from Austin and made it to Edinburgh by the next afternoon and
+explored the city that evening before setting out the next day on our adventure.
 
 #### [Cairngorms National Park](http://cairngorms.co.uk/), [RZSS Highland Wildlife Park](http://www.highlandwildlifepark.org.uk/), and Craigellachie ("creg-AL-eh-hee")
 
@@ -53,9 +39,9 @@ park of its kind and was established in 2003. We drove through it on the way up
 from Edinburgh to Craigellachie and made a few stops to wander around.
 
 Craigellachie is a quaint little town along the river Spey: the river from which
-most highland Scotch flows. There's whisky in that river! We toured The
-Macallan Distillery, a family favorite, but Craigellachie, Glenfiddich,
-Aberlour, and The Balvenie were all within a few miles.
+most highland Scotch flows. We toured The Macallan Distillery, a family
+favorite, but Craigellachie Distillery, Glenfiddich, Aberlour, and The Balvenie
+were all within a few miles.
 
 The next morning, we drove back to the Wildlife Park in the Cairngorms. It has a
 long walking trail along large habitats and a drive loop through a few more
@@ -69,6 +55,48 @@ town of Drumnadrochit, the tourism industry is outlandishly self-evident. We
 arrived after the castle ruins closed, so we took a few dinosaur photos from the
 overlook before heading on.
 
-@TODO: You should finish this.
+{% include photo.html src="DSCF4274.jpg" %}
+
+We spent the rest of the evening driving straight across Scotland through a very
+rural area via the A87. We crossed the bridge only the Isle of Skye right around
+sunset and headed on to our hostel in Portnalong. What I hadn't expected was the
+size and rural atmosphere of Skye: I had expected a "Galveston," in that the
+city would be the most significant presence on the island and there may be a few
+small neighborhoods or towns on the fringes. Skye is massive and even its
+largest city of Portree is only home to about 4,000 people. It is a vast mesh of
+tiny villages is connected by one-lane roads with spectacular nature between.
+
+{% include photo.html src="DSC_3517.jpg" %}
+
+We made a circuit around the island, stopping at the abandoned
+[Neist Point Lighthouse](https://en.wikipedia.org/wiki/Neist_Point_Lighthouse),
+the Fairy Glen in Uig (with beer from the nearby Skye Brewery), the Kilt Rock
+waterfall, the Old Man of Storr, and the city of Portree for dinner.
+
+{% include photo.html src="DSC_3833.jpg" %}
+
+#### Fort William
+
+The following morning, we drove to the south end of Skye to see the (@TODO: the
+what was that called again?) before catching the Armadale-Mallaig ferry back to
+the mainland. On the drive over to Fort William, we stopped to get a look at the
+[Glenfinnan Viaduct](https://en.wikipedia.org/wiki/Glenfinnan_Viaduct), known
+world-over as "the bridge to Hogwarts."
+
+{% include photo.html src="DSC_4116.jpg" %}
+
+On our final morning in Scotland, we went to the Glen Nevis waterfall outside
+Fort William. I may or may not have fallen in the river in a quest for the
+perfect photo of this beast of a waterfall, but it was worth it. After, I threw
+my boots in the trunk and we started a long scenic drive back toward the airport
+in Edinburgh which ended with a frantic adventure making a U-turn around a five
+lane roundabout.
 
 ## Dublin
+
+We spent the final Friday night through early Monday morning kickin' around
+Dublin. A beatiful city with lovely people, great food, and lots of history. We
+were there on the 100th anniversary of the Easter Rising (100 years to the day;
+the celebration had already happened on _Easter_ itself a few weeks ago). We
+toured Dublin Castle, the Guinness James Gate Brewery, churches, parks, and
+anywhere else we could get on for the rest of the weekend.
