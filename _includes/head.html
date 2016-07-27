@@ -35,8 +35,10 @@
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}">
 
-  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6795652/7424152/css/fonts.css" />
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="preload" href="https://cloud.typography.com/6795652/7424152/css/fonts.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="path/to/mystylesheet.css"></noscript>
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
   <meta property="og:title" content="{{ title }}">

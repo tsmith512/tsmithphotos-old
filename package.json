@@ -13,6 +13,7 @@
     "deepmerge": "^0.2.10",
     "eslint": "^3.0.1",
     "exif-parser": "^0.1.9",
+    "fg-loadcss": "^1.2.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-eslint": "^3.0.1",

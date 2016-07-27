@@ -175,6 +175,11 @@ gulp.task('js-photoswipe-assets', function() {
     .pipe(gulp.dest('./_site/css'));
 });
 
+gulp.task('js-loadcss', function() {
+  return gulp.src(['./node_modules/fg-loadcss/src/*.js'])
+    .pipe(gulp.dest('./_site/js'));
+});
+
 gulp.task('lint', function() {
   return gulp.src(['_js/**/*.js','!node_modules/**'])
     .pipe(eslint())
@@ -182,7 +187,7 @@ gulp.task('lint', function() {
     .pipe(eslint.failAfterError());
 });
 
-gulp.task('js', ['js-photoswipe', 'js-photoswipe-assets']);
+gulp.task('js', ['js-photoswipe', 'js-photoswipe-assets', 'js-loadcss']);
 
 gulp.task('watch', function () {
   gulp.watch('./_sass/**/*.scss', ['sass']);
