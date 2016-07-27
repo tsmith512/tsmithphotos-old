@@ -1,8 +1,8 @@
 # Site settings
-title: TSmithPhotos
+title: Taylor Smith
 description: 
 baseurl: ""
-url: "http://www.tsmithphotos.com" # the base hostname & protocol for your site
+url: "http://www.tsmithphotos.com"
 
 # Build settings
 markdown: kramdown
