@@ -11,13 +11,10 @@
 
     {% include footer.html %}
 
-    <srcipt src="/js/loadcss.js"></script>
-    <script src="/js/cssrelpreload.js"></script>
+    <script src="/js/loadcss.all.js"></script>
 
     {% if page.photoswipe %}
-      <script src="/js/photoswipe.js"></script>
-      <script src="/js/photoswipe-ui-default.js"></script>
-      <script src="/js/photoswipe.tsp.js"></script>
+      <script src="/js/photoswipe.all.js"></script>
       {% include photoswipe-container.html %}
     {% endif %}
   </body>
