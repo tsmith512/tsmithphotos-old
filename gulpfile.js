@@ -118,7 +118,7 @@ gulp.task('prime-posts', function() {
     if (!index.hasOwnProperty(album)) continue;
 
     var postFile = '_posts/' + album + '.markdown';
-    var postContent = ['---', ('title: ' + index[album].title), '---', ''].join("\n");
+    var postContent = ['---', ('title: ' + index[album].title), 'location:', '---', ''].join("\n");
     try {
       fs.writeFileSync(postFile, postContent, { flag: 'wx' });
     } catch (e) {
