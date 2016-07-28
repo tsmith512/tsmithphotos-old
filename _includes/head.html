@@ -36,8 +36,11 @@
   <meta name="description" content="{{ description }}">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+  <!-- Prefetch the domain name for typeface provider now; defer loading. Preload CSS is polyfilled by LoadCSS in the footer. -->
+  <link rel="dns-prefetch" href="https://cloud.typography.com/">
   <link rel="preload" href="https://cloud.typography.com/6795652/7424152/css/fonts.css" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="path/to/mystylesheet.css"></noscript>
+  <noscript><link rel="stylesheet" href="https://cloud.typography.com/6795652/7424152/css/fonts.css"></noscript>
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
