@@ -380,9 +380,9 @@
       focal: 60
       aperture: 5
       shutter: 1/40
-      date: 1443166269
       iso: 200
-    DSC_8029.jpg:
+      date: 1443166269
+    - filename: DSC_8029.jpg
       width: 1200
       height: 800
       hero: 1
@@ -391,9 +391,9 @@
       focal: 10.5
       aperture: 4.5
       shutter: 1/60
-      date: 1443166554
       iso: 320
-    DSC_8035.jpg:
+      date: 1443166554
+    - filename: DSC_8035.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -525,9 +525,9 @@
       focal: 10.5
       aperture: 10
       shutter: 1/400
-      date: 1443884029
       iso: 100
-    DSC_8292.jpg:
+      date: 1443884029
+    - filename: DSC_8292.jpg
       width: 1200
       height: 795
       hero: 1
@@ -536,9 +536,9 @@
       focal: 10.5
       aperture: 6.3
       shutter: 1/320
-      date: 1443884323
       iso: 100
-    DSC_8340.jpg:
+      date: 1443884323
+    - filename: DSC_8340.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -610,9 +610,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/30
-      date: 1446322287
       iso: 1600
-    DSC_8472.jpg:
+      date: 1446322287
+    - filename: DSC_8472.jpg
       width: 1200
       height: 795
       hero: 1
@@ -621,9 +621,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/30
-      date: 1446322384
       iso: 1600
-    DSC_8596.jpg:
+      date: 1446322384
+    - filename: DSC_8596.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -795,9 +795,9 @@
       focal: 280
       aperture: 5.6
       shutter: 1/800
-      date: 1448195927
       iso: 400
-    DSC_8994.jpg:
+      date: 1448195927
+    - filename: DSC_8994.jpg
       width: 1200
       height: 800
       hero: 1
@@ -806,9 +806,9 @@
       focal: 300
       aperture: 5.6
       shutter: 1/400
-      date: 1448195935
       iso: 400
-    DSC_9001.jpg:
+      date: 1448195935
+    - filename: DSC_9001.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -850,9 +850,9 @@
       focal: 10.5
       aperture: 4.5
       shutter: 1/125
-      date: 1448641159
       iso: 100
-    DSC_9139.jpg:
+      date: 1448641159
+    - filename: DSC_9139.jpg
       width: 1200
       height: 795
       hero: 1
@@ -861,9 +861,9 @@
       focal: 50
       aperture: 2.5
       shutter: 1/100
-      date: 1448656151
       iso: 1600
-    DSC_9162.jpg:
+      date: 1448656151
+    - filename: DSC_9162.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -935,9 +935,9 @@
       focal: 50
       aperture: 11
       shutter: 1/500
-      date: 1450549151
       iso: 400
-    DSC_9390.jpg:
+      date: 1450549151
+    - filename: DSC_9390.jpg
       width: 1200
       height: 800
       hero: 1
@@ -946,9 +946,9 @@
       focal: 50
       aperture: 8
       shutter: 1/250
-      date: 1450549231
       iso: 400
-    DSC_9396.jpg:
+      date: 1450549231
+    - filename: DSC_9396.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1030,9 +1030,9 @@
       focal: 125
       aperture: 7.1
       shutter: 1/250
-      date: 1451322184
       iso: 640
-    DSC_9691 - with ear from 9689.jpg:
+      date: 1451322184
+    - filename: DSC_9691 - with ear from 9689.jpg
       width: 1200
       height: 795
       hero: 1
@@ -1042,9 +1042,9 @@
       focal: 125
       aperture: 8
       shutter: 1/250
-      date: 1451322204
       iso: 640
-    DSC_9723.jpg:
+      date: 1451322204
+    - filename: DSC_9723.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1166,9 +1166,9 @@
       focal: 50
       aperture: 2
       shutter: 1/200
-      date: 1451754631
       iso: 100
-    DSC_0531.jpg:
+      date: 1451754631
+    - filename: DSC_0531.jpg
       width: 1200
       height: 795
       hero: 1
@@ -1177,9 +1177,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/250
-      date: 1451757644
       iso: 320
-    DSC_0585.jpg:
+      date: 1451757644
+    - filename: DSC_0585.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1261,9 +1261,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/80
-      date: 1454192125
       iso: 800
-    DSC_1166.jpg:
+      date: 1454192125
+    - filename: DSC_1166.jpg
       width: 1200
       height: 795
       hero: 1
@@ -1272,9 +1272,9 @@
       focal: 210
       aperture: 5.3
       shutter: 1/160
-      date: 1454251075
       iso: 200
-    DSC_1432.jpg:
+      date: 1454251075
+    - filename: DSC_1432.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1346,9 +1346,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/800
-      date: 1456504599
       iso: 100
-    DSC_1767.jpg:
+      date: 1456504599
+    - filename: DSC_1767.jpg
       width: 1200
       height: 795
       hero: 1
@@ -1357,9 +1357,9 @@
       focal: 18
       aperture: 14
       shutter: 1/800
-      date: 1456605676
       iso: 200
-    DSC_1830.jpg:
+      date: 1456605676
+    - filename: DSC_1830.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1471,20 +1471,9 @@
       focal: 10.5
       aperture: 9
       shutter: 1/250
+      iso: 100
       date: 1457192316
-      iso: 100
-    DSC_2266.jpg:
-      width: 1200
-      height: 795
-      hero: 1
-      camera: NIKON D7000
-      lens: 40.0 mm f/2.8
-      focal: 40
-      aperture: 3
-      shutter: 1/2000
-      date: 1457195225
-      iso: 100
-    DSC_2255.jpg:
+    - filename: DSC_2255.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1494,11 +1483,22 @@
       shutter: 1/8000
       iso: 100
       date: 1457195027
+    - filename: DSC_2266.jpg
+      width: 1200
+      height: 795
+      hero: 1
+      camera: NIKON D7000
+      lens: 40.0 mm f/2.8
+      focal: 40
+      aperture: 3
+      shutter: 1/2000
+      iso: 100
+      date: 1457195225
 2016-03-13-PAARSFOC:
   title: Palo Alto for AR and SFO w Charlie
   date: '2016-03-13'
   contents:
-    DSC_2278.jpg:
+    - filename: DSC_2278.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1506,9 +1506,9 @@
       focal: 40
       aperture: 3.2
       shutter: 1/125
-      date: 1457695144
       iso: 640
-    DSC_2283.jpg:
+      date: 1457695144
+    - filename: DSC_2283.jpg
       width: 1200
       height: 795
       hero: 1
@@ -1517,9 +1517,9 @@
       focal: 40
       aperture: 3.2
       shutter: 1/400
-      date: 1457695169
       iso: 640
-    DSC_2292.jpg:
+      date: 1457695169
+    - filename: DSC_2292.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1621,9 +1621,9 @@
       focal: 48.4
       aperture: 4.5
       shutter: 1/150
-      date: 1457982170
       iso: 400
-    DSCF5029.jpg:
+      date: 1457982170
+    - filename: DSCF5029.jpg
       width: 1200
       height: 800
       hero: 1
@@ -1632,9 +1632,9 @@
       focal: 39
       aperture: 3.6
       shutter: 1/120
-      date: 1457982670
       iso: 400
-    DSCF5034.jpg:
+      date: 1457982670
+    - filename: DSCF5034.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1642,13 +1642,13 @@
       focal: 28.9
       aperture: 3.2
       shutter: 1/125
-      date: 1457982687
       iso: 400
+      date: 1457982687
 2016-03-21-TWRVFXE1:
   title: Tulsa Weekend for Roadtrip Video with Fuji XE1
   date: '2016-03-21'
   contents:
-    DSCF5170.jpg:
+    - filename: DSCF5170.jpg
       width: 800
       height: 1200
       hero: 1
@@ -1657,9 +1657,9 @@
       focal: 27
       aperture: 2.8
       shutter: 1/5
-      date: 1458324674
       iso: 1600
-    DSCF5174.jpg:
+      date: 1458324674
+    - filename: DSCF5174.jpg
       width: 800
       height: 1200
       camera: FUJIFILM X-E1
@@ -1791,9 +1791,9 @@
       focal: 27
       aperture: 2.8
       shutter: 1/2000
-      date: 1460207893
       iso: 200
-    DSCF4087.jpg:
+      date: 1460207893
+    - filename: DSCF4087.jpg
       width: 1200
       height: 800
       hero: 1
@@ -1802,9 +1802,9 @@
       focal: 55
       aperture: 5.6
       shutter: 1/200
-      date: 1460208797
       iso: 200
-    DSCF4093.jpg:
+      date: 1460208797
+    - filename: DSCF4093.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -2086,9 +2086,9 @@
       focal: 120
       aperture: 8
       shutter: 1/1000
-      date: 1461089075
       iso: 800
-    DSC_3477.jpg:
+      date: 1461089075
+    - filename: DSC_3477.jpg
       width: 1200
       height: 795
       hero: 1
@@ -2097,9 +2097,9 @@
       focal: 56
       aperture: 8
       shutter: 1/800
-      date: 1461095230
       iso: 800
-    DSC_3517.jpg:
+      date: 1461095230
+    - filename: DSC_3517.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2701,9 +2701,9 @@
       focal: 200
       aperture: 5
       shutter: 1/2000
-      date: 1462109301
       iso: 400
-    DSC_4410.jpg:
+      date: 1462109301
+    - filename: DSC_4410.jpg
       width: 1200
       height: 800
       hero: 1
@@ -2712,13 +2712,13 @@
       focal: 92
       aperture: 4.5
       shutter: 1/3200
-      date: 1462110196
       iso: 400
+      date: 1462110196
 2016-05-13-DCNO:
   title: DrupalCon New Orleans
   date: '2016-05-13'
   contents:
-    DSCF4569.jpg:
+    - filename: DSCF4569.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -2746,9 +2746,9 @@
       focal: 39
       aperture: 4
       shutter: 1/40
-      date: 1463073964
       iso: 400
-    DSCF4725.jpg:
+      date: 1463073964
+    - filename: DSCF4725.jpg
       width: 1200
       height: 800
       hero: 1
@@ -2757,9 +2757,9 @@
       focal: 28.9
       aperture: 4
       shutter: 1/850.0000000000001
-      date: 1463074605
       iso: 200
-    DSCF4779.jpg:
+      date: 1463074605
+    - filename: DSCF4779.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -2861,9 +2861,9 @@
       focal: 18
       aperture: 20
       shutter: 1/2
-      date: 1464466127
       iso: 200
-    DSCF5012.jpg:
+      date: 1464466127
+    - filename: DSCF5012.jpg
       width: 1200
       height: 800
       hero: 1
@@ -2872,9 +2872,9 @@
       focal: 18
       aperture: 2.8
       shutter: 1/40
-      date: 1464467310
       iso: 200
-    DSC_4539.jpg:
+      date: 1464467310
+    - filename: DSC_4539.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2936,9 +2936,9 @@
       focal: 50
       aperture: 4.5
       shutter: 1/100
-      date: 1466345775
       iso: 2000
-    DSC_6277.jpg:
+      date: 1466345775
+    - filename: DSC_6277.jpg
       width: 1200
       height: 800
       hero: 1
@@ -2947,9 +2947,9 @@
       focal: 10.5
       aperture: 3.5
       shutter: 1/160
-      date: 1466350350
       iso: 1250
-    DSC_6307.jpg:
+      date: 1466350350
+    - filename: DSC_6307.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2967,13 +2967,13 @@
       focal: 70
       aperture: 4.5
       shutter: 1/160
-      date: 1466350721
       iso: 1250
+      date: 1466350721
 2015-08-29-GWR:
   title: Great Western Roadtrip
   date: '2015-08-29'
   contents:
-    DSC_3515.jpg:
+    - filename: DSC_3515.jpg
       hero: 1
       hero_attachment: bottom
       width: 1200
@@ -4170,7 +4170,7 @@
       iso: 100
       date: 1390497970
       hero: 1
-    DSC_2210.jpg:
+    - filename: DSC_2210.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4655,7 +4655,7 @@
       iso: 200
       date: 1401901059
       hero: 1
-    DSC_4279.jpg:
+    - filename: DSC_4279.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5030,7 +5030,7 @@
       iso: 200
       date: 1411841611
       hero: 1
-    DSC_5982.jpg:
+    - filename: DSC_5982.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5525,7 +5525,7 @@
       iso: 100
       date: 1413043572
       hero: 1
-    DSC_6996.jpg:
+    - filename: DSC_6996.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5640,7 +5640,7 @@
       iso: 800
       date: 1413139617
       hero: 1
-    DSC_7446.jpg:
+    - filename: DSC_7446.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5755,7 +5755,7 @@
       iso: 400
       date: 1417199074
       hero: 1
-    DSC_8468.jpg:
+    - filename: DSC_8468.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6031,7 +6031,7 @@
       date: 1417744177
       hero: 1
       hero_attachment: bottom
-    DSC_9070.jpg:
+    - filename: DSC_9070.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6186,7 +6186,7 @@
       iso: 200
       date: 1420413588
       hero: 1
-    DSC_9300.jpg:
+    - filename: DSC_9300.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6251,7 +6251,7 @@
       iso: 100
       date: 1423327336
       hero: 1
-    DSC_9498.jpg:
+    - filename: DSC_9498.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6326,7 +6326,7 @@
       iso: 200
       date: 1424983711
       hero: 1
-    DSC_9684.jpg:
+    - filename: DSC_9684.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6541,7 +6541,7 @@
       iso: 200
       date: 1427988634
       hero: 1
-    DSC_9951.jpg:
+    - filename: DSC_9951.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6656,7 +6656,7 @@
       iso: 100
       date: 1429373896
       hero: 1
-    DSC_0461.jpg:
+    - filename: DSC_0461.jpg
       width: 1200
       height: 857
       camera: NIKON D7000
@@ -6725,7 +6725,7 @@
   title: Pennybacker Bridge with Alex
   date: '2015-05-06'
   contents:
-    DSC_0695.jpg:
+    - filename: DSC_0695.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6766,7 +6766,7 @@
       iso: 100
       date: 1430945436
       hero: 1
-    DSC_0796.jpg:
+    - filename: DSC_0796.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6955,7 +6955,7 @@
   title: Nashville - Chattanooga
   date: '2015-06-12'
   contents:
-    DSC_3212.jpg:
+    - filename: DSC_3212.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -7026,7 +7026,7 @@
       iso: 200
       date: 1434121740
       hero: 1
-    DSC_3290.jpg:
+    - filename: DSC_3290.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
