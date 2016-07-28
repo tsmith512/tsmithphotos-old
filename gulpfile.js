@@ -103,6 +103,18 @@ gulp.task('index', function() {
   }
   walkPhotos('source/Photography', generatedIndex);
   var mergedIndex = merge(index, generatedIndex);
+
+  // Now that we've merged the existing index custom data and the newly
+  // generated data, let's sort all images by the Exif DateTimeOriginal timestamp
+  for (album in mergedIndex) {
+    if( ! mergedIndex.hasOwnProperty(album) ) { continue; }
+    mergedIndex[album].contents = mergedIndex[album].contents.sort(function(a,b) {
+      if (a.date < b.date) return -1;
+      if (a.date > b.date) return  1;
+      return 0;
+    });
+  }
+
   fs.writeFileSync('source/index.yml', yaml.safeDump(mergedIndex));
 });
 
