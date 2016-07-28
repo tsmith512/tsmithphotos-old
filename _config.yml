@@ -14,6 +14,8 @@ exclude:
   - Gemfile.lock
   - gulpfile.js
   - package.json
+  - '*~'
+  - '#*#'
 
 keep_files:
   - photo # Don't clobber the photo exports directory
