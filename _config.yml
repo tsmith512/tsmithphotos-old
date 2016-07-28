@@ -17,6 +17,18 @@ keep_files:
   - js    # Don't clobber site JS, which is built with Gulp and includes Photoswipe
   - gfx   # Don't clubber site graphics/images/assets
 
+# Use the ingenuitive "compress.html" HTML minification template from
+# https://github.com/penibelst/jekyll-compress-html
+compress_html:
+  clippings: [div, ul, section]
+  comments: all
+  endings: []
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
 defaults:
   -
     scope:
