@@ -16,6 +16,7 @@ var resize = require('gulp-image-resize');
 var rename = require("gulp-rename");
 var runSequence = require('run-sequence');
 var sass = require('gulp-sass');
+var uglify = require('gulp-uglify');
 var yaml = require('js-yaml');
 
 // Containers for image data processing which is kicked off by gulp
@@ -192,6 +193,7 @@ gulp.task('sass', function () {
 gulp.task('js-photoswipe', function() {
   return gulp.src(['./node_modules/photoswipe/dist/*.js', '_js/photoswipe.tsp.js'])
     .pipe(concat('photoswipe.all.js'))
+    .pipe(uglify({mangle: false}))
     .pipe(gulp.dest('./_site/js'));
 });
 
@@ -203,6 +205,7 @@ gulp.task('js-photoswipe-assets', function() {
 gulp.task('js-loadcss', function() {
   return gulp.src(['./node_modules/fg-loadcss/src/loadCSS.js', './node_modules/fg-loadcss/src/cssrelpreload.js'])
     .pipe(concat('loadcss.all.js'))
+    .pipe(uglify({mangle: false}))
     .pipe(gulp.dest('./_site/js'));
 });
 
