@@ -1,0 +1,26 @@
+# /.htaccess
+#
+# Set some site-wide defaults, allow some caching. Other locations will
+# have their own more heavily customized settings.
+
+# Don't show directory listings for URLs which map to a directory.
+Options -Indexes
+
+# Follow symbolic links in this directory.
+Options +FollowSymLinks
+
+# @TODO: 404?
+# ErrorDocument 404 /index.php
+
+# Set the default handler.
+# DirectoryIndex index.html
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Cache all files for 2 weeks after access (A).
+  ExpiresDefault "access plus 2 weeks"
+
+  # We'll do ETags manually by location. Disabling them for most stuff.
+  FileETag None
+</IfModule>
