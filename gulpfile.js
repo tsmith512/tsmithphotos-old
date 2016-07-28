@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 
 var autoprefixer = require('gulp-autoprefixer');
+var cleanCSS = require('gulp-clean-css');
 var concat = require('gulp-concat');
 var eslint = require('gulp-eslint');
 var exif = require('exif-parser');
@@ -175,6 +176,14 @@ gulp.task('sass', function () {
     .pipe(autoprefixer({
       browsers: ['last 2 versions'],
       cascade: false
+    }))
+    // Run CleanCSS, but mostly just for minification. Starting light here.
+    .pipe(cleanCSS({
+      advanced: false,
+      mediaMerging: false,
+      rebase: false,
+      restructuring: false,
+      shorthandCompacting: false
     }))
     .pipe(gulp.dest('./_site/css'));
 });
