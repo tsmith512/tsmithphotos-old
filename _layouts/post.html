@@ -18,8 +18,8 @@ photoswipe: true
         the whole post photo array and pull out the hero when we find it. Sadface.
       {% endcomment %}
       {% for photo in site.data.index[gallery].contents %}
-        {% if photo[1].hero %}
-          <img src="/photo/original/{{ gallery }}/{{ photo[0] }}" class="hero-attach-{% if photo[1].hero_attachment %}{{ photo[1].hero_attachment }}{% else %}center{% endif %}" />
+        {% if photo.hero %}
+          <img src="/photo/original/{{ gallery }}/{{ photo.filename }}" class="hero-attach-{% if photo.hero_attachment %}{{ photo.hero_attachment }}{% else %}center{% endif %}" />
         {% endif %}
       {% endfor %}
       <h1>{{ page.title }}</h1>
@@ -38,12 +38,12 @@ photoswipe: true
         <ul>
           {% for photo in site.data.index[gallery].contents %}
             <li>
-              <a href="/photo/original/{{ gallery }}/{{ photo[0] }}"
-                 data-size="{{ photo[1].width}}x{{ photo[1].height }}"
-                 data-camera="{{ photo[1].camera }} with {{ photo[1].lens }}"
-                 data-exposure="ISO{{ photo[1].iso }} {{ photo[1].shutter }} @ f/{{ photo[1].aperture }} {{ photo[1].focal }}mm"
+              <a href="/photo/original/{{ gallery }}/{{ photo.filename }}"
+                 data-size="{{ photo.width}}x{{ photo.height }}"
+                 data-camera="{{ photo.camera }} with {{ photo.lens }}"
+                 data-exposure="ISO{{ photo.iso }} {{ photo.shutter }} @ f/{{ photo.aperture }} {{ photo.focal }}mm"
                  >
-                <img src="/photo/thumb/{{ gallery }}/{{ photo[0] }}" />
+                <img src="/photo/thumb/{{ gallery }}/{{ photo.filename }}" />
               </a>
             </li>
           {% endfor %}

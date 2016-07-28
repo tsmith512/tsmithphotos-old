@@ -2,7 +2,7 @@
   title: Web Chefs in Germany and Spain
   date: '2015-09-14'
   contents:
-    DSC_7085.jpg:
+    - filename: DSC_7085.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -10,9 +10,9 @@
       focal: 18
       aperture: 13
       shutter: 1/640
-      date: 1442314000
       iso: 400
-    DSC_7092.jpg:
+      date: 1442314000
+    - filename: DSC_7092.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -20,9 +20,9 @@
       focal: 18
       aperture: 11
       shutter: 1/500
-      date: 1442314908
       iso: 200
-    DSC_7118.jpg:
+      date: 1442314908
+    - filename: DSC_7118.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -30,9 +30,9 @@
       focal: 18
       aperture: 4.5
       shutter: 1/80
-      date: 1442491880
       iso: 200
-    DSC_7134.jpg:
+      date: 1442491880
+    - filename: DSC_7134.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -40,9 +40,9 @@
       focal: 18
       aperture: 14
       shutter: 1/8
-      date: 1442493288
       iso: 100
-    DSC_7154.jpg:
+      date: 1442493288
+    - filename: DSC_7154.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -50,9 +50,9 @@
       focal: 18
       aperture: 3.5
       shutter: 1/100
-      date: 1442493635
       iso: 200
-    DSC_7165.jpg:
+      date: 1442493635
+    - filename: DSC_7165.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -60,9 +60,9 @@
       focal: 18
       aperture: 3.5
       shutter: 1/40
-      date: 1442494620
       iso: 200
-    DSC_7191.jpg:
+      date: 1442494620
+    - filename: DSC_7191.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -70,9 +70,9 @@
       focal: 55
       aperture: 4.5
       shutter: 1/30
-      date: 1442498277
       iso: 1000
-    DSC_7199.jpg:
+      date: 1442498277
+    - filename: DSC_7199.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -80,9 +80,9 @@
       focal: 10.5
       aperture: 4.5
       shutter: 1/30
-      date: 1442498964
       iso: 1000
-    DSC_7221.jpg:
+      date: 1442498964
+    - filename: DSC_7221.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -90,9 +90,9 @@
       focal: 10.5
       aperture: 4.5
       shutter: 3s
-      date: 1442510947
       iso: 800
-    DSC_7239.jpg:
+      date: 1442510947
+    - filename: DSC_7239.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -100,9 +100,9 @@
       focal: 10.5
       aperture: 9
       shutter: 1/320
-      date: 1442548223
       iso: 200
-    DSC_7242.jpg:
+      date: 1442548223
+    - filename: DSC_7242.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -110,9 +110,9 @@
       focal: 70
       aperture: 5
       shutter: 1/400
-      date: 1442548577
       iso: 200
-    DSC_7252.jpg:
+      date: 1442548577
+    - filename: DSC_7252.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -120,9 +120,9 @@
       focal: 70
       aperture: 4.5
       shutter: 1/50
-      date: 1442549228
       iso: 200
-    DSC_7256.jpg:
+      date: 1442549228
+    - filename: DSC_7256.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -130,9 +130,9 @@
       focal: 52
       aperture: 4.5
       shutter: 1/50
-      date: 1442550008
       iso: 200
-    DSC_7277.jpg:
+      date: 1442550008
+    - filename: DSC_7277.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -140,9 +140,9 @@
       focal: 10.5
       aperture: 6.3
       shutter: 1/160
-      date: 1442553811
       iso: 200
-    DSC_7344.jpg:
+      date: 1442553811
+    - filename: DSC_7344.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -150,9 +150,9 @@
       focal: 10.5
       aperture: 4.5
       shutter: 1/40
+      iso: 400
       date: 1442555526
-      iso: 400
-    DSC_7394.jpg:
+    - filename: DSC_7394.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -160,9 +160,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/60
+      iso: 400
       date: 1442556257
-      iso: 400
-    DSC_7422.jpg:
+    - filename: DSC_7422.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -170,9 +170,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/60
-      date: 1442556695
       iso: 200
-    DSC_7433.jpg:
+      date: 1442556695
+    - filename: DSC_7433.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -180,9 +180,9 @@
       focal: 10.5
       aperture: 7.1
       shutter: 1/200
-      date: 1442557399
       iso: 200
-    DSC_7472.jpg:
+      date: 1442557399
+    - filename: DSC_7472.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -190,9 +190,9 @@
       focal: 10.5
       aperture: 5.6
       shutter: 1/125
-      date: 1442558379
       iso: 200
-    DSC_7489.jpg:
+      date: 1442558379
+    - filename: DSC_7489.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -200,9 +200,9 @@
       focal: 10.5
       aperture: 8
       shutter: 1/250
-      date: 1442560889
       iso: 200
-    DSC_7516.jpg:
+      date: 1442560889
+    - filename: DSC_7516.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -210,9 +210,9 @@
       focal: 18
       aperture: 8
       shutter: 1/250
-      date: 1442657162
       iso: 400
-    DSC_7548.jpg:
+      date: 1442657162
+    - filename: DSC_7548.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -220,9 +220,9 @@
       focal: 70
       aperture: 4.5
       shutter: 1/160
-      date: 1442657986
       iso: 400
-    DSC_7559.jpg:
+      date: 1442657986
+    - filename: DSC_7559.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -230,9 +230,9 @@
       focal: 18
       aperture: 10
       shutter: 1/400
-      date: 1442658677
       iso: 400
-    DSC_7575.jpg:
+      date: 1442658677
+    - filename: DSC_7575.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -240,9 +240,9 @@
       focal: 46
       aperture: 5
       shutter: 1/100
-      date: 1442658971
       iso: 400
-    DSC_7610.jpg:
+      date: 1442658971
+    - filename: DSC_7610.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -250,9 +250,9 @@
       focal: 18
       aperture: 10
       shutter: 1/400
-      date: 1442661458
       iso: 400
-    DSC_7619.jpg:
+      date: 1442661458
+    - filename: DSC_7619.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -260,9 +260,9 @@
       focal: 35
       aperture: 11
       shutter: 1/500
-      date: 1442661821
       iso: 400
-    DSC_7633.jpg:
+      date: 1442661821
+    - filename: DSC_7633.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -270,9 +270,9 @@
       focal: 10.5
       aperture: 9
       shutter: 1/320
-      date: 1442662259
       iso: 200
-    DSC_7652.jpg:
+      date: 1442662259
+    - filename: DSC_7652.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -280,9 +280,9 @@
       focal: 10.5
       aperture: 6.3
       shutter: 1/160
-      date: 1442663443
       iso: 200
-    DSC_7677.jpg:
+      date: 1442663443
+    - filename: DSC_7677.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -290,9 +290,9 @@
       focal: 70
       aperture: 4.5
       shutter: 1/100
-      date: 1442665355
       iso: 320
-    DSC_7694.jpg:
+      date: 1442665355
+    - filename: DSC_7694.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -300,9 +300,9 @@
       focal: 10.5
       aperture: 2.8
       shutter: 1/80
-      date: 1442706944
       iso: 1250
-    DSC_7713.jpg:
+      date: 1442706944
+    - filename: DSC_7713.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -310,9 +310,9 @@
       focal: 18
       aperture: 3.5
       shutter: 1/60
-      date: 1442709017
       iso: 800
-    DSC_7729.jpg:
+      date: 1442709017
+    - filename: DSC_7729.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -320,9 +320,9 @@
       focal: 18
       aperture: 9
       shutter: 1/320
-      date: 1442913419
       iso: 200
-    DSC_7742.jpg:
+      date: 1442913419
+    - filename: DSC_7742.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -330,9 +330,9 @@
       focal: 10.5
       aperture: 22
       shutter: 1/60
-      date: 1442913855
       iso: 200
-    DSC_7750.jpg:
+      date: 1442913855
+    - filename: DSC_7750.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -340,9 +340,9 @@
       focal: 18
       aperture: 9
       shutter: 1/320
-      date: 1442914099
       iso: 200
-    DSC_7765.jpg:
+      date: 1442914099
+    - filename: DSC_7765.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -350,9 +350,9 @@
       focal: 70
       aperture: 4.5
       shutter: 1/80
-      date: 1442914662
       iso: 200
-    DSC_7869.jpg:
+      date: 1442914662
+    - filename: DSC_7869.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -360,9 +360,9 @@
       focal: 25
       aperture: 6.3
       shutter: 1/160
-      date: 1442922802
       iso: 200
-    DSC_7988.jpg:
+      date: 1442922802
+    - filename: DSC_7988.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -370,9 +370,9 @@
       focal: 10.5
       aperture: 5
       shutter: 1/80
-      date: 1443166205
       iso: 200
-    DSC_7996.jpg:
+      date: 1443166205
+    - filename: DSC_7996.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -380,9 +380,9 @@
       focal: 60
       aperture: 5
       shutter: 1/40
-      date: 1443166269
       iso: 200
-    DSC_8029.jpg:
+      date: 1443166269
+    - filename: DSC_8029.jpg
       width: 1200
       height: 800
       hero: 1
@@ -391,9 +391,9 @@
       focal: 10.5
       aperture: 4.5
       shutter: 1/60
+      iso: 320
       date: 1443166554
-      iso: 320
-    DSC_8035.jpg:
+    - filename: DSC_8035.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -401,9 +401,9 @@
       focal: 10.5
       aperture: 4.5
       shutter: 1/60
+      iso: 320
       date: 1443166692
-      iso: 320
-    DSC_8038.jpg:
+    - filename: DSC_8038.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -411,9 +411,9 @@
       focal: 10.5
       aperture: 4.5
       shutter: 1/60
-      date: 1443166705
       iso: 320
-    DSC_8045.jpg:
+      date: 1443166705
+    - filename: DSC_8045.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -421,9 +421,9 @@
       focal: 10.5
       aperture: 4.5
       shutter: 1/200
-      date: 1443166837
       iso: 320
-    DSC_8089.jpg:
+      date: 1443166837
+    - filename: DSC_8089.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -431,9 +431,9 @@
       focal: 34
       aperture: 5.6
       shutter: 1/60
-      date: 1443167815
       iso: 800
-    DSC_8104.jpg:
+      date: 1443167815
+    - filename: DSC_8104.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -441,9 +441,9 @@
       focal: 10.5
       aperture: 3.5
       shutter: 1/60
-      date: 1443168165
       iso: 400
-    DSC_8130.jpg:
+      date: 1443168165
+    - filename: DSC_8130.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -451,9 +451,9 @@
       focal: 34
       aperture: 7.1
       shutter: 1/200
-      date: 1443173049
       iso: 200
-    DSC_8136.jpg:
+      date: 1443173049
+    - filename: DSC_8136.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -461,9 +461,9 @@
       focal: 70
       aperture: 8
       shutter: 1/1000
-      date: 1443173982
       iso: 200
-    DSC_8158.jpg:
+      date: 1443173982
+    - filename: DSC_8158.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -471,9 +471,9 @@
       focal: 70
       aperture: 7.1
       shutter: 1/800
-      date: 1443174284
       iso: 200
-    DSC_8172.jpg:
+      date: 1443174284
+    - filename: DSC_8172.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -481,9 +481,9 @@
       focal: 46
       aperture: 4.5
       shutter: 1/320
-      date: 1443175354
       iso: 200
-    DSC_8188.jpg:
+      date: 1443175354
+    - filename: DSC_8188.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -491,9 +491,9 @@
       focal: 55
       aperture: 5.6
       shutter: 1/250
-      date: 1443175753
       iso: 200
-    DSC_8250.jpg:
+      date: 1443175753
+    - filename: DSC_8250.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -501,9 +501,9 @@
       focal: 10.5
       aperture: 6.3
       shutter: 1/1000
-      date: 1443265626
       iso: 200
-    DSC_8274.jpg:
+      date: 1443265626
+    - filename: DSC_8274.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -511,13 +511,13 @@
       focal: 18
       aperture: 10
       shutter: 1/400
-      date: 1443265920
       iso: 200
+      date: 1443265920
 2015-10-03-PSP:
   title: Pedernales State Park
   date: '2015-10-03'
   contents:
-    DSC_8280.jpg:
+    - filename: DSC_8280.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -525,9 +525,9 @@
       focal: 10.5
       aperture: 10
       shutter: 1/400
-      date: 1443884029
       iso: 100
-    DSC_8292.jpg:
+      date: 1443884029
+    - filename: DSC_8292.jpg
       width: 1200
       height: 795
       hero: 1
@@ -536,9 +536,9 @@
       focal: 10.5
       aperture: 6.3
       shutter: 1/320
-      date: 1443884323
       iso: 100
-    DSC_8340.jpg:
+      date: 1443884323
+    - filename: DSC_8340.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -546,9 +546,9 @@
       focal: 18
       aperture: 22
       shutter: 1/30
-      date: 1443888035
       iso: 100
-    DSC_8356.jpg:
+      date: 1443888035
+    - filename: DSC_8356.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -556,9 +556,9 @@
       focal: 10.5
       aperture: 10
       shutter: 1/400
-      date: 1443888159
       iso: 100
-    DSC_8384.jpg:
+      date: 1443888159
+    - filename: DSC_8384.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -566,9 +566,9 @@
       focal: 300
       aperture: 5.6
       shutter: 1/640
-      date: 1443888583
       iso: 100
-    DSC_8392.jpg:
+      date: 1443888583
+    - filename: DSC_8392.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -576,13 +576,13 @@
       focal: 300
       aperture: 5.6
       shutter: 1/800
-      date: 1443888710
       iso: 100
+      date: 1443888710
 2015-10-31-HT:
   title: Halloween in Tulsa
   date: '2015-10-31'
   contents:
-    DSC_8403.jpg:
+    - filename: DSC_8403.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -590,9 +590,9 @@
       focal: 102
       aperture: 4.8
       shutter: 1/125
-      date: 1446308613
       iso: 200
-    DSC_8429.jpg:
+      date: 1446308613
+    - filename: DSC_8429.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -600,9 +600,9 @@
       focal: 130
       aperture: 6.3
       shutter: 1/40
-      date: 1446314225
       iso: 200
-    DSC_8468.jpg:
+      date: 1446314225
+    - filename: DSC_8468.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -610,9 +610,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/30
-      date: 1446322287
       iso: 1600
-    DSC_8472.jpg:
+      date: 1446322287
+    - filename: DSC_8472.jpg
       width: 1200
       height: 795
       hero: 1
@@ -621,9 +621,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/30
-      date: 1446322384
       iso: 1600
-    DSC_8596.jpg:
+      date: 1446322384
+    - filename: DSC_8596.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -631,9 +631,9 @@
       focal: 195
       aperture: 5.6
       shutter: 1/200
-      date: 1446400262
       iso: 1250
-    DSC_8630.jpg:
+      date: 1446400262
+    - filename: DSC_8630.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -641,13 +641,13 @@
       focal: 220
       aperture: 5.6
       shutter: 1/200
-      date: 1446400572
       iso: 1250
+      date: 1446400572
 2015-11-22-NYC:
   title: NYC
   date: '2015-11-22'
   contents:
-    DSC_8698.jpg:
+    - filename: DSC_8698.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -655,9 +655,9 @@
       focal: 70
       aperture: 4.5
       shutter: 1/250
-      date: 1448106771
       iso: 200
-    DSC_8736.jpg:
+      date: 1448106771
+    - filename: DSC_8736.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -665,9 +665,9 @@
       focal: 165
       aperture: 5
       shutter: 1/1600
-      date: 1448108084
       iso: 200
-    DSC_8752.jpg:
+      date: 1448108084
+    - filename: DSC_8752.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -675,9 +675,9 @@
       focal: 18
       aperture: 4.5
       shutter: 1/1000
-      date: 1448121786
       iso: 200
-    DSC_8825.jpg:
+      date: 1448121786
+    - filename: DSC_8825.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -685,9 +685,9 @@
       focal: 35
       aperture: 8
       shutter: 1/250
-      date: 1448124189
       iso: 200
-    DSC_8832.jpg:
+      date: 1448124189
+    - filename: DSC_8832.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -695,9 +695,9 @@
       focal: 18
       aperture: 3.5
       shutter: 1/50
-      date: 1448124340
       iso: 800
-    DSC_8846.jpg:
+      date: 1448124340
+    - filename: DSC_8846.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -705,9 +705,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/125
-      date: 1448125582
       iso: 1250
-    DSC_8862.jpg:
+      date: 1448125582
+    - filename: DSC_8862.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -715,9 +715,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/60
-      date: 1448125756
       iso: 1250
-    DSC_8875.jpg:
+      date: 1448125756
+    - filename: DSC_8875.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -725,9 +725,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/1600
-      date: 1448193144
       iso: 200
-    DSC_8900.jpg:
+      date: 1448193144
+    - filename: DSC_8900.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -735,9 +735,9 @@
       focal: 40
       aperture: 4.2
       shutter: 1/400
-      date: 1448193599
       iso: 200
-    DSC_8905.jpg:
+      date: 1448193599
+    - filename: DSC_8905.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -745,9 +745,9 @@
       focal: 195
       aperture: 5
       shutter: 1/125
-      date: 1448193749
       iso: 200
-    DSC_8922.jpg:
+      date: 1448193749
+    - filename: DSC_8922.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -755,9 +755,9 @@
       focal: 240
       aperture: 5.3
       shutter: 1/100
+      iso: 200
       date: 1448193850
-      iso: 200
-    DSC_8935.jpg:
+    - filename: DSC_8935.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -765,9 +765,9 @@
       focal: 10.5
       aperture: 10
       shutter: 1/400
+      iso: 200
       date: 1448194472
-      iso: 200
-    DSC_8955.jpg:
+    - filename: DSC_8955.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -775,9 +775,9 @@
       focal: 10.5
       aperture: 10
       shutter: 1/400
-      date: 1448195764
       iso: 400
-    DSC_8959.jpg:
+      date: 1448195764
+    - filename: DSC_8959.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -785,9 +785,9 @@
       focal: 200
       aperture: 5
       shutter: 1/160
-      date: 1448195819
       iso: 400
-    DSC_8981.jpg:
+      date: 1448195819
+    - filename: DSC_8981.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -795,9 +795,9 @@
       focal: 280
       aperture: 5.6
       shutter: 1/800
-      date: 1448195927
       iso: 400
-    DSC_8994.jpg:
+      date: 1448195927
+    - filename: DSC_8994.jpg
       width: 1200
       height: 800
       hero: 1
@@ -806,9 +806,9 @@
       focal: 300
       aperture: 5.6
       shutter: 1/400
-      date: 1448195935
       iso: 400
-    DSC_9001.jpg:
+      date: 1448195935
+    - filename: DSC_9001.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -816,13 +816,13 @@
       focal: 50
       aperture: 1.8
       shutter: 1/640
-      date: 1448196080
       iso: 200
+      date: 1448196080
 2015-11-30-TR:
   title: Thanksgiving and Ranch
   date: '2015-11-30'
   contents:
-    DSC_9044.jpg:
+    - filename: DSC_9044.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -830,9 +830,9 @@
       focal: 35
       aperture: 4.2
       shutter: 1/640
-      date: 1448631548
       iso: 640
-    DSC_9077.jpg:
+      date: 1448631548
+    - filename: DSC_9077.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -840,9 +840,9 @@
       focal: 35
       aperture: 25
       shutter: 1/3
-      date: 1448639277
       iso: 200
-    DSC_9128.jpg:
+      date: 1448639277
+    - filename: DSC_9128.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -850,9 +850,9 @@
       focal: 10.5
       aperture: 4.5
       shutter: 1/125
-      date: 1448641159
       iso: 100
-    DSC_9139.jpg:
+      date: 1448641159
+    - filename: DSC_9139.jpg
       width: 1200
       height: 795
       hero: 1
@@ -861,9 +861,9 @@
       focal: 50
       aperture: 2.5
       shutter: 1/100
-      date: 1448656151
       iso: 1600
-    DSC_9162.jpg:
+      date: 1448656151
+    - filename: DSC_9162.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -871,13 +871,13 @@
       focal: 40
       aperture: 2.8
       shutter: 1/40
-      date: 1448661227
       iso: 800
+      date: 1448661227
 2015-12-19-CG:
   title: Charlies Graduation
   date: '2015-12-19'
   contents:
-    DSC_9201.jpg:
+    - filename: DSC_9201.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -885,9 +885,9 @@
       focal: 18
       aperture: 8
       shutter: 1/250
-      date: 1450523861
       iso: 200
-    DSC_9210.jpg:
+      date: 1450523861
+    - filename: DSC_9210.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -895,9 +895,9 @@
       focal: 50
       aperture: 6.3
       shutter: 1/160
-      date: 1450523920
       iso: 200
-    DSC_9230.jpg:
+      date: 1450523920
+    - filename: DSC_9230.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -905,9 +905,9 @@
       focal: 10.5
       aperture: 6.3
       shutter: 1/160
-      date: 1450524075
       iso: 100
-    DSC_9236.jpg:
+      date: 1450524075
+    - filename: DSC_9236.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -915,9 +915,9 @@
       focal: 10.5
       aperture: 4
       shutter: 1/60
-      date: 1450524157
       iso: 100
-    DSC_9317.jpg:
+      date: 1450524157
+    - filename: DSC_9317.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -925,9 +925,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/1000
-      date: 1450542181
       iso: 200
-    DSC_9384.jpg:
+      date: 1450542181
+    - filename: DSC_9384.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -935,9 +935,9 @@
       focal: 50
       aperture: 11
       shutter: 1/500
-      date: 1450549151
       iso: 400
-    DSC_9390.jpg:
+      date: 1450549151
+    - filename: DSC_9390.jpg
       width: 1200
       height: 800
       hero: 1
@@ -946,9 +946,9 @@
       focal: 50
       aperture: 8
       shutter: 1/250
+      iso: 400
       date: 1450549231
-      iso: 400
-    DSC_9396.jpg:
+    - filename: DSC_9396.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -956,9 +956,9 @@
       focal: 50
       aperture: 10
       shutter: 1/400
+      iso: 400
       date: 1450549278
-      iso: 400
-    DSC_9401.jpg:
+    - filename: DSC_9401.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -966,9 +966,9 @@
       focal: 50
       aperture: 10
       shutter: 1/400
-      date: 1450549298
       iso: 400
-    DSC_9408.jpg:
+      date: 1450549298
+    - filename: DSC_9408.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -976,9 +976,9 @@
       focal: 10.5
       aperture: 10
       shutter: 1/400
-      date: 1450549379
       iso: 400
-    DSC_9421.jpg:
+      date: 1450549379
+    - filename: DSC_9421.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -986,13 +986,13 @@
       focal: 50
       aperture: 1.8
       shutter: 1/125
-      date: 1450551697
       iso: 400
+      date: 1450551697
 2015-12-28-DS:
   title: Dogs in Snow
   date: '2015-12-28'
   contents:
-    DSC_9456.jpg:
+    - filename: DSC_9456.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1000,9 +1000,9 @@
       focal: 185
       aperture: 5
       shutter: 1/250
-      date: 1451321670
       iso: 200
-    DSC_9583.jpg:
+      date: 1451321670
+    - filename: DSC_9583.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1010,9 +1010,9 @@
       focal: 195
       aperture: 6.3
       shutter: 1/250
-      date: 1451322077
       iso: 640
-    DSC_9600.jpg:
+      date: 1451322077
+    - filename: DSC_9600.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1020,9 +1020,9 @@
       focal: 165
       aperture: 6.3
       shutter: 1/250
-      date: 1451322108
       iso: 640
-    DSC_9675.jpg:
+      date: 1451322108
+    - filename: DSC_9675.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1030,9 +1030,9 @@
       focal: 125
       aperture: 7.1
       shutter: 1/250
-      date: 1451322184
       iso: 640
-    DSC_9691 - with ear from 9689.jpg:
+      date: 1451322184
+    - filename: DSC_9691 - with ear from 9689.jpg
       width: 1200
       height: 795
       hero: 1
@@ -1042,9 +1042,9 @@
       focal: 125
       aperture: 8
       shutter: 1/250
-      date: 1451322204
       iso: 640
-    DSC_9723.jpg:
+      date: 1451322204
+    - filename: DSC_9723.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1052,13 +1052,33 @@
       focal: 185
       aperture: 8
       shutter: 1/320
-      date: 1451322276
       iso: 640
+      date: 1451322276
 2016-01-03-CR:
   title: Christmas Ranch
   date: '2016-01-03'
   contents:
-    DSC_0010.jpg:
+    - filename: DSC_9746.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 2.8
+      shutter: 1/400
+      iso: 200
+      date: 1451396096
+    - filename: DSC_9832.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 2.8
+      shutter: 1/50
+      iso: 800
+      date: 1451685641
+    - filename: DSC_0010.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1066,9 +1086,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/60
-      date: 1451686972
       iso: 1000
-    DSC_0126.jpg:
+      date: 1451686972
+    - filename: DSC_0126.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1076,9 +1096,9 @@
       focal: 200
       aperture: 5.6
       shutter: 1/200
-      date: 1451742737
       iso: 200
-    DSC_0175.jpg:
+      date: 1451742737
+    - filename: DSC_0175.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1086,9 +1106,9 @@
       focal: 300
       aperture: 5.6
       shutter: 1/160
-      date: 1451743259
       iso: 200
-    DSC_0192.jpg:
+      date: 1451743259
+    - filename: DSC_0192.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1096,9 +1116,9 @@
       focal: 300
       aperture: 5.6
       shutter: 1/320
-      date: 1451743617
       iso: 200
-    DSC_0201.jpg:
+      date: 1451743617
+    - filename: DSC_0201.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1106,9 +1126,9 @@
       focal: 300
       aperture: 5.6
       shutter: 1/200
-      date: 1451743780
       iso: 200
-    DSC_0252.jpg:
+      date: 1451743780
+    - filename: DSC_0252.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1116,9 +1136,9 @@
       focal: 220
       aperture: 5.6
       shutter: 1/160
-      date: 1451744455
       iso: 200
-    DSC_0272.jpg:
+      date: 1451744455
+    - filename: DSC_0272.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1126,9 +1146,9 @@
       focal: 155
       aperture: 5.6
       shutter: 1/200
-      date: 1451745154
       iso: 200
-    DSC_0330.jpg:
+      date: 1451745154
+    - filename: DSC_0330.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1136,9 +1156,9 @@
       focal: 70
       aperture: 4.5
       shutter: 1/160
-      date: 1451750186
       iso: 200
-    DSC_0389.jpg:
+      date: 1451750186
+    - filename: DSC_0389.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1146,9 +1166,9 @@
       focal: 48
       aperture: 4.5
       shutter: 1/400
-      date: 1451750590
       iso: 640
-    DSC_0473.jpg:
+      date: 1451750590
+    - filename: DSC_0473.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1156,9 +1176,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/1000
-      date: 1451752214
       iso: 400
-    DSC_0516.jpg:
+      date: 1451752214
+    - filename: DSC_0516.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1166,9 +1186,9 @@
       focal: 50
       aperture: 2
       shutter: 1/200
-      date: 1451754631
       iso: 100
-    DSC_0531.jpg:
+      date: 1451754631
+    - filename: DSC_0531.jpg
       width: 1200
       height: 795
       hero: 1
@@ -1177,9 +1197,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/250
-      date: 1451757644
       iso: 320
-    DSC_0585.jpg:
+      date: 1451757644
+    - filename: DSC_0585.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1187,9 +1207,9 @@
       focal: 150
       aperture: 4.8
       shutter: 1/800
-      date: 1451818123
       iso: 200
-    DSC_0630.jpg:
+      date: 1451818123
+    - filename: DSC_0630.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1197,9 +1217,9 @@
       focal: 300
       aperture: 5.6
       shutter: 1/1600
-      date: 1451819627
       iso: 200
-    DSC_0941.jpg:
+      date: 1451819627
+    - filename: DSC_0941.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1207,33 +1227,13 @@
       focal: 68
       aperture: 5.6
       shutter: 1/500
+      iso: 200
       date: 1451831886
-      iso: 200
-    DSC_9746.jpg:
-      width: 1200
-      height: 800
-      camera: NIKON D7000
-      lens: 10.5 mm f/2.8
-      focal: 10.5
-      aperture: 2.8
-      shutter: 1/400
-      date: 1451396096
-      iso: 200
-    DSC_9832.jpg:
-      width: 1200
-      height: 800
-      camera: NIKON D7000
-      lens: 10.5 mm f/2.8
-      focal: 10.5
-      aperture: 2.8
-      shutter: 1/50
-      date: 1451685641
-      iso: 800
 2016-01-31-AZ:
   title: Austin Zoo
   date: '2016-01-31'
   contents:
-    DSC_1037.jpg:
+    - filename: DSC_1037.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1241,9 +1241,9 @@
       focal: 100
       aperture: 4.8
       shutter: 1/500
-      date: 1454175348
       iso: 400
-    DSC_1090.jpg:
+      date: 1454175348
+    - filename: DSC_1090.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1251,9 +1251,9 @@
       focal: 300
       aperture: 5.6
       shutter: 1/160
-      date: 1454176933
       iso: 800
-    DSC_1137.jpg:
+      date: 1454176933
+    - filename: DSC_1137.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1261,9 +1261,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/80
-      date: 1454192125
       iso: 800
-    DSC_1166.jpg:
+      date: 1454192125
+    - filename: DSC_1166.jpg
       width: 1200
       height: 795
       hero: 1
@@ -1272,9 +1272,9 @@
       focal: 210
       aperture: 5.3
       shutter: 1/160
-      date: 1454251075
       iso: 200
-    DSC_1432.jpg:
+      date: 1454251075
+    - filename: DSC_1432.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1282,9 +1282,9 @@
       focal: 240
       aperture: 5.6
       shutter: 1/200
-      date: 1454256452
       iso: 400
-    DSC_1579.jpg:
+      date: 1454256452
+    - filename: DSC_1579.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -1292,9 +1292,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/500
-      date: 1454258527
       iso: 200
-    DSC_1589.jpg:
+      date: 1454258527
+    - filename: DSC_1589.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1302,13 +1302,13 @@
       focal: 300
       aperture: 5.6
       shutter: 1/250
-      date: 1454258624
       iso: 200
+      date: 1454258624
 2016-02-27-SANDC2016:
   title: SANDCamp 2016
   date: '2016-02-27'
   contents:
-    DSC_1632.jpg:
+    - filename: DSC_1632.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1316,9 +1316,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/800
-      date: 1456495728
       iso: 100
-    DSC_1637.jpg:
+      date: 1456495728
+    - filename: DSC_1637.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1326,9 +1326,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/500
-      date: 1456495814
       iso: 100
-    DSC_1642.jpg:
+      date: 1456495814
+    - filename: DSC_1642.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1336,9 +1336,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/1600
-      date: 1456495848
       iso: 100
-    DSC_1663.jpg:
+      date: 1456495848
+    - filename: DSC_1663.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1346,9 +1346,9 @@
       focal: 50
       aperture: 1.8
       shutter: 1/800
-      date: 1456504599
       iso: 100
-    DSC_1767.jpg:
+      date: 1456504599
+    - filename: DSC_1767.jpg
       width: 1200
       height: 795
       hero: 1
@@ -1357,9 +1357,9 @@
       focal: 18
       aperture: 14
       shutter: 1/800
-      date: 1456605676
       iso: 200
-    DSC_1830.jpg:
+      date: 1456605676
+    - filename: DSC_1830.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1367,9 +1367,9 @@
       focal: 10.5
       aperture: 11
       shutter: 1/500
-      date: 1456670658
       iso: 100
-    DSC_1868.jpg:
+      date: 1456670658
+    - filename: DSC_1868.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1377,9 +1377,9 @@
       focal: 10.5
       aperture: 10
       shutter: 1/400
-      date: 1456671445
       iso: 100
-    DSC_1891.jpg:
+      date: 1456671445
+    - filename: DSC_1891.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1387,9 +1387,9 @@
       focal: 78
       aperture: 8
       shutter: 1/1000
-      date: 1456671664
       iso: 100
-    DSC_1951.jpg:
+      date: 1456671664
+    - filename: DSC_1951.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1397,9 +1397,9 @@
       focal: 10.5
       aperture: 11
       shutter: 1/500
-      date: 1456673098
       iso: 100
-    DSC_2046.jpg:
+      date: 1456673098
+    - filename: DSC_2046.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1407,9 +1407,9 @@
       focal: 120
       aperture: 7.1
       shutter: 1/800
-      date: 1456675276
       iso: 100
-    DSC_2063.jpg:
+      date: 1456675276
+    - filename: DSC_2063.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1417,9 +1417,9 @@
       focal: 300
       aperture: 5.6
       shutter: 1/1250
-      date: 1456675307
       iso: 100
-    DSC_2122.jpg:
+      date: 1456675307
+    - filename: DSC_2122.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1427,9 +1427,9 @@
       focal: 105
       aperture: 10
       shutter: 1/1600
-      date: 1456676523
       iso: 100
-    DSC_2197.jpg:
+      date: 1456676523
+    - filename: DSC_2197.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1437,13 +1437,13 @@
       focal: 50
       aperture: 1.8
       shutter: 1/30
-      date: 1456687973
       iso: 400
+      date: 1456687973
 2016-03-05-MKF:
   title: McKinney Falls
   date: '2016-03-05'
   contents:
-    DSC_2218.jpg:
+    - filename: DSC_2218.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1451,9 +1451,9 @@
       focal: 35
       aperture: 1.8
       shutter: 1/3200
-      date: 1457191523
       iso: 100
-    DSC_2225.jpg:
+      date: 1457191523
+    - filename: DSC_2225.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1461,9 +1461,9 @@
       focal: 40
       aperture: 3
       shutter: 1/1600
-      date: 1457191723
       iso: 100
-    DSC_2238.jpg:
+      date: 1457191723
+    - filename: DSC_2238.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1471,20 +1471,9 @@
       focal: 10.5
       aperture: 9
       shutter: 1/250
+      iso: 100
       date: 1457192316
-      iso: 100
-    DSC_2266.jpg:
-      width: 1200
-      height: 795
-      hero: 1
-      camera: NIKON D7000
-      lens: 40.0 mm f/2.8
-      focal: 40
-      aperture: 3
-      shutter: 1/2000
-      date: 1457195225
-      iso: 100
-    DSC_2255.jpg:
+    - filename: DSC_2255.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1494,11 +1483,22 @@
       shutter: 1/8000
       iso: 100
       date: 1457195027
+    - filename: DSC_2266.jpg
+      width: 1200
+      height: 795
+      hero: 1
+      camera: NIKON D7000
+      lens: 40.0 mm f/2.8
+      focal: 40
+      aperture: 3
+      shutter: 1/2000
+      iso: 100
+      date: 1457195225
 2016-03-13-PAARSFOC:
   title: Palo Alto for AR and SFO w Charlie
   date: '2016-03-13'
   contents:
-    DSC_2278.jpg:
+    - filename: DSC_2278.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1506,9 +1506,9 @@
       focal: 40
       aperture: 3.2
       shutter: 1/125
-      date: 1457695144
       iso: 640
-    DSC_2283.jpg:
+      date: 1457695144
+    - filename: DSC_2283.jpg
       width: 1200
       height: 795
       hero: 1
@@ -1517,9 +1517,9 @@
       focal: 40
       aperture: 3.2
       shutter: 1/400
-      date: 1457695169
       iso: 640
-    DSC_2292.jpg:
+      date: 1457695169
+    - filename: DSC_2292.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1527,9 +1527,9 @@
       focal: 40
       aperture: 3.2
       shutter: 1/100
-      date: 1457695221
       iso: 640
-    DSC_2328.jpg:
+      date: 1457695221
+    - filename: DSC_2328.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1537,9 +1537,9 @@
       focal: 50
       aperture: 2.8
       shutter: 1/640
-      date: 1457790260
       iso: 100
-    DSC_2339.jpg:
+      date: 1457790260
+    - filename: DSC_2339.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1547,9 +1547,9 @@
       focal: 40
       aperture: 3
       shutter: 1/320
-      date: 1457790610
       iso: 100
-    DSC_2346.jpg:
+      date: 1457790610
+    - filename: DSC_2346.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1557,9 +1557,9 @@
       focal: 40
       aperture: 3.2
       shutter: 1/800
-      date: 1457790681
       iso: 100
-    DSC_2365.jpg:
+      date: 1457790681
+    - filename: DSC_2365.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1567,9 +1567,9 @@
       focal: 180
       aperture: 5
       shutter: 1/250
-      date: 1457791287
       iso: 200
-    DSC_2412.jpg:
+      date: 1457791287
+    - filename: DSC_2412.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1577,9 +1577,9 @@
       focal: 260
       aperture: 5.6
       shutter: 1/320
-      date: 1457791503
       iso: 200
-    DSC_2431.jpg:
+      date: 1457791503
+    - filename: DSC_2431.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1587,13 +1587,13 @@
       focal: 40
       aperture: 3
       shutter: 1/500
-      date: 1457792359
       iso: 200
+      date: 1457792359
 2016-03-14-FX-E1J:
   title: Fuji X-E1 and Juno
   date: '2016-03-14'
   contents:
-    DSCF5020.jpg:
+    - filename: DSCF5020.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1601,9 +1601,9 @@
       focal: 55
       aperture: 5
       shutter: 1/125
-      date: 1457981744
       iso: 400
-    DSCF5021.jpg:
+      date: 1457981744
+    - filename: DSCF5021.jpg
       width: 800
       height: 1200
       camera: FUJIFILM X-E1
@@ -1611,9 +1611,9 @@
       focal: 55
       aperture: 5.6
       shutter: 1/140
-      date: 1457982126
       iso: 400
-    DSCF5028.jpg:
+      date: 1457982126
+    - filename: DSCF5028.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1621,9 +1621,9 @@
       focal: 48.4
       aperture: 4.5
       shutter: 1/150
-      date: 1457982170
       iso: 400
-    DSCF5029.jpg:
+      date: 1457982170
+    - filename: DSCF5029.jpg
       width: 1200
       height: 800
       hero: 1
@@ -1632,9 +1632,9 @@
       focal: 39
       aperture: 3.6
       shutter: 1/120
-      date: 1457982670
       iso: 400
-    DSCF5034.jpg:
+      date: 1457982670
+    - filename: DSCF5034.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1642,13 +1642,13 @@
       focal: 28.9
       aperture: 3.2
       shutter: 1/125
-      date: 1457982687
       iso: 400
+      date: 1457982687
 2016-03-21-TWRVFXE1:
   title: Tulsa Weekend for Roadtrip Video with Fuji XE1
   date: '2016-03-21'
   contents:
-    DSCF5170.jpg:
+    - filename: DSCF5170.jpg
       width: 800
       height: 1200
       hero: 1
@@ -1657,9 +1657,9 @@
       focal: 27
       aperture: 2.8
       shutter: 1/5
-      date: 1458324674
       iso: 1600
-    DSCF5174.jpg:
+      date: 1458324674
+    - filename: DSCF5174.jpg
       width: 800
       height: 1200
       camera: FUJIFILM X-E1
@@ -1667,9 +1667,9 @@
       focal: 27
       aperture: 2.8
       shutter: 1/9
-      date: 1458324787
       iso: 1600
-    DSCF5175.jpg:
+      date: 1458324787
+    - filename: DSCF5175.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1677,9 +1677,9 @@
       focal: 27
       aperture: 2.8
       shutter: 1/7
-      date: 1458327817
       iso: 1600
-    DSCF5179.jpg:
+      date: 1458327817
+    - filename: DSCF5179.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1687,9 +1687,9 @@
       focal: 27
       aperture: 2.8
       shutter: 1/104.99999999999999
-      date: 1458337012
       iso: 200
-    DSCF5224.jpg:
+      date: 1458337012
+    - filename: DSCF5224.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1697,9 +1697,9 @@
       focal: 40.7
       aperture: 4
       shutter: 1/900
-      date: 1458401661
       iso: 200
-    DSCF5227.jpg:
+      date: 1458401661
+    - filename: DSCF5227.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1707,13 +1707,13 @@
       focal: 28.9
       aperture: 3.6
       shutter: 1/12
-      date: 1458402183
       iso: 1600
+      date: 1458402183
 2016-04-09-OCN-EPGA:
   title: Oklahoma City and Norman - also Easter and Patricks Going Away
   date: '2016-04-09'
   contents:
-    DSCF4027.jpg:
+    - filename: DSCF4027.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1721,9 +1721,9 @@
       focal: 30.2
       aperture: 4.5
       shutter: 1/900
-      date: 1460202848
       iso: 200
-    DSCF4035.jpg:
+      date: 1460202848
+    - filename: DSCF4035.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1731,9 +1731,9 @@
       focal: 35.8
       aperture: 4.5
       shutter: 1/550
-      date: 1460202972
       iso: 200
-    DSCF4042.jpg:
+      date: 1460202972
+    - filename: DSCF4042.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1741,9 +1741,9 @@
       focal: 55
       aperture: 4.5
       shutter: 1/240
-      date: 1460203071
       iso: 200
-    DSCF4045.jpg:
+      date: 1460203071
+    - filename: DSCF4045.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1751,9 +1751,9 @@
       focal: 21.4
       aperture: 4.5
       shutter: 1/250
-      date: 1460203130
       iso: 200
-    DSCF4057.jpg:
+      date: 1460203130
+    - filename: DSCF4057.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1761,9 +1761,9 @@
       focal: 18
       aperture: 4
       shutter: 1/1500
-      date: 1460205167
       iso: 200
-    DSCF4070.jpg:
+      date: 1460205167
+    - filename: DSCF4070.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1771,9 +1771,9 @@
       focal: 27
       aperture: 2.8
       shutter: 1/4000
-      date: 1460205649
       iso: 200
-    DSCF4074.jpg:
+      date: 1460205649
+    - filename: DSCF4074.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1781,9 +1781,9 @@
       focal: 27
       aperture: 2.8
       shutter: 1/1500
-      date: 1460206613
       iso: 200
-    DSCF4075.jpg:
+      date: 1460206613
+    - filename: DSCF4075.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1791,9 +1791,9 @@
       focal: 27
       aperture: 2.8
       shutter: 1/2000
-      date: 1460207893
       iso: 200
-    DSCF4087.jpg:
+      date: 1460207893
+    - filename: DSCF4087.jpg
       width: 1200
       height: 800
       hero: 1
@@ -1802,9 +1802,9 @@
       focal: 55
       aperture: 5.6
       shutter: 1/200
-      date: 1460208797
       iso: 200
-    DSCF4093.jpg:
+      date: 1460208797
+    - filename: DSCF4093.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1812,9 +1812,9 @@
       focal: 18
       aperture: 5.6
       shutter: 1/180
-      date: 1460209032
       iso: 200
-    DSCF4126.jpg:
+      date: 1460209032
+    - filename: DSCF4126.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1822,9 +1822,9 @@
       focal: 55
       aperture: 4
       shutter: 1/1800
-      date: 1460210438
       iso: 400
-    DSCF4131.jpg:
+      date: 1460210438
+    - filename: DSCF4131.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1832,9 +1832,9 @@
       focal: 18
       aperture: 4
       shutter: 1/1600
-      date: 1460211210
       iso: 400
-    DSCF4134.jpg:
+      date: 1460211210
+    - filename: DSCF4134.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1842,9 +1842,9 @@
       focal: 26.5
       aperture: 4
       shutter: 1/750
-      date: 1460211293
       iso: 400
-    DSCF4150.jpg:
+      date: 1460211293
+    - filename: DSCF4150.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1852,9 +1852,9 @@
       focal: 18
       aperture: 4
       shutter: 1/1500
-      date: 1460211743
       iso: 200
-    DSCF4159.jpg:
+      date: 1460211743
+    - filename: DSCF4159.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1862,9 +1862,9 @@
       focal: 18
       aperture: 4
       shutter: 1/4000
-      date: 1460214423
       iso: 200
-    DSCF4168.jpg:
+      date: 1460214423
+    - filename: DSCF4168.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1872,9 +1872,9 @@
       focal: 55
       aperture: 4
       shutter: 1/950
-      date: 1460214577
       iso: 200
-    DSCF4170.jpg:
+      date: 1460214577
+    - filename: DSCF4170.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1882,13 +1882,13 @@
       focal: 18
       aperture: 4
       shutter: 1/3000
-      date: 1460214589
       iso: 200
+      date: 1460214589
 2016-04-20-SIA:
   title: Scotland and Ireland with Alex
   date: '2016-04-20'
   contents:
-    DSCF4194.jpg:
+    - filename: DSCF4194.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1896,9 +1896,9 @@
       focal: 18
       aperture: 7.1
       shutter: 1/30
-      date: 1460827461
       iso: 640
-    DSCF4202.jpg:
+      date: 1460827461
+    - filename: DSCF4202.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -1906,29 +1906,9 @@
       focal: 18
       aperture: 7.1
       shutter: 1/1000
-      date: 1460866936
       iso: 400
-    DSCF4229.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 18.8
-      aperture: 7.1
-      shutter: 1/350
-      date: 1460975743
-      iso: 200
-    DSCF4274.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF27mmF2.8
-      focal: 27
-      aperture: 7.1
-      shutter: 1/350
-      date: 1461086470
-      iso: 200
-    DSC_2510.jpg:
+      date: 1460866936
+    - filename: DSC_2510.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1936,9 +1916,19 @@
       focal: 44
       aperture: 4.2
       shutter: 1/40
-      date: 1460927716
       iso: 1250
-    DSC_2606.jpg:
+      date: 1460927716
+    - filename: DSCF4229.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18.8
+      aperture: 7.1
+      shutter: 1/350
+      iso: 200
+      date: 1460975743
+    - filename: DSC_2606.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1946,9 +1936,9 @@
       focal: 62
       aperture: 7.1
       shutter: 1/800
-      date: 1460984386
       iso: 200
-    DSC_2612.jpg:
+      date: 1460984386
+    - filename: DSC_2612.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1956,9 +1946,9 @@
       focal: 24
       aperture: 11
       shutter: 1/500
-      date: 1460997441
       iso: 200
-    DSC_2619.jpg:
+      date: 1460997441
+    - filename: DSC_2619.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1966,9 +1956,9 @@
       focal: 56
       aperture: 4.5
       shutter: 1/200
-      date: 1460997962
       iso: 200
-    DSC_2635.jpg:
+      date: 1460997962
+    - filename: DSC_2635.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -1976,9 +1966,9 @@
       focal: 98
       aperture: 22
       shutter: 1/30
-      date: 1461006137
       iso: 400
-    DSC_2669.jpg:
+      date: 1461006137
+    - filename: DSC_2669.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1986,9 +1976,9 @@
       focal: 10.5
       aperture: 4
       shutter: 1/60
-      date: 1461012856
       iso: 400
-    DSC_2687.jpg:
+      date: 1461012856
+    - filename: DSC_2687.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -1996,9 +1986,9 @@
       focal: 40
       aperture: 9
       shutter: 1/320
-      date: 1461054700
       iso: 400
-    DSC_2767.jpg:
+      date: 1461054700
+    - filename: DSC_2767.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2006,9 +1996,9 @@
       focal: 10.5
       aperture: 22
       shutter: 1/400
-      date: 1461064744
       iso: 800
-    DSC_2798.jpg:
+      date: 1461064744
+    - filename: DSC_2798.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2016,9 +2006,9 @@
       focal: 10.5
       aperture: 22
       shutter: 1/200
-      date: 1461065188
       iso: 800
-    DSC_2952.jpg:
+      date: 1461065188
+    - filename: DSC_2952.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2026,9 +2016,9 @@
       focal: 240
       aperture: 5.3
       shutter: 1/1000
-      date: 1461073155
       iso: 400
-    DSC_2971.jpg:
+      date: 1461073155
+    - filename: DSC_2971.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2036,9 +2026,9 @@
       focal: 210
       aperture: 5.3
       shutter: 1/800
-      date: 1461073186
       iso: 400
-    DSC_3039.jpg:
+      date: 1461073186
+    - filename: DSC_3039.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2046,9 +2036,9 @@
       focal: 78
       aperture: 10
       shutter: 1/1600
-      date: 1461075147
       iso: 400
-    DSC_3048.jpg:
+      date: 1461075147
+    - filename: DSC_3048.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2056,9 +2046,9 @@
       focal: 300
       aperture: 5.6
       shutter: 1/1000
-      date: 1461075155
       iso: 400
-    DSC_3243.jpg:
+      date: 1461075155
+    - filename: DSC_3243.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2066,9 +2056,9 @@
       focal: 195
       aperture: 5
       shutter: 1/1250
-      date: 1461077512
       iso: 400
-    DSC_3345.jpg:
+      date: 1461077512
+    - filename: DSC_3345.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2076,9 +2066,19 @@
       focal: 220
       aperture: 5.3
       shutter: 1/500
-      date: 1461078476
       iso: 400
-    DSC_3453.jpg:
+      date: 1461078476
+    - filename: DSCF4274.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 7.1
+      shutter: 1/350
+      iso: 200
+      date: 1461086470
+    - filename: DSC_3453.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2086,9 +2086,9 @@
       focal: 120
       aperture: 8
       shutter: 1/1000
-      date: 1461089075
       iso: 800
-    DSC_3477.jpg:
+      date: 1461089075
+    - filename: DSC_3477.jpg
       width: 1200
       height: 795
       hero: 1
@@ -2097,9 +2097,9 @@
       focal: 56
       aperture: 8
       shutter: 1/800
-      date: 1461095230
       iso: 800
-    DSC_3517.jpg:
+      date: 1461095230
+    - filename: DSC_3517.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2107,9 +2107,9 @@
       focal: 10.5
       aperture: 18
       shutter: 1/1250
-      date: 1461148494
       iso: 800
-    DSC_3556.jpg:
+      date: 1461148494
+    - filename: DSC_3556.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2117,9 +2117,9 @@
       focal: 18
       aperture: 10
       shutter: 1/400
-      date: 1461156740
       iso: 200
-    DSC_3608.jpg:
+      date: 1461156740
+    - filename: DSC_3608.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2127,9 +2127,9 @@
       focal: 24
       aperture: 10
       shutter: 1/320
-      date: 1461159174
       iso: 200
-    DSC_3618.jpg:
+      date: 1461159174
+    - filename: DSC_3618.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2137,9 +2137,9 @@
       focal: 34
       aperture: 9
       shutter: 1/320
-      date: 1461159616
       iso: 200
-    DSC_3621.jpg:
+      date: 1461159616
+    - filename: DSC_3621.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2147,9 +2147,9 @@
       focal: 34
       aperture: 10
       shutter: 1/400
-      date: 1461159732
       iso: 200
-    DSC_3630.jpg:
+      date: 1461159732
+    - filename: DSC_3630.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2157,9 +2157,9 @@
       focal: 44
       aperture: 29
       shutter: 1/30
-      date: 1461159887
       iso: 200
-    DSC_3638.jpg:
+      date: 1461159887
+    - filename: DSC_3638.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2167,9 +2167,9 @@
       focal: 18
       aperture: 9
       shutter: 1/320
-      date: 1461160361
       iso: 200
-    DSC_3648.jpg:
+      date: 1461160361
+    - filename: DSC_3648.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2177,9 +2177,9 @@
       focal: 10.5
       aperture: 11
       shutter: 1/500
-      date: 1461160673
       iso: 200
-    DSC_3662.jpg:
+      date: 1461160673
+    - filename: DSC_3662.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2187,9 +2187,9 @@
       focal: 130
       aperture: 5.6
       shutter: 1/500
-      date: 1461161285
       iso: 200
-    DSC_3677.jpg:
+      date: 1461161285
+    - filename: DSC_3677.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2197,9 +2197,9 @@
       focal: 31
       aperture: 10
       shutter: 1/400
-      date: 1461161584
       iso: 200
-    DSC_3681.jpg:
+      date: 1461161584
+    - filename: DSC_3681.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2207,9 +2207,9 @@
       focal: 70
       aperture: 7.1
       shutter: 1/800
-      date: 1461167997
       iso: 200
-    DSC_3710.jpg:
+      date: 1461167997
+    - filename: DSC_3710.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2217,9 +2217,9 @@
       focal: 18
       aperture: 8
       shutter: 1/250
-      date: 1461170668
       iso: 200
-    DSC_3715.jpg:
+      date: 1461170668
+    - filename: DSC_3715.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2227,9 +2227,9 @@
       focal: 18
       aperture: 10
       shutter: 1/400
-      date: 1461170773
       iso: 200
-    DSC_3717.jpg:
+      date: 1461170773
+    - filename: DSC_3717.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2237,9 +2237,9 @@
       focal: 18
       aperture: 9
       shutter: 1/320
-      date: 1461170869
       iso: 200
-    DSC_3732.jpg:
+      date: 1461170869
+    - filename: DSC_3732.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2247,9 +2247,9 @@
       focal: 10.5
       aperture: 9
       shutter: 1/320
-      date: 1461171526
       iso: 200
-    DSC_3738.jpg:
+      date: 1461171526
+    - filename: DSC_3738.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2257,9 +2257,9 @@
       focal: 10.5
       aperture: 9
       shutter: 1/320
-      date: 1461171724
       iso: 200
-    DSC_3760.jpg:
+      date: 1461171724
+    - filename: DSC_3760.jpg
       width: 800
       height: 1200
       camera: NIKON D7000
@@ -2267,9 +2267,9 @@
       focal: 18
       aperture: 3.5
       shutter: 1/320
-      date: 1461175732
       iso: 200
-    DSC_3764.jpg:
+      date: 1461175732
+    - filename: DSC_3764.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2277,9 +2277,9 @@
       focal: 44
       aperture: 4.2
       shutter: 1/250
-      date: 1461175774
       iso: 200
-    DSC_3793.jpg:
+      date: 1461175774
+    - filename: DSC_3793.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2287,9 +2287,9 @@
       focal: 29
       aperture: 5.6
       shutter: 1/125
-      date: 1461179344
       iso: 200
-    DSC_3833.jpg:
+      date: 1461179344
+    - filename: DSC_3833.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2297,9 +2297,9 @@
       focal: 27
       aperture: 5.6
       shutter: 1/125
-      date: 1461182426
       iso: 200
-    DSC_3840.jpg:
+      date: 1461182426
+    - filename: DSC_3840.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2307,249 +2307,9 @@
       focal: 18
       aperture: 8
       shutter: 1/1
+      iso: 200
       date: 1461186199
-      iso: 200
-    DSCF4299.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 37.4
-      aperture: 8
-      shutter: 1/419.99999999999994
-      date: 1461256295
-      iso: 200
-    DSCF4305.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF27mmF2.8
-      focal: 27
-      aperture: 9
-      shutter: 1/400
-      date: 1461416868
-      iso: 200
-    DSCF4321.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 21.4
-      aperture: 9
-      shutter: 1/400
-      date: 1461418801
-      iso: 200
-    DSCF4328.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 55
-      aperture: 4.5
-      shutter: 1/125
-      date: 1461418909
-      iso: 200
-    DSCF4385.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 18.8
-      aperture: 2.8
-      shutter: 1/125
-      date: 1461422741
-      iso: 1000
-    DSCF4391.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 30.2
-      aperture: 3.6
-      shutter: 1/40
-      date: 1461422868
-      iso: 1000
-    DSCF4404.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 18
-      aperture: 2.8
-      shutter: 1/125
-      date: 1461423198
-      iso: 1000
-    DSCF4405.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 18
-      aperture: 2.8
-      shutter: 1/120
-      date: 1461423280
-      iso: 1000
-    DSCF4409.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 37.4
-      aperture: 3.6
-      shutter: 1/55
-      date: 1461423416
-      iso: 1000
-    DSCF4430.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 55
-      aperture: 4
-      shutter: 1/280
-      date: 1461425408
-      iso: 200
-    DSCF4438.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 18
-      aperture: 4
-      shutter: 1/3000
-      date: 1461426076
-      iso: 200
-    DSCF4445.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 18
-      aperture: 2.8
-      shutter: 1/40
-      date: 1461426844
-      iso: 800
-    DSCF4486.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF27mmF2.8
-      focal: 27
-      aperture: 2.8
-      shutter: 1/680
-      date: 1461503731
-      iso: 200
-    DSCF4489.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF27mmF2.8
-      focal: 27
-      aperture: 2.8
-      shutter: 1/450
-      date: 1461504090
-      iso: 200
-    DSCF4491.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF27mmF2.8
-      focal: 27
-      aperture: 2.8
-      shutter: 1/2000
-      date: 1461509552
-      iso: 200
-    DSCF4496.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 25.4
-      aperture: 5.6
-      shutter: 1/150
-      date: 1461510005
-      iso: 200
-    DSCF4503.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 55
-      aperture: 5
-      shutter: 1/125
-      date: 1461510455
-      iso: 200
-    DSCF4508.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 55
-      aperture: 4
-      shutter: 1/300
-      date: 1461510656
-      iso: 200
-    DSCF4515.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 30.2
-      aperture: 4
-      shutter: 1/320
-      date: 1461510774
-      iso: 200
-    DSCF4521.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 55
-      aperture: 4
-      shutter: 1/450
-      date: 1461510877
-      iso: 200
-    DSCF4524.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 55
-      aperture: 4
-      shutter: 1/950
-      date: 1461511031
-      iso: 200
-    DSCF4536.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF18-55mmF2.8-4 R LM OIS
-      focal: 55
-      aperture: 4
-      shutter: 1/180
-      date: 1461512490
-      iso: 200
-    DSCF4547.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF27mmF2.8
-      focal: 27
-      aperture: 4
-      shutter: 3.1s
-      date: 1461537259
-      iso: 200
-    DSCF4550.jpg:
-      width: 1200
-      height: 800
-      camera: FUJIFILM X-E1
-      lens: XF27mmF2.8
-      focal: 27
-      aperture: 4
-      shutter: 2.5s
-      date: 1461537292
-      iso: 200
-    DSC_3879.jpg:
+    - filename: DSC_3879.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2557,9 +2317,9 @@
       focal: 31
       aperture: 11
       shutter: 1/500
-      date: 1461244571
       iso: 400
-    DSC_3885.jpg:
+      date: 1461244571
+    - filename: DSC_3885.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2567,9 +2327,9 @@
       focal: 18
       aperture: 13
       shutter: 1/640
-      date: 1461244811
       iso: 400
-    DSC_3986.jpg:
+      date: 1461244811
+    - filename: DSC_3986.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2577,9 +2337,19 @@
       focal: 125
       aperture: 9
       shutter: 1/1250
-      date: 1461253233
       iso: 200
-    DSC_4012.jpg:
+      date: 1461253233
+    - filename: DSCF4299.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 37.4
+      aperture: 8
+      shutter: 1/419.99999999999994
+      iso: 200
+      date: 1461256295
+    - filename: DSC_4012.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2587,9 +2357,9 @@
       focal: 18
       aperture: 7.1
       shutter: 1/200
-      date: 1461325985
       iso: 100
-    DSC_4031.jpg:
+      date: 1461325985
+    - filename: DSC_4031.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2597,9 +2367,9 @@
       focal: 56
       aperture: 4.5
       shutter: 1/200
-      date: 1461326736
       iso: 100
-    DSC_4045.jpg:
+      date: 1461326736
+    - filename: DSC_4045.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2607,9 +2377,9 @@
       focal: 18
       aperture: 3.5
       shutter: 1/1600
-      date: 1461327264
       iso: 100
-    DSC_4090.jpg:
+      date: 1461327264
+    - filename: DSC_4090.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2617,9 +2387,9 @@
       focal: 10.5
       aperture: 22
       shutter: 1/10
-      date: 1461327766
       iso: 100
-    DSC_4116.jpg:
+      date: 1461327766
+    - filename: DSC_4116.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2627,9 +2397,9 @@
       focal: 62
       aperture: 4.5
       shutter: 1/125
-      date: 1461328653
       iso: 100
-    DSC_4129.jpg:
+      date: 1461328653
+    - filename: DSC_4129.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2637,9 +2407,9 @@
       focal: 18
       aperture: 16
       shutter: 1/6
-      date: 1461328889
       iso: 100
-    DSC_4150.jpg:
+      date: 1461328889
+    - filename: DSC_4150.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2647,9 +2417,9 @@
       focal: 18
       aperture: 9
       shutter: 1/320
-      date: 1461329910
       iso: 100
-    DSC_4188.jpg:
+      date: 1461329910
+    - filename: DSC_4188.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2657,23 +2427,243 @@
       focal: 300
       aperture: 5.6
       shutter: 1/100
-      date: 1461342119
       iso: 100
+      date: 1461342119
+    - filename: DSCF4305.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 9
+      shutter: 1/400
+      iso: 200
+      date: 1461416868
+    - filename: DSCF4321.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 21.4
+      aperture: 9
+      shutter: 1/400
+      iso: 200
+      date: 1461418801
+    - filename: DSCF4328.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4.5
+      shutter: 1/125
+      iso: 200
+      date: 1461418909
+    - filename: DSCF4385.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18.8
+      aperture: 2.8
+      shutter: 1/125
+      iso: 1000
+      date: 1461422741
+    - filename: DSCF4391.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 30.2
+      aperture: 3.6
+      shutter: 1/40
+      iso: 1000
+      date: 1461422868
+    - filename: DSCF4404.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 2.8
+      shutter: 1/125
+      iso: 1000
+      date: 1461423198
+    - filename: DSCF4405.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 2.8
+      shutter: 1/120
+      iso: 1000
+      date: 1461423280
+    - filename: DSCF4409.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 37.4
+      aperture: 3.6
+      shutter: 1/55
+      iso: 1000
+      date: 1461423416
+    - filename: DSCF4430.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4
+      shutter: 1/280
+      iso: 200
+      date: 1461425408
+    - filename: DSCF4438.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 4
+      shutter: 1/3000
+      iso: 200
+      date: 1461426076
+    - filename: DSCF4445.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 2.8
+      shutter: 1/40
+      iso: 800
+      date: 1461426844
+    - filename: DSCF4486.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 2.8
+      shutter: 1/680
+      iso: 200
+      date: 1461503731
+    - filename: DSCF4489.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 2.8
+      shutter: 1/450
+      iso: 200
+      date: 1461504090
+    - filename: DSCF4491.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 2.8
+      shutter: 1/2000
+      iso: 200
+      date: 1461509552
+    - filename: DSCF4496.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 25.4
+      aperture: 5.6
+      shutter: 1/150
+      iso: 200
+      date: 1461510005
+    - filename: DSCF4503.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 5
+      shutter: 1/125
+      iso: 200
+      date: 1461510455
+    - filename: DSCF4508.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4
+      shutter: 1/300
+      iso: 200
+      date: 1461510656
+    - filename: DSCF4515.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 30.2
+      aperture: 4
+      shutter: 1/320
+      iso: 200
+      date: 1461510774
+    - filename: DSCF4521.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4
+      shutter: 1/450
+      iso: 200
+      date: 1461510877
+    - filename: DSCF4524.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4
+      shutter: 1/950
+      iso: 200
+      date: 1461511031
+    - filename: DSCF4536.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4
+      shutter: 1/180
+      iso: 200
+      date: 1461512490
+    - filename: DSCF4547.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 4
+      shutter: 3.1s
+      iso: 200
+      date: 1461537259
+    - filename: DSCF4550.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF27mmF2.8
+      focal: 27
+      aperture: 4
+      shutter: 2.5s
+      iso: 200
+      date: 1461537292
 2016-05-01-SC:
   title: Softball and Croquet
   date: '2016-05-01'
   contents:
-    DSC_4254.jpg:
-      width: 1200
-      height: 795
-      camera: NIKON D7000
-      lens: 55.0-300.0 mm f/4.5-5.6
-      focal: 195
-      aperture: 5
-      shutter: 1/400
-      date: 1462116074
-      iso: 400
-    DSC_4303.jpg:
+    - filename: DSC_4303.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2681,9 +2671,9 @@
       focal: 180
       aperture: 5
       shutter: 1/1000
-      date: 1462100356
       iso: 400
-    DSC_4322.jpg:
+      date: 1462100356
+    - filename: DSC_4322.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2691,9 +2681,9 @@
       focal: 92
       aperture: 4.5
       shutter: 1/1600
-      date: 1462101521
       iso: 400
-    DSC_4393.jpg:
+      date: 1462101521
+    - filename: DSC_4393.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2701,9 +2691,9 @@
       focal: 200
       aperture: 5
       shutter: 1/2000
-      date: 1462109301
       iso: 400
-    DSC_4410.jpg:
+      date: 1462109301
+    - filename: DSC_4410.jpg
       width: 1200
       height: 800
       hero: 1
@@ -2712,13 +2702,33 @@
       focal: 92
       aperture: 4.5
       shutter: 1/3200
-      date: 1462110196
       iso: 400
+      date: 1462110196
+    - filename: DSC_4254.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 195
+      aperture: 5
+      shutter: 1/400
+      iso: 400
+      date: 1462116074
 2016-05-13-DCNO:
   title: DrupalCon New Orleans
   date: '2016-05-13'
   contents:
-    DSCF4569.jpg:
+    - filename: DSC_4424.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 10
+      shutter: 1/10
+      iso: 400
+      date: 1462650189
+    - filename: DSCF4569.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -2726,9 +2736,9 @@
       focal: 42.5
       aperture: 4
       shutter: 1/30
-      date: 1462872703
       iso: 1600
-    DSCF4640.jpg:
+      date: 1462872703
+    - filename: DSCF4640.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -2736,9 +2746,9 @@
       focal: 30.2
       aperture: 4
       shutter: 1/60
-      date: 1463072867
       iso: 640
-    DSCF4679.jpg:
+      date: 1463072867
+    - filename: DSCF4679.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -2746,9 +2756,9 @@
       focal: 39
       aperture: 4
       shutter: 1/40
-      date: 1463073964
       iso: 400
-    DSCF4725.jpg:
+      date: 1463073964
+    - filename: DSCF4725.jpg
       width: 1200
       height: 800
       hero: 1
@@ -2757,9 +2767,9 @@
       focal: 28.9
       aperture: 4
       shutter: 1/850.0000000000001
-      date: 1463074605
       iso: 200
-    DSCF4779.jpg:
+      date: 1463074605
+    - filename: DSCF4779.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -2767,23 +2777,13 @@
       focal: 55
       aperture: 4
       shutter: 1/170
-      date: 1463075241
       iso: 200
-    DSC_4424.jpg:
-      width: 1200
-      height: 795
-      camera: NIKON D7000
-      lens: 18.0-70.0 mm f/3.5-4.5
-      focal: 18
-      aperture: 10
-      shutter: 1/10
-      date: 1462650189
-      iso: 400
+      date: 1463075241
 2016-05-29-LPTSCF:
   title: Lake Placid Trip in Seguin with Charlie and Friends
   date: '2016-05-29'
   contents:
-    DSCF4839.jpg:
+    - filename: DSCF4839.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -2791,9 +2791,9 @@
       focal: 18
       aperture: 2.8
       shutter: 1/600
-      date: 1464445006
       iso: 200
-    DSCF4846.jpg:
+      date: 1464445006
+    - filename: DSCF4846.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -2801,9 +2801,9 @@
       focal: 55
       aperture: 4
       shutter: 1/750
-      date: 1464445692
       iso: 200
-    DSCF4858.jpg:
+      date: 1464445692
+    - filename: DSCF4858.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -2811,9 +2811,9 @@
       focal: 18
       aperture: 22
       shutter: 1/2
-      date: 1464448065
       iso: 200
-    DSCF4868.jpg:
+      date: 1464448065
+    - filename: DSCF4868.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -2821,9 +2821,9 @@
       focal: 46.3
       aperture: 4
       shutter: 1/500
-      date: 1464451716
       iso: 200
-    DSCF4884.jpg:
+      date: 1464451716
+    - filename: DSCF4884.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -2831,9 +2831,9 @@
       focal: 55
       aperture: 4.5
       shutter: 1/340
-      date: 1464453119
       iso: 200
-    DSCF4941.jpg:
+      date: 1464453119
+    - filename: DSCF4941.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -2841,9 +2841,9 @@
       focal: 18
       aperture: 3.6
       shutter: 1/100
-      date: 1464460779
       iso: 200
-    DSCF4966.jpg:
+      date: 1464460779
+    - filename: DSCF4966.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -2851,9 +2851,9 @@
       focal: 19.6
       aperture: 3.6
       shutter: 1/250
-      date: 1464461980
       iso: 320
-    DSCF5011.jpg:
+      date: 1464461980
+    - filename: DSCF5011.jpg
       width: 1200
       height: 800
       camera: FUJIFILM X-E1
@@ -2861,9 +2861,9 @@
       focal: 18
       aperture: 20
       shutter: 1/2
-      date: 1464466127
       iso: 200
-    DSCF5012.jpg:
+      date: 1464466127
+    - filename: DSCF5012.jpg
       width: 1200
       height: 800
       hero: 1
@@ -2872,9 +2872,9 @@
       focal: 18
       aperture: 2.8
       shutter: 1/40
-      date: 1464467310
       iso: 200
-    DSC_4539.jpg:
+      date: 1464467310
+    - filename: DSC_4539.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2882,9 +2882,9 @@
       focal: 70
       aperture: 4.5
       shutter: 1/320
-      date: 1464542697
       iso: 200
-    DSC_4608.jpg:
+      date: 1464542697
+    - filename: DSC_4608.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2892,9 +2892,9 @@
       focal: 62
       aperture: 4.5
       shutter: 1/400
-      date: 1464543471
       iso: 200
-    DSC_4968.jpg:
+      date: 1464543471
+    - filename: DSC_4968.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2902,13 +2902,13 @@
       focal: 29
       aperture: 3.8
       shutter: 1/800
-      date: 1464549518
       iso: 400
+      date: 1464549518
 2016-06-19-RCPBI:
   title: River City Pops British Invasion
   date: '2016-06-19'
   contents:
-    DSC_5078.jpg:
+    - filename: DSC_5078.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2916,9 +2916,9 @@
       focal: 22
       aperture: 3.5
       shutter: 1/40
-      date: 1466342419
       iso: 1600
-    DSC_5150.jpg:
+      date: 1466342419
+    - filename: DSC_5150.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2926,9 +2926,9 @@
       focal: 62
       aperture: 4.5
       shutter: 1/160
-      date: 1466345129
       iso: 2000
-    DSC_5302.jpg:
+      date: 1466345129
+    - filename: DSC_5302.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -2936,9 +2936,9 @@
       focal: 50
       aperture: 4.5
       shutter: 1/100
-      date: 1466345775
       iso: 2000
-    DSC_6277.jpg:
+      date: 1466345775
+    - filename: DSC_6277.jpg
       width: 1200
       height: 800
       hero: 1
@@ -2947,9 +2947,9 @@
       focal: 10.5
       aperture: 3.5
       shutter: 1/160
-      date: 1466350350
       iso: 1250
-    DSC_6307.jpg:
+      date: 1466350350
+    - filename: DSC_6307.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2957,9 +2957,9 @@
       focal: 10.5
       aperture: 3.5
       shutter: 1/160
-      date: 1466350639
       iso: 1250
-    DSC_6372.jpg:
+      date: 1466350639
+    - filename: DSC_6372.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2967,13 +2967,13 @@
       focal: 70
       aperture: 4.5
       shutter: 1/160
-      date: 1466350721
       iso: 1250
+      date: 1466350721
 2015-08-29-GWR:
   title: Great Western Roadtrip
   date: '2015-08-29'
   contents:
-    DSC_3515.jpg:
+    - filename: DSC_3515.jpg
       hero: 1
       hero_attachment: bottom
       width: 1200
@@ -2985,7 +2985,7 @@
       shutter: 1/3200
       iso: 200
       date: 1440877871
-    DSC_3526.jpg:
+    - filename: DSC_3526.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -2995,7 +2995,7 @@
       shutter: 1/100
       iso: 200
       date: 1440878022
-    DSC_3536.jpg:
+    - filename: DSC_3536.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3005,7 +3005,7 @@
       shutter: 1/200
       iso: 400
       date: 1440878369
-    DSC_3543.jpg:
+    - filename: DSC_3543.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3015,7 +3015,7 @@
       shutter: 1/50
       iso: 400
       date: 1440878473
-    DSC_3548.jpg:
+    - filename: DSC_3548.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3025,7 +3025,7 @@
       shutter: 1/100
       iso: 400
       date: 1440878586
-    DSC_3566.jpg:
+    - filename: DSC_3566.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3035,7 +3035,7 @@
       shutter: 1/60
       iso: 400
       date: 1440878828
-    DSC_3612.jpg:
+    - filename: DSC_3612.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3045,7 +3045,7 @@
       shutter: 1/30
       iso: 1250
       date: 1440900953
-    DSC_3644.jpg:
+    - filename: DSC_3644.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3055,7 +3055,7 @@
       shutter: 1/640
       iso: 200
       date: 1440954793
-    DSC_3648.jpg:
+    - filename: DSC_3648.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3065,7 +3065,7 @@
       shutter: 1/500
       iso: 200
       date: 1440956432
-    DSC_3662.jpg:
+    - filename: DSC_3662.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3075,7 +3075,7 @@
       shutter: 1/8000
       iso: 200
       date: 1440957228
-    DSC_3664.jpg:
+    - filename: DSC_3664.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3085,7 +3085,7 @@
       shutter: 1/8000
       iso: 200
       date: 1440957241
-    DSC_3676.jpg:
+    - filename: DSC_3676.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3095,7 +3095,7 @@
       shutter: 1/250
       iso: 200
       date: 1440957406
-    DSC_3690.jpg:
+    - filename: DSC_3690.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3105,7 +3105,7 @@
       shutter: 1/2000
       iso: 200
       date: 1440958185
-    DSC_3718.jpg:
+    - filename: DSC_3718.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3115,7 +3115,7 @@
       shutter: 1/4000
       iso: 200
       date: 1440968117
-    DSC_3727.jpg:
+    - filename: DSC_3727.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3125,7 +3125,7 @@
       shutter: 1/2500
       iso: 200
       date: 1440968169
-    DSC_3739.jpg:
+    - filename: DSC_3739.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3135,7 +3135,7 @@
       shutter: 1/1250
       iso: 200
       date: 1440968295
-    DSC_3745.jpg:
+    - filename: DSC_3745.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3145,7 +3145,7 @@
       shutter: 1/80
       iso: 640
       date: 1441022967
-    DSC_3767.jpg:
+    - filename: DSC_3767.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3155,7 +3155,7 @@
       shutter: 1/640
       iso: 400
       date: 1441037389
-    DSC_3811.jpg:
+    - filename: DSC_3811.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3165,7 +3165,7 @@
       shutter: 1/30
       iso: 640
       date: 1441044352
-    DSC_3828.jpg:
+    - filename: DSC_3828.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3175,7 +3175,7 @@
       shutter: 1/100
       iso: 640
       date: 1441059966
-    DSC_3830.jpg:
+    - filename: DSC_3830.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3185,7 +3185,7 @@
       shutter: 1/40
       iso: 2500
       date: 1441060202
-    DSC_3842.jpg:
+    - filename: DSC_3842.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3195,7 +3195,7 @@
       shutter: 1/640
       iso: 200
       date: 1441104822
-    DSC_3854.jpg:
+    - filename: DSC_3854.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3205,7 +3205,7 @@
       shutter: 1/500
       iso: 200
       date: 1441125813
-    DSC_3911.jpg:
+    - filename: DSC_3911.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3215,7 +3215,7 @@
       shutter: 1/250
       iso: 200
       date: 1441128312
-    DSC_3944.jpg:
+    - filename: DSC_3944.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3225,7 +3225,7 @@
       shutter: 1/800
       iso: 200
       date: 1441135368
-    DSC_3962.jpg:
+    - filename: DSC_3962.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3235,7 +3235,7 @@
       shutter: 1/160
       iso: 200
       date: 1441136404
-    DSC_3972.jpg:
+    - filename: DSC_3972.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3245,7 +3245,7 @@
       shutter: 1/800
       iso: 200
       date: 1441141311
-    DSC_3990.jpg:
+    - filename: DSC_3990.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3255,7 +3255,7 @@
       shutter: 1/160
       iso: 200
       date: 1441141551
-    DSC_4013.jpg:
+    - filename: DSC_4013.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3265,7 +3265,7 @@
       shutter: 1/80
       iso: 200
       date: 1441142634
-    DSC_4019.jpg:
+    - filename: DSC_4019.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3275,7 +3275,7 @@
       shutter: 1/60
       iso: 200
       date: 1441142807
-    DSC_4028.jpg:
+    - filename: DSC_4028.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3285,7 +3285,7 @@
       shutter: 1/80
       iso: 200
       date: 1441142927
-    DSC_4127.jpg:
+    - filename: DSC_4127.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3295,7 +3295,7 @@
       shutter: 1/800
       iso: 400
       date: 1441198238
-    DSC_4226.jpg:
+    - filename: DSC_4226.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3305,7 +3305,7 @@
       shutter: 1/800
       iso: 200
       date: 1441203349
-    DSC_4244.jpg:
+    - filename: DSC_4244.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3315,7 +3315,7 @@
       shutter: 1/500
       iso: 200
       date: 1441203519
-    DSC_4335.jpg:
+    - filename: DSC_4335.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3325,7 +3325,7 @@
       shutter: 1/500
       iso: 200
       date: 1441209686
-    DSC_4362.jpg:
+    - filename: DSC_4362.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3335,7 +3335,7 @@
       shutter: 1/500
       iso: 200
       date: 1441215052
-    DSC_4397.jpg:
+    - filename: DSC_4397.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3345,7 +3345,7 @@
       shutter: 1/80
       iso: 640
       date: 1441216258
-    DSC_4443.jpg:
+    - filename: DSC_4443.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3355,7 +3355,7 @@
       shutter: 1/60
       iso: 400
       date: 1441217226
-    DSC_4550.jpg:
+    - filename: DSC_4550.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3365,7 +3365,7 @@
       shutter: 1/60
       iso: 200
       date: 1441218455
-    DSC_4589.jpg:
+    - filename: DSC_4589.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3375,7 +3375,7 @@
       shutter: 1/200
       iso: 640
       date: 1441219061
-    DSC_4609.jpg:
+    - filename: DSC_4609.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3385,7 +3385,7 @@
       shutter: 1/200
       iso: 640
       date: 1441219154
-    DSC_4625.jpg:
+    - filename: DSC_4625.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3395,7 +3395,7 @@
       shutter: 1/160
       iso: 640
       date: 1441219584
-    DSC_4645.jpg:
+    - filename: DSC_4645.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3405,7 +3405,7 @@
       shutter: 1/8000
       iso: 640
       date: 1441219892
-    DSC_4760.jpg:
+    - filename: DSC_4760.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3415,7 +3415,7 @@
       shutter: 1/640
       iso: 200
       date: 1441222200
-    DSC_4778.jpg:
+    - filename: DSC_4778.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3425,7 +3425,7 @@
       shutter: 1/80
       iso: 200
       date: 1441222411
-    DSC_4779.jpg:
+    - filename: DSC_4779.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3435,7 +3435,7 @@
       shutter: 1/250
       iso: 200
       date: 1441223366
-    DSC_4792.jpg:
+    - filename: DSC_4792.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3445,7 +3445,7 @@
       shutter: 1/400
       iso: 200
       date: 1441224887
-    DSC_4801.jpg:
+    - filename: DSC_4801.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3455,7 +3455,7 @@
       shutter: 1/640
       iso: 200
       date: 1441228869
-    DSC_4813.jpg:
+    - filename: DSC_4813.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3465,7 +3465,7 @@
       shutter: 1/800
       iso: 200
       date: 1441305675
-    DSC_4818.jpg:
+    - filename: DSC_4818.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3475,7 +3475,7 @@
       shutter: 1/1000
       iso: 200
       date: 1441305791
-    DSC_5017.jpg:
+    - filename: DSC_5017.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3485,7 +3485,7 @@
       shutter: 1/640
       iso: 320
       date: 1441399698
-    DSC_5053.jpg:
+    - filename: DSC_5053.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3495,7 +3495,7 @@
       shutter: 1/125
       iso: 200
       date: 1441400296
-    DSC_5064.jpg:
+    - filename: DSC_5064.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3505,7 +3505,7 @@
       shutter: 1/160
       iso: 200
       date: 1441400501
-    DSC_5068.jpg:
+    - filename: DSC_5068.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3515,7 +3515,7 @@
       shutter: 1/100
       iso: 200
       date: 1441403217
-    DSC_5115.jpg:
+    - filename: DSC_5115.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3525,7 +3525,7 @@
       shutter: 1/640
       iso: 200
       date: 1441455695
-    DSC_5146.jpg:
+    - filename: DSC_5146.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3535,7 +3535,7 @@
       shutter: 1/100
       iso: 400
       date: 1441458508
-    DSC_5178.jpg:
+    - filename: DSC_5178.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3545,7 +3545,7 @@
       shutter: 1/125
       iso: 400
       date: 1441458703
-    DSC_5185.jpg:
+    - filename: DSC_5185.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3555,7 +3555,7 @@
       shutter: 1/60
       iso: 400
       date: 1441458993
-    DSC_5198.jpg:
+    - filename: DSC_5198.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -3565,7 +3565,7 @@
       shutter: 1/320
       iso: 400
       date: 1441461191
-    DSC_5212.jpg:
+    - filename: DSC_5212.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3575,7 +3575,7 @@
       shutter: 1/400
       iso: 400
       date: 1441461496
-    DSC_5217.jpg:
+    - filename: DSC_5217.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3585,7 +3585,7 @@
       shutter: 1/400
       iso: 400
       date: 1441461508
-    DSC_5292.jpg:
+    - filename: DSC_5292.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3595,7 +3595,7 @@
       shutter: 1/320
       iso: 100
       date: 1441473682
-    DSC_5328.jpg:
+    - filename: DSC_5328.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3605,7 +3605,7 @@
       shutter: 1/160
       iso: 100
       date: 1441477849
-    DSC_5337.jpg:
+    - filename: DSC_5337.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3615,7 +3615,7 @@
       shutter: 1/13
       iso: 400
       date: 1441478454
-    DSC_5379.jpg:
+    - filename: DSC_5379.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3625,7 +3625,7 @@
       shutter: 1/80
       iso: 640
       date: 1441479407
-    DSC_5392.jpg:
+    - filename: DSC_5392.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3635,7 +3635,7 @@
       shutter: 1/125
       iso: 640
       date: 1441479880
-    DSC_5435.jpg:
+    - filename: DSC_5435.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3645,7 +3645,7 @@
       shutter: 1/100
       iso: 640
       date: 1441481435
-    DSC_5445.jpg:
+    - filename: DSC_5445.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3655,7 +3655,7 @@
       shutter: 1/40
       iso: 640
       date: 1441482413
-    DSC_5456.jpg:
+    - filename: DSC_5456.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3665,7 +3665,7 @@
       shutter: 1/80
       iso: 640
       date: 1441486243
-    DSC_5468.jpg:
+    - filename: DSC_5468.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3675,7 +3675,7 @@
       shutter: 1/30
       iso: 640
       date: 1441490771
-    DSC_5474.jpg:
+    - filename: DSC_5474.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3685,7 +3685,7 @@
       shutter: 1/50
       iso: 640
       date: 1441490786
-    DSC_5494.jpg:
+    - filename: DSC_5494.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3695,7 +3695,7 @@
       shutter: 1/50
       iso: 640
       date: 1441491057
-    DSC_5515.jpg:
+    - filename: DSC_5515.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3705,7 +3705,7 @@
       shutter: 1/2500
       iso: 640
       date: 1441540574
-    DSC_5612.jpg:
+    - filename: DSC_5612.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3715,7 +3715,7 @@
       shutter: 1/640
       iso: 200
       date: 1441563533
-    DSC_5682.jpg:
+    - filename: DSC_5682.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3725,7 +3725,7 @@
       shutter: 1/3200
       iso: 200
       date: 1441563935
-    DSC_5706.jpg:
+    - filename: DSC_5706.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3735,7 +3735,7 @@
       shutter: 1/2000
       iso: 200
       date: 1441564103
-    DSC_5755.jpg:
+    - filename: DSC_5755.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3745,7 +3745,7 @@
       shutter: 1/1600
       iso: 200
       date: 1441564597
-    DSC_5778.jpg:
+    - filename: DSC_5778.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3755,7 +3755,7 @@
       shutter: 1/800
       iso: 200
       date: 1441565067
-    DSC_5815.jpg:
+    - filename: DSC_5815.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3765,7 +3765,7 @@
       shutter: 1/320
       iso: 1250
       date: 1441624358
-    DSC_5863.jpg:
+    - filename: DSC_5863.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3775,7 +3775,7 @@
       shutter: 1/500
       iso: 200
       date: 1441651630
-    DSC_5875.jpg:
+    - filename: DSC_5875.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3785,7 +3785,7 @@
       shutter: 1/500
       iso: 200
       date: 1441651825
-    DSC_5902.jpg:
+    - filename: DSC_5902.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3795,7 +3795,7 @@
       shutter: 3s
       iso: 100
       date: 1441652485
-    DSC_5903.jpg:
+    - filename: DSC_5903.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3805,7 +3805,7 @@
       shutter: 3s
       iso: 100
       date: 1441652500
-    DSC_5926.jpg:
+    - filename: DSC_5926.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3815,7 +3815,7 @@
       shutter: 2s
       iso: 100
       date: 1441652829
-    DSC_5953.jpg:
+    - filename: DSC_5953.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3825,7 +3825,7 @@
       shutter: 1/100
       iso: 100
       date: 1441655006
-    DSC_5956.jpg:
+    - filename: DSC_5956.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3835,7 +3835,7 @@
       shutter: 1/80
       iso: 100
       date: 1441655019
-    DSC_6054.jpg:
+    - filename: DSC_6054.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3845,7 +3845,7 @@
       shutter: 1/800
       iso: 400
       date: 1441729674
-    DSC_6143.jpg:
+    - filename: DSC_6143.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3855,7 +3855,7 @@
       shutter: 1/320
       iso: 200
       date: 1441742752
-    DSC_6156.jpg:
+    - filename: DSC_6156.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3865,7 +3865,7 @@
       shutter: 1/160
       iso: 200
       date: 1441800480
-    DSC_6184.jpg:
+    - filename: DSC_6184.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3875,7 +3875,7 @@
       shutter: 1/4000
       iso: 200
       date: 1441803374
-    DSC_6224.jpg:
+    - filename: DSC_6224.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3885,7 +3885,7 @@
       shutter: 1/800
       iso: 200
       date: 1441803889
-    DSC_6242.jpg:
+    - filename: DSC_6242.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3895,7 +3895,7 @@
       shutter: 1/800
       iso: 200
       date: 1441804522
-    DSC_6246.jpg:
+    - filename: DSC_6246.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3905,7 +3905,7 @@
       shutter: 1/2500
       iso: 200
       date: 1441804640
-    DSC_6280.jpg:
+    - filename: DSC_6280.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3915,7 +3915,7 @@
       shutter: 1/500
       iso: 200
       date: 1441805197
-    DSC_6349.jpg:
+    - filename: DSC_6349.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3925,7 +3925,7 @@
       shutter: 1/160
       iso: 100
       date: 1441828642
-    DSC_6414.jpg:
+    - filename: DSC_6414.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3935,7 +3935,7 @@
       shutter: 1/100
       iso: 100
       date: 1441829535
-    DSC_6514.jpg:
+    - filename: DSC_6514.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3945,7 +3945,7 @@
       shutter: 20s
       iso: 800
       date: 1441844691
-    DSC_6566.jpg:
+    - filename: DSC_6566.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3955,7 +3955,7 @@
       shutter: 1/400
       iso: 200
       date: 1441902168
-    DSC_6574.jpg:
+    - filename: DSC_6574.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -3965,7 +3965,7 @@
       shutter: 1/400
       iso: 200
       date: 1441907568
-    DSC_6647.jpg:
+    - filename: DSC_6647.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3975,7 +3975,7 @@
       shutter: 1/400
       iso: 200
       date: 1441908436
-    DSC_6652.jpg:
+    - filename: DSC_6652.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3985,7 +3985,7 @@
       shutter: 1/640
       iso: 200
       date: 1441908841
-    DSC_6719.jpg:
+    - filename: DSC_6719.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -3995,7 +3995,7 @@
       shutter: 1/320
       iso: 200
       date: 1441915297
-    DSC_6727.jpg:
+    - filename: DSC_6727.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4005,7 +4005,7 @@
       shutter: 1/500
       iso: 200
       date: 1441915361
-    DSC_6757.jpg:
+    - filename: DSC_6757.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4015,7 +4015,7 @@
       shutter: 1/640
       iso: 200
       date: 1441918640
-    DSC_6807.jpg:
+    - filename: DSC_6807.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4025,7 +4025,7 @@
       shutter: 1/800
       iso: 200
       date: 1441919087
-    DSC_6818.jpg:
+    - filename: DSC_6818.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4035,7 +4035,7 @@
       shutter: 1/320
       iso: 200
       date: 1441919138
-    DSC_6839.jpg:
+    - filename: DSC_6839.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4045,7 +4045,7 @@
       shutter: 1/200
       iso: 200
       date: 1441919695
-    DSC_6844.jpg:
+    - filename: DSC_6844.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4055,7 +4055,7 @@
       shutter: 1/15
       iso: 200
       date: 1441920014
-    DSC_6846.jpg:
+    - filename: DSC_6846.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4069,7 +4069,7 @@
   title: San Diego for SANDCamp w 4K
   date: '2014-01-23'
   contents:
-    DSC_2065.jpg:
+    - filename: DSC_2065.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4079,7 +4079,7 @@
       shutter: 1/400
       iso: 200
       date: 1390494548
-    DSC_2071.jpg:
+    - filename: DSC_2071.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -4089,7 +4089,7 @@
       shutter: 1/1250
       iso: 200
       date: 1390494576
-    DSC_2095.jpg:
+    - filename: DSC_2095.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4099,7 +4099,7 @@
       shutter: 1/500
       iso: 200
       date: 1390494706
-    DSC_2117.jpg:
+    - filename: DSC_2117.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4109,7 +4109,7 @@
       shutter: 1/500
       iso: 200
       date: 1390495414
-    DSC_2118.jpg:
+    - filename: DSC_2118.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4119,7 +4119,7 @@
       shutter: 1/500
       iso: 200
       date: 1390495424
-    DSC_2128.jpg:
+    - filename: DSC_2128.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4129,7 +4129,7 @@
       shutter: 1/640
       iso: 200
       date: 1390495916
-    DSC_2133.jpg:
+    - filename: DSC_2133.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4139,7 +4139,7 @@
       shutter: 1/500
       iso: 200
       date: 1390496015
-    DSC_2168.jpg:
+    - filename: DSC_2168.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4149,7 +4149,7 @@
       shutter: 1/800
       iso: 100
       date: 1390497058
-    DSC_2190.jpg:
+    - filename: DSC_2190.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4159,7 +4159,7 @@
       shutter: 1/800
       iso: 100
       date: 1390497849
-    DSC_2201.jpg:
+    - filename: DSC_2201.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4170,7 +4170,7 @@
       iso: 100
       date: 1390497970
       hero: 1
-    DSC_2210.jpg:
+    - filename: DSC_2210.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4180,7 +4180,7 @@
       shutter: 1/200
       iso: 100
       date: 1390498472
-    DSC_2218.jpg:
+    - filename: DSC_2218.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -4190,7 +4190,7 @@
       shutter: 1/160
       iso: 100
       date: 1390749060
-    DSC_2224.jpg:
+    - filename: DSC_2224.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4200,7 +4200,7 @@
       shutter: 1/320
       iso: 100
       date: 1390749387
-    DSC_2234.jpg:
+    - filename: DSC_2234.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4210,7 +4210,7 @@
       shutter: 1/500
       iso: 100
       date: 1390749934
-    DSC_2272.jpg:
+    - filename: DSC_2272.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -4220,7 +4220,7 @@
       shutter: 1/640
       iso: 100
       date: 1390751423
-    DSC_2273.jpg:
+    - filename: DSC_2273.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -4230,7 +4230,7 @@
       shutter: 1/640
       iso: 100
       date: 1390751427
-    DSC_2277.jpg:
+    - filename: DSC_2277.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4240,7 +4240,7 @@
       shutter: 1/640
       iso: 100
       date: 1390751441
-    DSC_2327.jpg:
+    - filename: DSC_2327.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4250,7 +4250,7 @@
       shutter: 1/1000
       iso: 100
       date: 1390752783
-    DSC_2374.jpg:
+    - filename: DSC_2374.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4260,7 +4260,7 @@
       shutter: 1/400
       iso: 100
       date: 1390753567
-    DSC_2376.jpg:
+    - filename: DSC_2376.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4270,7 +4270,7 @@
       shutter: 1/160
       iso: 100
       date: 1390753583
-    DSC_2401.jpg:
+    - filename: DSC_2401.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4280,7 +4280,7 @@
       shutter: 1/1000
       iso: 100
       date: 1390754003
-    DSC_2412.jpg:
+    - filename: DSC_2412.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4290,7 +4290,7 @@
       shutter: 1/1250
       iso: 100
       date: 1390754086
-    DSC_2440.jpg:
+    - filename: DSC_2440.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4300,7 +4300,7 @@
       shutter: 1/1250
       iso: 100
       date: 1390755092
-    DSC_2518.jpg:
+    - filename: DSC_2518.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -4310,7 +4310,7 @@
       shutter: 1/640
       iso: 100
       date: 1390756951
-    DSC_2551.jpg:
+    - filename: DSC_2551.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4320,7 +4320,7 @@
       shutter: 1/1000
       iso: 100
       date: 1390757466
-    DSC_2562.jpg:
+    - filename: DSC_2562.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4330,7 +4330,7 @@
       shutter: 1/640
       iso: 100
       date: 1390757604
-    DSC_2600.jpg:
+    - filename: DSC_2600.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4340,7 +4340,7 @@
       shutter: 1/640
       iso: 100
       date: 1390758389
-    DSC_2613.jpg:
+    - filename: DSC_2613.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4350,7 +4350,7 @@
       shutter: 1/1600
       iso: 100
       date: 1390758469
-    DSC_2628.jpg:
+    - filename: DSC_2628.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4360,7 +4360,7 @@
       shutter: 1/1000
       iso: 100
       date: 1390759087
-    DSC_2633.jpg:
+    - filename: DSC_2633.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4370,7 +4370,7 @@
       shutter: 1/500
       iso: 100
       date: 1390759697
-    DSC_2646.jpg:
+    - filename: DSC_2646.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4384,7 +4384,7 @@
   title: DEN SFO AUS Vacation
   date: '2014-06-01'
   contents:
-    DSC_2842.jpg:
+    - filename: DSC_2842.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4394,7 +4394,7 @@
       shutter: 30s
       iso: 800
       date: 1401663994
-    DSC_2850.jpg:
+    - filename: DSC_2850.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4404,7 +4404,7 @@
       shutter: 30s
       iso: 200
       date: 1401668569
-    DSC_2855.jpg:
+    - filename: DSC_2855.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4414,7 +4414,7 @@
       shutter: 30s
       iso: 100
       date: 1401668998
-    DSC_2859.jpg:
+    - filename: DSC_2859.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4424,7 +4424,7 @@
       shutter: 20s
       iso: 100
       date: 1401669667
-    DSC_2869.jpg:
+    - filename: DSC_2869.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4434,7 +4434,7 @@
       shutter: 1/50
       iso: 125
       date: 1401708242
-    DSC_2907.jpg:
+    - filename: DSC_2907.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -4444,7 +4444,7 @@
       shutter: 1/80
       iso: 125
       date: 1401709427
-    DSC_2935.jpg:
+    - filename: DSC_2935.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4454,7 +4454,7 @@
       shutter: 1/160
       iso: 125
       date: 1401710996
-    DSC_3001.jpg:
+    - filename: DSC_3001.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4464,7 +4464,7 @@
       shutter: 1/400
       iso: 125
       date: 1401712964
-    DSC_3161.jpg:
+    - filename: DSC_3161.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4474,7 +4474,7 @@
       shutter: 1/800
       iso: 100
       date: 1401720898
-    DSC_3165.jpg:
+    - filename: DSC_3165.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4484,7 +4484,7 @@
       shutter: 1/250
       iso: 100
       date: 1401720937
-    DSC_3177.jpg:
+    - filename: DSC_3177.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4494,7 +4494,7 @@
       shutter: 1/400
       iso: 100
       date: 1401721302
-    DSC_3247.jpg:
+    - filename: DSC_3247.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4504,7 +4504,7 @@
       shutter: 1/15
       iso: 100
       date: 1401724597
-    DSC_3253.jpg:
+    - filename: DSC_3253.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4514,7 +4514,7 @@
       shutter: 1/500
       iso: 100
       date: 1401725621
-    DSC_3300.jpg:
+    - filename: DSC_3300.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4524,7 +4524,7 @@
       shutter: 1/250
       iso: 100
       date: 1401727777
-    DSC_3339.jpg:
+    - filename: DSC_3339.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4534,7 +4534,7 @@
       shutter: 1/100
       iso: 400
       date: 1401728731
-    DSC_3347.jpg:
+    - filename: DSC_3347.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4544,7 +4544,7 @@
       shutter: 1/100
       iso: 400
       date: 1401729036
-    DSC_3423.jpg:
+    - filename: DSC_3423.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4554,7 +4554,7 @@
       shutter: 1/250
       iso: 100
       date: 1401733969
-    DSC_3454.jpg:
+    - filename: DSC_3454.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4564,7 +4564,7 @@
       shutter: 1/200
       iso: 100
       date: 1401734177
-    DSC_3761.jpg:
+    - filename: DSC_3761.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4574,7 +4574,7 @@
       shutter: 1/30
       iso: 100
       date: 1401810002
-    DSC_3785.jpg:
+    - filename: DSC_3785.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4584,7 +4584,7 @@
       shutter: 1/8000
       iso: 100
       date: 1401810510
-    DSC_3817.jpg:
+    - filename: DSC_3817.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4594,7 +4594,7 @@
       shutter: 1/10
       iso: 100
       date: 1401810848
-    DSC_3926.jpg:
+    - filename: DSC_3926.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4604,7 +4604,7 @@
       shutter: 1/160
       iso: 100
       date: 1401815817
-    DSC_3960.jpg:
+    - filename: DSC_3960.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4614,7 +4614,7 @@
       shutter: 1/125
       iso: 100
       date: 1401816742
-    DSC_4050.jpg:
+    - filename: DSC_4050.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4624,7 +4624,7 @@
       shutter: 1/250
       iso: 400
       date: 1401823277
-    DSC_4155.jpg:
+    - filename: DSC_4155.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4634,7 +4634,7 @@
       shutter: 1/640
       iso: 400
       date: 1401827286
-    DSC_4185.jpg:
+    - filename: DSC_4185.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4644,7 +4644,7 @@
       shutter: 1/1250
       iso: 400
       date: 1401828123
-    DSC_4270.jpg:
+    - filename: DSC_4270.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4655,7 +4655,7 @@
       iso: 200
       date: 1401901059
       hero: 1
-    DSC_4279.jpg:
+    - filename: DSC_4279.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4665,7 +4665,7 @@
       shutter: 1/500
       iso: 200
       date: 1401906376
-    DSC_4348.jpg:
+    - filename: DSC_4348.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4675,7 +4675,7 @@
       shutter: 1/320
       iso: 200
       date: 1401915666
-    DSC_4390.jpg:
+    - filename: DSC_4390.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4685,7 +4685,7 @@
       shutter: 1/320
       iso: 400
       date: 1401917764
-    DSC_4429.jpg:
+    - filename: DSC_4429.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4695,7 +4695,7 @@
       shutter: 1/1250
       iso: 200
       date: 1402058416
-    DSC_4436.jpg:
+    - filename: DSC_4436.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4705,7 +4705,7 @@
       shutter: 1/3200
       iso: 200
       date: 1402060119
-    DSC_4465.jpg:
+    - filename: DSC_4465.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4715,7 +4715,7 @@
       shutter: 1/400
       iso: 200
       date: 1402063831
-    DSC_4497.jpg:
+    - filename: DSC_4497.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4725,7 +4725,7 @@
       shutter: 1/2500
       iso: 200
       date: 1402064444
-    DSC_4536.jpg:
+    - filename: DSC_4536.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4735,7 +4735,7 @@
       shutter: 1/400
       iso: 200
       date: 1402065840
-    DSC_4557.jpg:
+    - filename: DSC_4557.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -4745,7 +4745,7 @@
       shutter: 1/800
       iso: 200
       date: 1402066506
-    DSC_4575.jpg:
+    - filename: DSC_4575.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4755,7 +4755,7 @@
       shutter: 1/2000
       iso: 200
       date: 1402067262
-    DSC_4585.jpg:
+    - filename: DSC_4585.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4765,7 +4765,7 @@
       shutter: 1/2000
       iso: 200
       date: 1402068649
-    DSC_4598.jpg:
+    - filename: DSC_4598.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4775,7 +4775,7 @@
       shutter: 1/50
       iso: 4000
       date: 1402094954
-    DSC_4636.jpg:
+    - filename: DSC_4636.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4785,7 +4785,7 @@
       shutter: 2s
       iso: 200
       date: 1402096391
-    DSC_4640.jpg:
+    - filename: DSC_4640.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4795,7 +4795,7 @@
       shutter: 1/640
       iso: 400
       date: 1402409324
-    DSC_4654.jpg:
+    - filename: DSC_4654.jpg
       width: 800
       height: 1200
       camera: NIKON D7000
@@ -4805,7 +4805,7 @@
       shutter: 1/50
       iso: 200
       date: 1402414894
-    DSC_4663.jpg:
+    - filename: DSC_4663.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4819,7 +4819,7 @@
   title: Seaside Oregon
   date: '2014-09-27'
   contents:
-    DSC_5714.jpg:
+    - filename: DSC_5714.jpg
       width: 1200
       height: 857
       camera: NIKON D7000
@@ -4829,7 +4829,7 @@
       shutter: 1/4000
       iso: 400
       date: 1411831907
-    DSC_5718.jpg:
+    - filename: DSC_5718.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4839,7 +4839,7 @@
       shutter: 1/2000
       iso: 400
       date: 1411831922
-    DSC_5736.jpg:
+    - filename: DSC_5736.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4849,7 +4849,7 @@
       shutter: 1/800
       iso: 400
       date: 1411831961
-    DSC_5748.jpg:
+    - filename: DSC_5748.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4859,7 +4859,7 @@
       shutter: 1/1000
       iso: 400
       date: 1411831993
-    DSC_5768.jpg:
+    - filename: DSC_5768.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4869,7 +4869,7 @@
       shutter: 1/100
       iso: 400
       date: 1411833736
-    DSC_5780.jpg:
+    - filename: DSC_5780.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4879,7 +4879,7 @@
       shutter: 1/80
       iso: 400
       date: 1411833943
-    DSC_5783.jpg:
+    - filename: DSC_5783.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4889,7 +4889,7 @@
       shutter: 1/80
       iso: 400
       date: 1411834735
-    DSC_5807.jpg:
+    - filename: DSC_5807.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4899,7 +4899,7 @@
       shutter: 1/1000
       iso: 400
       date: 1411836360
-    DSC_5814.jpg:
+    - filename: DSC_5814.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4909,7 +4909,7 @@
       shutter: 1/800
       iso: 400
       date: 1411836468
-    DSC_5837.jpg:
+    - filename: DSC_5837.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4919,7 +4919,7 @@
       shutter: 1/1250
       iso: 200
       date: 1411837240
-    DSC_5841.jpg:
+    - filename: DSC_5841.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4929,7 +4929,7 @@
       shutter: 1/500
       iso: 200
       date: 1411837465
-    DSC_5852.jpg:
+    - filename: DSC_5852.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4939,7 +4939,7 @@
       shutter: 1/640
       iso: 200
       date: 1411837638
-    DSC_5875.jpg:
+    - filename: DSC_5875.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4949,7 +4949,7 @@
       shutter: 1/4000
       iso: 200
       date: 1411837736
-    DSC_5888.jpg:
+    - filename: DSC_5888.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -4959,7 +4959,7 @@
       shutter: 1/400
       iso: 200
       date: 1411837766
-    DSC_5889.jpg:
+    - filename: DSC_5889.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4969,7 +4969,7 @@
       shutter: 1/640
       iso: 200
       date: 1411837771
-    DSC_5907.jpg:
+    - filename: DSC_5907.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4979,7 +4979,7 @@
       shutter: 1/200
       iso: 200
       date: 1411838536
-    DSC_5933.jpg:
+    - filename: DSC_5933.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -4989,7 +4989,7 @@
       shutter: 1/400
       iso: 200
       date: 1411838905
-    DSC_5934.jpg:
+    - filename: DSC_5934.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -4999,7 +4999,7 @@
       shutter: 1/1250
       iso: 200
       date: 1411838920
-    DSC_5940.jpg:
+    - filename: DSC_5940.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5009,7 +5009,7 @@
       shutter: 1/500
       iso: 200
       date: 1411838934
-    DSC_5943.jpg:
+    - filename: DSC_5943.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5019,7 +5019,7 @@
       shutter: 1/500
       iso: 200
       date: 1411838955
-    DSC_5976.jpg:
+    - filename: DSC_5976.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5030,7 +5030,7 @@
       iso: 200
       date: 1411841611
       hero: 1
-    DSC_5982.jpg:
+    - filename: DSC_5982.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5040,7 +5040,7 @@
       shutter: 1/40
       iso: 640
       date: 1411842817
-    DSC_5999.jpg:
+    - filename: DSC_5999.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -5050,7 +5050,7 @@
       shutter: 2s
       iso: 200
       date: 1411845586
-    DSC_6012.jpg:
+    - filename: DSC_6012.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5060,7 +5060,7 @@
       shutter: 1/4
       iso: 200
       date: 1411845825
-    DSC_6036.jpg:
+    - filename: DSC_6036.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5070,7 +5070,7 @@
       shutter: 1/800
       iso: 200
       date: 1411852360
-    DSC_6045.jpg:
+    - filename: DSC_6045.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5080,7 +5080,7 @@
       shutter: 1/320
       iso: 200
       date: 1411852523
-    DSC_6068.jpg:
+    - filename: DSC_6068.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5090,7 +5090,7 @@
       shutter: 1/125
       iso: 200
       date: 1411852872
-    DSC_6089.jpg:
+    - filename: DSC_6089.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5100,7 +5100,7 @@
       shutter: 1/250
       iso: 400
       date: 1411852989
-    DSC_6106.jpg:
+    - filename: DSC_6106.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5110,7 +5110,7 @@
       shutter: 1/250
       iso: 400
       date: 1411853023
-    DSC_6120.jpg:
+    - filename: DSC_6120.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -5120,7 +5120,7 @@
       shutter: 1/200
       iso: 400
       date: 1411853254
-    DSC_6196.jpg:
+    - filename: DSC_6196.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5130,7 +5130,7 @@
       shutter: 1/1000
       iso: 400
       date: 1411907548
-    DSC_6208.jpg:
+    - filename: DSC_6208.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5140,7 +5140,7 @@
       shutter: 1/800
       iso: 400
       date: 1411907608
-    DSC_6214.jpg:
+    - filename: DSC_6214.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5150,7 +5150,7 @@
       shutter: 1/800
       iso: 400
       date: 1411907665
-    DSC_6219.jpg:
+    - filename: DSC_6219.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5160,7 +5160,7 @@
       shutter: 1/1250
       iso: 400
       date: 1411907886
-    DSC_6270.jpg:
+    - filename: DSC_6270.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -5170,7 +5170,7 @@
       shutter: 1/100
       iso: 200
       date: 1411909527
-    DSC_6282.jpg:
+    - filename: DSC_6282.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5180,7 +5180,7 @@
       shutter: 1/500
       iso: 200
       date: 1411909972
-    DSC_6306.jpg:
+    - filename: DSC_6306.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5190,7 +5190,7 @@
       shutter: 1/40
       iso: 200
       date: 1411911269
-    DSC_6314.jpg:
+    - filename: DSC_6314.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5200,7 +5200,7 @@
       shutter: 1/200
       iso: 200
       date: 1411911380
-    DSC_6316.jpg:
+    - filename: DSC_6316.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5210,7 +5210,7 @@
       shutter: 1/250
       iso: 200
       date: 1411911602
-    DSC_6325.jpg:
+    - filename: DSC_6325.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5220,7 +5220,7 @@
       shutter: 1/1600
       iso: 200
       date: 1411911693
-    DSC_6391.jpg:
+    - filename: DSC_6391.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5230,7 +5230,7 @@
       shutter: 1/200
       iso: 200
       date: 1411912415
-    DSC_6426.jpg:
+    - filename: DSC_6426.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5240,7 +5240,7 @@
       shutter: 1/500
       iso: 200
       date: 1411913157
-    DSC_6443.jpg:
+    - filename: DSC_6443.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5250,7 +5250,7 @@
       shutter: 1/640
       iso: 200
       date: 1411916102
-    DSC_6478.jpg:
+    - filename: DSC_6478.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5260,7 +5260,7 @@
       shutter: 1/250
       iso: 200
       date: 1411924013
-    DSC_6496.jpg:
+    - filename: DSC_6496.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5270,7 +5270,7 @@
       shutter: 1/250
       iso: 200
       date: 1411925019
-    DSC_6529.jpg:
+    - filename: DSC_6529.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5280,7 +5280,7 @@
       shutter: 1/200
       iso: 200
       date: 1411925679
-    DSC_6536.jpg:
+    - filename: DSC_6536.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5290,7 +5290,7 @@
       shutter: 1/400
       iso: 200
       date: 1411925847
-    DSC_6566.jpg:
+    - filename: DSC_6566.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -5304,7 +5304,7 @@
   title: Ft Collins Colorado
   date: '2014-10-10'
   contents:
-    DSC_6610.jpg:
+    - filename: DSC_6610.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5314,7 +5314,7 @@
       shutter: 1/100
       iso: 200
       date: 1412949425
-    DSC_6623.jpg:
+    - filename: DSC_6623.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5324,7 +5324,7 @@
       shutter: 1/320
       iso: 200
       date: 1412949599
-    DSC_6645.jpg:
+    - filename: DSC_6645.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5334,7 +5334,7 @@
       shutter: 1/80
       iso: 200
       date: 1412950793
-    DSC_6657.jpg:
+    - filename: DSC_6657.jpg
       width: 800
       height: 1200
       camera: NIKON D7000
@@ -5344,7 +5344,7 @@
       shutter: 1/125
       iso: 200
       date: 1412950888
-    DSC_6658.jpg:
+    - filename: DSC_6658.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5354,7 +5354,7 @@
       shutter: 1/125
       iso: 200
       date: 1412950914
-    DSC_6673.jpg:
+    - filename: DSC_6673.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5364,7 +5364,7 @@
       shutter: 1/60
       iso: 100
       date: 1412951100
-    DSC_6706.jpg:
+    - filename: DSC_6706.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5374,7 +5374,7 @@
       shutter: 1/200
       iso: 100
       date: 1412954119
-    DSC_6743.jpg:
+    - filename: DSC_6743.jpg
       width: 800
       height: 1200
       camera: NIKON D7000
@@ -5384,7 +5384,7 @@
       shutter: 1/320
       iso: 400
       date: 1412962477
-    DSC_6754.jpg:
+    - filename: DSC_6754.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5394,7 +5394,7 @@
       shutter: 1/160
       iso: 400
       date: 1412962542
-    DSC_6772.jpg:
+    - filename: DSC_6772.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -5404,7 +5404,7 @@
       shutter: 1/125
       iso: 400
       date: 1412962663
-    DSC_6782.jpg:
+    - filename: DSC_6782.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5414,7 +5414,7 @@
       shutter: 1/100
       iso: 400
       date: 1412962740
-    DSC_6783.jpg:
+    - filename: DSC_6783.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5424,7 +5424,7 @@
       shutter: 1/100
       iso: 400
       date: 1412962759
-    DSC_6822.jpg:
+    - filename: DSC_6822.jpg
       width: 800
       height: 1200
       camera: NIKON D7000
@@ -5434,7 +5434,7 @@
       shutter: 1/160
       iso: 400
       date: 1412963072
-    DSC_6843.jpg:
+    - filename: DSC_6843.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5444,7 +5444,7 @@
       shutter: 1/60
       iso: 400
       date: 1412965152
-    DSC_6860.jpg:
+    - filename: DSC_6860.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5454,7 +5454,7 @@
       shutter: 1/400
       iso: 400
       date: 1412965723
-    DSC_6877.jpg:
+    - filename: DSC_6877.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5464,7 +5464,7 @@
       shutter: 1/160
       iso: 800
       date: 1412966390
-    DSC_6895.jpg:
+    - filename: DSC_6895.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -5474,7 +5474,7 @@
       shutter: 1/50
       iso: 3200
       date: 1412967430
-    DSC_6924.jpg:
+    - filename: DSC_6924.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5484,7 +5484,7 @@
       shutter: 1/60
       iso: 100
       date: 1413041483
-    DSC_6940.jpg:
+    - filename: DSC_6940.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5494,7 +5494,7 @@
       shutter: 1/80
       iso: 100
       date: 1413041730
-    DSC_6947.jpg:
+    - filename: DSC_6947.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5504,7 +5504,7 @@
       shutter: 1/400
       iso: 100
       date: 1413042823
-    DSC_6964.jpg:
+    - filename: DSC_6964.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5514,7 +5514,7 @@
       shutter: 1/250
       iso: 100
       date: 1413043236
-    DSC_6976.jpg:
+    - filename: DSC_6976.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5525,7 +5525,7 @@
       iso: 100
       date: 1413043572
       hero: 1
-    DSC_6996.jpg:
+    - filename: DSC_6996.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5535,7 +5535,7 @@
       shutter: 1/500
       iso: 100
       date: 1413044717
-    DSC_7034.jpg:
+    - filename: DSC_7034.jpg
       width: 842
       height: 1200
       camera: NIKON D7000
@@ -5545,7 +5545,7 @@
       shutter: 1/400
       iso: 100
       date: 1413045021
-    DSC_7215.jpg:
+    - filename: DSC_7215.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5555,7 +5555,7 @@
       shutter: 1/160
       iso: 100
       date: 1413048048
-    DSC_7231.jpg:
+    - filename: DSC_7231.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5565,7 +5565,7 @@
       shutter: 1/640
       iso: 100
       date: 1413048101
-    DSC_7323.jpg:
+    - filename: DSC_7323.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5575,7 +5575,7 @@
       shutter: 1/125
       iso: 800
       date: 1413051198
-    DSC_7363.jpg:
+    - filename: DSC_7363.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5589,7 +5589,7 @@
   title: Alex and Seans Dogs while they were gone
   date: '2014-10-12'
   contents:
-    DSC_7383.jpg:
+    - filename: DSC_7383.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5599,7 +5599,7 @@
       shutter: 1/250
       iso: 800
       date: 1413138998
-    DSC_7393.jpg:
+    - filename: DSC_7393.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5609,7 +5609,7 @@
       shutter: 1/200
       iso: 800
       date: 1413139043
-    DSC_7422.jpg:
+    - filename: DSC_7422.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5619,7 +5619,7 @@
       shutter: 1/500
       iso: 800
       date: 1413139264
-    DSC_7426.jpg:
+    - filename: DSC_7426.jpg
       width: 800
       height: 1200
       camera: NIKON D7000
@@ -5629,7 +5629,7 @@
       shutter: 1/60
       iso: 800
       date: 1413139308
-    DSC_7437.jpg:
+    - filename: DSC_7437.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5640,7 +5640,7 @@
       iso: 800
       date: 1413139617
       hero: 1
-    DSC_7446.jpg:
+    - filename: DSC_7446.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5654,7 +5654,7 @@
   title: Ranch Thanksgiving
   date: '2014-11-28'
   contents:
-    DSC_8084.jpg:
+    - filename: DSC_8084.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5664,7 +5664,7 @@
       shutter: 1/80
       iso: 200
       date: 1417183122
-    DSC_8247.jpg:
+    - filename: DSC_8247.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5674,7 +5674,7 @@
       shutter: 1/500
       iso: 200
       date: 1417189387
-    DSC_8295.jpg:
+    - filename: DSC_8295.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5684,7 +5684,7 @@
       shutter: 1/800
       iso: 200
       date: 1417190291
-    DSC_8320.jpg:
+    - filename: DSC_8320.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5694,7 +5694,7 @@
       shutter: 1/1250
       iso: 200
       date: 1417190611
-    DSC_8338.jpg:
+    - filename: DSC_8338.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5704,7 +5704,7 @@
       shutter: 1/100
       iso: 200
       date: 1417190757
-    DSC_8365.jpg:
+    - filename: DSC_8365.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5714,7 +5714,7 @@
       shutter: 1/1000
       iso: 200
       date: 1417191755
-    DSC_8376.jpg:
+    - filename: DSC_8376.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5724,7 +5724,7 @@
       shutter: 1/1000
       iso: 200
       date: 1417192091
-    DSC_8393.jpg:
+    - filename: DSC_8393.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5734,7 +5734,7 @@
       shutter: 1/320
       iso: 100
       date: 1417192197
-    DSC_8433.jpg:
+    - filename: DSC_8433.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5744,7 +5744,7 @@
       shutter: 1/160
       iso: 400
       date: 1417194693
-    DSC_8459.jpg:
+    - filename: DSC_8459.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5755,7 +5755,7 @@
       iso: 400
       date: 1417199074
       hero: 1
-    DSC_8468.jpg:
+    - filename: DSC_8468.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5765,7 +5765,7 @@
       shutter: 1/160
       iso: 400
       date: 1417199107
-    DSC_8512.jpg:
+    - filename: DSC_8512.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5775,7 +5775,7 @@
       shutter: 3s
       iso: 200
       date: 1417202599
-    DSC_8520.jpg:
+    - filename: DSC_8520.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5785,7 +5785,7 @@
       shutter: 5s
       iso: 200
       date: 1417202935
-    DSC_8535.jpg:
+    - filename: DSC_8535.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5795,7 +5795,7 @@
       shutter: 1/2000
       iso: 400
       date: 1417256949
-    DSC_8545.jpg:
+    - filename: DSC_8545.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5805,7 +5805,7 @@
       shutter: 1/640
       iso: 400
       date: 1417257019
-    DSC_8592.jpg:
+    - filename: DSC_8592.jpg
       width: 800
       height: 1200
       camera: NIKON D7000
@@ -5815,7 +5815,7 @@
       shutter: 1/1250
       iso: 400
       date: 1417257125
-    DSC_8641.jpg:
+    - filename: DSC_8641.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5825,7 +5825,7 @@
       shutter: 1/1600
       iso: 400
       date: 1417257272
-    DSC_8649.jpg:
+    - filename: DSC_8649.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5835,7 +5835,7 @@
       shutter: 1/1000
       iso: 400
       date: 1417257309
-    DSC_8652.jpg:
+    - filename: DSC_8652.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5845,7 +5845,7 @@
       shutter: 1/3200
       iso: 400
       date: 1417257335
-    DSC_8758.jpg:
+    - filename: DSC_8758.jpg
       width: 800
       height: 1200
       camera: NIKON D7000
@@ -5855,7 +5855,7 @@
       shutter: 1/500
       iso: 200
       date: 1417262450
-    DSC_8862.jpg:
+    - filename: DSC_8862.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5865,7 +5865,7 @@
       shutter: 3s
       iso: 200
       date: 1417288930
-    DSC_8874.jpg:
+    - filename: DSC_8874.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5879,7 +5879,7 @@
   title: A Night at Intercontinental
   date: '2014-12-05'
   contents:
-    DSC_8913.jpg:
+    - filename: DSC_8913.jpg
       width: 800
       height: 1200
       camera: NIKON D7000
@@ -5889,7 +5889,7 @@
       shutter: 1/80
       iso: 640
       date: 1417735874
-    DSC_8920.jpg:
+    - filename: DSC_8920.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5899,7 +5899,7 @@
       shutter: 1.3s
       iso: 100
       date: 1417736132
-    DSC_8926.jpg:
+    - filename: DSC_8926.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5909,7 +5909,7 @@
       shutter: 1/50
       iso: 400
       date: 1417736705
-    DSC_8927.jpg:
+    - filename: DSC_8927.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5919,7 +5919,7 @@
       shutter: 1/40
       iso: 400
       date: 1417736730
-    DSC_8942.jpg:
+    - filename: DSC_8942.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5929,7 +5929,7 @@
       shutter: 1/50
       iso: 400
       date: 1417737585
-    DSC_8946.jpg:
+    - filename: DSC_8946.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5939,7 +5939,7 @@
       shutter: 1/50
       iso: 400
       date: 1417738114
-    DSC_8950.jpg:
+    - filename: DSC_8950.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5949,7 +5949,7 @@
       shutter: 1/50
       iso: 400
       date: 1417738168
-    DSC_8973.jpg:
+    - filename: DSC_8973.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5959,7 +5959,7 @@
       shutter: 1/60
       iso: 200
       date: 1417739551
-    DSC_8976.jpg:
+    - filename: DSC_8976.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5969,7 +5969,7 @@
       shutter: 1/60
       iso: 200
       date: 1417739653
-    DSC_8984.jpg:
+    - filename: DSC_8984.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5979,7 +5979,7 @@
       shutter: 1/60
       iso: 200
       date: 1417740311
-    DSC_9001.jpg:
+    - filename: DSC_9001.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -5989,7 +5989,7 @@
       shutter: 1/50
       iso: 200
       date: 1417741350
-    DSC_9009.jpg:
+    - filename: DSC_9009.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -5999,7 +5999,7 @@
       shutter: 1/50
       iso: 200
       date: 1417741909
-    DSC_9022.jpg:
+    - filename: DSC_9022.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6009,7 +6009,7 @@
       shutter: 1/30
       iso: 200
       date: 1417742390
-    DSC_9024.jpg:
+    - filename: DSC_9024.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6019,7 +6019,7 @@
       shutter: 1/25
       iso: 200
       date: 1417742419
-    DSC_9046.jpg:
+    - filename: DSC_9046.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6031,7 +6031,7 @@
       date: 1417744177
       hero: 1
       hero_attachment: bottom
-    DSC_9070.jpg:
+    - filename: DSC_9070.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6041,7 +6041,7 @@
       shutter: 1/100
       iso: 200
       date: 1417744769
-    DSC_9072.jpg:
+    - filename: DSC_9072.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6051,7 +6051,7 @@
       shutter: 1/6
       iso: 200
       date: 1417744892
-    DSC_9094.jpg:
+    - filename: DSC_9094.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6061,7 +6061,7 @@
       shutter: 1/40
       iso: 400
       date: 1417746362
-    DSC_9113.jpg:
+    - filename: DSC_9113.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6071,7 +6071,7 @@
       shutter: 1/8
       iso: 200
       date: 1417747672
-    DSC_9132.jpg:
+    - filename: DSC_9132.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6081,7 +6081,7 @@
       shutter: 1/50
       iso: 640
       date: 1417748105
-    DSC_9148.jpg:
+    - filename: DSC_9148.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6091,7 +6091,7 @@
       shutter: 1/50
       iso: 800
       date: 1417752368
-    DSC_9152.jpg:
+    - filename: DSC_9152.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6105,7 +6105,7 @@
   title: NYC
   date: '2015-01-03'
   contents:
-    DSC_9193.jpg:
+    - filename: DSC_9193.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6115,7 +6115,7 @@
       shutter: 1/320
       iso: 400
       date: 1420214999
-    DSC_9205.jpg:
+    - filename: DSC_9205.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6125,7 +6125,7 @@
       shutter: 1/320
       iso: 400
       date: 1420215087
-    DSC_9214.jpg:
+    - filename: DSC_9214.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6135,7 +6135,7 @@
       shutter: 1/200
       iso: 400
       date: 1420217641
-    DSC_9227.jpg:
+    - filename: DSC_9227.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6145,7 +6145,7 @@
       shutter: 1/60
       iso: 800
       date: 1420218127
-    DSC_9228.jpg:
+    - filename: DSC_9228.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6155,7 +6155,7 @@
       shutter: 1/60
       iso: 800
       date: 1420218399
-    DSC_9240.jpg:
+    - filename: DSC_9240.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6165,7 +6165,7 @@
       shutter: 1/2
       iso: 800
       date: 1420218794
-    DSC_9257.jpg:
+    - filename: DSC_9257.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6175,7 +6175,7 @@
       shutter: 1/1
       iso: 200
       date: 1420412989
-    DSC_9265.jpg:
+    - filename: DSC_9265.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6186,7 +6186,7 @@
       iso: 200
       date: 1420413588
       hero: 1
-    DSC_9300.jpg:
+    - filename: DSC_9300.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6196,7 +6196,7 @@
       shutter: 1/15
       iso: 200
       date: 1420500326
-    DSC_9335.jpg:
+    - filename: DSC_9335.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -6206,7 +6206,7 @@
       shutter: 1/13
       iso: 800
       date: 1420846596
-    DSC_9395.jpg:
+    - filename: DSC_9395.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6220,7 +6220,7 @@
   title: Tulsa
   date: '2015-02-07'
   contents:
-    DSC_9421.jpg:
+    - filename: DSC_9421.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6230,7 +6230,7 @@
       shutter: 1/30
       iso: 100
       date: 1423316153
-    DSC_9446.jpg:
+    - filename: DSC_9446.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6240,7 +6240,7 @@
       shutter: 1/320
       iso: 100
       date: 1423316335
-    DSC_9462.jpg:
+    - filename: DSC_9462.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6251,7 +6251,7 @@
       iso: 100
       date: 1423327336
       hero: 1
-    DSC_9498.jpg:
+    - filename: DSC_9498.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6261,7 +6261,7 @@
       shutter: 1/400
       iso: 400
       date: 1423329897
-    DSC_9522.jpg:
+    - filename: DSC_9522.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6271,7 +6271,7 @@
       shutter: 1/640
       iso: 400
       date: 1423330012
-    DSC_9562.jpg:
+    - filename: DSC_9562.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6281,7 +6281,7 @@
       shutter: 5s
       iso: 200
       date: 1423424747
-    DSC_9566.jpg:
+    - filename: DSC_9566.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6295,7 +6295,7 @@
   title: San Diego SANDcamp
   date: '2015-02-26'
   contents:
-    DSC_9614.jpg:
+    - filename: DSC_9614.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6305,7 +6305,7 @@
       shutter: 1/320
       iso: 400
       date: 1424879258
-    DSC_9632.jpg:
+    - filename: DSC_9632.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6315,7 +6315,7 @@
       shutter: 1/500
       iso: 200
       date: 1424983701
-    DSC_9633.jpg:
+    - filename: DSC_9633.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6326,7 +6326,7 @@
       iso: 200
       date: 1424983711
       hero: 1
-    DSC_9684.jpg:
+    - filename: DSC_9684.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6336,7 +6336,7 @@
       shutter: 1/500
       iso: 200
       date: 1425069088
-    DSC_9690.jpg:
+    - filename: DSC_9690.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -6346,7 +6346,7 @@
       shutter: 1/640
       iso: 200
       date: 1425069139
-    DSC_9715.jpg:
+    - filename: DSC_9715.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6356,7 +6356,7 @@
       shutter: 1/400
       iso: 200
       date: 1425069499
-    DSC_9751.jpg:
+    - filename: DSC_9751.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6366,7 +6366,7 @@
       shutter: 1/30
       iso: 800
       date: 1425219465
-    DSC_9763.jpg:
+    - filename: DSC_9763.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6376,7 +6376,7 @@
       shutter: 1/30
       iso: 800
       date: 1425219593
-    DSC_9774.jpg:
+    - filename: DSC_9774.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -6390,107 +6390,7 @@
   title: Chicago
   date: '2015-04-02'
   contents:
-    DSC_0008.jpg:
-      width: 1200
-      height: 800
-      camera: NIKON D7000
-      lens: 18.0-70.0 mm f/3.5-4.5
-      focal: 24
-      aperture: 5.6
-      shutter: 1/125
-      iso: 400
-      date: 1428084259
-    DSC_0087.jpg:
-      width: 1200
-      height: 795
-      camera: NIKON D7000
-      lens: 18.0-70.0 mm f/3.5-4.5
-      focal: 18
-      aperture: 10
-      shutter: 1/400
-      iso: 100
-      date: 1428156782
-    DSC_0100.jpg:
-      width: 1200
-      height: 795
-      camera: NIKON D7000
-      lens: 10.5 mm f/2.8
-      focal: 10.5
-      aperture: 10
-      shutter: 1/400
-      iso: 200
-      date: 1428258390
-    DSC_0102.jpg:
-      width: 1200
-      height: 795
-      camera: NIKON D7000
-      lens: 18.0-70.0 mm f/3.5-4.5
-      focal: 70
-      aperture: 6.3
-      shutter: 1/640
-      iso: 200
-      date: 1428258454
-    DSC_0127-2.jpg:
-      width: 1200
-      height: 857
-      camera: NIKON D7000
-      lens: 18.0-70.0 mm f/3.5-4.5
-      focal: 18
-      aperture: 13
-      shutter: 1/640
-      iso: 200
-      date: 1428260058
-    DSC_0127.jpg:
-      width: 1200
-      height: 800
-      camera: NIKON D7000
-      lens: 18.0-70.0 mm f/3.5-4.5
-      focal: 18
-      aperture: 13
-      shutter: 1/640
-      iso: 200
-      date: 1428260058
-    DSC_0133.jpg:
-      width: 1200
-      height: 795
-      camera: NIKON D7000
-      lens: 18.0-70.0 mm f/3.5-4.5
-      focal: 29
-      aperture: 10
-      shutter: 1/400
-      iso: 200
-      date: 1428260233
-    DSC_0164.jpg:
-      width: 1200
-      height: 800
-      camera: NIKON D7000
-      lens: 55.0-300.0 mm f/4.5-5.6
-      focal: 280
-      aperture: 5.6
-      shutter: 1/1000
-      iso: 200
-      date: 1428329849
-    DSC_0190.jpg:
-      width: 1200
-      height: 800
-      camera: NIKON D7000
-      lens: 55.0-300.0 mm f/4.5-5.6
-      focal: 240
-      aperture: 5.3
-      shutter: 1/1000
-      iso: 200
-      date: 1428330040
-    DSC_0269.jpg:
-      width: 1200
-      height: 800
-      camera: NIKON D7000
-      lens: 55.0-300.0 mm f/4.5-5.6
-      focal: 280
-      aperture: 5.6
-      shutter: 1/200
-      iso: 200
-      date: 1428332233
-    DSC_9811.jpg:
+    - filename: DSC_9811.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6500,7 +6400,7 @@
       shutter: 1/640
       iso: 200
       date: 1427984004
-    DSC_9819.jpg:
+    - filename: DSC_9819.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6510,7 +6410,7 @@
       shutter: 1/1250
       iso: 200
       date: 1427984481
-    DSC_9876.jpg:
+    - filename: DSC_9876.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6520,7 +6420,7 @@
       shutter: 1/800
       iso: 200
       date: 1427985862
-    DSC_9889.jpg:
+    - filename: DSC_9889.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6530,7 +6430,7 @@
       shutter: 1/400
       iso: 200
       date: 1427985909
-    DSC_9946.jpg:
+    - filename: DSC_9946.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6541,7 +6441,7 @@
       iso: 200
       date: 1427988634
       hero: 1
-    DSC_9951.jpg:
+    - filename: DSC_9951.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6551,7 +6451,7 @@
       shutter: 1/250
       iso: 200
       date: 1428000562
-    DSC_9958.jpg:
+    - filename: DSC_9958.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6561,7 +6461,7 @@
       shutter: 1/320
       iso: 200
       date: 1428001849
-    DSC_9961.jpg:
+    - filename: DSC_9961.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6571,7 +6471,7 @@
       shutter: 1/60
       iso: 200
       date: 1428001890
-    DSC_9964.jpg:
+    - filename: DSC_9964.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6581,7 +6481,7 @@
       shutter: 1/125
       iso: 200
       date: 1428002040
-    DSC_9980.jpg:
+    - filename: DSC_9980.jpg
       width: 800
       height: 1200
       camera: NIKON D7000
@@ -6591,7 +6491,7 @@
       shutter: 1/60
       iso: 200
       date: 1428003019
-    DSC_9982.jpg:
+    - filename: DSC_9982.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6601,7 +6501,7 @@
       shutter: 1/160
       iso: 200
       date: 1428082991
-    DSC_9987.jpg:
+    - filename: DSC_9987.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6611,11 +6511,111 @@
       shutter: 1/100
       iso: 200
       date: 1428083101
+    - filename: DSC_0008.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 24
+      aperture: 5.6
+      shutter: 1/125
+      iso: 400
+      date: 1428084259
+    - filename: DSC_0087.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 10
+      shutter: 1/400
+      iso: 100
+      date: 1428156782
+    - filename: DSC_0100.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1428258390
+    - filename: DSC_0102.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 70
+      aperture: 6.3
+      shutter: 1/640
+      iso: 200
+      date: 1428258454
+    - filename: DSC_0127.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 13
+      shutter: 1/640
+      iso: 200
+      date: 1428260058
+    - filename: DSC_0127-2.jpg
+      width: 1200
+      height: 857
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 13
+      shutter: 1/640
+      iso: 200
+      date: 1428260058
+    - filename: DSC_0133.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 29
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1428260233
+    - filename: DSC_0164.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 280
+      aperture: 5.6
+      shutter: 1/1000
+      iso: 200
+      date: 1428329849
+    - filename: DSC_0190.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 240
+      aperture: 5.3
+      shutter: 1/1000
+      iso: 200
+      date: 1428330040
+    - filename: DSC_0269.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 280
+      aperture: 5.6
+      shutter: 1/200
+      iso: 200
+      date: 1428332233
 2015-04-17-FC:
   title: Fort Collins
   date: '2015-04-17'
   contents:
-    DSC_0291.jpg:
+    - filename: DSC_0291.jpg
       width: 795
       height: 1200
       camera: NIKON D7000
@@ -6625,7 +6625,7 @@
       shutter: 1/1000
       iso: 400
       date: 1429275196
-    DSC_0298.jpg:
+    - filename: DSC_0298.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6635,7 +6635,7 @@
       shutter: 1/800
       iso: 400
       date: 1429275265
-    DSC_0431.jpg:
+    - filename: DSC_0431.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6645,7 +6645,7 @@
       shutter: 1/800
       iso: 100
       date: 1429372959
-    DSC_0446.jpg:
+    - filename: DSC_0446.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6656,7 +6656,7 @@
       iso: 100
       date: 1429373896
       hero: 1
-    DSC_0461.jpg:
+    - filename: DSC_0461.jpg
       width: 1200
       height: 857
       camera: NIKON D7000
@@ -6666,7 +6666,7 @@
       shutter: 1/640
       iso: 100
       date: 1429375884
-    DSC_0490.jpg:
+    - filename: DSC_0490.jpg
       width: 1200
       height: 857
       camera: NIKON D7000
@@ -6676,7 +6676,7 @@
       shutter: 1/800
       iso: 100
       date: 1429377314
-    DSC_0523.jpg:
+    - filename: DSC_0523.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6690,7 +6690,7 @@
   title: Galveston Artwork and Softball Tournament
   date: '2015-05-03'
   contents:
-    DSC_0554.jpg:
+    - filename: DSC_0554.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6700,7 +6700,7 @@
       shutter: 1/1250
       iso: 200
       date: 1430648369
-    DSC_0563.jpg:
+    - filename: DSC_0563.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6710,7 +6710,7 @@
       shutter: 1/1250
       iso: 200
       date: 1430648591
-    DSC_0624.jpg:
+    - filename: DSC_0624.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6725,7 +6725,7 @@
   title: Pennybacker Bridge with Alex
   date: '2015-05-06'
   contents:
-    DSC_0695.jpg:
+    - filename: DSC_0695.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6735,7 +6735,7 @@
       shutter: 1/250
       iso: 200
       date: 1430942939
-    DSC_0699.jpg:
+    - filename: DSC_0699.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6745,7 +6745,7 @@
       shutter: 1/400
       iso: 200
       date: 1430943070
-    DSC_0725.jpg:
+    - filename: DSC_0725.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6755,7 +6755,7 @@
       shutter: 1/200
       iso: 200
       date: 1430943277
-    DSC_0792.jpg:
+    - filename: DSC_0792.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6766,7 +6766,7 @@
       iso: 100
       date: 1430945436
       hero: 1
-    DSC_0796.jpg:
+    - filename: DSC_0796.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6780,7 +6780,7 @@
   title: RCP
   date: '2015-05-31'
   contents:
-    DSC_0900.jpg:
+    - filename: DSC_0900.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6790,7 +6790,7 @@
       shutter: 1/2000
       iso: 400
       date: 1433073517
-    DSC_0907.jpg:
+    - filename: DSC_0907.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6800,7 +6800,7 @@
       shutter: 1/40
       iso: 400
       date: 1433073663
-    DSC_0957.jpg:
+    - filename: DSC_0957.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6810,7 +6810,7 @@
       shutter: 1/640
       iso: 200
       date: 1433074220
-    DSC_0973.jpg:
+    - filename: DSC_0973.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6820,7 +6820,7 @@
       shutter: 1/125
       iso: 200
       date: 1433074537
-    DSC_1144.jpg:
+    - filename: DSC_1144.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6830,7 +6830,7 @@
       shutter: 1/50
       iso: 1250
       date: 1433080016
-    DSC_1307.jpg:
+    - filename: DSC_1307.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6840,7 +6840,7 @@
       shutter: 1/80
       iso: 1250
       date: 1433082663
-    DSC_1381.jpg:
+    - filename: DSC_1381.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6850,7 +6850,7 @@
       shutter: 1/80
       iso: 1250
       date: 1433083393
-    DSC_1427.jpg:
+    - filename: DSC_1427.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6860,7 +6860,7 @@
       shutter: 1/80
       iso: 1250
       date: 1433083654
-    DSC_1485.jpg:
+    - filename: DSC_1485.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6870,7 +6870,7 @@
       shutter: 1/80
       iso: 1250
       date: 1433083868
-    DSC_1595.jpg:
+    - filename: DSC_1595.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6880,7 +6880,7 @@
       shutter: 1/80
       iso: 1250
       date: 1433084292
-    DSC_1680.jpg:
+    - filename: DSC_1680.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6890,7 +6890,7 @@
       shutter: 1/80
       iso: 1250
       date: 1433085495
-    DSC_1759.jpg:
+    - filename: DSC_1759.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6900,7 +6900,7 @@
       shutter: 1/80
       iso: 1250
       date: 1433085782
-    DSC_2011.jpg:
+    - filename: DSC_2011.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6910,7 +6910,7 @@
       shutter: 1/80
       iso: 1250
       date: 1433087142
-    DSC_2100.jpg:
+    - filename: DSC_2100.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6920,7 +6920,7 @@
       shutter: 1/80
       iso: 1250
       date: 1433087792
-    DSC_2256.jpg:
+    - filename: DSC_2256.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6930,7 +6930,7 @@
       shutter: 1/500
       iso: 200
       date: 1433092701
-    DSC_2284.jpg:
+    - filename: DSC_2284.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6940,7 +6940,7 @@
       shutter: 1/30
       iso: 2500
       date: 1433101627
-    DSC_2291.jpg:
+    - filename: DSC_2291.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6955,7 +6955,7 @@
   title: Nashville - Chattanooga
   date: '2015-06-12'
   contents:
-    DSC_3212.jpg:
+    - filename: DSC_3212.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6965,7 +6965,7 @@
       shutter: 1/640
       iso: 200
       date: 1434045514
-    DSC_3219.jpg:
+    - filename: DSC_3219.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6975,7 +6975,7 @@
       shutter: 1/400
       iso: 200
       date: 1434046120
-    DSC_3224.jpg:
+    - filename: DSC_3224.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -6985,7 +6985,7 @@
       shutter: 1/400
       iso: 200
       date: 1434053342
-    DSC_3245.jpg:
+    - filename: DSC_3245.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -6995,7 +6995,7 @@
       shutter: 1/500
       iso: 200
       date: 1434120837
-    DSC_3265.jpg:
+    - filename: DSC_3265.jpg
       width: 1200
       height: 800
       camera: NIKON D7000
@@ -7005,7 +7005,7 @@
       shutter: 1/200
       iso: 200
       date: 1434121482
-    DSC_3276.jpg:
+    - filename: DSC_3276.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -7015,7 +7015,7 @@
       shutter: 1/200
       iso: 200
       date: 1434121629
-    DSC_3282.jpg:
+    - filename: DSC_3282.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -7026,7 +7026,7 @@
       iso: 200
       date: 1434121740
       hero: 1
-    DSC_3290.jpg:
+    - filename: DSC_3290.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -7036,7 +7036,7 @@
       shutter: 1/400
       iso: 200
       date: 1434121926
-    DSC_3307.jpg:
+    - filename: DSC_3307.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -7046,7 +7046,7 @@
       shutter: 1/3200
       iso: 200
       date: 1434122672
-    DSC_3323.jpg:
+    - filename: DSC_3323.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -7056,7 +7056,7 @@
       shutter: 1/800
       iso: 200
       date: 1434128406
-    DSC_3332.jpg:
+    - filename: DSC_3332.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -7066,7 +7066,7 @@
       shutter: 1/320
       iso: 200
       date: 1434129440
-    DSC_3344.jpg:
+    - filename: DSC_3344.jpg
       width: 1200
       height: 795
       camera: NIKON D7000
@@ -7076,7 +7076,7 @@
       shutter: 1/800
       iso: 200
       date: 1434193857
-    DSC_3356.jpg:
+    - filename: DSC_3356.jpg
       width: 1200
       height: 795
       camera: NIKON D7000

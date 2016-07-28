@@ -23,8 +23,8 @@ var yaml = require('js-yaml');
 //   'album name' : {
 //     'title': (directory name without the date)
 //     'date': (directory name without the name)
-//     'contents': [
-//       'image name': {
+//     'contents': [ (an array of photo objects, to be sorted by date)
+//       {
 //         (@TODO: PhotoSwipe will need the width and height. I'd like to show the EXIF data and add titles)
 //       }
 //     ]
@@ -42,7 +42,7 @@ var walkPhotos = function(path, index) {
 
     // This will be the image contents and any subdirectories
     var photos = recursiveReadSync(path + '/' + album);
-    var contains = {};
+    var contains = [];
 
     for (var j=0; j < photos.length; j++) {
       // recursiveReadSync returns the path relative to the CWD, not just the name
@@ -63,7 +63,8 @@ var walkPhotos = function(path, index) {
       var exifParser = exif.create(photoBuffer);
       var exifResult = exifParser.parse();
 
-      contains[file] = {
+      contains.push({
+        filename: file,
         width: dimensions.width || null,
         height: dimensions.height || null,
         // The D7000 writes "NIKON CORPORATION / NIKON D7000" across these fields.
@@ -76,7 +77,7 @@ var walkPhotos = function(path, index) {
         shutter: (exifResult.tags.ExposureTime > 1 ? (exifResult.tags.ExposureTime + "s") : ("1/" + (1/exifResult.tags.ExposureTime))) || null,
         iso: exifResult.tags.ISO || null,
         date: exifResult.tags.DateTimeOriginal || null,
-      };
+      });
     }
 
     index[dirname] = {
@@ -102,6 +103,18 @@ gulp.task('index', function() {
   }
   walkPhotos('source/Photography', generatedIndex);
   var mergedIndex = merge(index, generatedIndex);
+
+  // Now that we've merged the existing index custom data and the newly
+  // generated data, let's sort all images by the Exif DateTimeOriginal timestamp
+  for (album in mergedIndex) {
+    if( ! mergedIndex.hasOwnProperty(album) ) { continue; }
+    mergedIndex[album].contents = mergedIndex[album].contents.sort(function(a,b) {
+      if (a.date < b.date) return -1;
+      if (a.date > b.date) return  1;
+      return 0;
+    });
+  }
+
   fs.writeFileSync('source/index.yml', yaml.safeDump(mergedIndex));
 });
 

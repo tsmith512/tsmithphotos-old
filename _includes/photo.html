@@ -1,5 +1,16 @@
 {% assign gallery = page.path | split: '/' | last | split: '.' | first %}
-{% assign photo = site.data.index[gallery].contents[include.src] %}
+
+{% comment %}
+  Now that album contents are arrays instead of hashes, we have to loop
+  through the array to find the image filename in question. :(
+{% endcomment %}
+{% for testPhoto in site.data.index[gallery].contents %}
+  {% if testPhoto.filename == include.src %}
+    {% assign photo = testPhoto %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
 
 <figure class="photo-block">
   <img src="/photo/medium/{{ gallery }}/{{ include.src }}" />
