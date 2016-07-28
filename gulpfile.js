@@ -10,6 +10,7 @@ var fs = require('fs');
 var imagemin = require('gulp-imagemin');
 var imgsize = require('image-size');
 var merge = require('deepmerge');
+var mergeStream = require('merge-stream');
 var recursiveReadSync = require('recursive-readdir-sync');
 var resize = require('gulp-image-resize');
 var rename = require("gulp-rename");
@@ -225,6 +226,13 @@ gulp.task('graphics', function() {
   return gulp.src('./_gfx/**/*.*')
     .pipe(imagemin())
     .pipe(gulp.dest('./_site/gfx/'));
+});
+
+gulp.task('htaccess', function() {
+  var root  = gulp.src('./_htaccess/root').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/'));
+  var photo = gulp.src('./_htaccess/photo').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/photo/'));
+
+  return mergeStream(root, photo);
 });
 
 gulp.task('jekyll', function (cb){
