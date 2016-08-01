@@ -7140,6 +7140,7 @@
       shutter: 1/250
       iso: 400
       date: 1378568976
+      hero: 1
     - filename: DSC_0983.jpg
       width: 1200
       height: 795
@@ -7314,6 +7315,7 @@
       shutter: 30s
       iso: 200
       date: 1404434064
+      hero: 1
     - filename: DSC_4685.jpg
       width: 1200
       height: 800
