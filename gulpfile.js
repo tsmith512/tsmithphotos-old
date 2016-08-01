@@ -89,6 +89,23 @@ var walkPhotos = function(path, index) {
       contents: contains
     };
   }
+
+  // Now sort all photos in each album by the date of the exposure instead
+  // of the name. We do this here because:
+  // - The existing index file (which has custom data) is already sorted
+  // - Sorted albums are arrays, not objects. So if the order here doesn't
+  //   match what's in the generated file, custom attributes will be applied
+  //   to the wrong image when merging (because arrays are indexed, not keyed).
+  //   ^^ @TODO: That'll fix most of the issue, but inserting/deleting within
+  //      an existing album will still cause attributes to shift. :(
+  for (album in index) {
+    if( ! index.hasOwnProperty(album) ) { continue; }
+    index[album].contents = index[album].contents.sort(function(a,b) {
+      if (a.date < b.date) return -1;
+      if (a.date > b.date) return  1;
+      return 0;
+    });
+  }
 }
 
 gulp.task('index', function() {
@@ -106,17 +123,6 @@ gulp.task('index', function() {
   }
   walkPhotos('source/Photography', generatedIndex);
   var mergedIndex = merge(index, generatedIndex);
-
-  // Now that we've merged the existing index custom data and the newly
-  // generated data, let's sort all images by the Exif DateTimeOriginal timestamp
-  for (album in mergedIndex) {
-    if( ! mergedIndex.hasOwnProperty(album) ) { continue; }
-    mergedIndex[album].contents = mergedIndex[album].contents.sort(function(a,b) {
-      if (a.date < b.date) return -1;
-      if (a.date > b.date) return  1;
-      return 0;
-    });
-  }
 
   fs.writeFileSync('source/index.yml', yaml.safeDump(mergedIndex));
 });
