@@ -7,6 +7,10 @@ var concat = require('gulp-concat');
 var eslint = require('gulp-eslint');
 var exif = require('exif-parser');
 var fs = require('fs');
+var glob = require("glob");
+var gulpicon = require("gulpicon/tasks/gulpicon");
+var gulpiconConfig = require("./_icons/config.js");
+var gulpiconFiles = glob.sync("./_icons/*.svg");
 var imagemin = require('gulp-imagemin');
 var imgsize = require('image-size');
 var merge = require('deepmerge');
@@ -229,6 +233,7 @@ gulp.task('watch', function () {
   gulp.watch(['./**/*.html','./**/*.yml', './**/*.markdown', '!./_site/**'], ['jekyll']);
   gulp.watch(['./**/*.js', '!./_site/**', '!./node_modules/**'], ['js']);
   gulp.watch(['./_gfx/**/*.*'], ['graphics']);
+  gulp.watch(['./_icons/**/*.*'], ['icons']);
 });
 
 gulp.task('graphics', function() {
@@ -236,6 +241,8 @@ gulp.task('graphics', function() {
     .pipe(imagemin())
     .pipe(gulp.dest('./_site/gfx/'));
 });
+
+gulp.task("icons", gulpicon(gulpiconFiles, gulpiconConfig));
 
 gulp.task('htaccess', function() {
   var root  = gulp.src('./_htaccess/root').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/'));
