@@ -18,14 +18,11 @@
     margin: 2rem auto 1rem auto;
   }
 
-  img {
-    display: block;
-    margin: 0 auto;
-
-    max-width: 70px;
-
-    @include breakpoint($masthead-banner-full) {
-      max-width: 90px;
-    }
+  .copy {
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #999;
   }
 }
