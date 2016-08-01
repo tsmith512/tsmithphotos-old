@@ -42,3 +42,6 @@ defaults:
       type: posts
     values:
       layout: post
+
+paginate: 10
+paginate_path: "/archive/:num/"

@@ -5,7 +5,7 @@ masthead: /photo/original/2016-04-20-SIA/DSC_3618.jpg
 ---
 
 <div class="index">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <article>
       <div class="meta">
         <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -53,6 +53,21 @@ masthead: /photo/original/2016-04-20-SIA/DSC_3618.jpg
       </section>
     </article>
   {% endfor %}
+
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">&lt;</a>
+    {% else %}
+      <span class="previous">&lt;</span>
+    {% endif %}
+      <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">&gt;</a>
+    {% else %}
+      <span class="next ">&gt;</span>
+    {% endif %}
+  </div>
 </div>
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
