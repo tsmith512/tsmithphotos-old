@@ -43,7 +43,7 @@ photoswipe: true
                  data-camera="{{ photo.camera }} with {{ photo.lens }}"
                  data-exposure="ISO{{ photo.iso }} {{ photo.shutter }} @ f/{{ photo.aperture }} {{ photo.focal }}mm"
                  >
-                <img src="/photo/thumb/{{ gallery }}/{{ photo.filename }}" />
+                <img src="/photo/thumb/{{ gallery }}/{{ photo.filename }}" width="200" height="200" alt="{{ photo.title }}" />
               </a>
             </li>
           {% endfor %}
