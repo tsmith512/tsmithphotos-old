@@ -5,7 +5,7 @@ layout: default
   <article class="page-content">
     <div class="masthead">
       {% if page.masthead %}
-        <img src="{{ page.masthead }}" />
+        <img src="{{ page.masthead }}"  class="hero-attach-{% if page.hero_attachment %}{{ page.hero_attachment }}{% else %}center{% endif %}" />
       {% endif %}
       <h1>{{ page.title }}</h1>
     </div>

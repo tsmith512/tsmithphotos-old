@@ -3,7 +3,8 @@
  * Global site footer
  */
 .site-footer {
-  margin: 2rem 1rem 1rem 1rem;
+  @extend %clearfix;
+  margin: 2rem 1rem;
   padding: 1rem 0;
   border-top: 2px solid black;
 

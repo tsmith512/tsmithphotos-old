@@ -230,7 +230,7 @@ gulp.task('js', ['js-photoswipe', 'js-photoswipe-assets', 'js-loadcss']);
 
 gulp.task('watch', function () {
   gulp.watch('./_sass/**/*.scss', ['sass']);
-  gulp.watch(['./**/*.html','./**/*.yml', './**/*.markdown', '!./_site/**'], ['jekyll']);
+  gulp.watch(['./**/*.html','./**/*.yml', './**/*.markdown', './**/.*.md', '!./_site/**'], ['jekyll']);
   gulp.watch(['./**/*.js', '!./_site/**', '!./node_modules/**'], ['js']);
   gulp.watch(['./_gfx/**/*.*'], ['graphics']);
   gulp.watch(['./_icons/**/*.*'], ['icons']);

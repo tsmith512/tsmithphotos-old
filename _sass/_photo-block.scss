@@ -21,12 +21,12 @@
       font-style: italic;
     }
 
-    .camera, .exposure {
+    .camera, .exposure, .link {
       font-family: "Gotham SSm A", "Gotham SSm B";
       font-size: 0.625rem;
     }
 
-    .camera {
+    a, .camera {
       font-weight: 600;
     }
   }
