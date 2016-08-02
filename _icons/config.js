@@ -60,6 +60,8 @@ module.exports = {
     "linkedin-blue": [".linkedin:hover"],
     "twitter-main": [".twitter"],
     "twitter-blue": [".twitter:hover"],
+    "rss-main": [".rss"],
+    "rss-blue": [".rss:hover"],
   },
 
   compressPNG: true
