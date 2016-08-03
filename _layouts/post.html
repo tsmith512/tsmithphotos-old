@@ -8,7 +8,7 @@ photoswipe: true
 
 {% assign post_empty = "post-with-copy" %}
 {% if test_content == "" %}{% assign post_empty = "post-empty" %}
-{% elsif test_content.size < 400 %}{% assign post_empty = "post-short" %}
+{% elsif test_content.size < 500 %}{% assign post_empty = "post-short" %}
 {% endif %}
 
 <div class="post {{ post_empty }}">
