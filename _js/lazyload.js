@@ -12,10 +12,9 @@
     // Adapted from https://davidwalsh.name/lazyload-image-fade
     // the [].foreach.call() is better explained at http://stackoverflow.com/questions/16053357/what-does-foreach-call-do-in-javascript
     [].forEach.call(document.querySelectorAll('img[data-src]'), function (img) {
-      img.setAttribute('src', img.getAttribute('data-src'));
-      img.onload = function () {
-        img.removeAttribute('data-src');
-      }
+      var newSrc = img.getAttribute('data-src');
+      img.removeAttribute('data-src');
+      img.setAttribute('src', newSrc);
     });
   }
 
