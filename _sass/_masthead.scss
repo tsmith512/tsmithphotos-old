@@ -7,6 +7,7 @@
   position: relative;
   overflow: hidden;
   margin-bottom: 1rem;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAI0lEQVQIWxXHQREAAAyDMGoF/5pqZbvyCgEOQCWboS1Rb1gPlfEJZ9/Nd0IAAAAASUVORK5CYII=');
 
   @include breakpoint($masthead-box) {
     padding-bottom: 63%;
@@ -78,7 +79,7 @@
 
     @include breakpoint($masthead-box) {
       position: absolute;
-      z-index: 1; 
+      z-index: 1;
 
       &.hero-attach-center {
         top: 50%;
