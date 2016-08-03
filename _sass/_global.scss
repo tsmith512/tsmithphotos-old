@@ -5,13 +5,15 @@
 
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
 body {
-  font-family: "Archer SSm A", "Archer SSm B";
+  font-family: $archer;
   font-size: 100%;
   line-height: 1.5;
 }

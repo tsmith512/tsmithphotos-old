@@ -16,12 +16,12 @@
   }
 
   .pswp__counter {
-    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-family: $gotham;
     font-weight: 600;
   }
 
   .pswp__share-tooltip {
-    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-family: $gotham;
     text-transform: uppercase;
   }
 
@@ -33,7 +33,7 @@
 
     .camera, .exposure {
       display: block;
-      font-family: "Gotham SSm A", "Gotham SSm B";
+      font-family: $gotham;
     }
 
     .camera {

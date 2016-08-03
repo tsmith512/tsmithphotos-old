@@ -54,7 +54,7 @@
     margin-bottom: 1rem;
 
     .date, .location {
-      font-family: "Gotham SSm A", "Gotham SSm B";
+      font-family: $gotham;
       font-size: 0.75rem;
       font-weight: 600;
       color: #999;
@@ -120,7 +120,7 @@
         width: 50%;
         @include breakpoint(290px) { width: 33.3%; }
         @include breakpoint(520px) { width: 25%; }
-        @include breakpoint(680px) { width: 20%; } 
+        @include breakpoint(680px) { width: 20%; }
         @include breakpoint(880px) { width: 16.6%; }
 
       }
@@ -141,7 +141,7 @@
     border-top: 1px solid #eee;
     padding-top: 1rem;
 
-    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-family: $gotham;
     font-size: 0.75rem;
 
     .post-short & {
@@ -160,7 +160,7 @@
     }
 
     a {
-      display: block; 
+      display: block;
       text-align: center;
       margin-bottom: 1rem;
       .post-with-copy &, .post-short & {

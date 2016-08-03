@@ -46,7 +46,7 @@
   }
 
   .date, .location {
-    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-family: $gotham;
     font-size: 0.75rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -68,7 +68,7 @@
   }
 
   h2 {
-    font-family: "Tungsten Narrow A", "Tungsten Narrow B";
+    font-family: $tungsten;
     font-weight: 400;
     font-size: 2.5rem;
     margin: 0 0 1rem 0;
