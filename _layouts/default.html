@@ -15,11 +15,13 @@ layout: compress
 
     {% include footer.html %}
 
-    <script async src="/js/loadcss.all.js"></script>
+    {% if page.photoswipe %}
+      {% include photoswipe-container.html %}
+    {% endif %}
 
+    <script defer src="/js/all.js"></script>
     {% if page.photoswipe %}
       <script defer src="/js/photoswipe.all.js"></script>
-      {% include photoswipe-container.html %}
     {% endif %}
   </body>
 

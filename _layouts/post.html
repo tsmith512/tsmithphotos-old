@@ -47,7 +47,11 @@ photoswipe: true
                  data-camera="{{ photo.camera }} with {{ photo.lens }}"
                  data-exposure="ISO{{ photo.iso }} {{ photo.shutter }} @ f/{{ photo.aperture }} {{ photo.focal }}mm"
                  >
-                <img src="/photo/thumb/{{ gallery }}/{{ photo.filename }}" width="200" height="200" alt="{{ photo.title }}" />
+                {% if forloop.index < 7 %}
+                  <img src="/photo/thumb/{{ gallery }}/{{ photo.filename }}" width="200" height="200" alt="{{ photo.title }}" />
+                {% else %}
+                  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/photo/thumb/{{ gallery }}/{{ photo.filename }}" width="200" height="200" alt="{{ photo.title }}" />
+                {% endif %}
               </a>
             </li>
           {% endfor %}

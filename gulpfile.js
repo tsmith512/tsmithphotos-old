@@ -212,9 +212,13 @@ gulp.task('js-photoswipe-assets', function() {
     .pipe(gulp.dest('./_site/css'));
 });
 
-gulp.task('js-loadcss', function() {
-  return gulp.src(['./node_modules/fg-loadcss/src/loadCSS.js', './node_modules/fg-loadcss/src/cssrelpreload.js'])
-    .pipe(concat('loadcss.all.js'))
+gulp.task('js-all', function() {
+  return gulp.src([
+      './_js/lazyload.js',
+      './node_modules/fg-loadcss/src/loadCSS.js',
+      './node_modules/fg-loadcss/src/cssrelpreload.js'
+    ])
+    .pipe(concat('all.js'))
     .pipe(uglify({mangle: false}))
     .pipe(gulp.dest('./_site/js'));
 });
@@ -226,7 +230,7 @@ gulp.task('lint', function() {
     .pipe(eslint.failAfterError());
 });
 
-gulp.task('js', ['js-photoswipe', 'js-photoswipe-assets', 'js-loadcss']);
+gulp.task('js', ['js-photoswipe', 'js-photoswipe-assets', 'js-all']);
 
 gulp.task('watch', function () {
   gulp.watch('./_sass/**/*.scss', ['sass']);
