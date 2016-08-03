@@ -6,8 +6,6 @@ masthead: /photo/original/2015-01-03-NYC/DSC_9265.jpg
 hero_attachment: bottom
 ---
 
-{% include photo-unrelated.html src="DSC_8862.jpg" gallery="2015-11-22-NYC" %}
-
 In 2002, I talked my Dad into buying me my first ever domain name:
 [tsmithphotos.com](http://www.tsmithphotos.com). I used it to post my
 early photography work until college, when I switched over to
@@ -15,6 +13,8 @@ early photography work until college, when I switched over to
 portfolio. For years, this domain sat empty, but I couldn't bear to
 let it expire because of all the growth it represented in photography,
 art, web development, and even personal branding.
+
+{% include photo-unrelated.html src="DSC_3960.jpg" gallery="2014-06-01-DENSFOAUSV" %}
 
 Early versions of this site used a horribly insecure PHP
 auto-generated gallery script I wrote, then Dreamweaver-generated
@@ -42,4 +42,4 @@ few years of adventures.
 
 {% include photo-unrelated.html src="DSC_9024.jpg" gallery="2014-12-05-ANI" %}
 
-Thank you for looking. Onward!
+Thank you for looking.
