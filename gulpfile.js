@@ -12,6 +12,7 @@ var gulpicon = require("gulpicon/tasks/gulpicon");
 var gulpiconConfig = require("./_icons/config.js");
 var gulpiconFiles = glob.sync("./_icons/*.svg");
 var imagemin = require('gulp-imagemin');
+var imageminMozjpeg = require('imagemin-mozjpeg');
 var imgsize = require('image-size');
 var merge = require('deepmerge');
 var mergeStream = require('merge-stream');
@@ -173,11 +174,13 @@ gulp.task('photos', function() {
       // "2016-03-21-TWRVFXE1". Keeping capital letters and numbers helps with collisions.
       path.dirname = path.dirname.replace(/[a-z]/g, '').replace(/ /, '-').replace(/\s/g, '');
     }))
-    .pipe(imagemin({progressive: true}))
+    .pipe(imagemin([imageminMozjpeg({quality: 95, progressive: true})]))
     .pipe(gulp.dest('_site/photo/original/'))
     .pipe(resize({width: 600, height: 600, crop: false, upscale: false}))
+    .pipe(imagemin([imageminMozjpeg({quality: 80, progressive: true})]))
     .pipe(gulp.dest('_site/photo/medium/'))
     .pipe(resize({width: 200, height: 200, crop: true, upscale: false}))
+    .pipe(imagemin([imageminMozjpeg({quality: 55, progressive: true})]))
     .pipe(gulp.dest('_site/photo/thumb/'))
     // @TODO: Can we do that thing Rupl used to do with blurry 10px images for a pre-load?
 });
