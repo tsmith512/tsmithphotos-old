@@ -23,9 +23,11 @@ photoswipe: true
       {% endcomment %}
       {% for photo in site.data.index[gallery].contents %}
         {% if photo.hero %}
-          <picture>
-            <source srcset="/photo/original/{{ gallery }}/{{ photo.filename }}" media="(min-width: 800px)">
-            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/photo/medium/{{ gallery }}/{{ photo.filename }}" class="hero-attach-{% if photo.hero_attachment %}{{ photo.hero_attachment }}{% else %}center{% endif %}" />
+          <img
+            src="/photo/medium/{{ gallery }}/{{ photo.filename }}"
+            data-big="/photo/original/{{ gallery }}/{{ photo.filename }}"
+            class="hero-attach-{% if photo.hero_attachment %}{{ photo.hero_attachment }}{% else %}center{% endif %}"
+            width="600" height="{{ photo.height | times: 600 | divided_by: photo.width }}" />
         {% endif %}
       {% endfor %}
       <h1>{{ page.title }}</h1>

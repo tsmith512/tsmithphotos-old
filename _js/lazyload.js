@@ -4,6 +4,13 @@
  * we lazyload for better loading performance since it's all coming off
  * of a single domain so these long galleries get stuck by per-hostname
  * limitations.
+ *
+ * Masthead images are originally loaded by all window sizes as the
+ * medium size. After everything else is in (window load), we swap
+ * that over to the full resolution. In tests, browsers don't remove
+ * the loaded source until the replacement source is fully loaded, so
+ * it ends up looking like a progressive load, but "paused" in the
+ * middle to get something up then prioritize remaining content.
  */
 (function () {
   'use strict';
@@ -18,5 +25,15 @@
     });
   }
 
+  function lazyloadUpsize () {
+    var mq = window.matchMedia('(min-width: 800px)');
+    if (mq.matches) {
+      [].forEach.call(document.querySelectorAll('img[data-big]'), function (img) {
+        img.setAttribute('src', img.getAttribute('data-big'));
+      });
+    }
+  }
+
   document.addEventListener('DOMContentLoaded', lazyloadRemainingImages);
+  window.addEventListener('load', lazyloadUpsize);
 })();
