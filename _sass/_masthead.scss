@@ -7,9 +7,9 @@
   position: relative;
   overflow: hidden;
   margin-bottom: 1rem;
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAI0lEQVQIWxXHQREAAAyDMGoF/5pqZbvyCgEOQCWboS1Rb1gPlfEJZ9/Nd0IAAAAASUVORK5CYII=');
 
   @include breakpoint($masthead-box) {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAI0lEQVQIWxXHQREAAAyDMGoF/5pqZbvyCgEOQCWboS1Rb1gPlfEJZ9/Nd0IAAAAASUVORK5CYII=');
     padding-bottom: 63%;
     margin-bottom: 2rem;
   }
