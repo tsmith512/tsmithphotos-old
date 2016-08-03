@@ -13,6 +13,7 @@
     }
 
     @include breakpoint($index-two-column) {
+      min-height: 200px;
       background-size: 200%;
       background-position: 0 0;
       background-image: linear-gradient(to right, white 50%, #f8f8f8 50%);
@@ -68,7 +69,7 @@
 
   h2 {
     font-family: "Tungsten Narrow A", "Tungsten Narrow B";
-    font-weight: 400; 
+    font-weight: 400;
     font-size: 2.5rem;
     margin: 0 0 1rem 0;
 
