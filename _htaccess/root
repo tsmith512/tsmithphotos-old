@@ -12,8 +12,14 @@ Options +FollowSymLinks
 ErrorDocument 404 /not-found/index.html
 ErrorDocument 403 /not-allowed/index.html
 
-# Set the default handler.
-# DirectoryIndex index.html
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  RewriteCond %{HTTP_HOST} ^tsmithphotos.com$ [NC]
+  RewriteCond %{HTTP_HOST} !^www\. [NC]
+  RewriteRule ^ http://www.tsmithphotos.com%{REQUEST_URI} [L,R=301]
+</IfModule>
+
 
 <IfModule mod_expires.c>
   ExpiresActive On
