@@ -206,19 +206,19 @@ gulp.task('sass', 'Compile Sass to CSS', function () {
     .pipe(gulp.dest('./_site/css'));
 });
 
-gulp.task('js-photoswipe', 'Aggregate and minify all PhotoSwipe related JS', function() {
+gulp.task('js-photoswipe', false, function() {
   return gulp.src(['./node_modules/photoswipe/dist/*.js', '_js/photoswipe.tsp.js'])
     .pipe(concat('photoswipe.all.js'))
     .pipe(uglify({mangle: false}))
     .pipe(gulp.dest('./_site/js'));
 });
 
-gulp.task('js-photoswipe-assets', 'Gather all PhotoSwipe UI graphics', function() {
+gulp.task('js-photoswipe-assets', false, function() {
   return gulp.src(['./node_modules/photoswipe/dist/default-skin/*.png', './node_modules/photoswipe/dist/default-skin/*.svg', './node_modules/photoswipe/dist/default-skin/*.gif'])
     .pipe(gulp.dest('./_site/css'));
 });
 
-gulp.task('js-all', 'Aggregate and minify all non-PhotoSwipe JS', function() {
+gulp.task('js-all', false, function() {
   return gulp.src([
       './_js/lazyload.js',
       './node_modules/fg-loadcss/src/loadCSS.js',
@@ -236,7 +236,7 @@ gulp.task('lint', 'Lint all non-vendor JS', function() {
     .pipe(eslint.failAfterError());
 });
 
-gulp.task('js', 'Run all PS/JS aggregation/minification tasks', ['js-photoswipe', 'js-photoswipe-assets', 'js-all']);
+gulp.task('js', 'JS/Photoswipe aggregation/minify, custom JS linting', ['js-photoswipe', 'js-photoswipe-assets', 'js-all', 'lint']);
 
 gulp.task('watch', 'Watch-run sass, jekyll, js, graphics, and icons tasks', function () {
   gulp.watch('./_sass/**/*.scss', ['sass']);
@@ -246,13 +246,13 @@ gulp.task('watch', 'Watch-run sass, jekyll, js, graphics, and icons tasks', func
   gulp.watch(['./_icons/**/*.*'], ['icons']);
 });
 
-gulp.task('graphics', 'Compress site graphics (not photos or icons)', function() {
+gulp.task('graphics', 'Compress site graphics and aggregate icons', ['icons'], function() {
   return gulp.src('./_gfx/**/*.*')
     .pipe(imagemin())
     .pipe(gulp.dest('./_site/gfx/'));
 });
 
-gulp.task('icons', 'Aggregate and set up icon CSS with gulpicons', gulpicon(gulpiconFiles, gulpiconConfig));
+gulp.task('icons', false, gulpicon(gulpiconFiles, gulpiconConfig));
 
 gulp.task('htaccess', 'Update/install .htaccess files', function() {
   var root  = gulp.src('./_htaccess/root').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/'));
@@ -269,7 +269,7 @@ gulp.task('jekyll', 'Run jekyll build', function (cb){
  });
 });
 
-gulp.task('update', 'Add/remove photos and albums: index, photos, prime-posts, and jekyll', function(cb) {
+gulp.task('update', 'Add/remove photos and albums: index, photos, prime-posts, and jekyll. WARNING: ~30 minutes.', function(cb) {
   runSequence(['index', 'photos'], 'prime-posts', 'jekyll', cb);
 });
 
@@ -277,4 +277,4 @@ gulp.task('build', 'Run all site-generating tasks: sass, js, graphics, icons, th
   runSequence(['sass', 'js', 'graphics', 'icons'], 'jekyll', cb);
 });
 
-gulp.task('default', ['build']);
+gulp.task('default', false, ['build']);
