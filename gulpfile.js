@@ -136,6 +136,32 @@ gulp.task('index', 'Scan for new and deleted photos and albums, merge with the i
   fs.writeFileSync('source/index.yml', yaml.safeDump(mergedIndex));
 });
 
+gulp.task('photos', 'Rebuild all image derivatives: original, medium, thumb, mini. WARNING: ~30 minutes', function() {
+  return gulp.src('source/Photography/**/*.jpg')
+    .pipe(rename(function (path) {
+      // Sometimes I use subdirectories within albums to denote days, squash em
+      // @TODO: Technically this could lead to collisions, but it is unlikely because the
+      // cameras both don't cycle until 9999 so only if 10,000 were taken in a day.
+      path.dirname = path.dirname.split('/')[0];
+
+      // Now, for shorter and more URL friendly paths, drop spaces and lowercase letters
+      // so "2016-03-21 Tulsa Weekend for Roadtrip Video with Fuji XE1" becomes
+      // "2016-03-21-TWRVFXE1". Keeping capital letters and numbers helps with collisions.
+      path.dirname = path.dirname.replace(/[a-z]/g, '').replace(/ /, '-').replace(/\s/g, '');
+    }))
+    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
+    .pipe(gulp.dest('_site/photo/original/'))
+    .pipe(resize({width: 600, height: 600, crop: false, upscale: false}))
+    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
+    .pipe(gulp.dest('_site/photo/medium/'))
+    .pipe(resize({width: 200, height: 200, crop: true, upscale: false}))
+    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
+    .pipe(gulp.dest('_site/photo/thumb/'))
+    .pipe(resize({width: 100, height: 100, crop: true, upscale: false}))
+    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
+    .pipe(gulp.dest('_site/photo/mini/'))
+    // @TODO: Can we do that thing Rupl used to do with blurry 10px images for a pre-load?
+});
 gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have them already', function() {
   var index = {};
   try {
@@ -163,33 +189,6 @@ gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have
     // We created a post (if it already existed, the `continue` would have fired)
     gutil.log("Created new Jekyll post file for " + album);
   }
-});
-
-gulp.task('photos', 'Rebuild all image derivatives: original, medium, thumb, mini. WARNING: ~30 minutes', function() {
-  return gulp.src('source/Photography/**/*.jpg')
-    .pipe(rename(function (path) {
-      // Sometimes I use subdirectories within albums to denote days, squash em
-      // @TODO: Technically this could lead to collisions, but it is unlikely because the
-      // cameras both don't cycle until 9999 so only if 10,000 were taken in a day.
-      path.dirname = path.dirname.split('/')[0];
-
-      // Now, for shorter and more URL friendly paths, drop spaces and lowercase letters
-      // so "2016-03-21 Tulsa Weekend for Roadtrip Video with Fuji XE1" becomes
-      // "2016-03-21-TWRVFXE1". Keeping capital letters and numbers helps with collisions.
-      path.dirname = path.dirname.replace(/[a-z]/g, '').replace(/ /, '-').replace(/\s/g, '');
-    }))
-    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
-    .pipe(gulp.dest('_site/photo/original/'))
-    .pipe(resize({width: 600, height: 600, crop: false, upscale: false}))
-    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
-    .pipe(gulp.dest('_site/photo/medium/'))
-    .pipe(resize({width: 200, height: 200, crop: true, upscale: false}))
-    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
-    .pipe(gulp.dest('_site/photo/thumb/'))
-    .pipe(resize({width: 100, height: 100, crop: true, upscale: false}))
-    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
-    .pipe(gulp.dest('_site/photo/mini/'))
-    // @TODO: Can we do that thing Rupl used to do with blurry 10px images for a pre-load?
 });
 
 gulp.task('sass', 'Compile Sass to CSS', function () {
@@ -242,27 +241,12 @@ gulp.task('lint', 'Lint all non-vendor JS', function() {
 
 gulp.task('js', 'JS/Photoswipe aggregation/minify, custom JS linting', ['js-photoswipe', 'js-photoswipe-assets', 'js-all', 'lint']);
 
-gulp.task('watch', 'Watch-run sass, jekyll, js, graphics, and icons tasks', function () {
-  gulp.watch('./_sass/**/*.scss', ['sass']);
-  gulp.watch(['./**/*.html','./**/*.yml', './**/*.markdown', './**/.*.md', '!./_site/**'], ['jekyll']);
-  gulp.watch(['./**/*.js', '!./_site/**', '!./node_modules/**'], ['js']);
-  gulp.watch(['./_gfx/**/*.*'], ['graphics']);
-  gulp.watch(['./_icons/**/*.*'], ['icons']);
-});
+gulp.task('icons', false, gulpicon(gulpiconFiles, gulpiconConfig));
 
 gulp.task('graphics', 'Compress site graphics and aggregate icons', ['icons'], function() {
   return gulp.src('./_gfx/**/*.*')
     .pipe(imagemin())
     .pipe(gulp.dest('./_site/gfx/'));
-});
-
-gulp.task('icons', false, gulpicon(gulpiconFiles, gulpiconConfig));
-
-gulp.task('htaccess', 'Update/install .htaccess files', function() {
-  var root  = gulp.src('./_htaccess/root').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/'));
-  var photo = gulp.src('./_htaccess/photo').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/photo/'));
-
-  return mergeStream(root, photo);
 });
 
 gulp.task('jekyll', 'Run jekyll build', function (cb){
@@ -273,12 +257,28 @@ gulp.task('jekyll', 'Run jekyll build', function (cb){
  });
 });
 
+gulp.task('htaccess', 'Update/install .htaccess files', function() {
+  var root  = gulp.src('./_htaccess/root').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/'));
+  var photo = gulp.src('./_htaccess/photo').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/photo/'));
+
+  return mergeStream(root, photo);
+});
+
+
 gulp.task('update', 'Add/remove photos and albums: index, photos, prime-posts, and jekyll. WARNING: ~30 minutes.', function(cb) {
   runSequence(['index', 'photos'], 'prime-posts', 'jekyll', cb);
 });
 
-gulp.task('build', 'Run all site-generating tasks: sass, js, graphics, icons, then jekyll', function(cb) {
-  runSequence(['sass', 'js', 'graphics', 'icons'], 'jekyll', cb);
+gulp.task('build', 'Run all site-generating tasks: sass, js, graphics, icons, htaccess then jekyll', function(cb) {
+  runSequence(['sass', 'js', 'graphics', 'icons', 'htaccess'], 'jekyll', cb);
 });
 
 gulp.task('default', false, ['help']);
+
+gulp.task('watch', 'Watch-run sass, jekyll, js, graphics, and icons tasks', function () {
+  gulp.watch('./_sass/**/*.scss', ['sass']);
+  gulp.watch(['./**/*.html','./**/*.yml', './**/*.markdown', './**/.*.md', '!./_site/**'], ['jekyll']);
+  gulp.watch(['./**/*.js', '!./_site/**', '!./node_modules/**'], ['js']);
+  gulp.watch(['./_gfx/**/*.*'], ['graphics']);
+  gulp.watch(['./_icons/**/*.*'], ['icons']);
+});
