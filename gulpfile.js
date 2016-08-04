@@ -1,3 +1,21 @@
+/**
+ * @file gulpfile.js
+ *
+ * Build tasks and generator tools for www.tsmithphotos.com
+ * By Taylor Smith @tsmith512 - www.tsmithcreative.com 2016.
+ *
+ * Run `gulp help` to for a list of suggested tasks.
+ */
+
+/*
+     _
+  __| | ___ _ __  ___
+ / _` |/ _ \ '_ \/ __|
+| (_| |  __/ |_) \__ \
+ \__,_|\___| .__/|___/
+           |_|
+*/
+
 var gulp = require('gulp-help')(require('gulp'), {
   'description': false,
   'hideDepsMessage': true,
@@ -27,6 +45,15 @@ var runSequence = require('run-sequence');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yaml = require('js-yaml');
+
+/*
+       _           _
+ _ __ | |__   ___ | |_ ___  ___
+| '_ \| '_ \ / _ \| __/ _ \/ __|
+| |_) | | | | (_) | || (_) \__ \
+| .__/|_| |_|\___/ \__\___/|___/
+|_|
+*/
 
 // Containers for image data processing which is kicked off by gulp
 // but aren't actually gulp tasks. Adapted from http://stackoverflow.com/a/18934385
@@ -162,6 +189,7 @@ gulp.task('photos', 'Rebuild all image derivatives: original, medium, thumb, min
     .pipe(gulp.dest('_site/photo/mini/'))
     // @TODO: Can we do that thing Rupl used to do with blurry 10px images for a pre-load?
 });
+
 gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have them already', function() {
   var index = {};
   try {
@@ -190,6 +218,15 @@ gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have
     gutil.log("Created new Jekyll post file for " + album);
   }
 });
+
+/*
+                    _
+  __ _ ___ ___  ___| |_ ___
+ / _` / __/ __|/ _ \ __/ __|
+| (_| \__ \__ \  __/ |_\__ \
+ \__,_|___/___/\___|\__|___/
+
+*/
 
 gulp.task('sass', 'Compile Sass to CSS', function () {
   return gulp.src('./_sass/**/*.scss')
@@ -249,6 +286,15 @@ gulp.task('graphics', 'Compress site graphics and aggregate icons', ['icons'], f
     .pipe(gulp.dest('./_site/gfx/'));
 });
 
+/*
+     _ _         _           _ _     _
+ ___(_) |_ ___  | |__  _   _(_) | __| |
+/ __| | __/ _ \ | '_ \| | | | | |/ _` |
+\__ \ | ||  __/ | |_) | |_| | | | (_| |
+|___/_|\__\___| |_.__/ \__,_|_|_|\__,_|
+
+*/
+
 gulp.task('jekyll', 'Run jekyll build', function (cb){
  var spawn = require('child_process').spawn;
  var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit'});
@@ -272,6 +318,15 @@ gulp.task('update', 'Add/remove photos and albums: index, photos, prime-posts, a
 gulp.task('build', 'Run all site-generating tasks: sass, js, graphics, icons, htaccess then jekyll', function(cb) {
   runSequence(['sass', 'js', 'graphics', 'icons', 'htaccess'], 'jekyll', cb);
 });
+
+/*
+             _             _          __  __
+  __ _ _   _| |_ __    ___| |_ _   _ / _|/ _|
+ / _` | | | | | '_ \  / __| __| | | | |_| |_
+| (_| | |_| | | |_) | \__ \ |_| |_| |  _|  _|
+ \__, |\__,_|_| .__/  |___/\__|\__,_|_| |_|
+ |___/        |_|
+*/
 
 gulp.task('default', false, ['help']);
 
