@@ -1,0 +1,10 @@
+---
+title: SANDCamp 2016
+location: San Diego, California
+---
+
+This was my third year attending the San Diego Drupal Camp, the second as a
+presenter. We've got two employees out in San Diego now, and it's always a good
+time to see them. Four Kitchens usually sends over a good handful of Web Chefs
+and we all take a few extra days to have some local fun like sailing with Matt
+and his father.

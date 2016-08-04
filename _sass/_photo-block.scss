@@ -1,0 +1,33 @@
+/**
+ * @file _photo-block.scss
+ * Photos can be included individually in post text with
+ * {% include photo.html src="123.jpg" %}
+ * This styles that <figure>
+ */
+.photo-block {
+  margin: 1rem 0;
+  border: 1px solid #ddd;
+  background: #fbfbfb;
+
+  figcaption {
+    padding: 0.5rem;
+    padding-top: 0; // There was no margin nor padding but there was still a gap...
+
+    img, span {
+      display: block;
+    }
+
+    .title {
+      font-style: italic;
+    }
+
+    .camera, .exposure, .link {
+      font-family: $gotham;
+      font-size: 0.625rem;
+    }
+
+    a, .camera {
+      font-weight: 600;
+    }
+  }
+}

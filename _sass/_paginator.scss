@@ -1,0 +1,40 @@
+/**
+ * @file _paginator.scss
+ * The pagination links on the main index and /archive/##
+ */
+
+.pagination {
+  margin-top: 2rem;
+  text-align: center;
+
+  a, span {
+    display: inline-block;
+    background: #f6f6f6;
+    padding: 0.375rem 0.625rem;
+    margin: 0 0.375rem;
+    border-radius: 3px;
+
+    font-family: $gotham;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  a {
+    color: #fff;
+    background-color: #3347af;
+    text-shadow: 1px 1px 0 #15205a;
+    border: 1px solid #15205a;
+
+    &:hover, &:active {
+      background-color: #3957f1;
+    }
+  }
+
+  span {
+    color: #999;
+    text-shadow: 1px 1px 0 #FFF;
+    border: 1px solid #eee;
+  }
+}

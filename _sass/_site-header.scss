@@ -1,0 +1,36 @@
+/**
+ * @file _site-header.scss
+ * Header banner
+ */
+
+.site-header {
+  position: absolute;
+  z-index: 1000;
+  padding: 1em;
+  width: 100%;
+
+  h1 {
+    width: 80px;
+    margin: 0;
+
+    a {
+      display: block;
+      width: 100%;
+      padding-top: 80%;
+
+      background-image: url('/gfx/logo.svg');
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+
+      opacity: 0.5;
+      &:hover { opacity: 1; }
+    }
+
+    span {
+      position: absolute;
+      display: block;
+      clip: rect(0px 0px 0px 0px);
+    }
+  }
+}

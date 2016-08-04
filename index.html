@@ -1,0 +1,72 @@
+---
+layout: page
+title: "An Untitled Photoblog"
+masthead: /photo/original/2016-04-20-SIA/DSC_3618.jpg
+nowrap: 1
+---
+
+<div class="index">
+  {% for post in paginator.posts %}
+    <article>
+      <div class="meta">
+        <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}
+        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      </div>
+
+      <section class="gallery">
+        {% assign gallery = post.path | split: '/' | last | split: '.' | first %}
+        <div class="photo hero">
+          {% comment %}
+            @TODO: So apparently the "where" filter doesn't work on custom data
+            arrays, though I could write a plugin to do it. Instead, we loop over
+            the whole post photo array and pull out the hero when we find it. Sadface.
+          {% endcomment %}
+          {% for photo in site.data.index[gallery].contents %}
+            {% if photo.hero %}
+              <a href="{{ post.url | prepend: site.baseurl }}">
+                <img src="/photo/thumb/{{ gallery }}/{{ photo.filename }}" width="200" height="200" alt="{{ post.title | xml_escape }}" />
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <div class="preview">
+          {% assign count = 1 %}
+          {% for photo in site.data.index[gallery].contents limit:6 %}
+            {% unless photo.hero %}
+              <div class="photo">
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/photo/mini/{{ gallery }}/{{ photo.filename }}" width="100" height="100" alt="" />
+                </a>
+              </div>
+              {% comment %}
+                We use a manual counter here so that we know we'll end
+                up with a total of 4 images in .preview but skip the
+                hero so that doesn't show up twice.
+              {% endcomment %}
+              {% assign count = count | plus:1 %}
+              {% if count > 4 %}
+                {% break %}
+              {% endif %}
+            {% endunless %}
+          {% endfor %}
+        </div>
+      </section>
+    </article>
+  {% endfor %}
+
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">&lt;</a>
+    {% else %}
+      <span class="previous">&lt;</span>
+    {% endif %}
+      <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">&gt;</a>
+    {% else %}
+      <span class="next ">&gt;</span>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,11 @@
+# /photo/.htaccess
+#
+# Only photos are in this directory, cache more aggressively
+# and ETag by size, since they may be touched during image
+# rebuilding.
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 2 months"
+  FileETag Size
+</IfModule>

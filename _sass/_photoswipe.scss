@@ -1,0 +1,43 @@
+/**
+ * @file _photoswipe.scss
+ * Customizations on top of Photoswipe's default skin
+ */
+.pswp {
+  .pswp__ui--idle .pswp__top-bar {
+    opacity: 1;
+
+    .pswp__counter {
+      opacity: 0.5;
+    }
+
+    .pswp__button {
+      opacity: 0.25;
+    }
+  }
+
+  .pswp__counter {
+    font-family: $gotham;
+    font-weight: 600;
+  }
+
+  .pswp__share-tooltip {
+    font-family: $gotham;
+    text-transform: uppercase;
+  }
+
+  .pswp__caption {
+    .pswp__caption__center {
+      max-width: none;
+      border-top: 1px solid #CCC;
+    }
+
+    .camera, .exposure {
+      display: block;
+      font-family: $gotham;
+    }
+
+    .camera {
+      font-weight: 600;
+    }
+  }
+}

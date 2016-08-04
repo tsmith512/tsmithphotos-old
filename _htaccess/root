@@ -1,0 +1,32 @@
+# /.htaccess
+#
+# Set some site-wide defaults, allow some caching. Other locations will
+# have their own more heavily customized settings.
+
+# Don't show directory listings for URLs which map to a directory.
+Options -Indexes
+
+# Follow symbolic links in this directory.
+Options +FollowSymLinks
+
+ErrorDocument 404 /not-found/index.html
+ErrorDocument 403 /not-allowed/index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  RewriteCond %{HTTP_HOST} ^tsmithphotos.com$ [NC]
+  RewriteCond %{HTTP_HOST} !^www\. [NC]
+  RewriteRule ^ http://www.tsmithphotos.com%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Cache all files for 2 weeks after access (A).
+  ExpiresDefault "access plus 2 weeks"
+
+  # We'll do ETags manually by location. Disabling them for most stuff.
+  FileETag None
+</IfModule>

@@ -1,0 +1,187 @@
+/**
+ * @file _post.scss
+ * Individual page styles for a single post/album page
+ *
+ * So there are three kinds of posts, as determined in _layouts/post.html
+ * .post-empty:
+ *    There's no copy. Header, nav, and album are all full-width.
+ * .post-with-copy:
+ *    Copy is long, post is the original two-column design. On
+ *    large enough screens, it's a 50/50 album/post split.
+ * .post-short:
+ *    There is copy, but it's short. Header, copy, and nav are
+ *    600px max, but the album is full-width like empty. It's
+ *    a frankenstein of the first two.
+ */
+.post-content {
+  .wrapper {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    @include breakpoint($masthead-box) {
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+
+    @include breakpoint($masthead-banner-full) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .copy {
+    margin-bottom: 2rem;
+
+    .post-short & {
+      margin: 0 auto 2rem auto;
+      max-width: 600px;
+    }
+
+    .post-with-copy & {
+      @include breakpoint($post-two-column) {
+          margin-left: -100%;
+          margin-bottom: 0;
+          width: calc(50% - 1rem);
+          float: right;
+      }
+    }
+  }
+
+  header {
+    @extend %clearfix;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1rem;
+
+    .date, .location {
+      font-family: $gotham;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #999;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 0 #FFF;
+      letter-spacing: 1px;
+    }
+
+    .post-with-copy &, .post-short & {
+      @include breakpoint($post-meta-two-column) {
+        .date {
+          float: left;
+        }
+        .location {
+          float: right;
+          text-align: right;
+        }
+      }
+    }
+
+    .post-empty & {
+      @include breakpoint($post-two-column) {
+        .date {
+          float: left;
+        }
+        .location {
+          float: right;
+          text-align: right;
+        }
+      }
+    }
+
+  }
+
+  .album {
+    @extend %clearfix;
+
+    .post-with-copy & {
+      @include breakpoint($post-two-column) {
+        width: calc(50% - 1rem);
+        float: left;
+      }
+    }
+
+    .post-empty &, .post-short & {
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      padding: 1px;
+      float: left;
+      .post-with-copy & {
+        width: 33.3%;
+      }
+
+      .post-empty &, .post-short & {
+        width: 50%;
+        @include breakpoint(290px) { width: 33.3%; }
+        @include breakpoint(520px) { width: 25%; }
+        @include breakpoint(680px) { width: 20%; }
+        @include breakpoint(880px) { width: 16.6%; }
+
+      }
+    }
+
+    img {
+      display: block;
+    }
+
+    a:hover img {
+      filter: brightness(150%) grayscale(25%);
+    }
+  }
+
+  .nav {
+    @extend %clearfix;
+    margin-top: 1rem;
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+
+    font-family: $gotham;
+    font-size: 0.75rem;
+
+    .post-short & {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 600px;
+    }
+
+    .post-with-copy & {
+      @include breakpoint($post-two-column) {
+        margin: 1rem 0 0 -100%;
+        width: calc(50% - 1rem);
+        float: right;
+        clear: right;
+      }
+    }
+
+    a {
+      display: block;
+      text-align: center;
+      margin-bottom: 1rem;
+      .post-with-copy &, .post-short & {
+        @include breakpoint($post-meta-two-column) {
+          width: calc(50% - 1rem);
+        }
+      }
+    }
+
+    .post-with-copy &, .post-short & {
+      @include breakpoint($post-meta-two-column) {
+        .prev { float: left; text-align: left; }
+        .next { float: right; text-align: right; }
+      }
+    }
+
+    .post-empty & {
+      @include breakpoint($post-two-column) {
+        .prev { float: left; text-align: left; }
+        .next { float: right; text-align: right; }
+      }
+    }
+  }
+}

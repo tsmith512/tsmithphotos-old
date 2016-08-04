@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="page">
+  <article class="page-content">
+    <div class="masthead">
+      {% if page.masthead %}
+        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ page.masthead }}"  class="hero-attach-{% if page.hero_attachment %}{{ page.hero_attachment }}{% else %}center{% endif %}" />
+      {% endif %}
+      <h1>{{ page.title }}</h1>
+    </div>
+    <div class="wrapper">
+      {% unless page.nowrap %}<div class="copy">{% endunless %}
+      {{ content }}
+      {% unless page.nowrap %}</div>{% endunless %}
+    </div>
+  </article>
+
+</div>

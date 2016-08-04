@@ -1,0 +1,30 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    {% if page.photoswipe %}
+      {% include photoswipe-container.html %}
+    {% endif %}
+
+    <script defer src="/js/all.js"></script>
+    {% if page.photoswipe %}
+      <script defer src="/js/photoswipe.all.js"></script>
+    {% endif %}
+
+    {% include google-analytics.html %}
+  </body>
+
+</html>

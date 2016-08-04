@@ -1,0 +1,107 @@
+/**
+ * @file _masthead.scss
+ * The header area with the title block for pages and posts
+ */
+
+.masthead {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1rem;
+
+  @include breakpoint($masthead-box) {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAI0lEQVQIWxXHQREAAAyDMGoF/5pqZbvyCgEOQCWboS1Rb1gPlfEJZ9/Nd0IAAAAASUVORK5CYII=');
+    padding-bottom: 63%;
+    margin-bottom: 2rem;
+  }
+
+  @include breakpoint($masthead-banner) {
+  }
+
+  @include breakpoint($masthead-banner-shorten) {
+    padding-bottom: 50%;
+  }
+
+  h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1rem;
+    font-family: $gotham;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    @include breakpoint(max-width ($masthead-box - 1)) {
+      padding: 1rem 0;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      margin: 1rem 1rem 0 1rem;
+    }
+
+    @include breakpoint($masthead-box ($masthead-banner - 1px)) {
+      position: absolute;
+      z-index: 10;
+      left: 2rem;
+      right: 2rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #FFF;
+      box-shadow: 1px 1px 0 rgba(0,0,0,1);
+      padding: 1rem;
+      background: rgba(0,0,0,0.75);
+      font-size: 1.25rem;
+    }
+
+    @include breakpoint($masthead-banner) {
+      position: absolute;
+      z-index: 10;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      width: calc(100% - 4rem);
+      max-width: 960px;
+      color: #FFF;
+      font-size: 1.75rem;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+      padding-bottom: 1rem;
+      border-bottom: 2px solid #FFF;
+    }
+
+    @include breakpoint($masthead-banner-full) {
+      font-size: 2rem;
+      letter-spacing: 2px;
+      width: 960px;
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+
+    @include breakpoint($masthead-box) {
+      position: absolute;
+      z-index: 1;
+
+      &.hero-attach-center {
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      &.hero-attach-bottom {
+        bottom: 0;
+      }
+    }
+  }
+
+  @include breakpoint($masthead-box) {
+    &:after {
+        content: " ";
+        background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.9) 100%);
+        position: absolute;
+        top: 72%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 5;
+    }
+  }
+}

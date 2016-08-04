@@ -1,0 +1,8 @@
+---
+title: Tennessee Weekend
+location: Nashville / Chattanooga, Tennessee
+---
+
+I had one weekend off between [River City Pops]({% post_url 2015-05-31-RCP %})
+and _Hairspray_ with Zilker Theatre Productions so I booked a last minute
+getaway with some good friends in Tennessee.

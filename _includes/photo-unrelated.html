@@ -1,0 +1,31 @@
+{% comment %}
+  This is like photo.html, which should be used most of the time. This would
+  be a way to display an "unrelated" photo (either on a Page, or from a diff
+  Post).
+{% endcomment %}
+
+{% assign gallery = include.gallery %}
+
+{% for testPhoto in site.data.index[gallery].contents %}
+  {% if testPhoto.filename == include.src %}
+    {% assign photo = testPhoto %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+
+<figure class="photo-block">
+  <img src="/photo/medium/{{ gallery }}/{{ include.src }}" width="600" alt="{{ photo.title }}" />
+  <figcaption>
+    {% if photo.title %}<span class="title">{{ photo.title }}</span>{% endif %}
+    <span class="camera">{{ photo.camera }} with {{ photo.lens }}</span>
+    <span class="exposure">ISO{{ photo.iso }} {{ photo.shutter }} @ f/{{ photo.aperture }} {{ photo.focal }}mm</span>
+    {% for post in site.posts %}
+      {% assign testUrl = gallery | prepend: "/" | append: "/" %}
+      {% if testUrl == post.url %}
+        <span class="link">From <a href="{{ post.url }}">{{ post.title }}</a></span>
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  </figcaption>
+</figure>

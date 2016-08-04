@@ -1,0 +1,58 @@
+{% comment %}
+  Generate a page title for use in the title tag and the social meta tag.
+{% endcomment %}
+{% capture title %}{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
+
+{% comment %}
+  Figure out what the page/post's hero image is.
+{% endcomment %}
+{% assign hero = "" %}
+{% if page.masthead %}
+  {% comment %} Static pages define a 'masthead' variable directly; use that if present {% endcomment %}
+  {% assign hero = page.masthead | prepend: site.url %}
+{% else %}
+  {% comment %} Posts refer to galleries, one image therein should be a hero. See _layouts/post.html for notes on this madness. {% endcomment %}
+  {% assign gallery = page.path | split: '/' | last | split: '.' | first %}
+  {% for photo in site.data.index[gallery].contents %}
+    {% if photo.hero %}
+      {% capture hero %}{{ site.url }}/photo/original/{{ gallery }}/{{ photo.filename }}{% endcapture %}
+      {% continue %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% comment %}
+  Figure out a post description. For now, that's a date and a location.
+{% endcomment %}
+{% capture description %}{% if page.date %}{{ page.date | date: "%b %-d, %Y" }}{% endif %}{% if page.location %} / {{ page.location }}{% endif %}{% endcapture %}
+{% if description == "" %}{% assign description = site.description %}{% endif %}
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="preload" href="/gfx/icons/icons.data.svg.css" as="style" onload="this.rel='stylesheet'">
+
+  <!-- Prefetch the domain name for typeface provider now; defer loading. Preload CSS is polyfilled by LoadCSS in the footer. -->
+  <link rel="dns-prefetch" href="https://cloud.typography.com/">
+  <link rel="preload" href="https://cloud.typography.com/6795652/7424152/css/fonts.css" as="style" onload="this.rel='stylesheet'">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <meta property="og:title" content="{{ title }}">
+  {% if description %}<meta property="og:description" content="{{ description }}">{% endif %}
+  {% if hero %}<meta property="og:image" content="{{ hero }}">{% endif %}
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="og:site_name" content="Taylor Smith">
+  <meta name="twitter:site" content="@tsmith512">
+
+  <link rel="home" type="application/rss+xml" href="/feed.xml" />
+</head>

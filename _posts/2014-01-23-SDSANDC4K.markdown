@@ -1,0 +1,4 @@
+---
+title: SANDCamp 2014
+location: San Diego, California
+---

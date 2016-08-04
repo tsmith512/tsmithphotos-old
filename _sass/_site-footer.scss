@@ -1,0 +1,71 @@
+/**
+ * @file _site-footer.scss
+ * Global site footer
+ */
+.site-footer {
+  @extend %clearfix;
+  margin: 2rem 1rem;
+  padding: 1rem 0;
+  border-top: 2px solid black;
+
+  @include breakpoint($masthead-box) {
+    margin: 2rem;
+    max-width: 960px;
+    border-top: 2px solid #ddd;
+  }
+
+  @include breakpoint($masthead-banner-full) {
+    width: 960px;
+    margin: 2rem auto 1rem auto;
+  }
+
+  .copy {
+    font-family: $gotham;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #999;
+
+    text-align: center;
+
+    @include breakpoint($footer-two-column) {
+      float: left;
+      text-align: left;
+      padding-top: 8px; // To better match the visual height of the social icons on the right
+    }
+  }
+
+  .links {
+    text-align: center;
+    margin-top: 1rem;
+
+    @include breakpoint($footer-two-column) {
+      float: right;
+      text-align: right;
+      margin-top: 0;
+    }
+
+    ul, li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      display: block;
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+
+      width: 32px;
+      height: 32px;
+
+      background-position: center center;
+      background-size: contain;
+    }
+  }
+}
