@@ -1,4 +1,4 @@
-var gulp = require('gulp');
+var gulp = require('gulp-help')(require('gulp'));
 var gutil = require('gulp-util');
 
 var autoprefixer = require('gulp-autoprefixer');
@@ -113,7 +113,7 @@ var walkPhotos = function(path, index) {
   }
 }
 
-gulp.task('index', function() {
+gulp.task('index', 'Scan for new and deleted photos and albums, merge with the index', function() {
   var index = {};
   var generatedIndex = {};
   try {
@@ -132,7 +132,7 @@ gulp.task('index', function() {
   fs.writeFileSync('source/index.yml', yaml.safeDump(mergedIndex));
 });
 
-gulp.task('prime-posts', function() {
+gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have them already', function() {
   var index = {};
   try {
     index = fs.readFileSync('source/index.yml', {encoding: 'utf8'});
@@ -161,7 +161,7 @@ gulp.task('prime-posts', function() {
   }
 });
 
-gulp.task('photos', function() {
+gulp.task('photos', 'Rebuild all image derivatives from original to mini. WARNING: takes ~30 minutes', function() {
   return gulp.src('source/Photography/**/*.jpg')
     .pipe(rename(function (path) {
       // Sometimes I use subdirectories within albums to denote days, squash em
@@ -188,7 +188,7 @@ gulp.task('photos', function() {
     // @TODO: Can we do that thing Rupl used to do with blurry 10px images for a pre-load?
 });
 
-gulp.task('sass', function () {
+gulp.task('sass', 'Compile Sass to CSS', function () {
   return gulp.src('./_sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({
@@ -206,19 +206,19 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./_site/css'));
 });
 
-gulp.task('js-photoswipe', function() {
+gulp.task('js-photoswipe', 'Aggregate and minify all PhotoSwipe related JS', function() {
   return gulp.src(['./node_modules/photoswipe/dist/*.js', '_js/photoswipe.tsp.js'])
     .pipe(concat('photoswipe.all.js'))
     .pipe(uglify({mangle: false}))
     .pipe(gulp.dest('./_site/js'));
 });
 
-gulp.task('js-photoswipe-assets', function() {
+gulp.task('js-photoswipe-assets', 'Gather all PhotoSwipe UI graphics', function() {
   return gulp.src(['./node_modules/photoswipe/dist/default-skin/*.png', './node_modules/photoswipe/dist/default-skin/*.svg', './node_modules/photoswipe/dist/default-skin/*.gif'])
     .pipe(gulp.dest('./_site/css'));
 });
 
-gulp.task('js-all', function() {
+gulp.task('js-all', 'Aggregate and minify all non-PhotoSwipe JS', function() {
   return gulp.src([
       './_js/lazyload.js',
       './node_modules/fg-loadcss/src/loadCSS.js',
@@ -229,16 +229,16 @@ gulp.task('js-all', function() {
     .pipe(gulp.dest('./_site/js'));
 });
 
-gulp.task('lint', function() {
+gulp.task('lint', 'Lint all non-vendor JS', function() {
   return gulp.src(['_js/**/*.js','!node_modules/**'])
     .pipe(eslint())
     .pipe(eslint.format())
     .pipe(eslint.failAfterError());
 });
 
-gulp.task('js', ['js-photoswipe', 'js-photoswipe-assets', 'js-all']);
+gulp.task('js', 'Run all PS/JS aggregation/minification tasks', ['js-photoswipe', 'js-photoswipe-assets', 'js-all']);
 
-gulp.task('watch', function () {
+gulp.task('watch', 'Watch-run sass, jekyll, js, graphics, and icons tasks', function () {
   gulp.watch('./_sass/**/*.scss', ['sass']);
   gulp.watch(['./**/*.html','./**/*.yml', './**/*.markdown', './**/.*.md', '!./_site/**'], ['jekyll']);
   gulp.watch(['./**/*.js', '!./_site/**', '!./node_modules/**'], ['js']);
@@ -246,22 +246,22 @@ gulp.task('watch', function () {
   gulp.watch(['./_icons/**/*.*'], ['icons']);
 });
 
-gulp.task('graphics', function() {
+gulp.task('graphics', 'Compress site graphics (not photos or icons)', function() {
   return gulp.src('./_gfx/**/*.*')
     .pipe(imagemin())
     .pipe(gulp.dest('./_site/gfx/'));
 });
 
-gulp.task("icons", gulpicon(gulpiconFiles, gulpiconConfig));
+gulp.task('icons', 'Aggregate and set up icon CSS with gulpicons', gulpicon(gulpiconFiles, gulpiconConfig));
 
-gulp.task('htaccess', function() {
+gulp.task('htaccess', 'Update/install .htaccess files', function() {
   var root  = gulp.src('./_htaccess/root').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/'));
   var photo = gulp.src('./_htaccess/photo').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/photo/'));
 
   return mergeStream(root, photo);
 });
 
-gulp.task('jekyll', function (cb){
+gulp.task('jekyll', 'Run jekyll build', function (cb){
  var spawn = require('child_process').spawn;
  var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit'});
  jekyll.on('exit', function(code) {
@@ -269,12 +269,12 @@ gulp.task('jekyll', function (cb){
  });
 });
 
-gulp.task('update', function(cb) {
+gulp.task('update', 'Add/remove photos and albums: index, photos, prime-posts, and jekyll', function(cb) {
   runSequence(['index', 'photos'], 'prime-posts', 'jekyll', cb);
 });
 
-gulp.task('build', function(cb) {
-  runSequence(['sass', 'js', 'graphics'], 'jekyll', cb);
+gulp.task('build', 'Run all site-generating tasks: sass, js, graphics, icons, then jekyll', function(cb) {
+  runSequence(['sass', 'js', 'graphics', 'icons'], 'jekyll', cb);
 });
 
-gulp.task('default', function() {});
+gulp.task('default', ['build']);
