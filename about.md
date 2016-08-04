@@ -16,6 +16,11 @@ art, web development, and even personal branding.
 
 {% include photo-unrelated.html src="DSC_3960.jpg" gallery="2014-06-01-DENSFOAUSV" %}
 
+But I was taking all these photos that just sat on my computer, mostly
+unshared. What's the use in recording all of these images and trying
+to grow my skills if I'm not going to share them with anyone? So it's
+time to resurrect this domain. But how?
+
 Early versions of this site used a horribly insecure PHP
 auto-generated gallery script I wrote, then Dreamweaver-generated
 sites, and eventually even a Flash-powered gallery I built that
@@ -36,7 +41,7 @@ but my username is taken! But even that seemed inadequate after
 I realized that sometimes I like to write stories about my adventures.
 
 So here is TSmithPhotos, Version 7: a vacation-snapshot-accepting,
-informal-blog-writing-friendly, web-development-challenging,
+informal-blog-writing-friendly, web-development-playing,
 just-for-friends-and-family site of things I've seen along the last
 few years of adventures.
 
