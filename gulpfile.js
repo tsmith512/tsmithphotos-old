@@ -1,4 +1,8 @@
-var gulp = require('gulp-help')(require('gulp'));
+var gulp = require('gulp-help')(require('gulp'), {
+  'description': false,
+  'hideDepsMessage': true,
+  'hideEmpty': true
+});
 var gutil = require('gulp-util');
 
 var autoprefixer = require('gulp-autoprefixer');
@@ -161,7 +165,7 @@ gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have
   }
 });
 
-gulp.task('photos', 'Rebuild all image derivatives from original to mini. WARNING: takes ~30 minutes', function() {
+gulp.task('photos', 'Rebuild all image derivatives: original, medium, thumb, mini. WARNING: ~30 minutes', function() {
   return gulp.src('source/Photography/**/*.jpg')
     .pipe(rename(function (path) {
       // Sometimes I use subdirectories within albums to denote days, squash em
@@ -277,4 +281,4 @@ gulp.task('build', 'Run all site-generating tasks: sass, js, graphics, icons, th
   runSequence(['sass', 'js', 'graphics', 'icons'], 'jekyll', cb);
 });
 
-gulp.task('default', false, ['build']);
+gulp.task('default', false, ['help']);
