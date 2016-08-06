@@ -1,4 +1,26 @@
-var gulp = require('gulp');
+/**
+ * @file gulpfile.js
+ *
+ * Build tasks and generator tools for www.tsmithphotos.com
+ * By Taylor Smith @tsmith512 - www.tsmithcreative.com 2016.
+ *
+ * Run `gulp help` to for a list of suggested tasks.
+ */
+
+/*
+     _
+  __| | ___ _ __  ___
+ / _` |/ _ \ '_ \/ __|
+| (_| |  __/ |_) \__ \
+ \__,_|\___| .__/|___/
+           |_|
+*/
+
+var gulp = require('gulp-help')(require('gulp'), {
+  'description': false,
+  'hideDepsMessage': true,
+  'hideEmpty': true
+});
 var gutil = require('gulp-util');
 
 var autoprefixer = require('gulp-autoprefixer');
@@ -23,6 +45,15 @@ var runSequence = require('run-sequence');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yaml = require('js-yaml');
+
+/*
+       _           _
+ _ __ | |__   ___ | |_ ___  ___
+| '_ \| '_ \ / _ \| __/ _ \/ __|
+| |_) | | | | (_) | || (_) \__ \
+| .__/|_| |_|\___/ \__\___/|___/
+|_|
+*/
 
 // Containers for image data processing which is kicked off by gulp
 // but aren't actually gulp tasks. Adapted from http://stackoverflow.com/a/18934385
@@ -113,7 +144,7 @@ var walkPhotos = function(path, index) {
   }
 }
 
-gulp.task('index', function() {
+gulp.task('index', 'Scan for new and deleted photos and albums, merge with the index', function() {
   var index = {};
   var generatedIndex = {};
   try {
@@ -132,7 +163,34 @@ gulp.task('index', function() {
   fs.writeFileSync('source/index.yml', yaml.safeDump(mergedIndex));
 });
 
-gulp.task('prime-posts', function() {
+gulp.task('photos', 'Rebuild all image derivatives: original, medium, thumb, mini. WARNING: ~30 minutes', function() {
+  return gulp.src('source/Photography/**/*.jpg')
+    .pipe(rename(function (path) {
+      // Sometimes I use subdirectories within albums to denote days, squash em
+      // @TODO: Technically this could lead to collisions, but it is unlikely because the
+      // cameras both don't cycle until 9999 so only if 10,000 were taken in a day.
+      path.dirname = path.dirname.split('/')[0];
+
+      // Now, for shorter and more URL friendly paths, drop spaces and lowercase letters
+      // so "2016-03-21 Tulsa Weekend for Roadtrip Video with Fuji XE1" becomes
+      // "2016-03-21-TWRVFXE1". Keeping capital letters and numbers helps with collisions.
+      path.dirname = path.dirname.replace(/[a-z]/g, '').replace(/ /, '-').replace(/\s/g, '');
+    }))
+    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
+    .pipe(gulp.dest('_site/photo/original/'))
+    .pipe(resize({width: 600, height: 600, crop: false, upscale: false}))
+    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
+    .pipe(gulp.dest('_site/photo/medium/'))
+    .pipe(resize({width: 200, height: 200, crop: true, upscale: false}))
+    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
+    .pipe(gulp.dest('_site/photo/thumb/'))
+    .pipe(resize({width: 100, height: 100, crop: true, upscale: false}))
+    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
+    .pipe(gulp.dest('_site/photo/mini/'))
+    // @TODO: Can we do that thing Rupl used to do with blurry 10px images for a pre-load?
+});
+
+gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have them already', function() {
   var index = {};
   try {
     index = fs.readFileSync('source/index.yml', {encoding: 'utf8'});
@@ -161,34 +219,16 @@ gulp.task('prime-posts', function() {
   }
 });
 
-gulp.task('photos', function() {
-  return gulp.src('source/Photography/**/*.jpg')
-    .pipe(rename(function (path) {
-      // Sometimes I use subdirectories within albums to denote days, squash em
-      // @TODO: Technically this could lead to collisions, but it is unlikely because the
-      // cameras both don't cycle until 9999 so only if 10,000 were taken in a day.
-      path.dirname = path.dirname.split('/')[0];
+/*
+                    _
+  __ _ ___ ___  ___| |_ ___
+ / _` / __/ __|/ _ \ __/ __|
+| (_| \__ \__ \  __/ |_\__ \
+ \__,_|___/___/\___|\__|___/
 
-      // Now, for shorter and more URL friendly paths, drop spaces and lowercase letters
-      // so "2016-03-21 Tulsa Weekend for Roadtrip Video with Fuji XE1" becomes
-      // "2016-03-21-TWRVFXE1". Keeping capital letters and numbers helps with collisions.
-      path.dirname = path.dirname.replace(/[a-z]/g, '').replace(/ /, '-').replace(/\s/g, '');
-    }))
-    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
-    .pipe(gulp.dest('_site/photo/original/'))
-    .pipe(resize({width: 600, height: 600, crop: false, upscale: false}))
-    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
-    .pipe(gulp.dest('_site/photo/medium/'))
-    .pipe(resize({width: 200, height: 200, crop: true, upscale: false}))
-    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
-    .pipe(gulp.dest('_site/photo/thumb/'))
-    .pipe(resize({width: 100, height: 100, crop: true, upscale: false}))
-    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
-    .pipe(gulp.dest('_site/photo/mini/'))
-    // @TODO: Can we do that thing Rupl used to do with blurry 10px images for a pre-load?
-});
+*/
 
-gulp.task('sass', function () {
+gulp.task('sass', 'Compile Sass to CSS', function () {
   return gulp.src('./_sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({
@@ -206,19 +246,19 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./_site/css'));
 });
 
-gulp.task('js-photoswipe', function() {
+gulp.task('js-photoswipe', false, function() {
   return gulp.src(['./node_modules/photoswipe/dist/*.js', '_js/photoswipe.tsp.js'])
     .pipe(concat('photoswipe.all.js'))
     .pipe(uglify({mangle: false}))
     .pipe(gulp.dest('./_site/js'));
 });
 
-gulp.task('js-photoswipe-assets', function() {
+gulp.task('js-photoswipe-assets', false, function() {
   return gulp.src(['./node_modules/photoswipe/dist/default-skin/*.png', './node_modules/photoswipe/dist/default-skin/*.svg', './node_modules/photoswipe/dist/default-skin/*.gif'])
     .pipe(gulp.dest('./_site/css'));
 });
 
-gulp.task('js-all', function() {
+gulp.task('js-all', false, function() {
   return gulp.src([
       './_js/lazyload.js',
       './node_modules/fg-loadcss/src/loadCSS.js',
@@ -229,39 +269,33 @@ gulp.task('js-all', function() {
     .pipe(gulp.dest('./_site/js'));
 });
 
-gulp.task('lint', function() {
+gulp.task('lint', 'Lint all non-vendor JS', function() {
   return gulp.src(['_js/**/*.js','!node_modules/**'])
     .pipe(eslint())
     .pipe(eslint.format())
     .pipe(eslint.failAfterError());
 });
 
-gulp.task('js', ['js-photoswipe', 'js-photoswipe-assets', 'js-all']);
+gulp.task('js', 'JS/Photoswipe aggregation/minify, custom JS linting', ['js-photoswipe', 'js-photoswipe-assets', 'js-all', 'lint']);
 
-gulp.task('watch', function () {
-  gulp.watch('./_sass/**/*.scss', ['sass']);
-  gulp.watch(['./**/*.html','./**/*.yml', './**/*.markdown', './**/.*.md', '!./_site/**'], ['jekyll']);
-  gulp.watch(['./**/*.js', '!./_site/**', '!./node_modules/**'], ['js']);
-  gulp.watch(['./_gfx/**/*.*'], ['graphics']);
-  gulp.watch(['./_icons/**/*.*'], ['icons']);
-});
+gulp.task('icons', false, gulpicon(gulpiconFiles, gulpiconConfig));
 
-gulp.task('graphics', function() {
+gulp.task('graphics', 'Compress site graphics and aggregate icons', ['icons'], function() {
   return gulp.src('./_gfx/**/*.*')
     .pipe(imagemin())
     .pipe(gulp.dest('./_site/gfx/'));
 });
 
-gulp.task("icons", gulpicon(gulpiconFiles, gulpiconConfig));
+/*
+     _ _         _           _ _     _
+ ___(_) |_ ___  | |__  _   _(_) | __| |
+/ __| | __/ _ \ | '_ \| | | | | |/ _` |
+\__ \ | ||  __/ | |_) | |_| | | | (_| |
+|___/_|\__\___| |_.__/ \__,_|_|_|\__,_|
 
-gulp.task('htaccess', function() {
-  var root  = gulp.src('./_htaccess/root').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/'));
-  var photo = gulp.src('./_htaccess/photo').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/photo/'));
+*/
 
-  return mergeStream(root, photo);
-});
-
-gulp.task('jekyll', function (cb){
+gulp.task('jekyll', 'Run jekyll build', function (cb){
  var spawn = require('child_process').spawn;
  var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit'});
  jekyll.on('exit', function(code) {
@@ -269,12 +303,37 @@ gulp.task('jekyll', function (cb){
  });
 });
 
-gulp.task('update', function(cb) {
+gulp.task('htaccess', 'Update/install .htaccess files', function() {
+  var root  = gulp.src('./_htaccess/root').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/'));
+  var photo = gulp.src('./_htaccess/photo').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/photo/'));
+
+  return mergeStream(root, photo);
+});
+
+
+gulp.task('update', 'Add/remove photos and albums: index, photos, prime-posts, and jekyll. WARNING: ~30 minutes.', function(cb) {
   runSequence(['index', 'photos'], 'prime-posts', 'jekyll', cb);
 });
 
-gulp.task('build', function(cb) {
-  runSequence(['sass', 'js', 'graphics'], 'jekyll', cb);
+gulp.task('build', 'Run all site-generating tasks: sass, js, graphics, icons, htaccess then jekyll', function(cb) {
+  runSequence(['sass', 'js', 'graphics', 'icons', 'htaccess'], 'jekyll', cb);
 });
 
-gulp.task('default', function() {});
+/*
+             _             _          __  __
+  __ _ _   _| |_ __    ___| |_ _   _ / _|/ _|
+ / _` | | | | | '_ \  / __| __| | | | |_| |_
+| (_| | |_| | | |_) | \__ \ |_| |_| |  _|  _|
+ \__, |\__,_|_| .__/  |___/\__|\__,_|_| |_|
+ |___/        |_|
+*/
+
+gulp.task('default', false, ['help']);
+
+gulp.task('watch', 'Watch-run sass, jekyll, js, graphics, and icons tasks', function () {
+  gulp.watch('./_sass/**/*.scss', ['sass']);
+  gulp.watch(['./**/*.html','./**/*.yml', './**/*.markdown', './**/.*.md', '!./_site/**'], ['jekyll']);
+  gulp.watch(['./**/*.js', '!./_site/**', '!./node_modules/**'], ['js']);
+  gulp.watch(['./_gfx/**/*.*'], ['graphics']);
+  gulp.watch(['./_icons/**/*.*'], ['icons']);
+});
