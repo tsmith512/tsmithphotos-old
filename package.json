@@ -37,6 +37,6 @@
     "run-sequence": "^1.2.2"
   },
   "scripts": {
-    "postinstall": "which convert || echo 'Please install ImageMagick (specifically, the convert command is needed for photo manipulation)'"
+    "postinstall": "which gm || echo 'Please install GraphicsMagick (specifically, the gm command is needed for photo manipulation)'"
   }
 }
