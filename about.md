@@ -9,7 +9,8 @@ hero_attachment: bottom
 In 2002, I talked my Dad into buying me my first ever domain name:
 [tsmithphotos.com](http://www.tsmithphotos.com). I used it to post my
 early photography work until college, when I switched over to
-[tsmithcreative.com](http://www.tsmithcreative.com) for a professional
+[tsmithcreative.com](http://www.tsmithcreative.com/?utm_source=tsmithphotos&utm_medium=website&utm_campaign=tsmithphotos)
+for a professional
 portfolio. For years, this domain sat empty, but I couldn't bear to
 let it expire because of all the growth it represented in photography,
 art, web development, and even personal branding.

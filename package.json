@@ -20,6 +20,7 @@
     "gulp-clean-css": "^2.0.12",
     "gulp-concat": "^2.6.0",
     "gulp-eslint": "^3.0.1",
+    "gulp-help": "^1.6.1",
     "gulp-image-resize": "^0.9.0",
     "gulp-imagemin": "^3.0.1",
     "gulp-rename": "^1.2.2",
@@ -34,5 +35,8 @@
     "photoswipe": "^4.1.1",
     "recursive-readdir-sync": "^1.0.6",
     "run-sequence": "^1.2.2"
+  },
+  "scripts": {
+    "postinstall": "which gm || echo 'Please install GraphicsMagick (specifically, the gm command is needed for photo manipulation)'"
   }
 }
