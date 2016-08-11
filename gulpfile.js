@@ -340,7 +340,7 @@ gulp.task('default', false, ['help']);
 
 gulp.task('watch', 'Watch-run sass, jekyll, js, graphics, and icons tasks', function () {
   gulp.watch('./_sass/**/*.scss', ['sass']);
-  gulp.watch(['./**/*.html', './**/*.yml', './**/*.markdown', './**/.*.md', '!./_site/**'], ['jekyll']);
+  gulp.watch(['./*.*', './**/*.html', './**/*.yml', './**/*.markdown', './**/.*.md', '!./_site/**'], ['jekyll']);
   gulp.watch(['./**/*.js', '!./_site/**', '!./node_modules/**'], ['js']);
   gulp.watch(['./_gfx/**/*.*'], ['graphics']);
   gulp.watch(['./_icons/**/*.*'], ['icons']);
