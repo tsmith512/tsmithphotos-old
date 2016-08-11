@@ -72,7 +72,7 @@ var yaml = require('js-yaml');
 //       }
 //     ]
 // }
-var walkPhotos = function(path, index) {
+var walkPhotos = function (path, index) {
   var directory = fs.readdirSync(path);
 
   // Directory is going to be an array of album directories
@@ -140,7 +140,7 @@ var walkPhotos = function(path, index) {
   //      an existing album will still cause attributes to shift. :(
   for (album in index) {
     if( ! index.hasOwnProperty(album) ) { continue; }
-    index[album].contents = index[album].contents.sort(function(a,b) {
+    index[album].contents = index[album].contents.sort(function (a,b) {
       if (a.date < b.date) return -1;
       if (a.date > b.date) return  1;
       return 0;
@@ -148,7 +148,7 @@ var walkPhotos = function(path, index) {
   }
 }
 
-gulp.task('index', 'Scan for new and deleted photos and albums, merge with the index', function() {
+gulp.task('index', 'Scan for new and deleted photos and albums, merge with the index', function () {
   var index = {};
   var generatedIndex = {};
   try {
@@ -167,7 +167,7 @@ gulp.task('index', 'Scan for new and deleted photos and albums, merge with the i
   fs.writeFileSync('source/index.yml', yaml.safeDump(mergedIndex));
 });
 
-gulp.task('photos', 'Rebuild all image derivatives: original, medium, thumb, mini. WARNING: ~30 minutes', function() {
+gulp.task('photos', 'Rebuild all image derivatives: original, medium, thumb, mini. WARNING: ~30 minutes', function () {
   return gulp.src('source/Photography/**/*.jpg')
     .pipe(rename(function (path) {
       // Sometimes I use subdirectories within albums to denote days, squash em
@@ -194,7 +194,7 @@ gulp.task('photos', 'Rebuild all image derivatives: original, medium, thumb, min
     // @TODO: Can we do that thing Rupl used to do with blurry 10px images for a pre-load?
 });
 
-gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have them already', function() {
+gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have them already', function () {
   var index = {};
   try {
     index = fs.readFileSync('source/index.yml', {encoding: 'utf8'});
@@ -250,19 +250,19 @@ gulp.task('sass', 'Compile Sass to CSS', function () {
     .pipe(gulp.dest('./_site/css'));
 });
 
-gulp.task('js-photoswipe', false, function() {
+gulp.task('js-photoswipe', false, function () {
   return gulp.src(['./node_modules/photoswipe/dist/*.js', '_js/photoswipe.tsp.js'])
     .pipe(concat('photoswipe.all.js'))
     .pipe(uglify({mangle: false}))
     .pipe(gulp.dest('./_site/js'));
 });
 
-gulp.task('js-photoswipe-assets', false, function() {
+gulp.task('js-photoswipe-assets', false, function () {
   return gulp.src(['./node_modules/photoswipe/dist/default-skin/*.png', './node_modules/photoswipe/dist/default-skin/*.svg', './node_modules/photoswipe/dist/default-skin/*.gif'])
     .pipe(gulp.dest('./_site/css'));
 });
 
-gulp.task('js-all', false, function() {
+gulp.task('js-all', false, function () {
   return gulp.src([
       './_js/lazyload.js',
       './node_modules/fg-loadcss/src/loadCSS.js',
@@ -273,7 +273,7 @@ gulp.task('js-all', false, function() {
     .pipe(gulp.dest('./_site/js'));
 });
 
-gulp.task('lint', 'Lint all non-vendor JS', function() {
+gulp.task('lint', 'Lint all non-vendor JS', function () {
   return gulp.src(['gulpfile.js', '_js/**/*.js','!node_modules/**'])
     .pipe(eslint())
     .pipe(eslint.format())
@@ -284,7 +284,7 @@ gulp.task('js', 'JS/Photoswipe aggregation/minify, custom JS linting', ['js-phot
 
 gulp.task('icons', false, gulpicon(gulpiconFiles, gulpiconConfig));
 
-gulp.task('graphics', 'Compress site graphics and aggregate icons', ['icons'], function() {
+gulp.task('graphics', 'Compress site graphics and aggregate icons', ['icons'], function () {
   return gulp.src('./_gfx/**/*.*')
     .pipe(imagemin())
     .pipe(gulp.dest('./_site/gfx/'));
@@ -299,15 +299,15 @@ gulp.task('graphics', 'Compress site graphics and aggregate icons', ['icons'], f
 
 */
 
-gulp.task('jekyll', 'Run jekyll build', function (cb){
+gulp.task('jekyll', 'Run jekyll build', function (cb) {
  var spawn = require('child_process').spawn;
  var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit'});
- jekyll.on('exit', function(code) {
+ jekyll.on('exit', function (code) {
    cb(code === 0 ? null : 'ERROR: Jekyll process exited with code: ' + code);
  });
 });
 
-gulp.task('htaccess', 'Update/install .htaccess files', function() {
+gulp.task('htaccess', 'Update/install .htaccess files', function () {
   var root  = gulp.src('./_htaccess/root').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/'));
   var photo = gulp.src('./_htaccess/photo').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/photo/'));
 
@@ -315,11 +315,11 @@ gulp.task('htaccess', 'Update/install .htaccess files', function() {
 });
 
 
-gulp.task('update', 'Add/remove photos and albums: index, photos, prime-posts, and jekyll. WARNING: ~30 minutes.', function(cb) {
+gulp.task('update', 'Add/remove photos and albums: index, photos, prime-posts, and jekyll. WARNING: ~30 minutes.', function (cb) {
   runSequence(['index', 'photos'], 'prime-posts', 'jekyll', cb);
 });
 
-gulp.task('build', 'Run all site-generating tasks: sass, js, graphics, icons, htaccess then jekyll', function(cb) {
+gulp.task('build', 'Run all site-generating tasks: sass, js, graphics, icons, htaccess then jekyll', function (cb) {
   runSequence(['sass', 'js', 'graphics', 'icons', 'htaccess'], 'jekyll', cb);
 });
 
