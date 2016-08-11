@@ -119,7 +119,7 @@ var walkPhotos = function (path, index) {
         aperture: exifResult.tags.FNumber || null,
         shutter: (exifResult.tags.ExposureTime > 1 ? (exifResult.tags.ExposureTime + 's') : ('1/' + (1 / exifResult.tags.ExposureTime))) || null,
         iso: exifResult.tags.ISO || null,
-        date: exifResult.tags.DateTimeOriginal || null,
+        date: exifResult.tags.DateTimeOriginal || null
       });
     }
 
@@ -139,14 +139,14 @@ var walkPhotos = function (path, index) {
   //   ^^ @TODO: That'll fix most of the issue, but inserting/deleting within
   //      an existing album will still cause attributes to shift. :(
   for (album in index) {
-    if( ! index.hasOwnProperty(album) ) { continue; }
-    index[album].contents = index[album].contents.sort(function (a,b) {
-      if (a.date < b.date) return -1;
-      if (a.date > b.date) return  1;
+    if (!index.hasOwnProperty(album)) { continue; }
+    index[album].contents = index[album].contents.sort(function (a, b) {
+      if (a.date < b.date) { return -1; }
+      if (a.date > b.date) { return 1; }
       return 0;
     });
   }
-}
+};
 
 gulp.task('index', 'Scan for new and deleted photos and albums, merge with the index', function () {
   var index = {};
@@ -154,10 +154,12 @@ gulp.task('index', 'Scan for new and deleted photos and albums, merge with the i
   try {
     index = fs.readFileSync('source/index.yml', {encoding: 'utf8'});
     index = yaml.safeLoad(index);
-  } catch (e) {
+  }
+  catch (e) {
     if (e.code === 'ENOENT') {
       gutil.log('No original index found; will create one.');
-    } else {
+    }
+    else {
       throw e;
     }
   }
@@ -190,7 +192,7 @@ gulp.task('photos', 'Rebuild all image derivatives: original, medium, thumb, min
     .pipe(gulp.dest('_site/photo/thumb/'))
     .pipe(resize({width: 100, height: 100, crop: true, upscale: false}))
     .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
-    .pipe(gulp.dest('_site/photo/mini/'))
+    .pipe(gulp.dest('_site/photo/mini/'));
     // @TODO: Can we do that thing Rupl used to do with blurry 10px images for a pre-load?
 });
 
@@ -199,21 +201,24 @@ gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have
   try {
     index = fs.readFileSync('source/index.yml', {encoding: 'utf8'});
     index = yaml.safeLoad(index);
-  } catch (e) {
+  }
+  catch (e) {
     throw e;
   }
 
   for (var album in index) {
-    if (!index.hasOwnProperty(album)) continue;
+    if (!index.hasOwnProperty(album)) { continue; }
 
     var postFile = '_posts/' + album + '.markdown';
     var postContent = ['---', ('title: ' + index[album].title), 'location:', '---', ''].join('\n');
     try {
-      fs.writeFileSync(postFile, postContent, { flag: 'wx' });
-    } catch (e) {
+      fs.writeFileSync(postFile, postContent, {flag: 'wx'});
+    }
+    catch (e) {
       if (e.code !== 'EEXIST') {
-        throw err;
-      } else {
+        throw e;
+      }
+      else {
         continue;
       }
     }
@@ -264,17 +269,17 @@ gulp.task('js-photoswipe-assets', false, function () {
 
 gulp.task('js-all', false, function () {
   return gulp.src([
-      './_js/lazyload.js',
-      './node_modules/fg-loadcss/src/loadCSS.js',
-      './node_modules/fg-loadcss/src/cssrelpreload.js'
-    ])
+    './_js/lazyload.js',
+    './node_modules/fg-loadcss/src/loadCSS.js',
+    './node_modules/fg-loadcss/src/cssrelpreload.js'
+  ])
     .pipe(concat('all.js'))
     .pipe(uglify({mangle: false}))
     .pipe(gulp.dest('./_site/js'));
 });
 
 gulp.task('lint', 'Lint all non-vendor JS', function () {
-  return gulp.src(['gulpfile.js', '_js/**/*.js','!node_modules/**'])
+  return gulp.src(['gulpfile.js', '_js/**/*.js', '!node_modules/**'])
     .pipe(eslint())
     .pipe(eslint.format())
     .pipe(eslint.failAfterError());
@@ -300,15 +305,15 @@ gulp.task('graphics', 'Compress site graphics and aggregate icons', ['icons'], f
 */
 
 gulp.task('jekyll', 'Run jekyll build', function (cb) {
- var spawn = require('child_process').spawn;
- var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit'});
- jekyll.on('exit', function (code) {
-   cb(code === 0 ? null : 'ERROR: Jekyll process exited with code: ' + code);
- });
+  var spawn = require('child_process').spawn;
+  var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit'});
+  jekyll.on('exit', function (code) {
+    cb(code === 0 ? null : 'ERROR: Jekyll process exited with code: ' + code);
+  });
 });
 
 gulp.task('htaccess', 'Update/install .htaccess files', function () {
-  var root  = gulp.src('./_htaccess/root').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/'));
+  var root = gulp.src('./_htaccess/root').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/'));
   var photo = gulp.src('./_htaccess/photo').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/photo/'));
 
   return mergeStream(root, photo);
@@ -336,7 +341,7 @@ gulp.task('default', false, ['help']);
 
 gulp.task('watch', 'Watch-run sass, jekyll, js, graphics, and icons tasks', function () {
   gulp.watch('./_sass/**/*.scss', ['sass']);
-  gulp.watch(['./**/*.html','./**/*.yml', './**/*.markdown', './**/.*.md', '!./_site/**'], ['jekyll']);
+  gulp.watch(['./**/*.html', './**/*.yml', './**/*.markdown', './**/.*.md', '!./_site/**'], ['jekyll']);
   gulp.watch(['./**/*.js', '!./_site/**', '!./node_modules/**'], ['js']);
   gulp.watch(['./_gfx/**/*.*'], ['graphics']);
   gulp.watch(['./_icons/**/*.*'], ['icons']);
