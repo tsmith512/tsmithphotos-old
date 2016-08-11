@@ -33,10 +33,10 @@ var concat = require('gulp-concat');
 var eslint = require('gulp-eslint');
 var exif = require('exif-parser');
 var fs = require('fs');
-var glob = require("glob");
-var gulpicon = require("gulpicon/tasks/gulpicon");
-var gulpiconConfig = require("./_icons/config.js");
-var gulpiconFiles = glob.sync("./_icons/*.svg");
+var glob = require('glob');
+var gulpicon = require('gulpicon/tasks/gulpicon');
+var gulpiconConfig = require('./_icons/config.js');
+var gulpiconFiles = glob.sync('./_icons/*.svg');
 var imagemin = require('gulp-imagemin');
 var imageminMozjpeg = require('imagemin-mozjpeg');
 var imgsize = require('image-size');
@@ -44,7 +44,7 @@ var merge = require('deepmerge');
 var mergeStream = require('merge-stream');
 var recursiveReadSync = require('recursive-readdir-sync');
 var resize = require('gulp-image-resize');
-var rename = require("gulp-rename");
+var rename = require('gulp-rename');
 var runSequence = require('run-sequence');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
@@ -77,7 +77,7 @@ var walkPhotos = function(path, index) {
 
   // Directory is going to be an array of album directories
   for (var i=0; i < directory.length; i++) {
-    // This is the directory name from Lightroom ("2015-12-31 New Years Eve" style)
+    // This is the directory name from Lightroom ('2015-12-31 New Years Eve' style)
     var album = directory[i];
 
     // This is the directory shortname Gulp is using for image output.
@@ -110,14 +110,14 @@ var walkPhotos = function(path, index) {
         filename: file,
         width: dimensions.width || null,
         height: dimensions.height || null,
-        // The D7000 writes "NIKON CORPORATION / NIKON D7000" across these fields.
-        // The X-E1 writes "FUJIFILM / XE-1". So we do this stupid thing to normalize
-        // as "Make Model" which is what they should be in the first place...
+        // The D7000 writes 'NIKON CORPORATION / NIKON D7000' across these fields.
+        // The X-E1 writes 'FUJIFILM / XE-1'. So we do this stupid thing to normalize
+        // as 'Make Model' which is what they should be in the first place...
         camera: [(exifResult.tags.Make.split(' ')[0] || null), (exifResult.tags.Model.split(' ').pop()) || null].join(' '),
         lens: exifResult.tags.LensModel || null,
         focal: exifResult.tags.FocalLength || null,
         aperture: exifResult.tags.FNumber || null,
-        shutter: (exifResult.tags.ExposureTime > 1 ? (exifResult.tags.ExposureTime + "s") : ("1/" + (1/exifResult.tags.ExposureTime))) || null,
+        shutter: (exifResult.tags.ExposureTime > 1 ? (exifResult.tags.ExposureTime + 's') : ('1/' + (1/exifResult.tags.ExposureTime))) || null,
         iso: exifResult.tags.ISO || null,
         date: exifResult.tags.DateTimeOriginal || null,
       });
@@ -176,8 +176,8 @@ gulp.task('photos', 'Rebuild all image derivatives: original, medium, thumb, min
       path.dirname = path.dirname.split('/')[0];
 
       // Now, for shorter and more URL friendly paths, drop spaces and lowercase letters
-      // so "2016-03-21 Tulsa Weekend for Roadtrip Video with Fuji XE1" becomes
-      // "2016-03-21-TWRVFXE1". Keeping capital letters and numbers helps with collisions.
+      // so '2016-03-21 Tulsa Weekend for Roadtrip Video with Fuji XE1' becomes
+      // '2016-03-21-TWRVFXE1'. Keeping capital letters and numbers helps with collisions.
       path.dirname = path.dirname.replace(/[a-z]/g, '').replace(/ /, '-').replace(/\s/g, '');
     }))
     .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
@@ -207,7 +207,7 @@ gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have
     if (!index.hasOwnProperty(album)) continue;
 
     var postFile = '_posts/' + album + '.markdown';
-    var postContent = ['---', ('title: ' + index[album].title), 'location:', '---', ''].join("\n");
+    var postContent = ['---', ('title: ' + index[album].title), 'location:', '---', ''].join('\n');
     try {
       fs.writeFileSync(postFile, postContent, { flag: 'wx' });
     } catch (e) {
@@ -219,7 +219,7 @@ gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have
     }
 
     // We created a post (if it already existed, the `continue` would have fired)
-    gutil.log("Created new Jekyll post file for " + album);
+    gutil.log('Created new Jekyll post file for ' + album);
   }
 });
 
