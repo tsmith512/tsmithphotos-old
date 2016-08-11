@@ -76,7 +76,7 @@ var walkPhotos = function(path, index) {
   var directory = fs.readdirSync(path);
 
   // Directory is going to be an array of album directories
-  for (var i=0; i < directory.length; i++) {
+  for (var i = 0; i < directory.length; i++) {
     // This is the directory name from Lightroom ('2015-12-31 New Years Eve' style)
     var album = directory[i];
 
@@ -87,7 +87,7 @@ var walkPhotos = function(path, index) {
     var photos = recursiveReadSync(path + '/' + album);
     var contains = [];
 
-    for (var j=0; j < photos.length; j++) {
+    for (var j = 0; j < photos.length; j++) {
       // recursiveReadSync returns the path relative to the CWD, not just the name
       // like fs.readdirSync so this will be /source/Photography/.../whatever.img
       var photo = photos[j];
@@ -117,7 +117,7 @@ var walkPhotos = function(path, index) {
         lens: exifResult.tags.LensModel || null,
         focal: exifResult.tags.FocalLength || null,
         aperture: exifResult.tags.FNumber || null,
-        shutter: (exifResult.tags.ExposureTime > 1 ? (exifResult.tags.ExposureTime + 's') : ('1/' + (1/exifResult.tags.ExposureTime))) || null,
+        shutter: (exifResult.tags.ExposureTime > 1 ? (exifResult.tags.ExposureTime + 's') : ('1/' + (1 / exifResult.tags.ExposureTime))) || null,
         iso: exifResult.tags.ISO || null,
         date: exifResult.tags.DateTimeOriginal || null,
       });
@@ -303,7 +303,7 @@ gulp.task('jekyll', 'Run jekyll build', function (cb){
  var spawn = require('child_process').spawn;
  var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit'});
  jekyll.on('exit', function(code) {
-   cb(code === 0 ? null : 'ERROR: Jekyll process exited with code: '+code);
+   cb(code === 0 ? null : 'ERROR: Jekyll process exited with code: ' + code);
  });
 });
 
