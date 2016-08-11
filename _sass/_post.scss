@@ -63,10 +63,16 @@
       letter-spacing: 1px;
     }
 
+    .date {
+      margin-bottom: 0.75rem;
+    }
+
+
     .post-with-copy &, .post-short & {
       @include breakpoint($post-meta-two-column) {
         .date {
           float: left;
+          margin-bottom: 0;
         }
         .location {
           float: right;
@@ -79,6 +85,7 @@
       @include breakpoint($post-two-column) {
         .date {
           float: left;
+          margin-bottom: 0;
         }
         .location {
           float: right;
