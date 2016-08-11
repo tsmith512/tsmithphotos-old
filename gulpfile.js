@@ -38,7 +38,6 @@ var gulpicon = require('gulpicon/tasks/gulpicon');
 var gulpiconConfig = require('./_icons/config.js');
 var gulpiconFiles = glob.sync('./_icons/*.svg');
 var imagemin = require('gulp-imagemin');
-var imageminMozjpeg = require('imagemin-mozjpeg');
 var imgsize = require('image-size');
 var merge = require('deepmerge');
 var mergeStream = require('merge-stream');
