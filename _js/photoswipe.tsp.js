@@ -78,8 +78,8 @@
   // Now look for any photos called out in the copy. If someone clicks
   // on one, launch the lightbox of the gallery at that index. (Shortcut: just fire a click on that thumbnail.)
   var figures = document.querySelectorAll('.photo-block img');
-  for (var i = 0; i < figures.length; i++) {
-    figures[i].addEventListener('click', function () {
+  for (var j = 0; j < figures.length; j++) {
+    figures[j].addEventListener('click', function () {
       var thumb = document.querySelectorAll('[src="' + this.getAttribute('src').replace('medium', 'thumb') + '"]');
       if (thumb.length) {
         thumb[0].parentNode.click();
