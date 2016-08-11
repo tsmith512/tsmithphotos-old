@@ -7,6 +7,8 @@
  * Run `gulp help` to for a list of suggested tasks.
  */
 
+/* global require */
+
 /*
      _
   __| | ___ _ __  ___
