@@ -64,7 +64,7 @@ var yaml = require('js-yaml');
 //     'date': (directory name without the name)
 //     'contents': [ (an array of photo objects, to be sorted by date)
 //       {
-//         (@TODO: PhotoSwipe will need the width and height. I'd like to show the EXIF data and add titles)
+//         properties pulled from EXIF data and image size
 //       }
 //     ]
 // }
