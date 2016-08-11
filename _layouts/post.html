@@ -36,8 +36,8 @@ photoswipe: true
     <div class="wrapper">
       <section class="copy">
         <header class="post-header">
-          <div class="date">{{ page.date | date: "%b %-d, %Y" }}</div>
-          <div class="location">{{ page.location }}</div>
+          <div class="date"><span class="icon icon-calendar-light"></span> {{ page.date | date: "%b %-d, %Y" }}</div>
+          <div class="location"><span class="icon icon-globe-light"></span> {{ page.location }}</div>
         </header>
 
         {{ content }}
