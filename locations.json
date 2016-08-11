@@ -1,0 +1,17 @@
+---
+layout: null
+---
+{
+{% assign cities = (site.posts | group_by: "location") %}
+{% for city in cities %}
+  "{{ city.name }}": [
+  {% for post in city.items %}
+    {
+      "title": "{{ post.title }}",
+      "url": "{{ post.url }}",
+      "date": "{{ post.date | date: "%Y-%m-%d" }}"
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ]{% unless forloop.last %},{% endunless %}
+{% endfor %}
+}
