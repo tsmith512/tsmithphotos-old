@@ -21,9 +21,9 @@
 */
 
 var gulp = require('gulp-help')(require('gulp'), {
-  'description': false,
-  'hideDepsMessage': true,
-  'hideEmpty': true
+  description: false,
+  hideDepsMessage: true,
+  hideEmpty: true
 });
 var gutil = require('gulp-util');
 
