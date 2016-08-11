@@ -7,7 +7,9 @@
  * Run `gulp help` to for a list of suggested tasks.
  */
 
+/* eslint strict: ["error", "global"] */
 /* global require */
+'use strict';
 
 /*
      _
