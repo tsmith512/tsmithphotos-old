@@ -15,7 +15,7 @@
 (function () {
   'use strict';
 
-  function lazyloadRemainingImages () {
+  function lazyloadRemainingImages() {
     // Adapted from https://davidwalsh.name/lazyload-image-fade
     // the [].foreach.call() is better explained at http://stackoverflow.com/questions/16053357/what-does-foreach-call-do-in-javascript
     [].forEach.call(document.querySelectorAll('img[data-src]'), function (img) {
@@ -25,7 +25,7 @@
     });
   }
 
-  function lazyloadUpsize () {
+  function lazyloadUpsize() {
     var mq = window.matchMedia('(min-width: 800px)');
     if (mq.matches) {
       [].forEach.call(document.querySelectorAll('img[data-big]'), function (img) {

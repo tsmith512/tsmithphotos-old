@@ -1,0 +1,21 @@
+/**
+ * @file _icon.scss
+ *
+ * Set up inline <span class="icon icon-*" /> styling.
+ * Icon images themselves come from the Gulpicons output.
+ */
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.5rem;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
