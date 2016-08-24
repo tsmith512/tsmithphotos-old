@@ -31,9 +31,12 @@
     "image-size": "^0.5.0",
     "js-yaml": "^3.6.1",
     "merge-stream": "^1.0.0",
+    "ngrok": "^2.2.2",
     "photoswipe": "^4.1.1",
+    "psi": "^2.0.4",
     "recursive-readdir-sync": "^1.0.6",
-    "run-sequence": "^1.2.2"
+    "run-sequence": "^1.2.2",
+    "webpagetest": "^0.3.4"
   },
   "scripts": {
     "postinstall": "which gm || echo 'Please install GraphicsMagick (specifically, the gm command is needed for photo manipulation)'"

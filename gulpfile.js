@@ -49,6 +49,11 @@ var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yaml = require('js-yaml');
 
+// For Performance Testing
+var psi = require('psi');
+var wpt = require('webpagetest');
+var ngrok = require('ngrok');
+
 /*
        _           _
  _ __ | |__   ___ | |_ ___  ___
@@ -326,6 +331,35 @@ gulp.task('update', 'Add/remove photos and albums: index, photos, prime-posts, a
 gulp.task('build', 'Run all site-generating tasks: sass, js, graphics, icons, htaccess then jekyll', function (cb) {
   runSequence(['sass', 'js', 'graphics', 'icons', 'htaccess'], 'jekyll', cb);
 });
+
+
+/*
+                  __   _            _
+ _ __   ___ _ __ / _| | |_ ___  ___| |_ ___
+| '_ \ / _ \ '__| |_  | __/ _ \/ __| __/ __|
+| |_) |  __/ |  |  _| | ||  __/\__ \ |_\__ \
+| .__/ \___|_|  |_|    \__\___||___/\__|___/
+|_|
+
+*/
+
+gulp.task('psi', 'Performance: PageSpeed Insights', function() {
+  // Set up a public tunnel so PageSpeed can see the local site.
+  return ngrok.connect(80, function (err_ngrok, url) {
+    gutil.log(gutil.colors.cyan('ngrok'), '- serving your site from', gutil.colors.yellow(url));
+
+    // Run PageSpeed once the tunnel is up.
+    psi.output(url, {
+      nokey: true,
+      strategy: 'mobile',
+      threshold: 80
+    }).then(function() {
+      // @TODO: This promise never resolves, so the task never "ends", Gulp just stays open...
+      process.exit();
+    });
+  });
+});
+
 
 /*
              _             _          __  __
