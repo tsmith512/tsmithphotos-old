@@ -116,6 +116,10 @@ var walkPhotos = function (path, index) {
         lens: exifResult.tags.LensModel || null,
         focal: exifResult.tags.FocalLength || null,
         aperture: exifResult.tags.FNumber || null,
+        // EXIF shutter speed is written in decimal seconds, which isn't how that is
+        // actually written. For times over 1 second, write as is with an "s" to signify
+        // full seconds. Otherwise, turn it into a fraction 1/x which is what people
+        // will be used to seeing. Yay math.
         shutter: (exifResult.tags.ExposureTime > 1 ? (exifResult.tags.ExposureTime + 's') : ('1/' + (1 / exifResult.tags.ExposureTime))) || null,
         iso: exifResult.tags.ISO || null,
         date: exifResult.tags.DateTimeOriginal || null
