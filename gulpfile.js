@@ -218,6 +218,9 @@ gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have
       fs.writeFileSync(postFile, postContent, {flag: 'wx'});
     }
     catch (e) {
+      // This will fail EEXIST if the file already exists, which is fine so
+      // "fail" silently in that case because it means I already wrote the
+      // post. Throw any actual errors though.
       if (e.code !== 'EEXIST') {
         throw e;
       }
