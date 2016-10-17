@@ -1,6 +1,6 @@
 # Site settings
 title: Taylor Smith
-description: 
+description:
 baseurl: ""
 url: "http://www.tsmithphotos.com"
 
@@ -16,6 +16,7 @@ exclude:
   - package.json
   - '*~'
   - '#*#'
+  - GPL.txt # No need for this to be in the site. LICENSE.md is, but not linked anywhere
 
 keep_files:
   - photo # Don't clobber the photo exports directory

@@ -1,0 +1,58 @@
+---
+title: Colorado Birthday Getaway
+location: Grand Lake, Colorado
+---
+
+To celebrate the end of [Shrek]({% post_url 2016-08-01-SB %}) and also
+my birthday, I disappeared up into the mountains for a few days at an
+old family haunt. My family used to have reunions near the Rocky
+Mountain National Park in the YMCA Snow Mountain Ranch for a week
+every summer, all 15 of us.
+
+Over the years, I got to know the area pretty well, so
+on this trip we hit up all my favorites:
+[Cascade Falls](http://www.rockymountainhikingtrails.com/cascade-falls.htm)
+_(which we bouldered all the way down!)_,
+[Alberta Falls](http://www.rockymountainhikingtrails.com/alberta-falls.htm)
+_(which was deserted due to weather, yay!)_,
+[Adams Falls](http://www.rockymountainhikingtrails.com/adams-falls.htm)
+_(which in all these years I still haven't captured in a photo I like)_,
+the lakes off the Glacier Gorge trailhead, and kickin' around Grand
+Lake.
+
+{% include photo.html src="DSC_8768.jpg" %}
+
+I played with long exposures of waterfalls more than I have in the
+past. I'd brought along a couple neutral density filters that ended up
+being pretty hazy, so I just waited for shade and used a small
+aperture and cleaned up the lingering overexposure in Lightroom. Oh
+well, lessons for next time.
+
+{% include photo.html src="DSC_8996.jpg" %}
+
+We also spent a little time above the treeline on Trail Ridge Road in
+the park so I could get some night sky shots. The fog driving up was
+properly terrifying because visibiliy was reduced to 5 or 10 feet in
+many places. But it cleared as we rose above the trees, leaving behind
+a clear sky, full moon, and a valley completely filled with dense
+clouds. The near foreground is red and white because I had to leave my
+running lights on for safety.
+
+{% include photo.html src="DSC_9127.jpg" %}
+
+And as always, the Rocky Mountain Wildlife never fails to
+disappoint. They were out in force all over the park, so I finally
+have a good shot of a moose as well as a molting elk looking badass.
+
+{% include photo.html src="DSCF5708.jpg" %}
+
+I think I've finally struck a balance betwen the Nikon and the
+Fuji. In [Scotland]({% post_url 2016-04-20-SIA %}), I kept awkardly
+trying to bounce between both, and that's how I started this weekend,
+too. But ultimately, I settled back to my Nikon habits for the hikes
+when I could bring my lenses along. Lens changes are easier to deal
+with than constantly detangling two cameras. But the Fuji went where
+my Nikon would have stayed behind in the past, leaving me with only a
+camera phone: the [Grand Lake Lodge](http://www.grandlakelodge.com/),
+up the Zephyr lift at [Winter Park](https://www.winterparkresort.com/),
+and in the airplane (because yes, sometimes I'm _that_ guy...).
