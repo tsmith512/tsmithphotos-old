@@ -20,34 +20,34 @@
            |_|
 */
 
-var gulp = require('gulp-help')(require('gulp'), {
+const gulp = require('gulp-help')(require('gulp'), {
   description: false,
   hideDepsMessage: true,
   hideEmpty: true
 });
-var gutil = require('gulp-util');
+const gutil = require('gulp-util');
 
-var autoprefixer = require('gulp-autoprefixer');
-var cleanCSS = require('gulp-clean-css');
-var concat = require('gulp-concat');
-var eslint = require('gulp-eslint');
-var exif = require('exif-parser');
-var fs = require('fs');
-var glob = require('glob');
-var gulpicon = require('gulpicon/tasks/gulpicon');
-var gulpiconConfig = require('./_icons/config.js');
-var gulpiconFiles = glob.sync('./_icons/*.svg');
-var imagemin = require('gulp-imagemin');
-var imgsize = require('image-size');
-var merge = require('deepmerge');
-var mergeStream = require('merge-stream');
-var recursiveReadSync = require('recursive-readdir-sync');
-var resize = require('gulp-image-resize');
-var rename = require('gulp-rename');
-var runSequence = require('run-sequence');
-var sass = require('gulp-sass');
-var uglify = require('gulp-uglify');
-var yaml = require('js-yaml');
+const autoprefixer = require('gulp-autoprefixer');
+const cleanCSS = require('gulp-clean-css');
+const concat = require('gulp-concat');
+const eslint = require('gulp-eslint');
+const exif = require('exif-parser');
+const fs = require('fs');
+const glob = require('glob');
+const gulpicon = require('gulpicon/tasks/gulpicon');
+const gulpiconConfig = require('./_icons/config.js');
+const gulpiconFiles = glob.sync('./_icons/*.svg');
+const imagemin = require('gulp-imagemin');
+const imgsize = require('image-size');
+const merge = require('deepmerge');
+const mergeStream = require('merge-stream');
+const recursiveReadSync = require('recursive-readdir-sync');
+const resize = require('gulp-image-resize');
+const rename = require('gulp-rename');
+const runSequence = require('run-sequence');
+const sass = require('gulp-sass');
+const uglify = require('gulp-uglify');
+const yaml = require('js-yaml');
 
 /*
        _           _
@@ -71,39 +71,39 @@ var yaml = require('js-yaml');
 //       }
 //     ]
 // }
-var walkPhotos = function (path, index) {
-  var directory = fs.readdirSync(path);
+const walkPhotos = (path, index) => {
+  const directory = fs.readdirSync(path);
 
   // Directory is going to be an array of album directories
   for (var i = 0; i < directory.length; i++) {
     // This is the directory name from Lightroom ('2015-12-31 New Years Eve' style)
-    var album = directory[i];
+    const album = directory[i];
 
     // This is the directory shortname Gulp is using for image output.
-    var dirname = album.replace(/[a-z]/g, '').replace(/ /, '-').replace(/\s/g, '');
+    const dirname = album.replace(/[a-z]/g, '').replace(/ /, '-').replace(/\s/g, '');
 
     // This will be the image contents and any subdirectories
-    var photos = recursiveReadSync(path + '/' + album);
-    var contains = [];
+    const photos = recursiveReadSync(path + '/' + album);
+    const contains = [];
 
     for (var j = 0; j < photos.length; j++) {
       // recursiveReadSync returns the path relative to the CWD, not just the name
       // like fs.readdirSync so this will be /source/Photography/.../whatever.img
-      var photo = photos[j];
+      const photo = photos[j];
 
       // So split on / and take the last component for the filename.
-      var file = photo.split('/').pop();
+      const file = photo.split('/').pop();
 
       // Original images are sometimes in subdirectories by day or activity, which
       // is why we recused the whole thing. Don't try to get stats on a directory,
       // just skip it.
       if (fs.statSync(photo).isDirectory()) { continue; }
 
-      var dimensions = imgsize(photo);
+      const dimensions = imgsize(photo);
 
-      var photoBuffer = fs.readFileSync(photo);
-      var exifParser = exif.create(photoBuffer);
-      var exifResult = exifParser.parse();
+      const photoBuffer = fs.readFileSync(photo);
+      const exifParser = exif.create(photoBuffer);
+      const exifResult = exifParser.parse();
 
       contains.push({
         filename: file,
@@ -141,9 +141,9 @@ var walkPhotos = function (path, index) {
   //   to the wrong image when merging (because arrays are indexed, not keyed).
   //   ^^ @TODO: That'll fix most of the issue, but inserting/deleting within
   //      an existing album will still cause attributes to shift. :(
-  for (album in index) {
+  for (var album in index) {
     if (!index.hasOwnProperty(album)) { continue; }
-    index[album].contents = index[album].contents.sort(function (a, b) {
+    index[album].contents = index[album].contents.sort((a, b) => {
       if (a.date < b.date) { return -1; }
       if (a.date > b.date) { return 1; }
       return 0;
@@ -151,9 +151,9 @@ var walkPhotos = function (path, index) {
   }
 };
 
-gulp.task('index', 'Scan for new and deleted photos and albums, merge with the index', function () {
-  var index = {};
-  var generatedIndex = {};
+gulp.task('index', 'Scan for new and deleted photos and albums, merge with the index', () => {
+  let index = {};
+  const generatedIndex = {};
   try {
     index = fs.readFileSync('source/index.yml', {encoding: 'utf8'});
     index = yaml.safeLoad(index);
@@ -167,14 +167,14 @@ gulp.task('index', 'Scan for new and deleted photos and albums, merge with the i
     }
   }
   walkPhotos('source/Photography', generatedIndex);
-  var mergedIndex = merge(index, generatedIndex);
+  const mergedIndex = merge(index, generatedIndex);
 
   fs.writeFileSync('source/index.yml', yaml.safeDump(mergedIndex));
 });
 
-gulp.task('photos', 'Rebuild all image derivatives: original, medium, thumb, mini. WARNING: ~30 minutes', function () {
+gulp.task('photos', 'Rebuild all image derivatives: original, medium, thumb, mini. WARNING: ~30 minutes', () => {
   return gulp.src('source/Photography/**/*.jpg')
-    .pipe(rename(function (path) {
+    .pipe(rename((path) => {
       // Sometimes I use subdirectories within albums to denote days, squash em
       // @TODO: Technically this could lead to collisions, but it is unlikely because the
       // cameras both don't cycle until 9999 so only if 10,000 were taken in a day.
@@ -199,8 +199,8 @@ gulp.task('photos', 'Rebuild all image derivatives: original, medium, thumb, min
     // @TODO: Can we do that thing Rupl used to do with blurry 10px images for a pre-load?
 });
 
-gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have them already', function () {
-  var index = {};
+gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have them already', () => {
+  let index = {};
   try {
     index = fs.readFileSync('source/index.yml', {encoding: 'utf8'});
     index = yaml.safeLoad(index);
@@ -212,8 +212,8 @@ gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have
   for (var album in index) {
     if (!index.hasOwnProperty(album)) { continue; }
 
-    var postFile = '_posts/' + album + '.markdown';
-    var postContent = ['---', ('title: ' + index[album].title), 'location:', '---', ''].join('\n');
+    const postFile = '_posts/' + album + '.markdown';
+    const postContent = ['---', ('title: ' + index[album].title), 'location:', '---', ''].join('\n');
     try {
       fs.writeFileSync(postFile, postContent, {flag: 'wx'});
     }
@@ -243,7 +243,7 @@ gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have
 
 */
 
-gulp.task('sass', 'Compile Sass to CSS', function () {
+gulp.task('sass', 'Compile Sass to CSS', () => {
   return gulp.src('./_sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({
@@ -261,19 +261,19 @@ gulp.task('sass', 'Compile Sass to CSS', function () {
     .pipe(gulp.dest('./_site/css'));
 });
 
-gulp.task('js-photoswipe', false, function () {
+gulp.task('js-photoswipe', false, () => {
   return gulp.src(['./node_modules/photoswipe/dist/*.js', '_js/photoswipe.tsp.js'])
     .pipe(concat('photoswipe.all.js'))
     .pipe(uglify({mangle: false}))
     .pipe(gulp.dest('./_site/js'));
 });
 
-gulp.task('js-photoswipe-assets', false, function () {
+gulp.task('js-photoswipe-assets', false, () => {
   return gulp.src(['./node_modules/photoswipe/dist/default-skin/*.png', './node_modules/photoswipe/dist/default-skin/*.svg', './node_modules/photoswipe/dist/default-skin/*.gif'])
     .pipe(gulp.dest('./_site/css'));
 });
 
-gulp.task('js-all', false, function () {
+gulp.task('js-all', false, () => {
   return gulp.src([
     './_js/lazyload.js',
     './node_modules/fg-loadcss/src/loadCSS.js',
@@ -284,7 +284,7 @@ gulp.task('js-all', false, function () {
     .pipe(gulp.dest('./_site/js'));
 });
 
-gulp.task('lint', 'Lint all non-vendor JS', function () {
+gulp.task('lint', 'Lint all non-vendor JS', () => {
   return gulp.src(['gulpfile.js', '_js/**/*.js', '!node_modules/**'])
     .pipe(eslint())
     .pipe(eslint.format())
@@ -295,7 +295,7 @@ gulp.task('js', 'JS/Photoswipe aggregation/minify, custom JS linting', ['js-phot
 
 gulp.task('icons', false, gulpicon(gulpiconFiles, gulpiconConfig));
 
-gulp.task('graphics', 'Compress site graphics and aggregate icons', ['icons'], function () {
+gulp.task('graphics', 'Compress site graphics and aggregate icons', ['icons'], () => {
   return gulp.src('./_gfx/**/*.*')
     .pipe(imagemin())
     .pipe(gulp.dest('./_site/gfx/'));
@@ -310,27 +310,27 @@ gulp.task('graphics', 'Compress site graphics and aggregate icons', ['icons'], f
 
 */
 
-gulp.task('jekyll', 'Run jekyll build', function (cb) {
-  var spawn = require('child_process').spawn;
-  var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit'});
-  jekyll.on('exit', function (code) {
+gulp.task('jekyll', 'Run jekyll build', (cb) => {
+  const spawn = require('child_process').spawn;
+  const jekyll = spawn('jekyll', ['build'], {stdio: 'inherit'});
+  jekyll.on('exit', (code) => {
     cb(code === 0 ? null : 'ERROR: Jekyll process exited with code: ' + code);
   });
 });
 
-gulp.task('htaccess', 'Update/install .htaccess files', function () {
-  var root = gulp.src('./_htaccess/root').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/'));
-  var photo = gulp.src('./_htaccess/photo').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/photo/'));
+gulp.task('htaccess', 'Update/install .htaccess files', () => {
+  const root = gulp.src('./_htaccess/root').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/'));
+  const photo = gulp.src('./_htaccess/photo').pipe(rename('.htaccess')).pipe(gulp.dest('./_site/photo/'));
 
   return mergeStream(root, photo);
 });
 
 
-gulp.task('update', 'Add/remove photos and albums: index, photos, prime-posts, and jekyll. WARNING: ~30 minutes.', function (cb) {
+gulp.task('update', 'Add/remove photos and albums: index, photos, prime-posts, and jekyll. WARNING: ~30 minutes.', (cb) => {
   runSequence(['index', 'photos'], 'prime-posts', 'jekyll', cb);
 });
 
-gulp.task('build', 'Run all site-generating tasks: sass, js, graphics, icons, htaccess then jekyll', function (cb) {
+gulp.task('build', 'Run all site-generating tasks: sass, js, graphics, icons, htaccess then jekyll', (cb) => {
   runSequence(['sass', 'js', 'graphics', 'icons', 'htaccess'], 'jekyll', cb);
 });
 
@@ -345,7 +345,7 @@ gulp.task('build', 'Run all site-generating tasks: sass, js, graphics, icons, ht
 
 gulp.task('default', false, ['help']);
 
-gulp.task('watch', 'Watch-run sass, jekyll, js, graphics, and icons tasks', function () {
+gulp.task('watch', 'Watch-run sass, jekyll, js, graphics, and icons tasks', () => {
   gulp.watch('./_sass/**/*.scss', ['sass']);
   gulp.watch(['./*.*', './**/*.html', './**/*.yml', './**/*.markdown', './**/.*.md', '!./_site/**'], ['jekyll']);
   gulp.watch(['./**/*.js', '!./_site/**', '!./node_modules/**'], ['js']);
