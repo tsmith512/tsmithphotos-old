@@ -9332,3 +9332,118 @@
       shutter: 1/1250
       iso: 100
       date: 1474815074
+2016-10-02-RW:
+  title: Ranch Weekend
+  date: '2016-10-02'
+  contents:
+    - filename: DSC_0311.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 300
+      aperture: 5.6
+      shutter: 1/400
+      iso: 200
+      date: 1475321294
+    - filename: DSC_0321.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 130
+      aperture: 8
+      shutter: 1/1000
+      iso: 200
+      date: 1475321569
+    - filename: DSC_0343.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 220
+      aperture: 5.3
+      shutter: 1/1600
+      iso: 200
+      date: 1475321758
+    - filename: DSC_0482.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 135
+      aperture: 4.8
+      shutter: 1/800
+      iso: 200
+      date: 1475343496
+    - filename: DSC_0513.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 155
+      aperture: 5
+      shutter: 1/125
+      iso: 200
+      date: 1475346235
+    - filename: DSC_0563.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 260
+      aperture: 5.6
+      shutter: 1/160
+      iso: 200
+      date: 1475347085
+    - filename: DSC_0682.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 24
+      aperture: 4.5
+      shutter: 1/6400
+      iso: 400
+      date: 1475347886
+    - filename: DSC_0709.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 120
+      aperture: 4.8
+      shutter: 1/250
+      iso: 400
+      date: 1475348313
+    - filename: DSC_0738.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 18
+      aperture: 4.5
+      shutter: 1/1000
+      iso: 400
+      date: 1475348747
+    - filename: DSC_0753.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 2.8
+      shutter: 13s
+      iso: 1000
+      date: 1475364380
+    - filename: DSC_0757.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 2.8
+      shutter: 30s
+      iso: 1250
+      date: 1475368148
+      hero: 1
