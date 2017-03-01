@@ -1,0 +1,4 @@
+---
+title: West Texas Adventure
+location: Big Bend, Fort Davis, and Marfa, Texas
+---
