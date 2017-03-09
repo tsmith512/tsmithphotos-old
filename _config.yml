@@ -2,7 +2,7 @@
 title: Taylor Smith
 description:
 baseurl: ""
-url: "http://www.tsmithphotos.com"
+url: "https://www.tsmithphotos.com"
 
 # Build settings
 markdown: kramdown
@@ -24,6 +24,7 @@ keep_files:
   - js    # Don't clobber site JS, which is built with Gulp and includes Photoswipe
   - gfx   # Don't clobber site graphics/images/assets
   - .htaccess
+  - favicon*
 
 # Use the ingenuitive "compress.html" HTML minification template from
 # https://github.com/penibelst/jekyll-compress-html

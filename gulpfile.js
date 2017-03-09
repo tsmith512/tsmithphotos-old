@@ -296,7 +296,12 @@ gulp.task('js', 'JS/Photoswipe aggregation/minify, custom JS linting', ['js-phot
 
 gulp.task('icons', false, gulpicon(gulpiconFiles, gulpiconConfig));
 
-gulp.task('graphics', 'Compress site graphics and aggregate icons', ['icons'], () => {
+gulp.task('favicons', 'Copy favicons into position', () => {
+  return gulp.src(['./_favicon/*.*'])
+  .pipe(gulp.dest('./_site/'));
+});
+
+gulp.task('graphics', 'Compress site graphics and aggregate icons', ['icons', 'favicons'], () => {
   return gulp.src('./_gfx/**/*.*')
     .pipe(imagemin())
     .pipe(gulp.dest('./_site/gfx/'));
@@ -347,7 +352,7 @@ gulp.task('publish-s3', 'Sync the site to S3', (cb) => {
 
   // define custom headers
   var headers = {
-    'Cache-Control': 'max-age=315360000, no-transform, public'
+    'Cache-Control': 'max-age=2592000, no-transform, public'
   };
 
   // @TODO: Uhhh, I wrote a lot of htaccess files for this that aren't needed
