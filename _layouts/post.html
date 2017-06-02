@@ -10,6 +10,7 @@ photoswipe: true
 {% if test_content == "" %}{% assign post_empty = "post-empty" %}
 {% elsif test_content.size < 500 %}{% assign post_empty = "post-short" %}
 {% endif %}
+{% if page.post_empty %}{% assign post_empty = page.post_empty %}{% endif %}
 
 <div class="post {{ post_empty }}">
   {% assign gallery = page.path | split: '/' | last | split: '.' | first %}
