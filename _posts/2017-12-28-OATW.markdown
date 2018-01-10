@@ -1,0 +1,18 @@
+---
+title: Oklahoma Adventure Trail West
+location: Western Oklahoma
+post_empty: post-short
+---
+
+I couldn't believe we did it
+the [first time]({% post_url 2015-08-29-GWR %}), or even the
+[second]({% post_url 2017-05-15-TQ2O %}), but we got tired of not driving
+so we took cars we already own on an overland tour of western Oklahoma, which
+proved full of surprises. 
+
+- Day 1: Turner Falls Park, Clear Creek Lake, Wichita Mountains National Wildlife Refuge
+- Day 2: Quartz Mountain, Black Kettle National Grasslands
+- Day 3: Gloss Mountain, The Great Salt Plains
+- Day 4: Salt Fork River, Keystone Dam
+
+As before, I chronicled our adventures on [the Travelogue](http://travelogue.news).
