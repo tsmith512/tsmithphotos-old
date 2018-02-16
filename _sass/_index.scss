@@ -130,41 +130,6 @@
 
     .hero {
       position: relative;
-
-      @include breakpoint(200px) {
-        float: right;
-        width: 50%;
-      }
-    }
-
-    .preview {
-      display: none;
-
-      @include breakpoint(200px) {
-        float: right;
-        margin: 0;
-        list-style: none;
-        width: 50%;
-        max-height: 200px;
-
-        @include breakpoint(max-width 290px) {
-          // Okay this MQ is almost bonkers, but make an exception
-          // for screens this size to reset the max-height so that
-          // Flexbox doesn't try to squeeze a third row in preview
-          max-height: 150px;
-        }
-
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap-reverse;
-        justify-content: flex-start;
-        align-items: flex-start;
-        align-content: flex-start;
-      }
-    }
-
-    .preview .photo {
-      width: 50%;
     }
 
     .photo {
