@@ -11,19 +11,10 @@
     @include breakpoint(max-width ($index-two-column - 1px)) {
       margin-bottom: 2rem;
     }
-
     @include breakpoint($index-two-column) {
-      min-height: 200px;
-      background-size: 200%;
-      background-position: 0 0;
-      background-image: linear-gradient(to right, white 50%, #f8f8f8 50%);
-      transition: background 0.2s ease-out;
-
-      &:hover {
-          background-color: #f8f8f8; // If background-image is unsupported
-          background-position: -100% 0;
-          .gallery:after { border-right-color: #f8f8f8; }
-      }
+      position: relative;
+      width: 600px;
+      max-width: 100%;
     }
   }
 
@@ -31,18 +22,53 @@
     text-align: center;
     margin: 0 1rem;
 
-    @include breakpoint($masthead-box) {
-      margin: 0 2rem;
+    @include breakpoint($index-two-column) {
+      position: absolute;
+      z-index: 10;
+      margin: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      overflow: hidden;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 15%,rgba(0,0,0,0) 85%,rgba(0,0,0,0.4) 100%);
+
+      h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      span {
+        position: absolute;
+        display: block;
+        width: calc(100% - 2rem);
+        left: 1rem;
+        transition: all .2s ease-out;
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px 0 rgba(0,0,0,0.25);
+        opacity: 0.5;
+        font-weight: 400;
+      }
+
+      &:hover span {
+        opacity: 1;
+        text-shadow: 1px 1px 0 rgba(0,0,0,0.75);
+      }
+
+      .date {
+        top: 1rem;
+      }
+
+      .location {
+        bottom: 1rem;
+      }
     }
 
-    @include breakpoint($index-two-column) {
-      left: calc(400px + 1rem); // 400px (gallery width)
-      padding-right: 1rem; // So the background looks correct, since there's a margin-left of 1rem
-      position: absolute;
-      top: 50%;
-      right: 0;
-      transform: translateY(-50%);
-    }
+
+
   }
 
   .date, .location {
@@ -50,16 +76,17 @@
     font-size: 0.75rem;
     font-weight: 600;
     text-transform: uppercase;
-    text-shadow: 1px 1px 0 #FFF;
     letter-spacing: 1px;
   }
 
   .date {
     color: #CCC;
 
-    &:after {
-      content: " / ";
-      color: #EEE;
+    @include breakpoint(max-width ($index-two-column - 1px)) {
+      &:after {
+        content: " / ";
+        color: #EEE;
+      }
     }
   }
 
@@ -75,69 +102,51 @@
 
     @include breakpoint($index-two-column) {
       margin-bottom: 0;
-    }
+      a {
+        color: #DDD;
 
+        &:hover {
+          color: #FFF;
+        }
+      }
+    }
   }
 
   .gallery {
-    width: 400px;
-    max-width: 100%;
+    margin: 0 auto;
     position: relative;
     overflow: hidden; // Since the clearfix relies on messing with :after, which we're using for border tricks
 
     @include breakpoint(max-width ($index-two-column - 1px)) {
-      margin: 0 auto;
-
       padding-bottom: 2rem;
       border-bottom: 1px solid #EEE;
     }
 
-    @include breakpoint($index-two-column) {
-    }
-
-    &:after {
-      content: " ";
-      position: absolute;
-      border: 20px solid transparent;
-
-      @include breakpoint(max-width ($index-two-column - 1px)) {
-        top: 1px;
-      }
-
-      @include breakpoint($index-two-column) {
-        right: 1px;
-      }
-    }
-
-    &:after {
-      z-index: 2;
-      top: 50%;
-
-      @include breakpoint(max-width ($index-two-column - 1px)) {
-        top: 1px;
+    @include breakpoint(max-width ($index-two-column - 1)) {
+      &:after {
+        content: " ";
+        position: absolute;
+        border: 20px solid transparent;
+        z-index: 2;
+        top: 0;
         left: 50%;
         transform: translate(-50%);
         border-top-color: white;
       }
+    }
 
-      @include breakpoint($index-two-column) {
-        top: calc(50%);
-        transform: translateY(-51%);
-        border-right-color: white;
-        transition: border 0.2s ease-out;
-      }
+    @include breakpoint($index-two-column) {
+      position: relative;
+      z-index: 1;
     }
 
     .hero {
       position: relative;
     }
 
-    .photo {
-      border: 1px solid transparent;
-    }
-
     img {
       display: block;
+      margin: 0 auto;
     }
   }
 }
