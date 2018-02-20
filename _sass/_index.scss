@@ -15,6 +15,48 @@
       position: relative;
       width: 600px;
       max-width: 100%;
+      float: left;
+    }
+  }
+
+  .date, .location {
+    font-family: $gotham;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .date {
+    color: #CCC;
+
+    @include breakpoint(max-width ($index-two-column - 1px)) {
+      &:after {
+        content: " / ";
+        color: #EEE;
+      }
+    }
+  }
+
+  .location {
+    color: #666;
+  }
+
+  h2 {
+    font-family: $tungsten;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+
+    @include breakpoint($index-two-column) {
+      margin-bottom: 0;
+      a {
+        color: #DDD;
+
+        &:hover {
+          color: #FFF;
+        }
+      }
     }
   }
 
@@ -64,50 +106,6 @@
 
       .location {
         bottom: 1rem;
-      }
-    }
-
-
-
-  }
-
-  .date, .location {
-    font-family: $gotham;
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-
-  .date {
-    color: #CCC;
-
-    @include breakpoint(max-width ($index-two-column - 1px)) {
-      &:after {
-        content: " / ";
-        color: #EEE;
-      }
-    }
-  }
-
-  .location {
-    color: #666;
-  }
-
-  h2 {
-    font-family: $tungsten;
-    font-weight: 400;
-    font-size: 2.5rem;
-    margin: 0 0 1rem 0;
-
-    @include breakpoint($index-two-column) {
-      margin-bottom: 0;
-      a {
-        color: #DDD;
-
-        &:hover {
-          color: #FFF;
-        }
       }
     }
   }
