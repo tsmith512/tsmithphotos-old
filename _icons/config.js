@@ -47,12 +47,6 @@ module.exports = {
   // of the CSS. If you don't want a prefix path, set to to ""
   cssbasepath: "/gfx/icons",
   customselectors: {
-    "fpx-main": [".fpx"],
-    "fpx-blue": [".fpx:hover"],
-    "behance-main": [".behance"],
-    "behance-blue": [".behance:hover"],
-    "drupal-main": [".drupal"],
-    "drupal-blue": [".drupal:hover"],
     "facebook-main": [".facebook"],
     "facebook-blue": [".facebook:hover"],
     "github-main": [".github"],
@@ -63,6 +57,8 @@ module.exports = {
     "twitter-blue": [".twitter:hover"],
     "rss-main": [".rss"],
     "rss-blue": [".rss:hover"],
+    "instagram-main": [".instagram"],
+    "instagram-blue": [".instagram:hover"],
   },
 
   compressPNG: true
