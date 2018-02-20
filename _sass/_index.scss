@@ -85,13 +85,6 @@
         transform: translate(-50%, -50%);
         padding: 1rem;
         text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
-        border: 1px solid rgba(255,255,255,.3);
-        border-radius: 3px;
-        background: rgba(0,0,0,0.2);
-        box-shadow: 0 0 10px rgba(0,0,0,0.2);
-      }
-
-      &:hover h2 {
       }
 
       span {
@@ -133,6 +126,10 @@
       margin: 0 auto;
     }
 
+    .shadow {
+      display: none;
+    }
+
     @include breakpoint(max-width ($index-two-column - 1px)) {
       padding-bottom: 2rem;
       border-bottom: 1px solid #EEE;
@@ -164,6 +161,39 @@
         min-height: 100%; // For the rare occasion that a horizontal crop isn't 3:2
         top: 50%;
         transform: translateY(-50%); // For the rare occasion that I pick a vertical hero
+
+      }
+      .shadow {
+        display: block;
+        position: absolute;
+        overflow: hidden;
+        top: 6rem;
+        bottom: 6rem;
+        left: 1rem;
+        right: 1rem;
+        z-index: 5;
+
+        &:after {
+          content: " ";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          width: 100%;
+          border: 1px solid rgba(255,255,255,0.5);
+          z-index: 7;
+        }
+      }
+
+      .shadow-image {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 6;
+        width: 100%;
+        background-size: calc(100% + 2rem);
+        background-position: center center;
+        background-repeat: no-repeat;
+        filter: blur(10px);
       }
     }
   }
