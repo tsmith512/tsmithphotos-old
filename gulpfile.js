@@ -193,11 +193,7 @@ gulp.task('photos', 'Rebuild all image derivatives: original, medium, thumb, min
     .pipe(gulp.dest('_site/photo/medium/'))
     .pipe(resize({width: 200, height: 200, crop: true, upscale: false}))
     .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
-    .pipe(gulp.dest('_site/photo/thumb/'))
-    .pipe(resize({width: 100, height: 100, crop: true, upscale: false}))
-    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
-    .pipe(gulp.dest('_site/photo/mini/'));
-    // @TODO: Can we do that thing Rupl used to do with blurry 10px images for a pre-load?
+    .pipe(gulp.dest('_site/photo/thumb/'));
 });
 
 gulp.task('prime-posts', 'Create stub post files for any albums that don\'t have them already', () => {
