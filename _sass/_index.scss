@@ -3,6 +3,22 @@
  * The overview of all albums on the home page
  */
 .index {
+  @include breakpoint($index-two-column) {
+    margin: 2rem auto;
+    width: calc(1400px + 1rem);
+    max-width: calc(100% - 2rem);
+  }
+  @include breakpoint(1200px) {
+    width: calc(1400px + 2rem);
+    max-width: calc(100% - 4rem);
+    article {
+      width: calc(50% - 1rem);
+      margin-bottom: 2rem;
+      &:nth-child(2n+1) {
+        margin-right: 2rem;
+      }
+    }
+  }
   article {
     @extend %clearfix;
     position: relative;
