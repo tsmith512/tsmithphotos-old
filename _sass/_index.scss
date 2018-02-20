@@ -60,6 +60,10 @@
 // Narrow screens get a 1-column listing
 @include breakpoint(max-width ($index-two-column - 1px)) {
   .index {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
     article {
       margin-bottom: 2rem;
     }
