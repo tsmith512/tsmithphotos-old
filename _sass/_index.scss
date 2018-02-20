@@ -178,12 +178,17 @@
         transform: translateY(-50%); // For the rare occasion that I pick a vertical hero
 
       }
-      .shadow {
+
+      .shadow, .shadow:after {
         display: block;
         position: absolute;
+      }
+
+      .shadow {
         overflow: hidden;
-        top: 6rem;
-        bottom: 6rem;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 8rem;
         left: 1rem;
         right: 1rem;
         z-index: 5;
@@ -192,7 +197,6 @@
 
         &:after {
           content: " ";
-          position: absolute;
           top: 0;
           bottom: 0;
           width: 100%;
@@ -253,6 +257,10 @@
       &:nth-child(2n+1) {
         margin-right: 2rem;
       }
+    }
+
+    .gallery .shadow {
+      height: 6rem;
     }
   }
 }
