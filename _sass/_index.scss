@@ -116,9 +116,7 @@
 
       h2 {
         margin-bottom: 0;
-        a {
-          color: #FFF;
-        }
+        color: #FFF;
       }
     }
 
@@ -265,6 +263,12 @@
 
     .gallery .shadow {
       height: 6rem;
+      left: 3rem;
+      right: 3rem;
+    }
+
+    .gallery .shadow-image {
+      background-size: calc(100% + 4rem);
     }
   }
 }

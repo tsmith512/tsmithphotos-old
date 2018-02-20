@@ -8,30 +8,30 @@ nowrap: 1
 <div class="index">
   {% for post in paginator.posts %}
     <article>
-      <div class="meta">
-        <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        {% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}
-        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-      </div>
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <div class="meta">
+          <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          {% if post.location %}<span class="location">{{ post.location }}</span>{% endif %}
+          <h2>{{ post.title }}</h2>
+        </div>
 
-      <section class="gallery">
-        {% assign gallery = post.path | split: '/' | last | split: '.' | first %}
-        {% comment %}
-          @TODO: So apparently the "where" filter doesn't work on custom data
-          arrays, though I could write a plugin to do it. Instead, we loop over
-          the whole post photo array and pull out the hero when we find it. Sadface.
-        {% endcomment %}
-        {% for photo in site.data.index[gallery].contents %}
-          {% if photo.hero %}
-            <a href="{{ post.url | prepend: site.baseurl }}">
+        <section class="gallery">
+          {% assign gallery = post.path | split: '/' | last | split: '.' | first %}
+          {% comment %}
+            @TODO: So apparently the "where" filter doesn't work on custom data
+            arrays, though I could write a plugin to do it. Instead, we loop over
+            the whole post photo array and pull out the hero when we find it. Sadface.
+          {% endcomment %}
+          {% for photo in site.data.index[gallery].contents %}
+            {% if photo.hero %}
               <img src="/photo/medium/{{ gallery }}/{{ photo.filename }}" alt="{{ post.title | xml_escape }}" />
               <div class="shadow">
                 <div style='background-image: url("/photo/medium/{{ gallery }}/{{ photo.filename }}");' class="shadow-image"></div>
               </div>
-            </a>
-          {% endif %}
-        {% endfor %}
-      </section>
+            {% endif %}
+          {% endfor %}
+        </section>
+      </a>
     </article>
   {% endfor %}
 
