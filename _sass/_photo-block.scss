@@ -9,6 +9,10 @@
   border: 1px solid #eee;
   background: #fbfbfb;
 
+  img {
+    width: 100%;
+  }
+
   figcaption {
     padding: 0.5rem;
     padding-top: 0; // There was no margin nor padding but there was still a gap...
@@ -16,6 +20,7 @@
     img, span {
       display: block;
     }
+
 
     .title {
       font-style: italic;

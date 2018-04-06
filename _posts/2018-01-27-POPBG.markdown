@@ -1,0 +1,41 @@
+---
+title: Columbia River Gorge
+location: Washington and Oregon
+---
+
+After yet another workshop in Portland, I headed east since I did the coast
+[last time]({% post_url 2014-09-27-SO %}). Unfortunately, the Eagle Creek Fire
+has closed most of the Oregon-side of the Columbia River Gorge trails and
+waterfalls, so most of my original plans were up in, pardon the pun, smoke.
+
+{% include photo.html src="DSC_5663.jpg" %}
+
+I started on the Washington side at Beacon Rock State Park, stopped over by the
+Bridge of the Gods, and then drove up into the Gifford Pinchot National Forest
+for Panther Creek Falls and what turned out to be a little off-roading around
+the forest before heading back down.
+
+{% include photo.html src="DSC_5873.jpg" %}
+
+That night, I stayed in Hood River, Oregon on the other side of the historic
+Hood River Bridge. The following morning, I hiked up a trail behind Mosier,
+Oregon before heading back to the airport. I was surprised at how this
+impressive but easy hike with a giant waterfall and beautiful vista was tucked
+away behind this little town, drawing no attention to itself, without even a
+marker for the trailhead.
+
+{% include photo.html src="DSC_6024.jpg" %}
+
+Along I-84 back toward PDX, most trails were closed, including the Multnomah
+Falls area, so I took a couple photos from the parking and rest stop area before
+getting back on the freeway.
+
+{% include photo.html src="DSC_6119.jpg" %}
+
+Hopefully next time I'm up this way, fire restoration will be in a better state
+and I'll be able to check out more of what Oregon has hiding away along this
+serene riverfront. It's a tragedy that so much of this area burned, and that
+very little of it made the news because the rest of the country was focused on
+the California fires. But from the highway, you'd hardly know it with most of
+the mountainside as green as Oregon has led me to expect, peppered with crystal
+flowing waterfalls deep inside the trees.
