@@ -1,0 +1,30 @@
+---
+title: Oklahoma Adventure Trail East
+location: Eastern Oklahoma
+post_empty: post-short
+---
+
+The [roatrip]({% post_url 2015-08-29-GWR %})
+[group]({% post_url 2017-05-15-TQ2O %}) started the Oklahoma Adventure Trail
+[over New Year's 2017]({% post_url 2017-12-28-OATW %}) but we only had enough
+vacation days between us to tackle the western half. Not many people would
+champion Oklahoma as a sightseeing destination but we were pleasantly
+surprised with the beauty of the landscape and the variety of the west.
+
+So with another long weekend coming up, we planned the eastern half for Easter
+weekend. Spring hadn't quite sprung, so trees were still largely bare, but
+wildflowers were starting their takeover of the landscape. This trip had fewer
+specific destinations and parks, but no shortage of interesting rural
+adventure.
+
+- Before we left: Whitewater Offroad Park by Keystone Dam in Tulsa
+- Day 1: Fort Washita Grounds, Carpenters Bluff Bridge, Lake Hugo State Park
+- Day 2: McCurtain County, Talimena Scenic Drive, Queen Wilhelmina State Park (AR)
+- Day 3: Kiamichi Trail, Ouachita National Forest and Three Sticks Monument, Kiamichi Fire Tower, Muse Trail
+- Day 4: Heavener Runestone Park, Wister Reservoir, Spiro Mounds (Spiro Nation ancient burial grounds), shipping locks along the Arkansas River
+- Day 5: A rural return including a stop in Lenapah to plug a flat, ending back at the Whitewater Offroad Park in Tulsa
+
+Regretably, with all intentions of journaling our adventures on
+[the Travelogue](http://travelogue.news), I fell behind thanks to some late
+nights and a general lack of internet service. I'd even made some nice backend
+API adjustments, too...
