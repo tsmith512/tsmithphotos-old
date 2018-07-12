@@ -32,6 +32,7 @@ const awspublish = require('gulp-awspublish');
 const cleanCSS = require('gulp-clean-css');
 const concat = require('gulp-concat');
 const eslint = require('gulp-eslint');
+const exec = require('child_process').exec;
 const exif = require('exif-parser');
 const fs = require('fs');
 const glob = require('glob');
@@ -58,6 +59,14 @@ const yaml = require('js-yaml');
 | .__/|_| |_|\___/ \__\___/|___/
 |_|
 */
+
+gulp.task('fetch-source', 'Fetch original photos from S3', (cb) => {
+  exec('s3cmd get --recursive --skip-existing s3://tsmithphotos-source/ source/Photography/', (err, stdout, stderr) => {
+    gutil.log(stdout);
+    gutil.log(stderr);
+    cb(err);
+  });
+});
 
 // Containers for image data processing which is kicked off by gulp
 // but aren't actually gulp tasks. Adapted from http://stackoverflow.com/a/18934385
