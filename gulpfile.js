@@ -61,7 +61,7 @@ const yaml = require('js-yaml');
 */
 
 gulp.task('fetch-source', 'Fetch original photos from S3', (cb) => {
-  exec('s3cmd get --recursive --skip-existing s3://tsmithphotos-source/ source/Photography/', (err, stdout, stderr) => {
+  exec('s3cmd get --recursive --skip-existing s3://tsmithphotos-source/ source/Photography/', {maxBuffer: 500 * 1024}, (err, stdout, stderr) => {
     gutil.log(stdout);
     gutil.log(stderr);
     cb(err);
@@ -88,6 +88,13 @@ const walkPhotos = (path, index) => {
   for (var i = 0; i < directory.length; i++) {
     // This is the directory name from Lightroom ('2015-12-31 New Years Eve' style)
     const album = directory[i];
+
+    // The root of the Photography directory has a placeholder to keep this
+    // directory in-repo so we don't get errors on an initial clone/download.
+    // Skip it.
+    if (album === '.gitkeep') {
+      continue;
+    }
 
     // This is the directory shortname Gulp is using for image output.
     const dirname = album.replace(/[a-z]/g, '').replace(/ /, '-').replace(/\s/g, '');

@@ -7100,16 +7100,6 @@
       shutter: 1/80
       iso: 200
       date: 1378567081
-    - filename: DSC_0721.jpg
-      width: 1200
-      height: 800
-      camera: NIKON D7000
-      lens: 70.0-300.0 mm f/4.0-5.6
-      focal: 70
-      aperture: 5.6
-      shutter: 1/500
-      iso: 400
-      date: 1378567871
     - filename: DSC_0734.jpg
       width: 1200
       height: 800
@@ -7140,7 +7130,6 @@
       shutter: 1/250
       iso: 400
       date: 1378568976
-      hero: 1
     - filename: DSC_0983.jpg
       width: 1200
       height: 795
@@ -7151,6 +7140,7 @@
       shutter: 1/320
       iso: 400
       date: 1378569208
+      hero: 1
     - filename: DSC_0985.jpg
       width: 1200
       height: 795
@@ -7291,6 +7281,16 @@
       shutter: 1/400
       iso: 400
       date: 1378571647
+    - filename: DSC_1307.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-70.0 mm f/3.5-4.5
+      focal: 70
+      aperture: 4.5
+      shutter: 1/250
+      iso: 400
+      date: 1378571744
     - filename: DSC_1307.jpg
       width: 1200
       height: 795
@@ -21605,3 +21605,1943 @@
       date: 1530658001
       hero: 1
       hero_attachment: bottom
+2018-07-22-HCWVS:
+  title: HC WV Shanendoah
+  date: '2018-07-22'
+  contents:
+    - filename: DSC_6548.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 3.5
+      shutter: 1/500
+      iso: 400
+      date: 1532002286
+    - filename: DSC_6553.jpg
+      width: 795
+      height: 1200
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 3.5
+      shutter: 1/160
+      iso: 200
+      date: 1532002855
+    - filename: DSC_6582.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 82
+      aperture: 5
+      shutter: 1/500
+      iso: 400
+      date: 1532006984
+    - filename: DSC_6605.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 5
+      shutter: 1/100
+      iso: 400
+      date: 1532016170
+    - filename: DSC_6607.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 3.5
+      shutter: 1/50
+      iso: 400
+      date: 1532016188
+    - filename: DSC_6620.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 7.1
+      shutter: 1/200
+      iso: 200
+      date: 1532016707
+    - filename: DSC_6627.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 22
+      aperture: 11
+      shutter: 1/500
+      iso: 200
+      date: 1532017545
+    - filename: DSC_6640.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 22
+      shutter: 1/6
+      iso: 100
+      date: 1532017663
+    - filename: DSC_6653.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 8
+      shutter: 1/250
+      iso: 100
+      date: 1532017936
+    - filename: DSC_6664.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 3.5
+      shutter: 1/100
+      iso: 400
+      date: 1532089039
+    - filename: DSC_6669.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 120
+      aperture: 5.3
+      shutter: 1/30
+      iso: 400
+      date: 1532089269
+    - filename: DSC_6674.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 3.5
+      shutter: 1/500
+      iso: 400
+      date: 1532089860
+    - filename: DSC_6682.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 75
+      aperture: 5
+      shutter: 1/80
+      iso: 400
+      date: 1532089903
+    - filename: DSC_6686.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 130
+      aperture: 5.6
+      shutter: 1/60
+      iso: 400
+      date: 1532090318
+    - filename: DSC_6696.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 34
+      aperture: 4.2
+      shutter: 1/125
+      iso: 400
+      date: 1532090997
+    - filename: DSC_6700.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 42
+      aperture: 4.5
+      shutter: 1/60
+      iso: 400
+      date: 1532091121
+    - filename: DSC_6704.jpg
+      width: 795
+      height: 1200
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 35
+      aperture: 4.2
+      shutter: 1/800
+      iso: 560
+      date: 1532094578
+    - filename: DSC_6708.jpg
+      width: 795
+      height: 1200
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 55
+      aperture: 4.8
+      shutter: 1/1250
+      iso: 560
+      date: 1532094788
+    - filename: DSC_6736.jpg
+      width: 800
+      height: 1200
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 36
+      aperture: 4.2
+      shutter: 1/500
+      iso: 400
+      date: 1532176947
+    - filename: DSC_6742.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 3.5
+      shutter: 1/800
+      iso: 400
+      date: 1532176988
+    - filename: DSC_6759.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 112
+      aperture: 5.3
+      shutter: 1/160
+      iso: 400
+      date: 1532179913
+    - filename: DSC_6762.jpg
+      width: 800
+      height: 1200
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 112
+      aperture: 5.3
+      shutter: 1/250
+      iso: 400
+      date: 1532179916
+    - filename: DSC_6765.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 3.5
+      shutter: 1/2000
+      iso: 400
+      date: 1532182412
+    - filename: DSC_6773.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 2.8
+      shutter: 1/8000
+      iso: 400
+      date: 1532182901
+    - filename: DSC_6777.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 7.1
+      shutter: 1/200
+      iso: 400
+      date: 1532183160
+    - filename: DSC_6788.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 2.8
+      shutter: 1/3200
+      iso: 400
+      date: 1532183421
+    - filename: DSC_6801.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 3.5
+      shutter: 1/250
+      iso: 400
+      date: 1532183546
+    - filename: DSC_6805.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 65
+      aperture: 5
+      shutter: 1/100
+      iso: 400
+      date: 1532183672
+    - filename: DSC_6818.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 55
+      aperture: 4.8
+      shutter: 1/500
+      iso: 400
+      date: 1532183922
+    - filename: DSC_6825.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 42
+      aperture: 4.5
+      shutter: 1/400
+      iso: 400
+      date: 1532184082
+    - filename: DSC_6847.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 8
+      shutter: 1/250
+      iso: 400
+      date: 1532184475
+    - filename: DSC_6878.jpg
+      width: 795
+      height: 1200
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 3.5
+      shutter: 1/1250
+      iso: 400
+      date: 1532184969
+    - filename: DSC_6921.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 8
+      shutter: 1/250
+      iso: 200
+      date: 1532198972
+    - filename: DSC_6937.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 7.1
+      shutter: 1/200
+      iso: 200
+      date: 1532199188
+    - filename: DSC_6957.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 8
+      shutter: 1/250
+      iso: 200
+      date: 1532199464
+    - filename: DSC_6964.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 7.1
+      shutter: 1/200
+      iso: 200
+      date: 1532199579
+    - filename: DSC_6968.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1532199656
+    - filename: DSC_6974.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 7.1
+      shutter: 1/200
+      iso: 200
+      date: 1532200517
+      hero: 1
+    - filename: DSC_7007.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 26
+      aperture: 18
+      shutter: 1/2.5
+      iso: 100
+      date: 1532265602
+    - filename: DSC_7020.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 48
+      aperture: 5
+      shutter: 1/100
+      iso: 100
+      date: 1532266257
+    - filename: DSC_7027.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 8
+      shutter: 1/250
+      iso: 100
+      date: 1532280984
+    - filename: DSC_7029.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 9
+      shutter: 1/320
+      iso: 100
+      date: 1532281474
+    - filename: DSC_7047.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 34
+      aperture: 4.2
+      shutter: 1/80
+      iso: 200
+      date: 1532283304
+    - filename: DSC_7060.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 8
+      shutter: 1/200
+      iso: 200
+      date: 1532284740
+    - filename: DSC_7065.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 11
+      shutter: 1/500
+      iso: 200
+      date: 1532285825
+    - filename: DSC_7078.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 32
+      aperture: 6.3
+      shutter: 1/160
+      iso: 200
+      date: 1532288691
+    - filename: DSC_7084.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 11
+      shutter: 1/500
+      iso: 200
+      date: 1532288997
+    - filename: DSC_7103.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 4
+      shutter: 1/400
+      iso: 200
+      date: 1532289216
+    - filename: DSC_7118.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 26
+      aperture: 6.3
+      shutter: 1/160
+      iso: 200
+      date: 1532289646
+    - filename: DSC_7131.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 32
+      aperture: 4
+      shutter: 1/100
+      iso: 400
+      date: 1532291522
+    - filename: DSC_7141.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 32
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1532346993
+2018-08-01-WSNMDCCOBMCC:
+  title: WSNM DCCO Bar Mitzvah CC
+  date: '2018-08-01'
+  contents:
+    - filename: DSC_7149.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 120
+      aperture: 6.3
+      shutter: 1/640
+      iso: 200
+      date: 1533149119
+    - filename: DSC_7153.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1533149239
+    - filename: DSC_7188.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 4
+      shutter: 1/4000
+      iso: 200
+      date: 1533149927
+    - filename: DSC_7201.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 4
+      shutter: 1/6400
+      iso: 200
+      date: 1533150069
+    - filename: DSC_7215.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 34
+      aperture: 4.2
+      shutter: 1/2500
+      iso: 200
+      date: 1533150707
+    - filename: DSC_7235.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 29
+      aperture: 4
+      shutter: 1/5000
+      iso: 200
+      date: 1533150888
+    - filename: DSC_7254.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 50
+      aperture: 4.8
+      shutter: 1/1250
+      iso: 200
+      date: 1533151265
+    - filename: DSC_7258.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 48
+      aperture: 4.5
+      shutter: 1/1600
+      iso: 200
+      date: 1533151343
+    - filename: DSC_7259.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 4
+      shutter: 1/2000
+      iso: 200
+      date: 1533151408
+    - filename: DSC_7273.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/500
+      iso: 200
+      date: 1533151922
+    - filename: DSC_7274.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 135
+      aperture: 5.6
+      shutter: 1/320
+      iso: 200
+      date: 1533152008
+    - filename: DSCF0084.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 4
+      shutter: 1/300
+      iso: 200
+      date: 1533153492
+    - filename: DSC_7282.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 11
+      shutter: 1/500
+      iso: 200
+      date: 1533227720
+    - filename: DSC_7290.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 170
+      aperture: 5.6
+      shutter: 1/800
+      iso: 200
+      date: 1533228535
+    - filename: DSC_7310.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 14
+      shutter: 1/800
+      iso: 200
+      date: 1533230999
+    - filename: DSCF0102.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18.8
+      aperture: 5.6
+      shutter: 1/320
+      iso: 200
+      date: 1533232520
+    - filename: DSC_7331.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 36
+      aperture: 9
+      shutter: 1/320
+      iso: 200
+      date: 1533233509
+    - filename: DSC_7332.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 24
+      aperture: 9
+      shutter: 1/320
+      iso: 200
+      date: 1533233570
+    - filename: DSC_7356.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 2.8
+      shutter: 1/4
+      iso: 200
+      date: 1533331629
+    - filename: DSC_7405.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 5.6
+      shutter: 1/125
+      iso: 200
+      date: 1533471859
+    - filename: DSC_7418.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 11
+      shutter: 1/500
+      iso: 200
+      date: 1533473377
+    - filename: DSC_7420.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 11
+      shutter: 1/500
+      iso: 200
+      date: 1533473382
+    - filename: DSC_7422.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 9
+      shutter: 1/320
+      iso: 200
+      date: 1533473396
+    - filename: DSC_7426.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 6.3
+      shutter: 1/160
+      iso: 200
+      date: 1533473507
+    - filename: DSC_7448.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1533474293
+    - filename: DSC_7449.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1533474297
+    - filename: DSC_7454.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1533474374
+    - filename: DSC_7469.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 24
+      aperture: 11
+      shutter: 1/400
+      iso: 200
+      date: 1533475878
+      hero: 1
+    - filename: DSC_7473.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 9
+      shutter: 1/320
+      iso: 200
+      date: 1533476091
+    - filename: DSC_7483.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1533476148
+    - filename: DSC_7488.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 9
+      shutter: 1/320
+      iso: 200
+      date: 1533476536
+    - filename: DSC_7527.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 22
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1533483477
+    - filename: DSC_7532.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 60
+      aperture: 5.6
+      shutter: 1/500
+      iso: 200
+      date: 1533486988
+    - filename: DSC_7541.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 13
+      shutter: 1/80
+      iso: 100
+      date: 1533487774
+    - filename: DSC_7550.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 20
+      shutter: 1/8
+      iso: 100
+      date: 1533487887
+    - filename: DSC_7619.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 7.1
+      shutter: 1/200
+      iso: 100
+      date: 1533493755
+    - filename: DSC_7621.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 50
+      aperture: 6.3
+      shutter: 1/160
+      iso: 100
+      date: 1533493875
+    - filename: DSC_7624.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 24
+      aperture: 10
+      shutter: 1/400
+      iso: 100
+      date: 1533497795
+    - filename: DSC_7650.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 7.1
+      shutter: 1/200
+      iso: 100
+      date: 1533540605
+    - filename: DSC_7694.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 7.1
+      shutter: 1/200
+      iso: 100
+      date: 1533559670
+    - filename: DSC_7699.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 7.1
+      shutter: 1/200
+      iso: 100
+      date: 1533559825
+    - filename: DSC_7733.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 5
+      shutter: 1/8
+      iso: 100
+      date: 1533564854
+    - filename: DSC_7771.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 9
+      shutter: 1/320
+      iso: 100
+      date: 1533566325
+    - filename: DSC_7789.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 10
+      shutter: 1/320
+      iso: 100
+      date: 1533567349
+    - filename: DSC_7797.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/160
+      iso: 100
+      date: 1533567868
+    - filename: DSC_7808.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/60
+      iso: 100
+      date: 1533567890
+    - filename: DSC_7845.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 5
+      shutter: 1/200
+      iso: 200
+      date: 1533570035
+    - filename: DSC_7847.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 22
+      shutter: 1/1
+      iso: 100
+      date: 1533570113
+    - filename: DSC_7874.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 130
+      aperture: 5.6
+      shutter: 1/250
+      iso: 100
+      date: 1533571401
+    - filename: DSC_7891.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/250
+      iso: 100
+      date: 1533572627
+    - filename: DSC_7947.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 34
+      aperture: 6.3
+      shutter: 1/160
+      iso: 200
+      date: 1533574952
+    - filename: DSC_7958.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/640
+      iso: 200
+      date: 1533578569
+    - filename: DSC_7972.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 38
+      aperture: 9
+      shutter: 1/320
+      iso: 200
+      date: 1533579827
+    - filename: DSC_7978.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 11
+      shutter: 1/500
+      iso: 200
+      date: 1533579895
+    - filename: DSC_7982.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 9
+      shutter: 1/320
+      iso: 200
+      date: 1533579906
+    - filename: DSC_7999.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 22
+      aperture: 6.3
+      shutter: 1/30
+      iso: 200
+      date: 1533580465
+    - filename: DSC_8029.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 20
+      shutter: 1/6
+      iso: 200
+      date: 1533580811
+    - filename: DSC_8038.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 22
+      shutter: 1/6
+      iso: 200
+      date: 1533580937
+    - filename: DSC_8058.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 9
+      shutter: 1/320
+      iso: 200
+      date: 1533582456
+    - filename: DSC_8073.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/250
+      iso: 200
+      date: 1533583558
+    - filename: DSC_8096.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/800
+      iso: 400
+      date: 1533583674
+    - filename: DSC_8104.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 26
+      aperture: 9
+      shutter: 1/320
+      iso: 400
+      date: 1533583720
+    - filename: DSC_8116.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 130
+      aperture: 5.6
+      shutter: 1/160
+      iso: 400
+      date: 1533583785
+    - filename: DSC_8133.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 150
+      aperture: 5.6
+      shutter: 1/80
+      iso: 400
+      date: 1533583940
+    - filename: DSC_8148.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 9
+      shutter: 1/320
+      iso: 400
+      date: 1533584533
+    - filename: DSC_8164.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/160
+      iso: 400
+      date: 1533585234
+    - filename: DSC_8196.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 6.3
+      shutter: 1/160
+      iso: 400
+      date: 1533585940
+    - filename: DSC_8200.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 6.3
+      shutter: 1/160
+      iso: 400
+      date: 1533585977
+    - filename: DSC_8215.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/800
+      iso: 400
+      date: 1533586092
+    - filename: DSC_8227.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 135
+      aperture: 5.6
+      shutter: 1/320
+      iso: 400
+      date: 1533586128
+    - filename: DSC_8246.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 5
+      shutter: 1/100
+      iso: 400
+      date: 1533586533
+    - filename: DSC_8260.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 3.2
+      shutter: 1/40
+      iso: 400
+      date: 1533587085
+    - filename: DSCF0124.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 30.2
+      aperture: 3.6
+      shutter: 1/60
+      iso: 1600
+      date: 1533587906
+    - filename: DSCF0139.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 4
+      shutter: 1/480
+      iso: 200
+      date: 1533667542
+    - filename: DSCF0147.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 4
+      shutter: 1/2000
+      iso: 200
+      date: 1533669023
+    - filename: DSC_8315.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 35.0 mm f/1.8
+      focal: 35
+      aperture: 11
+      shutter: 1/500
+      iso: 400
+      date: 1533671384
+    - filename: DSCF4009.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 19.6
+      aperture: 8
+      shutter: 1/350
+      iso: 200
+      date: 1533725162
+    - filename: DSCF4018.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 5.6
+      shutter: 1/320
+      iso: 200
+      date: 1533732369
+    - filename: DSC_8378.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 14
+      shutter: 1/800
+      iso: 400
+      date: 1533733746
+    - filename: DSC_8399.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 13
+      shutter: 1/640
+      iso: 400
+      date: 1533735363
+    - filename: DSC_8416.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 48
+      aperture: 9
+      shutter: 1/320
+      iso: 200
+      date: 1533736452
+    - filename: DSCF4021.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 8
+      shutter: 1/419.99999999999994
+      iso: 200
+      date: 1533739301
+    - filename: DSC_8423.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 11
+      shutter: 1/500
+      iso: 200
+      date: 1533739932
+    - filename: DSC_8540.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 112
+      aperture: 5.3
+      shutter: 1/60
+      iso: 400
+      date: 1533809362
+    - filename: DSC_8624.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 240
+      aperture: 5.3
+      shutter: 1/60
+      iso: 400
+      date: 1533811251
+    - filename: DSC_8717.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 195
+      aperture: 5
+      shutter: 1/60
+      iso: 400
+      date: 1533812108
+    - filename: DSC_8894.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 55.0-300.0 mm f/4.5-5.6
+      focal: 170
+      aperture: 5
+      shutter: 1/80
+      iso: 400
+      date: 1533814323
+    - filename: DSC_8954.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 105
+      aperture: 5.3
+      shutter: 1/200
+      iso: 200
+      date: 1533826541
+    - filename: DSC_8963.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 22
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1533899654
+    - filename: DSC_8984.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 56
+      aperture: 6.3
+      shutter: 1/640
+      iso: 200
+      date: 1533901453
+    - filename: DSC_8999.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 24
+      aperture: 9
+      shutter: 1/320
+      iso: 200
+      date: 1533902211
+    - filename: DSC_9003.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 44
+      aperture: 9
+      shutter: 1/320
+      iso: 200
+      date: 1533902433
+    - filename: DSC_9022.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 29
+      aperture: 9
+      shutter: 1/320
+      iso: 200
+      date: 1533903319
+    - filename: DSC_9044.jpg
+      width: 795
+      height: 1200
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 32
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1533903729
+    - filename: DSC_9052.jpg
+      width: 795
+      height: 1200
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 80
+      aperture: 7.1
+      shutter: 1/800
+      iso: 200
+      date: 1533903783
+    - filename: DSC_9058.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 170
+      aperture: 5.6
+      shutter: 1/500
+      iso: 200
+      date: 1533903936
+    - filename: DSC_9067.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 75
+      aperture: 5
+      shutter: 1/200
+      iso: 200
+      date: 1533911247
+    - filename: DSC_9076.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 29
+      aperture: 7.1
+      shutter: 1/200
+      iso: 200
+      date: 1533911778
+    - filename: DSC_9078.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1533912684
+    - filename: DSC_9084.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 56
+      aperture: 4.8
+      shutter: 1/400
+      iso: 200
+      date: 1533912850
+    - filename: DSC_9093.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 3.5
+      shutter: 1/2000
+      iso: 200
+      date: 1533914237
+    - filename: DSC_9105.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 20
+      aperture: 3.5
+      shutter: 1/4000
+      iso: 200
+      date: 1533914606
+    - filename: DSC_9107.jpg
+      width: 795
+      height: 1200
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 20
+      aperture: 3.5
+      shutter: 1/2500
+      iso: 200
+      date: 1533914611
+    - filename: DSC_9119.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/250
+      iso: 200
+      date: 1533917216
+    - filename: DSC_9121.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/800
+      iso: 200
+      date: 1533917243
+    - filename: DSC_9124.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 3.5
+      shutter: 1/1600
+      iso: 200
+      date: 1533917364
+    - filename: DSC_9126.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 32
+      aperture: 4.2
+      shutter: 1/2500
+      iso: 200
+      date: 1533918501
+    - filename: DSC_9137.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 4
+      shutter: 1/60
+      iso: 200
+      date: 1533990946
+    - filename: DSC_9142.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 6.3
+      shutter: 1/160
+      iso: 200
+      date: 1533991021
+    - filename: DSC_9149.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 6.3
+      shutter: 1/160
+      iso: 200
+      date: 1533991081
+    - filename: DSC_9157.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 95
+      aperture: 18
+      shutter: 1/4
+      iso: 200
+      date: 1533991350
+    - filename: DSC_9168.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 20
+      aperture: 22
+      shutter: 1/4
+      iso: 100
+      date: 1533991582
+    - filename: DSC_9179.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 22
+      shutter: 1/10
+      iso: 100
+      date: 1533992018
+    - filename: DSC_9199.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 170
+      aperture: 5.6
+      shutter: 1/320
+      iso: 100
+      date: 1533992386
+    - filename: DSC_9222.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/250
+      iso: 100
+      date: 1533992564
+    - filename: DSC_9234.jpg
+      width: 1200
+      height: 800
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 38
+      aperture: 4.2
+      shutter: 1/60
+      iso: 100
+      date: 1533995156
+    - filename: DSC_9246.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1533995277
+    - filename: DSC_9249.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 55
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1533995346
+    - filename: DSC_9256.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 52
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1534007063
+    - filename: DSC_9265.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 120
+      aperture: 7.1
+      shutter: 1/800
+      iso: 200
+      date: 1534008301
+    - filename: DSC_9267.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 130
+      aperture: 7.1
+      shutter: 1/800
+      iso: 200
+      date: 1534008311
+    - filename: DSC_9273.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 34
+      aperture: 10
+      shutter: 1/400
+      iso: 200
+      date: 1534008392
+    - filename: DSCF4040.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 6.4
+      shutter: 1/350
+      iso: 200
+      date: 1534079187
+    - filename: DSCF4041.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 55
+      aperture: 4
+      shutter: 1/1800
+      iso: 200
+      date: 1534079264
+    - filename: DSCF4042.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 34.3
+      aperture: 4
+      shutter: 1/1900
+      iso: 200
+      date: 1534080060
+    - filename: DSCF4045.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 20.5
+      aperture: 4
+      shutter: 1/2700
+      iso: 200
+      date: 1534080213
+    - filename: DSCF4057.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 18
+      aperture: 3.6
+      shutter: 1/2400
+      iso: 200
+      date: 1534084943
+    - filename: DSCF4060.jpg
+      width: 1200
+      height: 800
+      camera: FUJIFILM X-E1
+      lens: XF18-55mmF2.8-4 R LM OIS
+      focal: 27.7
+      aperture: 3.6
+      shutter: 1/3200
+      iso: 200
+      date: 1534085237
+    - filename: DSC_9276.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 150
+      aperture: 5.6
+      shutter: 1/1600
+      iso: 200
+      date: 1534182019
+    - filename: DSC_9282.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/1250
+      iso: 200
+      date: 1534182082
+    - filename: DSC_9284.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 55
+      aperture: 8
+      shutter: 1/250
+      iso: 200
+      date: 1534182112
+    - filename: DSC_9291.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/500
+      iso: 200
+      date: 1534182270
+    - filename: DSC_9296.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 44
+      aperture: 4.5
+      shutter: 1/640
+      iso: 200
+      date: 1534182525
+    - filename: DSC_9300.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/60
+      iso: 200
+      date: 1534182563
+    - filename: DSC_9304.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 2.8
+      shutter: 1/160
+      iso: 200
+      date: 1534182620
+    - filename: DSC_9306.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 10.5 mm f/2.8
+      focal: 10.5
+      aperture: 13
+      shutter: 1/640
+      iso: 200
+      date: 1534182649
+    - filename: DSC_9311.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/1600
+      iso: 200
+      date: 1534182782
+    - filename: DSC_9323.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 18
+      aperture: 11
+      shutter: 1/500
+      iso: 200
+      date: 1534182948
+    - filename: DSC_9327.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/400
+      iso: 200
+      date: 1534183009
+    - filename: DSC_9328.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 130
+      aperture: 6.3
+      shutter: 1/640
+      iso: 200
+      date: 1534183022
+    - filename: DSC_9339.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 200
+      aperture: 5.6
+      shutter: 1/1000
+      iso: 200
+      date: 1534183389
+    - filename: DSC_9343.jpg
+      width: 1200
+      height: 795
+      camera: NIKON D7000
+      lens: 18.0-200.0 mm f/3.5-5.6
+      focal: 170
+      aperture: 5.6
+      shutter: 1/1250
+      iso: 200
+      date: 1534183519
