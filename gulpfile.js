@@ -115,7 +115,6 @@ const walkPhotos = (path, index) => {
       // is why we recused the whole thing. Don't try to get stats on a directory,
       // just skip it.
       if (fs.statSync(photo).isDirectory()) { continue; }
-
       const dimensions = imgsize(photo);
 
       const photoBuffer = fs.readFileSync(photo);
@@ -202,13 +201,13 @@ gulp.task('photos', 'Rebuild all image derivatives: original, medium, thumb, min
       // '2016-03-21-TWRVFXE1'. Keeping capital letters and numbers helps with collisions.
       path.dirname = path.dirname.replace(/[a-z]/g, '').replace(/ /, '-').replace(/\s/g, '');
     }))
-    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
+//    .pipe(imagemin())
     .pipe(gulp.dest('_site/photo/original/'))
     .pipe(resize({width: 600, height: 600, crop: false, upscale: false}))
-    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
+//    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
     .pipe(gulp.dest('_site/photo/medium/'))
     .pipe(resize({width: 200, height: 200, crop: true, upscale: false}))
-    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
+//    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
     .pipe(gulp.dest('_site/photo/thumb/'));
 });
 
