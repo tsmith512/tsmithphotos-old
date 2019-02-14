@@ -1,11 +1,2 @@
-User-agent: Uptimebot
-Disallow: /
-
 User-agent: *
-Disallow:
-
-User-agent: ia_archiver
-Disallow: /
-
-User-agent: Googlebot-Image
 Disallow: /
