@@ -6,3 +6,6 @@ _site
 
 # Temp Directories
 .sass-cache
+
+# Source Image Files
+source/Photography
